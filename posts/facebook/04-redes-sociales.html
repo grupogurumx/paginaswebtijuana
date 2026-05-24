@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200">
+<title>Post FB - Redes Sociales</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600&display=swap');
+
+  body {
+    width: 1200px;
+    height: 630px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+  }
+
+  .card {
+    width: 1200px;
+    height: 630px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Header strip */
+  .header {
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: relative;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 50% 100%, 0 30%);
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo-badge {
+    width: 50px;
+    height: 50px;
+    background: rgba(255,255,255,0.25);
+    border: 2px solid rgba(255,255,255,0.6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .logo-name {
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  .logo-name span { color: rgba(255,255,255,0.7); }
+
+  .header-tag {
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.5);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 30px;
+  }
+
+  /* Body */
+  .body {
+    flex: 1;
+    display: flex;
+    padding: 50px 50px 20px;
+    gap: 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .body-left {
+    flex: 0 0 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pre-label {
+    font-size: 11px;
+    color: #ff6b00;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
+  .main-title {
+    font-size: 46px;
+    font-weight: 900;
+    color: #111;
+    line-height: 1.0;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .main-title .orange { color: #ff6b00; }
+
+  .divider {
+    width: 50px;
+    height: 4px;
+    background: #ff6b00;
+    border-radius: 2px;
+    margin: 16px 0;
+  }
+
+  .description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .description strong { color: #ff6b00; }
+
+  .bullets {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bullet {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .bullet-dot {
+    width: 8px;
+    height: 8px;
+    background: #ff6b00;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .body-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+  }
+
+  /* Social Platform Cards */
+  .platforms-row {
+    display: flex;
+    gap: 12px;
+  }
+
+  .platform-card {
+    flex: 1;
+    border-radius: 16px;
+    padding: 20px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .platform-card.fb {
+    background: linear-gradient(135deg, #1877f2, #0b5fcc);
+  }
+
+  .platform-card.ig {
+    background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  }
+
+  .platform-card.tt {
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .platform-icon {
+    font-size: 28px;
+  }
+
+  .platform-name {
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  .platform-stat {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgba(255,255,255,0.9);
+  }
+
+  .platform-label {
+    font-size: 10px;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  /* Results row */
+  .results-row {
+    display: flex;
+    gap: 12px;
+  }
+
+  .result-box {
+    flex: 1;
+    background: #fff5ee;
+    border: 2px solid #ffddcc;
+    border-radius: 12px;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .result-emoji { font-size: 22px; margin-bottom: 6px; }
+  .result-title { font-size: 13px; font-weight: 700; color: #333; }
+  .result-sub { font-size: 11px; color: #888; margin-top: 3px; font-family: 'Open Sans', sans-serif; }
+
+  /* Footer */
+  .footer {
+    background: #0a0e27;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-shrink: 0;
+  }
+
+  .footer-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .footer-item span { color: #ff9500; }
+</style>
+</head>
+<body>
+<div class="card">
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo-area">
+      <div class="logo-badge">G</div>
+      <div class="logo-name">grupo<span>gurú</span></div>
+    </div>
+    <div class="header-tag">📱 Redes Sociales</div>
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+    <div class="body-left">
+      <div class="pre-label">✦ Gestión Profesional</div>
+      <div class="main-title">
+        IMPULSA<br>TU <span class="orange">MARCA</span><br>ONLINE
+      </div>
+      <div class="divider"></div>
+      <div class="description">
+        Manejamos tus <strong>redes sociales</strong> con estrategia, creatividad y constancia para que tu negocio crezca.
+      </div>
+      <div class="bullets">
+        <div class="bullet">
+          <div class="bullet-dot"></div>
+          Contenido creativo y atractivo
+        </div>
+        <div class="bullet">
+          <div class="bullet-dot"></div>
+          Publicaciones diarias estratégicas
+        </div>
+        <div class="bullet">
+          <div class="bullet-dot"></div>
+          Análisis y reportes mensuales
+        </div>
+        <div class="bullet">
+          <div class="bullet-dot"></div>
+          Campañas de publicidad pagada
+        </div>
+        <div class="bullet">
+          <div class="bullet-dot"></div>
+          Crecimiento orgánico garantizado
+        </div>
+      </div>
+    </div>
+
+    <div class="body-right">
+      <div class="platforms-row">
+        <div class="platform-card fb">
+          <div class="platform-icon">👍</div>
+          <div class="platform-name">Facebook</div>
+          <div class="platform-stat">+250%</div>
+          <div class="platform-label">Más alcance</div>
+        </div>
+        <div class="platform-card ig">
+          <div class="platform-icon">📸</div>
+          <div class="platform-name">Instagram</div>
+          <div class="platform-stat">+180%</div>
+          <div class="platform-label">Más seguidores</div>
+        </div>
+        <div class="platform-card tt">
+          <div class="platform-icon">🎵</div>
+          <div class="platform-name">TikTok</div>
+          <div class="platform-stat">+500%</div>
+          <div class="platform-label">Más visibilidad</div>
+        </div>
+      </div>
+
+      <div class="results-row">
+        <div class="result-box">
+          <div class="result-emoji">🎯</div>
+          <div class="result-title">Segmentación</div>
+          <div class="result-sub">Audiencia exacta</div>
+        </div>
+        <div class="result-box">
+          <div class="result-emoji">📈</div>
+          <div class="result-title">Resultados Reales</div>
+          <div class="result-sub">Métricas concretas</div>
+        </div>
+        <div class="result-box">
+          <div class="result-emoji">💬</div>
+          <div class="result-title">Engagement</div>
+          <div class="result-sub">Comunidad activa</div>
+        </div>
+        <div class="result-box">
+          <div class="result-emoji">💰</div>
+          <div class="result-title">Más Ventas</div>
+          <div class="result-sub">ROI medible</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-item">📞 <span>(998) 158 8631</span></div>
+    <div class="footer-item">🌐 <span>grupoguru.mx</span></div>
+    <div class="footer-item">📍 <span>Cancun, Quintana Roo</span></div>
+  </div>
+</div>
+</body>
+</html>

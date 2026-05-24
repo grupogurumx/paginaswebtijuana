@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grupo Gurú Cancun — Posts Social Media</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #0a0e27;
+    color: #fff;
+    padding: 40px;
+  }
+
+  .page-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+
+  .logo-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    box-shadow: 0 6px 25px rgba(255,107,0,0.5);
+  }
+
+  .logo-name { font-size: 36px; font-weight: 800; }
+  .logo-name span { color: #ff6b00; }
+
+  .page-title { font-size: 16px; color: rgba(255,255,255,0.5); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 8px; }
+  .page-subtitle { font-size: 13px; color: rgba(255,255,255,0.3); letter-spacing: 2px; }
+
+  .section {
+    margin-bottom: 60px;
+  }
+
+  .section-title {
+    font-size: 13px;
+    color: #ff9500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(255,107,0,0.2);
+  }
+
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .post-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+
+  .post-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255,107,0,0.4);
+  }
+
+  .post-preview {
+    position: relative;
+    overflow: hidden;
+    background: #111;
+  }
+
+  .post-preview iframe {
+    width: 100%;
+    border: none;
+    display: block;
+    pointer-events: none;
+  }
+
+  .fb-preview iframe {
+    height: 300px;
+    transform: scale(0.5);
+    transform-origin: top left;
+    width: 200%;
+    margin-bottom: -150px;
+  }
+
+  .ig-preview iframe {
+    height: 350px;
+    transform: scale(0.46);
+    transform-origin: top left;
+    width: 217%;
+    margin-bottom: -188px;
+  }
+
+  .post-info {
+    padding: 18px 20px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .post-number {
+    font-size: 11px;
+    color: #ff6b00;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .post-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+
+  .post-actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  .btn-open {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 9px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(255,107,0,0.3);
+  }
+
+  .btn-open:hover { opacity: 0.85; }
+
+  .size-badge {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.6);
+    font-size: 11px;
+    font-weight: 600;
+    padding: 9px 14px;
+    border-radius: 8px;
+  }
+
+  .footer-note {
+    text-align: center;
+    padding: 30px;
+    color: rgba(255,255,255,0.3);
+    font-size: 13px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <div class="logo-area">
+    <div class="logo-icon">G</div>
+    <div class="logo-name">grupo<span>gurú</span></div>
+  </div>
+  <div class="page-title">Posts de Social Media — Cancun</div>
+  <div class="page-subtitle">6 Facebook (1200×630px) · 6 Instagram (1080×1080px)</div>
+</div>
+
+<!-- FACEBOOK POSTS -->
+<div class="section">
+  <div class="section-title">👍 Facebook Posts — 1200 × 630 px</div>
+  <div class="posts-grid">
+    <div class="post-card">
+      <div class="post-preview fb-preview">
+        <iframe src="facebook/01-agencia-marketing-digital.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post FB #01</div>
+        <div class="post-name">Agencia de Marketing Digital</div>
+        <div class="post-actions">
+          <a class="btn-open" href="facebook/01-agencia-marketing-digital.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1200 × 630 px</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-preview fb-preview">
+        <iframe src="facebook/02-diseno-web.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post FB #02</div>
+        <div class="post-name">Diseño de Páginas Web</div>
+        <div class="post-actions">
+          <a class="btn-open" href="facebook/02-diseno-web.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1200 × 630 px</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-preview fb-preview">
+        <iframe src="facebook/03-seo-posicionamiento.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post FB #03</div>
+        <div class="post-name">SEO / Posicionamiento Google</div>
+        <div class="post-actions">
+          <a class="btn-open" href="facebook/03-seo-posicionamiento.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1200 × 630 px</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-preview fb-preview">
+        <iframe src="facebook/04-redes-sociales.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post FB #04</div>
+        <div class="post-name">Manejo de Redes Sociales</div>
+        <div class="post-actions">
+          <a class="btn-open" href="facebook/04-redes-sociales.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1200 × 630 px</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-preview fb-preview">
+        <iframe src="facebook/05-tienda-virtual.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post FB #05</div>
+        <div class="post-name">Tiendas Virtuales / E-Commerce</div>
+        <div class="post-actions">
+          <a class="btn-open" href="facebook/05-tienda-virtual.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1200 × 630 px</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-preview fb-preview">
+        <iframe src="facebook/06-diseno-grafico.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post FB #06</div>
+        <div class="post-name">Diseño Gráfico e Identidad Visual</div>
+        <div class="post-actions">
+          <a class="btn-open" href="facebook/06-diseno-grafico.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1200 × 630 px</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- INSTAGRAM POSTS -->
+<div class="section">
+  <div class="section-title">📸 Instagram Posts — 1080 × 1080 px</div>
+  <div class="posts-grid">
+    <div class="post-card">
+      <div class="post-preview ig-preview">
+        <iframe src="instagram/01-agencia-marketing.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post IG #01</div>
+        <div class="post-name">Agencia de Marketing Digital</div>
+        <div class="post-actions">
+          <a class="btn-open" href="instagram/01-agencia-marketing.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1080 × 1080 px</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-preview ig-preview">
+        <iframe src="instagram/02-diseno-web.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post IG #02</div>
+        <div class="post-name">Diseño de Páginas Web</div>
+        <div class="post-actions">
+          <a class="btn-open" href="instagram/02-diseno-web.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1080 × 1080 px</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-preview ig-preview">
+        <iframe src="instagram/03-seo.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post IG #03</div>
+        <div class="post-name">SEO / Posicionamiento Google</div>
+        <div class="post-actions">
+          <a class="btn-open" href="instagram/03-seo.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1080 × 1080 px</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-preview ig-preview">
+        <iframe src="instagram/04-redes-sociales.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post IG #04</div>
+        <div class="post-name">Manejo de Redes Sociales</div>
+        <div class="post-actions">
+          <a class="btn-open" href="instagram/04-redes-sociales.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1080 × 1080 px</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-preview ig-preview">
+        <iframe src="instagram/05-tienda-virtual.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post IG #05</div>
+        <div class="post-name">Tiendas Virtuales / E-Commerce</div>
+        <div class="post-actions">
+          <a class="btn-open" href="instagram/05-tienda-virtual.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1080 × 1080 px</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-preview ig-preview">
+        <iframe src="instagram/06-diseno-grafico.html" scrolling="no"></iframe>
+      </div>
+      <div class="post-info">
+        <div class="post-number">Post IG #06</div>
+        <div class="post-name">Diseño Gráfico e Identidad Visual</div>
+        <div class="post-actions">
+          <a class="btn-open" href="instagram/06-diseno-grafico.html" target="_blank">Abrir Post</a>
+          <span class="size-badge">1080 × 1080 px</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer-note">
+  Grupo Gurú Cancun · Marketing Digital · grupoguru.mx · (998) 158 8631<br>
+  Para convertir a imagen: abrir cada post en el navegador y capturar pantalla o usar herramienta de exportación (ej. Puppeteer, html2canvas)
+</div>
+
+</body>
+</html>

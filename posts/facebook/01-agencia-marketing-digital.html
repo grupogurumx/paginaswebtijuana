@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200">
+<title>Post FB - Agencia de Marketing Digital</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600&display=swap');
+
+  body {
+    width: 1200px;
+    height: 630px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    background: #0a0e27;
+  }
+
+  .card {
+    width: 1200px;
+    height: 630px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0a0e27 0%, #111433 60%, #0d1525 100%);
+  }
+
+  /* Decorative circles */
+  .circle-1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,107,0,0.15) 0%, transparent 70%);
+    top: -100px;
+    left: -80px;
+  }
+  .circle-2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,165,0,0.1) 0%, transparent 70%);
+    bottom: -80px;
+    right: 350px;
+  }
+  .circle-3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,107,0,0.2);
+    top: 50px;
+    right: 420px;
+  }
+
+  /* Grid dots overlay */
+  .grid-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  /* LEFT CONTENT */
+  .left {
+    position: relative;
+    z-index: 2;
+    width: 640px;
+    padding: 45px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo-icon {
+    width: 52px;
+    height: 52px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(255,107,0,0.5);
+  }
+
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-name {
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -0.5px;
+    line-height: 1;
+  }
+
+  .logo-name span { color: #ff6b00; }
+
+  .logo-sub {
+    font-size: 10px;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  .main-content { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 20px 0; }
+
+  .pre-title {
+    font-size: 13px;
+    color: #ff6b00;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .title {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.0;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  .title .highlight {
+    color: #ff6b00;
+    font-size: 58px;
+    display: block;
+  }
+
+  .divider {
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b00, #ff9500);
+    border-radius: 2px;
+    margin: 18px 0;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.6;
+    max-width: 460px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .contact-bar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 18px 24px;
+    background: rgba(255,107,0,0.12);
+    border: 1px solid rgba(255,107,0,0.3);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .contact-icon {
+    width: 34px;
+    height: 34px;
+    background: #ff6b00;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  .contact-text { display: flex; flex-direction: column; }
+  .contact-label { font-size: 9px; color: rgba(255,255,255,0.5); letter-spacing: 2px; text-transform: uppercase; }
+  .contact-value { font-size: 14px; font-weight: 700; color: #fff; }
+
+  /* RIGHT CONTENT */
+  .right {
+    position: relative;
+    z-index: 2;
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 45px 40px 30px;
+  }
+
+  .right-inner {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 20px;
+    padding: 35px 30px;
+    backdrop-filter: blur(10px);
+  }
+
+  .services-title {
+    font-size: 14px;
+    color: #ff6b00;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 22px;
+    text-align: center;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  .service-item {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 12px;
+    padding: 16px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .service-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, #ff6b00, #ff9500);
+    border-radius: 0 2px 2px 0;
+  }
+
+  .service-emoji {
+    font-size: 22px;
+  }
+
+  .service-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+  }
+
+  .service-desc {
+    font-size: 10px;
+    color: rgba(255,255,255,0.5);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+  }
+
+  .cta-btn {
+    display: block;
+    margin-top: 22px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 6px 25px rgba(255,107,0,0.4);
+  }
+
+  .orange-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b00, #ff9500, #ffb347, #ff9500, #ff6b00);
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="circle-1"></div>
+  <div class="circle-2"></div>
+  <div class="circle-3"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- LEFT -->
+  <div class="left">
+    <div class="logo-area">
+      <div class="logo-icon">G</div>
+      <div class="logo-text">
+        <div class="logo-name">grupo<span>gurú</span></div>
+        <div class="logo-sub">Marketing Digital</div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="pre-title">Cancun · Mexico</div>
+      <div class="title">
+        AGENCIA DE
+        <span class="highlight">MARKETING<br>DIGITAL</span>
+      </div>
+      <div class="divider"></div>
+      <div class="subtitle">
+        Potenciamos tu negocio en el mundo digital con estrategias creativas, efectivas y medibles. Más de 1,400 clientes satisfechos en México y EUA.
+      </div>
+    </div>
+
+    <div class="contact-bar">
+      <div class="contact-item">
+        <div class="contact-icon">📞</div>
+        <div class="contact-text">
+          <span class="contact-label">Llámanos</span>
+          <span class="contact-value">(998) 158 8631</span>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🌐</div>
+        <div class="contact-text">
+          <span class="contact-label">Visítanos</span>
+          <span class="contact-value">grupoguru.mx</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="right">
+    <div class="right-inner">
+      <div class="services-title">✦ Nuestros Servicios ✦</div>
+      <div class="services-grid">
+        <div class="service-item">
+          <div class="service-emoji">💻</div>
+          <div class="service-name">Páginas Web</div>
+          <div class="service-desc">Diseño profesional y optimizado</div>
+        </div>
+        <div class="service-item">
+          <div class="service-emoji">🎨</div>
+          <div class="service-name">Diseño Gráfico</div>
+          <div class="service-desc">Identidad visual impactante</div>
+        </div>
+        <div class="service-item">
+          <div class="service-emoji">📱</div>
+          <div class="service-name">Redes Sociales</div>
+          <div class="service-desc">Gestión y contenido estratégico</div>
+        </div>
+        <div class="service-item">
+          <div class="service-emoji">🔍</div>
+          <div class="service-name">SEO / SEM</div>
+          <div class="service-desc">Posiciona tu negocio en Google</div>
+        </div>
+        <div class="service-item">
+          <div class="service-emoji">📧</div>
+          <div class="service-name">Email Marketing</div>
+          <div class="service-desc">Campañas de alto impacto</div>
+        </div>
+        <div class="service-item">
+          <div class="service-emoji">🛒</div>
+          <div class="service-name">Tiendas Virtuales</div>
+          <div class="service-desc">Vende online 24/7</div>
+        </div>
+      </div>
+      <a class="cta-btn" href="#">¡COTIZA GRATIS HOY!</a>
+    </div>
+  </div>
+
+  <div class="orange-bar"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>Post IG - Tienda Virtual</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600&display=swap');
+
+  body {
+    width: 1080px;
+    height: 1080px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+  }
+
+  .card {
+    width: 1080px;
+    height: 1080px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: linear-gradient(145deg, #0a0e27 0%, #111433 100%);
+  }
+
+  /* Background */
+  .bg-glow-1 {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(255,107,0,0.12) 0%, transparent 60%);
+    top: -200px;
+    right: -200px;
+  }
+
+  .bg-glow-2 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(255,149,0,0.08) 0%, transparent 60%);
+    bottom: 100px;
+    left: -100px;
+  }
+
+  .bg-grid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:
+      linear-gradient(rgba(255,107,0,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,107,0,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  /* TOP */
+  .top {
+    padding: 50px 55px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .logo-area { display: flex; align-items: center; gap: 12px; }
+
+  .logo-icon {
+    width: 54px;
+    height: 54px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 900;
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(255,107,0,0.5);
+  }
+
+  .logo-text { display: flex; flex-direction: column; }
+  .logo-name { font-size: 26px; font-weight: 800; color: #fff; }
+  .logo-name span { color: #ff6b00; }
+  .logo-sub { font-size: 10px; color: rgba(255,255,255,0.4); letter-spacing: 2px; }
+
+  .ecom-badge {
+    background: rgba(255,107,0,0.12);
+    border: 1px solid rgba(255,107,0,0.35);
+    color: #ff9500;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 24px;
+    border-radius: 25px;
+    text-transform: uppercase;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 55px 30px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-title {
+    font-size: 68px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.0;
+    text-transform: uppercase;
+  }
+
+  .hero-title .orange { color: #ff6b00; }
+
+  .clock-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 12px 30px;
+    border-radius: 50px;
+    margin: 18px 0;
+    box-shadow: 0 6px 25px rgba(255,107,0,0.5);
+  }
+
+  .hero-sub {
+    font-size: 17px;
+    color: rgba(255,255,255,0.65);
+    font-family: 'Open Sans', sans-serif;
+    max-width: 750px;
+    line-height: 1.6;
+  }
+
+  .hero-sub strong { color: #ff9500; }
+
+  /* STORE MOCKUP */
+  .store-section {
+    flex: 1;
+    padding: 10px 55px 20px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .store-frame {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.09);
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .store-topbar {
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .store-brand { font-size: 16px; font-weight: 800; color: #fff; }
+  .store-cart { font-size: 22px; }
+
+  .store-body {
+    padding: 20px;
+    display: flex;
+    gap: 16px;
+    height: calc(100% - 60px);
+  }
+
+  .products-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+    flex: 1;
+    align-content: start;
+  }
+
+  .product-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 16px 12px;
+    text-align: center;
+  }
+
+  .prod-emoji { font-size: 36px; margin-bottom: 10px; }
+  .prod-name { font-size: 12px; color: rgba(255,255,255,0.7); font-weight: 600; margin-bottom: 8px; }
+  .prod-price { font-size: 18px; font-weight: 900; color: #ff9500; margin-bottom: 10px; }
+
+  .add-btn {
+    background: rgba(255,107,0,0.2);
+    border: 1px solid rgba(255,107,0,0.4);
+    color: #ff9500;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  /* FEATURES */
+  .features-section {
+    padding: 16px 55px;
+    display: flex;
+    gap: 14px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .feat-box {
+    flex: 1;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,107,0,0.15);
+    border-radius: 14px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+  }
+
+  .feat-icon { font-size: 28px; }
+  .feat-title { font-size: 13px; font-weight: 700; color: #fff; }
+  .feat-desc { font-size: 10px; color: rgba(255,255,255,0.5); font-family: 'Open Sans', sans-serif; line-height: 1.4; }
+
+  /* FOOTER */
+  .footer {
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    padding: 20px 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .footer-left { display: flex; gap: 30px; }
+  .footer-item { font-size: 15px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 8px; }
+
+  .footer-cta {
+    background: rgba(255,255,255,0.25);
+    border: 2px solid rgba(255,255,255,0.6);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border-radius: 25px;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="bg-glow-1"></div>
+  <div class="bg-glow-2"></div>
+  <div class="bg-grid"></div>
+
+  <!-- TOP -->
+  <div class="top">
+    <div class="logo-area">
+      <div class="logo-icon">G</div>
+      <div class="logo-text">
+        <div class="logo-name">grupo<span>gurú</span></div>
+        <div class="logo-sub">Marketing Digital</div>
+      </div>
+    </div>
+    <div class="ecom-badge">🛒 E-Commerce</div>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-title">
+      TIENDA <span class="orange">VIRTUAL</span><br>
+      PARA TU NEGOCIO
+    </div>
+    <div class="clock-pill">🕐 Vende las 24 horas, los 7 días</div>
+    <div class="hero-sub">
+      Creamos tu <strong>tienda en línea</strong> para que tus clientes compren desde cualquier lugar. Sin límites, sin horarios. ¡El futuro es digital!
+    </div>
+  </div>
+
+  <!-- STORE MOCKUP -->
+  <div class="store-section">
+    <div class="store-frame">
+      <div class="store-topbar">
+        <div class="store-brand">🛍️ Tu Tienda Online — Profesional y Lista para Vender</div>
+        <div class="store-cart">🛒</div>
+      </div>
+      <div class="store-body">
+        <div class="products-col">
+          <div class="product-card">
+            <div class="prod-emoji">👟</div>
+            <div class="prod-name">Producto A</div>
+            <div class="prod-price">$299</div>
+            <div class="add-btn">+ Agregar</div>
+          </div>
+          <div class="product-card">
+            <div class="prod-emoji">👜</div>
+            <div class="prod-name">Producto B</div>
+            <div class="prod-price">$599</div>
+            <div class="add-btn">+ Agregar</div>
+          </div>
+          <div class="product-card">
+            <div class="prod-emoji">💎</div>
+            <div class="prod-name">Producto C</div>
+            <div class="prod-price">$899</div>
+            <div class="add-btn">+ Agregar</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <div class="features-section">
+    <div class="feat-box">
+      <div class="feat-icon">💳</div>
+      <div class="feat-title">Pagos Seguros</div>
+      <div class="feat-desc">Tarjeta, PayPal y más</div>
+    </div>
+    <div class="feat-box">
+      <div class="feat-icon">📱</div>
+      <div class="feat-title">Mobile First</div>
+      <div class="feat-desc">Perfecta en celular</div>
+    </div>
+    <div class="feat-box">
+      <div class="feat-icon">🔒</div>
+      <div class="feat-title">100% Segura</div>
+      <div class="feat-desc">SSL + Encriptación</div>
+    </div>
+    <div class="feat-box">
+      <div class="feat-icon">📦</div>
+      <div class="feat-title">Inventario</div>
+      <div class="feat-desc">Control total</div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-left">
+      <div class="footer-item">📞 (998) 158 8631</div>
+      <div class="footer-item">🌐 grupoguru.mx</div>
+    </div>
+    <div class="footer-cta">¡Quiero mi Tienda!</div>
+  </div>
+</div>
+</body>
+</html>

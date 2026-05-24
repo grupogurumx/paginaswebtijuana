@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>Post IG - Redes Sociales</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600&display=swap');
+
+  body {
+    width: 1080px;
+    height: 1080px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+  }
+
+  .card {
+    width: 1080px;
+    height: 1080px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  /* Top gradient header */
+  .header {
+    height: 120px;
+    background: linear-gradient(90deg, #0a0e27, #111433, #0a0e27);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 55px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .logo-area { display: flex; align-items: center; gap: 12px; }
+
+  .logo-icon {
+    width: 52px;
+    height: 52px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(255,107,0,0.5);
+  }
+
+  .logo-text { display: flex; flex-direction: column; }
+  .logo-name { font-size: 24px; font-weight: 800; color: #fff; }
+  .logo-name span { color: #ff6b00; }
+  .logo-sub { font-size: 10px; color: rgba(255,255,255,0.4); letter-spacing: 2px; margin-top: 2px; }
+
+  .header-badge {
+    background: rgba(255,107,0,0.15);
+    border: 1px solid rgba(255,107,0,0.35);
+    color: #ff9500;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 22px;
+    border-radius: 25px;
+    text-transform: uppercase;
+  }
+
+  /* MAIN AREA */
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 45px 55px 30px;
+    position: relative;
+  }
+
+  /* Big title section */
+  .title-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
+
+  .title-left { flex: 1; }
+
+  .pre-text {
+    font-size: 13px;
+    color: #ff6b00;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  .big-title {
+    font-size: 58px;
+    font-weight: 900;
+    color: #111;
+    line-height: 1.0;
+    text-transform: uppercase;
+  }
+
+  .big-title .orange { color: #ff6b00; }
+
+  .divider {
+    width: 60px;
+    height: 5px;
+    background: #ff6b00;
+    border-radius: 3px;
+    margin: 18px 0;
+  }
+
+  .desc-text {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 500px;
+  }
+
+  .desc-text strong { color: #ff6b00; }
+
+  /* Platform cards */
+  .platforms {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .platform-card {
+    border-radius: 18px;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .platform-card::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+  }
+
+  .fb { background: linear-gradient(135deg, #1877f2, #0b5fcc); }
+  .ig { background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366); }
+  .yt { background: linear-gradient(135deg, #ff0000, #cc0000); }
+
+  .plat-icon { font-size: 36px; }
+  .plat-name { font-size: 16px; font-weight: 800; color: #fff; }
+  .plat-stat { font-size: 28px; font-weight: 900; color: rgba(255,255,255,0.95); }
+  .plat-label { font-size: 11px; color: rgba(255,255,255,0.65); font-family: 'Open Sans', sans-serif; }
+
+  /* Services checklist */
+  .checklist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .check-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 18px;
+    background: #fff5ee;
+    border-radius: 12px;
+  }
+
+  .check-mark {
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 900;
+    flex-shrink: 0;
+  }
+
+  .check-text {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.3;
+  }
+
+  /* Footer */
+  .footer {
+    height: 80px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 55px;
+    flex-shrink: 0;
+  }
+
+  .footer-contacts { display: flex; gap: 30px; }
+  .footer-contact { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 700; color: #fff; }
+
+  .footer-cta {
+    background: rgba(255,255,255,0.25);
+    border: 2px solid rgba(255,255,255,0.6);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border-radius: 25px;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo-area">
+      <div class="logo-icon">G</div>
+      <div class="logo-text">
+        <div class="logo-name">grupo<span>gurú</span></div>
+        <div class="logo-sub">Marketing Digital</div>
+      </div>
+    </div>
+    <div class="header-badge">📱 Redes Sociales</div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+    <div class="title-section">
+      <div class="title-left">
+        <div class="pre-text">✦ Gestión Profesional de Contenido</div>
+        <div class="big-title">
+          IMPULSA<br>TU<br>
+          <span class="orange">MARCA</span>
+        </div>
+        <div class="divider"></div>
+        <div class="desc-text">
+          Manejamos tus <strong>redes sociales</strong> con estrategia y creatividad para que tu negocio crezca y conecte con más clientes cada día.
+        </div>
+      </div>
+    </div>
+
+    <div class="platforms">
+      <div class="platform-card fb">
+        <div class="plat-icon">👍</div>
+        <div class="plat-name">Facebook</div>
+        <div class="plat-stat">+250%</div>
+        <div class="plat-label">Más alcance mensual</div>
+      </div>
+      <div class="platform-card ig">
+        <div class="plat-icon">📸</div>
+        <div class="plat-name">Instagram</div>
+        <div class="plat-stat">+180%</div>
+        <div class="plat-label">Más seguidores</div>
+      </div>
+      <div class="platform-card yt">
+        <div class="plat-icon">▶️</div>
+        <div class="plat-name">YouTube</div>
+        <div class="plat-stat">+400%</div>
+        <div class="plat-label">Más visualizaciones</div>
+      </div>
+    </div>
+
+    <div class="checklist">
+      <div class="check-item">
+        <div class="check-mark">✓</div>
+        <div class="check-text">Contenido creativo diario</div>
+      </div>
+      <div class="check-item">
+        <div class="check-mark">✓</div>
+        <div class="check-text">Publicidad segmentada</div>
+      </div>
+      <div class="check-item">
+        <div class="check-mark">✓</div>
+        <div class="check-text">Análisis y reportes</div>
+      </div>
+      <div class="check-item">
+        <div class="check-mark">✓</div>
+        <div class="check-text">Crecimiento garantizado</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-contacts">
+      <div class="footer-contact">📞 (998) 158 8631</div>
+      <div class="footer-contact">🌐 grupoguru.mx</div>
+    </div>
+    <div class="footer-cta">¡Cotiza Ahora!</div>
+  </div>
+</div>
+</body>
+</html>

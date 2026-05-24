@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200">
+<title>Post FB - Diseño Web Cancun</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600&display=swap');
+
+  body {
+    width: 1200px;
+    height: 630px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+  }
+
+  .card {
+    width: 1200px;
+    height: 630px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  /* Orange left stripe */
+  .left-stripe {
+    width: 480px;
+    height: 100%;
+    background: linear-gradient(160deg, #ff6b00 0%, #ff9500 50%, #ffb347 100%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 45px 50px;
+    z-index: 2;
+    flex-shrink: 0;
+  }
+
+  .left-stripe::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -40px;
+    width: 80px;
+    height: 100%;
+    background: linear-gradient(160deg, #ff6b00 0%, #ff9500 50%, #ffb347 100%);
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    z-index: 1;
+  }
+
+  /* Circles decoration */
+  .deco-circle-1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.15);
+    bottom: -80px;
+    left: -80px;
+  }
+  .deco-circle-2 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    top: 30px;
+    right: 40px;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 2;
+  }
+
+  .logo-badge {
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .logo-txt {
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -0.3px;
+  }
+  .logo-txt span { color: rgba(255,255,255,0.7); }
+
+  .main-left {
+    z-index: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 0;
+  }
+
+  .tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.4);
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+
+  .big-title {
+    font-size: 44px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.05;
+    text-transform: uppercase;
+  }
+
+  .accent-word {
+    background: rgba(255,255,255,0.2);
+    padding: 2px 10px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 4px 0;
+  }
+
+  .divider-white {
+    width: 50px;
+    height: 4px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 2px;
+    margin: 18px 0;
+  }
+
+  .desc {
+    font-size: 14px;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 340px;
+  }
+
+  .contact-left {
+    z-index: 2;
+    display: flex;
+    gap: 20px;
+  }
+
+  .contact-pill {
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /* RIGHT SIDE */
+  .right {
+    flex: 1;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 50px 40px 70px;
+    position: relative;
+  }
+
+  .right-title {
+    font-size: 13px;
+    color: #ff6b00;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  /* Browser mockup */
+  .browser-mockup {
+    background: #f8f9fa;
+    border-radius: 12px;
+    border: 2px solid #e9ecef;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.12);
+    margin-bottom: 24px;
+  }
+
+  .browser-bar {
+    background: #e9ecef;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .dots { display: flex; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .dot.red { background: #ff5f56; }
+  .dot.yellow { background: #ffbd2e; }
+  .dot.green { background: #27c93f; }
+
+  .url-bar {
+    flex: 1;
+    background: #fff;
+    border-radius: 6px;
+    padding: 5px 12px;
+    font-size: 11px;
+    color: #666;
+    font-family: monospace;
+  }
+
+  .browser-content {
+    padding: 20px;
+    min-height: 140px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mockup-hero {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  .mockup-content {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .mockup-block {
+    flex: 1;
+    height: 40px;
+    background: #e9ecef;
+    border-radius: 6px;
+  }
+
+  .mockup-block.orange { background: rgba(255,107,0,0.15); }
+
+  /* Benefits */
+  .benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .benefit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    background: #fff5ee;
+    border-left: 3px solid #ff6b00;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .benefit-icon { font-size: 18px; }
+  .benefit-text {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.3;
+  }
+
+  .stat-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+  }
+
+  .stat {
+    flex: 1;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0a0e27;
+  }
+
+  .stat:nth-child(2) { background: #ff6b00; }
+  .stat:nth-child(3) { background: #111433; }
+
+  .stat-number { font-size: 18px; font-weight: 900; color: #fff; }
+  .stat-label { font-size: 9px; color: rgba(255,255,255,0.7); letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <!-- LEFT ORANGE -->
+  <div class="left-stripe">
+    <div class="deco-circle-1"></div>
+    <div class="deco-circle-2"></div>
+
+    <div class="logo-area">
+      <div class="logo-badge">G</div>
+      <div class="logo-txt">grupo<span>gurú</span></div>
+    </div>
+
+    <div class="main-left">
+      <div class="tag">✦ Cancun, México</div>
+      <div class="big-title">
+        DISEÑO DE<br>
+        <span class="accent-word">PÁGINAS</span><br>
+        WEB
+      </div>
+      <div class="divider-white"></div>
+      <div class="desc">
+        Tu presencia digital profesional, moderna y optimizada para convertir visitantes en clientes reales.
+      </div>
+    </div>
+
+    <div class="contact-left">
+      <div class="contact-pill">📞 (998) 158 8631</div>
+      <div class="contact-pill">🌐 grupoguru.mx</div>
+    </div>
+  </div>
+
+  <!-- RIGHT WHITE -->
+  <div class="right">
+    <div class="right-title">¿Por qué elegirnos?</div>
+
+    <div class="browser-mockup">
+      <div class="browser-bar">
+        <div class="dots">
+          <div class="dot red"></div>
+          <div class="dot yellow"></div>
+          <div class="dot green"></div>
+        </div>
+        <div class="url-bar">www.tunegocio.mx</div>
+      </div>
+      <div class="browser-content">
+        <div class="mockup-hero">🚀 Tu Negocio Online — Profesional & Efectivo</div>
+        <div class="mockup-content">
+          <div class="mockup-block orange"></div>
+          <div class="mockup-block"></div>
+          <div class="mockup-block orange"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="benefits">
+      <div class="benefit">
+        <div class="benefit-icon">⚡</div>
+        <div class="benefit-text">Carga Ultra<br>Rápida</div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">📱</div>
+        <div class="benefit-text">100% Responsive<br>& Mobile</div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">🔍</div>
+        <div class="benefit-text">Optimizada<br>para SEO</div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">🔒</div>
+        <div class="benefit-text">Segura con<br>Certificado SSL</div>
+      </div>
+    </div>
+
+    <div class="stat-bar">
+      <div class="stat">
+        <div class="stat-number">+1,400</div>
+        <div class="stat-label">Clientes</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">15 Años</div>
+        <div class="stat-label">Experiencia</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">98%</div>
+        <div class="stat-label">Satisfacción</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200">
+<title>Post FB - Diseño Gráfico e Identidad Visual</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600&display=swap');
+
+  body {
+    width: 1200px;
+    height: 630px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+  }
+
+  .card {
+    width: 1200px;
+    height: 630px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  /* Diagonal split */
+  .left-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55%;
+    height: 100%;
+    background: linear-gradient(155deg, #0a0e27 0%, #111433 100%);
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+    z-index: 0;
+  }
+
+  /* Decorations */
+  .deco-ring-1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px dashed rgba(255,107,0,0.2);
+    top: -80px;
+    left: 80px;
+    z-index: 1;
+  }
+
+  .deco-ring-2 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,107,0,0.15);
+    bottom: 40px;
+    left: 250px;
+    z-index: 1;
+  }
+
+  /* LEFT CONTENT */
+  .left {
+    width: 560px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 45px 50px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .logo-area { display: flex; align-items: center; gap: 10px; }
+
+  .logo-icon {
+    width: 46px;
+    height: 46px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(255,107,0,0.4);
+  }
+
+  .logo-text { display: flex; flex-direction: column; }
+  .logo-name { font-size: 20px; font-weight: 800; color: #fff; }
+  .logo-name span { color: #ff6b00; }
+  .logo-sub { font-size: 9px; color: rgba(255,255,255,0.4); letter-spacing: 2px; }
+
+  .main { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 20px 0; }
+
+  .service-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,107,0,0.15);
+    border: 1px solid rgba(255,107,0,0.4);
+    color: #ff9500;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  .big-title {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.0;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .big-title .orange { color: #ff6b00; }
+
+  .divider {
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b00, #ff9500);
+    border-radius: 2px;
+    margin: 18px 0;
+  }
+
+  .desc {
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 400px;
+  }
+
+  .deliverables {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+  }
+
+  .deliverable {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.8);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .cta-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .btn-orange {
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    border-radius: 10px;
+    box-shadow: 0 6px 25px rgba(255,107,0,0.4);
+  }
+
+  .contact-stack { display: flex; flex-direction: column; gap: 5px; }
+  .contact-line { font-size: 13px; color: rgba(255,255,255,0.7); font-weight: 600; }
+
+  /* RIGHT CONTENT */
+  .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 580px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    z-index: 3;
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 100%;
+    max-width: 460px;
+  }
+
+  .portfolio-item {
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  }
+
+  .portfolio-item.tall { grid-row: span 2; }
+
+  .port-inner {
+    height: 100%;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .port-inner.logo-bg {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    min-height: 280px;
+  }
+
+  .port-inner.branding-bg {
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    min-height: 120px;
+  }
+
+  .port-inner.social-bg {
+    background: linear-gradient(135deg, #0f3460, #533483);
+    min-height: 120px;
+  }
+
+  .port-inner.print-bg {
+    background: linear-gradient(135deg, #1a1a2e, #2d1b69);
+    min-height: 120px;
+  }
+
+  .port-emoji {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 48px;
+    opacity: 0.9;
+  }
+
+  .port-inner.tall .port-emoji {
+    font-size: 70px;
+    transform: translate(-50%, -55%);
+  }
+
+  .port-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 14px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(4px);
+  }
+
+  .port-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  .port-type {
+    font-size: 9px;
+    color: rgba(255,255,255,0.6);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 2px;
+  }
+
+  .color-palette {
+    display: flex;
+    gap: 6px;
+    margin-top: 16px;
+  }
+
+  .color-swatch {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.3);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+
+  .bottom-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b00, #ff9500, #ffb347, transparent);
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="left-bg"></div>
+  <div class="deco-ring-1"></div>
+  <div class="deco-ring-2"></div>
+
+  <!-- LEFT -->
+  <div class="left">
+    <div class="logo-area">
+      <div class="logo-icon">G</div>
+      <div class="logo-text">
+        <div class="logo-name">grupo<span>gurú</span></div>
+        <div class="logo-sub">Marketing Digital</div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="service-pill">🎨 Diseño Gráfico</div>
+      <div class="big-title">
+        TU<br>
+        <span class="orange">IMAGEN</span><br>
+        LO ES<br>
+        TODO
+      </div>
+      <div class="divider"></div>
+      <div class="desc">
+        Creamos identidades visuales poderosas que capturan la esencia de tu marca y la hacen memorable ante tus clientes.
+      </div>
+      <div class="deliverables">
+        <div class="deliverable">🏷️ Logotipo</div>
+        <div class="deliverable">📋 Manual de Marca</div>
+        <div class="deliverable">📱 Posts Redes</div>
+        <div class="deliverable">🖨️ Material Impreso</div>
+        <div class="deliverable">🎴 Tarjetas</div>
+        <div class="deliverable">📰 Banners</div>
+      </div>
+    </div>
+
+    <div class="cta-row">
+      <div class="btn-orange">Ver Portafolio</div>
+      <div class="contact-stack">
+        <div class="contact-line">📞 (998) 158 8631</div>
+        <div class="contact-line">🌐 grupoguru.mx</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT PORTFOLIO -->
+  <div class="right">
+    <div class="portfolio-grid">
+      <div class="portfolio-item tall">
+        <div class="port-inner logo-bg">
+          <div class="port-emoji">✨</div>
+          <div class="port-overlay">
+            <div class="port-label">Diseño de Logo</div>
+            <div class="port-type">Identidad Visual</div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="port-inner branding-bg">
+          <div class="port-emoji">🎨</div>
+          <div class="port-overlay">
+            <div class="port-label">Branding</div>
+            <div class="port-type">Marca Personal</div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="port-inner social-bg">
+          <div class="port-emoji">📱</div>
+          <div class="port-overlay">
+            <div class="port-label">Social Media</div>
+            <div class="port-type">Diseño Digital</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="color-palette">
+      <div class="color-swatch" style="background:#ff6b00;"></div>
+      <div class="color-swatch" style="background:#0a0e27;"></div>
+      <div class="color-swatch" style="background:#ff9500;"></div>
+      <div class="color-swatch" style="background:#ffffff;"></div>
+      <div class="color-swatch" style="background:#1877f2;"></div>
+    </div>
+  </div>
+
+  <div class="bottom-line"></div>
+</div>
+</body>
+</html>

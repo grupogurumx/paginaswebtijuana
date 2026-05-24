@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200">
+<title>Post FB - SEO Posicionamiento Google</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600&display=swap');
+
+  body {
+    width: 1200px;
+    height: 630px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+  }
+
+  .card {
+    width: 1200px;
+    height: 630px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0a0e27 0%, #0d1535 100%);
+  }
+
+  /* Glow effects */
+  .glow-orange {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(255,107,0,0.2) 0%, transparent 65%);
+    top: -100px;
+    right: -100px;
+    pointer-events: none;
+  }
+  .glow-blue {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(0,150,255,0.1) 0%, transparent 65%);
+    bottom: -100px;
+    left: 200px;
+    pointer-events: none;
+  }
+
+  /* LEFT */
+  .left {
+    width: 560px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 45px 50px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo-icon {
+    width: 46px;
+    height: 46px;
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(255,107,0,0.4);
+  }
+
+  .logo-text {
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+  }
+  .logo-text span { color: #ff6b00; }
+  .logo-sub { font-size: 9px; color: rgba(255,255,255,0.4); letter-spacing: 2px; display: block; }
+
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .question-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(255,107,0,0.2), rgba(255,149,0,0.1));
+    border: 1px solid rgba(255,107,0,0.4);
+    color: #ff9500;
+    font-size: 12px;
+    padding: 7px 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+
+  .big-question {
+    font-size: 38px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+
+  .big-question .orange { color: #ff6b00; }
+
+  .sub-question {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+
+  .divider {
+    width: 50px;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b00, #ff9500);
+    border-radius: 2px;
+    margin-bottom: 18px;
+  }
+
+  .solution-text {
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 420px;
+  }
+
+  .solution-text strong { color: #ff9500; }
+
+  .cta-area {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+  }
+
+  .cta-primary {
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    border-radius: 10px;
+    box-shadow: 0 6px 25px rgba(255,107,0,0.4);
+    white-space: nowrap;
+  }
+
+  .cta-secondary {
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .cta-secondary strong { color: #fff; display: block; font-size: 14px; }
+
+  /* RIGHT */
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 45px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Google SERP Mockup */
+  .serp-container {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 24px;
+    backdrop-filter: blur(10px);
+  }
+
+  .serp-header {
+    font-size: 11px;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .serp-header::before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: #ff6b00;
+  }
+
+  .serp-result {
+    padding: 14px 16px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border: 1px solid transparent;
+  }
+
+  .serp-result.pos-1 {
+    background: linear-gradient(135deg, rgba(255,107,0,0.2), rgba(255,149,0,0.1));
+    border-color: rgba(255,107,0,0.4);
+  }
+
+  .serp-result.pos-2, .serp-result.pos-3 {
+    background: rgba(255,255,255,0.03);
+    border-color: rgba(255,255,255,0.06);
+    opacity: 0.6;
+  }
+
+  .position-badge {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 900;
+    flex-shrink: 0;
+  }
+
+  .pos-1 .position-badge {
+    background: linear-gradient(135deg, #ff6b00, #ff9500);
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(255,107,0,0.4);
+  }
+
+  .pos-2 .position-badge, .pos-3 .position-badge {
+    background: rgba(255,255,255,0.08);
+    color: rgba(255,255,255,0.5);
+  }
+
+  .serp-content { flex: 1; }
+
+  .serp-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #7cb9ff;
+    margin-bottom: 4px;
+    line-height: 1.2;
+  }
+
+  .pos-1 .serp-title { color: #ff9500; }
+
+  .serp-url { font-size: 11px; color: rgba(255,255,255,0.4); margin-bottom: 4px; }
+  .serp-desc { font-size: 11px; color: rgba(255,255,255,0.5); line-height: 1.4; }
+
+  .pos-1 .serp-desc { color: rgba(255,255,255,0.7); }
+
+  .winner-tag {
+    background: #ff6b00;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+  }
+
+  /* Stats row */
+  .stats-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 14px;
+  }
+
+  .stat-box {
+    flex: 1;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .stat-num {
+    font-size: 20px;
+    font-weight: 900;
+    color: #ff9500;
+  }
+
+  .stat-lbl {
+    font-size: 10px;
+    color: rgba(255,255,255,0.5);
+    margin-top: 3px;
+    letter-spacing: 1px;
+  }
+
+  .footer-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b00, #ff9500, transparent);
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="glow-orange"></div>
+  <div class="glow-blue"></div>
+
+  <!-- LEFT -->
+  <div class="left">
+    <div class="logo-area">
+      <div class="logo-icon">G</div>
+      <div class="logo-text">
+        grupo<span>gurú</span>
+        <span class="logo-sub">Marketing Digital · Cancun</span>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="question-badge">🔍 SEO / SEM</div>
+      <div class="big-question">
+        ¿Tu negocio<br>
+        <span class="orange">NO aparece</span><br>
+        en Google?
+      </div>
+      <div class="sub-question">¡Nosotros te ponemos<br>en el #1!</div>
+      <div class="divider"></div>
+      <div class="solution-text">
+        Con nuestra estrategia de <strong>SEO y SEM</strong> en Cancun, logramos que tu empresa aparezca cuando tus clientes te buscan. Más visibilidad = más ventas.
+      </div>
+    </div>
+
+    <div class="cta-area">
+      <div class="cta-primary">¡Quiero el #1!</div>
+      <div class="cta-secondary">
+        <strong>(998) 158 8631</strong>
+        grupoguru.mx
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="right">
+    <div class="serp-container">
+      <div class="serp-header">Resultados de búsqueda en Google</div>
+
+      <div class="serp-result pos-1">
+        <div class="position-badge">#1</div>
+        <div class="serp-content">
+          <div class="serp-title">Tu Negocio en Cancun | Líder en el mercado</div>
+          <div class="serp-url">🌐 www.tunegocio.mx</div>
+          <div class="serp-desc">El mejor servicio en Cancun. Contáctanos ahora y obtén la mejor oferta del mercado...</div>
+        </div>
+        <div class="winner-tag">TÚ AQUÍ</div>
+      </div>
+
+      <div class="serp-result pos-2">
+        <div class="position-badge">#2</div>
+        <div class="serp-content">
+          <div class="serp-title">Competencia — Resultados de búsqueda</div>
+          <div class="serp-url">🌐 www.competencia.mx</div>
+          <div class="serp-desc">Servicios similares en la región...</div>
+        </div>
+      </div>
+
+      <div class="serp-result pos-3">
+        <div class="position-badge">#3</div>
+        <div class="serp-content">
+          <div class="serp-title">Otro competidor — Página principal</div>
+          <div class="serp-url">🌐 www.otro.mx</div>
+          <div class="serp-desc">Más información sobre servicios...</div>
+        </div>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat-box">
+          <div class="stat-num">+300%</div>
+          <div class="stat-lbl">Más Tráfico</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">Top 3</div>
+          <div class="stat-lbl">Posición Google</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">+1,400</div>
+          <div class="stat-lbl">Clientes Felices</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar"></div>
+</div>
+</body>
+</html>
