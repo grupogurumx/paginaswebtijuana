@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for SEO positioning -->
+    <title>Diseño Web en Tijuana | Webmaster Tijuana | Agencia de Marketing Digital</title>
+    <meta name="description" content="Webmaster Tijuana es una agencia de Desarrollo Web y Marketing Digital en Tijuana. Expertos en Diseño de Páginas Web, Posicionamiento SEO y Tiendas Virtuales. ¡Cotiza Ahora!">
+    <meta name="keywords" content="Webmaster Tijuana, Paginas Web Tijuana, diseño paginas web Tijuana, desarrollo web Tijuana, crear pagina web Tijuana, agencia web Tijuana, Agencia de Marketing Digital Tijuana, Agencia de publicidad tijuana, marketing digital tijuana, sitios web tijuana, diseño grafico tijuana, publicidad en mexico, webmasters tijuana, mexico, Diseño Web en Tijuana, Diseño de Páginas Web, Marketing Digital Tijuana, Desarrollo WEB, Web Design Tijuana, Diseño Grafico Tijuana, SEO Tijuana, Diseño web en tijuana, diseño de paginas de internet en tijuana">
+    <meta name="author" content="Webmaster Tijuana">
+
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="Webmaster Tijuana | Agencia de Marketing Digital y Desarrollo Web">
+    <meta property="og:description" content="Especialistas en Páginas Web, Posicionamiento SEO y Tiendas Virtuales. Ofrecemos una gama completa de Servicios de Marketing Digital.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://webmastertijuana.com">
+    <meta property="og:image" content="./assets/LOGO (5).png">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Alpine.js for interactive components (slider/mobile menu) -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom configuration for Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e3a8a', // Blue
+                        secondary: '#40e0d0', // Turquoise
+                        accent: '#4b5563', // Gray
+                        light: '#ffffff' // White
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Base styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #40e0d0;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #1e3a8a;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased overflow-x-hidden">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#" class="flex-shrink-0">
+                <img src="./assets/LOGO (5).png" alt="Webmaster Tijuana Logo" class="h-12 w-auto object-contain">
+            </a>
+            <nav class="hidden md:flex space-x-8 text-accent font-medium">
+                <a href="#inicio" class="hover:text-primary transition-colors">Inicio</a>
+                <a href="#servicios" class="hover:text-primary transition-colors">Servicios</a>
+                <a href="#portafolio" class="hover:text-primary transition-colors">Portafolio</a>
+                <a href="#contacto" class="hover:text-primary transition-colors">Contacto</a>
+            </nav>
+            <a href="#cotizar" class="hidden md:inline-block bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-secondary transition-colors duration-300 shadow-lg">Cotizar Ahora</a>
+
+            <!-- Mobile Menu Button (AlpineJS) -->
+            <div x-data="{ open: false }" class="md:hidden">
+                <button @click="open = !open" class="text-primary focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+                <div x-show="open" @click.away="open = false" class="absolute top-20 left-0 w-full bg-white shadow-lg p-6 flex flex-col space-y-4">
+                    <a href="#inicio" @click="open = false" class="text-lg font-medium text-accent">Inicio</a>
+                    <a href="#servicios" @click="open = false" class="text-lg font-medium text-accent">Servicios</a>
+                    <a href="#portafolio" @click="open = false" class="text-lg font-medium text-accent">Portafolio</a>
+                    <a href="#contacto" @click="open = false" class="text-lg font-medium text-accent">Contacto</a>
+                    <a href="#cotizar" @click="open = false" class="bg-primary text-white px-6 py-2 rounded-full font-semibold text-center mt-2">Cotizar Ahora</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Slider (Alpine.js) -->
+        <section id="inicio" class="relative w-full h-[600px] bg-gray-900 overflow-hidden" x-data="{
+            activeSlide: 1,
+            slides: [
+                { id: 1, title: 'Diseño y Desarrollo Web Responsive', subtitle: 'Sitio Web Responsivo | Desarrollo de Tiendas Virtuales | Sitios Web Lanzamiento', bg: './assets/slides de sitio web_Mesa de trabajo 1.jpg' },
+                { id: 2, title: 'Diseño Gráfico', subtitle: 'Imagen/Identidad Corporativa | Diseño Publicitario | Diseño a tu criterio. Diseño gráfico moderno, atractivo y a la medida de sus necesidades.', bg: './assets/slides de sitio web_Mesa de trabajo 1 copia.jpg' },
+                { id: 3, title: 'Manejo Redes Sociales', subtitle: 'ADN Marketing. Manejo de Facebook, Instagram, Twitter, TikTok, Linkedin, Youtube.', bg: './assets/slides de sitio web-02.jpg' },
+                { id: 4, title: 'Pago por Click. (Webmaster SEO)', subtitle: 'Hacemos que las personas te encuentren y generamos visitas más cualificadas a tu sitio web. Campañas Integrales (Google Ads, Bing Ads). Estrategias SEO | Linkbuilding | Top #1 Google | Visibilidad Óptima | Tráfico Orgánico/Pagado.', bg: './assets/slides de sitio web-04.jpg' }
+            ],
+            next() { this.activeSlide = this.activeSlide === this.slides.length ? 1 : this.activeSlide + 1 },
+            prev() { this.activeSlide = this.activeSlide === 1 ? this.slides.length : this.activeSlide - 1 }
+        }" x-init="setInterval(() => next(), 5000)">
+
+            <template x-for="slide in slides" :key="slide.id">
+                <div x-show="activeSlide === slide.id"
+                     x-transition:enter="transition ease-out duration-700"
+                     x-transition:enter-start="opacity-0 transform scale-105"
+                     x-transition:enter-end="opacity-100 transform scale-100"
+                     x-transition:leave="transition ease-in duration-500"
+                     x-transition:leave-start="opacity-100"
+                     x-transition:leave-end="opacity-0"
+                     class="absolute inset-0 w-full h-full">
+
+                    <!-- Background Image -->
+                    <div class="absolute inset-0 bg-cover bg-center" :style="`background-image: url('${slide.bg}');`">
+                        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 max-w-5xl mx-auto">
+                        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg" x-text="slide.title"></h1>
+                        <p class="text-xl md:text-2xl text-gray-200 mb-8 font-light drop-shadow-md" x-text="slide.subtitle"></p>
+                        <a href="#contacto" class="bg-secondary text-primary font-bold px-8 py-3 rounded-full hover:bg-white transition-colors shadow-lg">Solicitar Información</a>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Navigation Controls -->
+            <button @click="prev()" class="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 text-white opacity-70 hover:opacity-100 focus:outline-none">
+                <i class="fas fa-chevron-left text-4xl"></i>
+            </button>
+            <button @click="next()" class="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 text-white opacity-70 hover:opacity-100 focus:outline-none">
+                <i class="fas fa-chevron-right text-4xl"></i>
+            </button>
+
+            <!-- Slide Indicators -->
+            <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-20 flex space-x-3">
+                <template x-for="slide in slides" :key="slide.id">
+                    <button @click="activeSlide = slide.id" :class="{'bg-secondary': activeSlide === slide.id, 'bg-gray-400': activeSlide !== slide.id}" class="w-3 h-3 rounded-full transition-colors"></button>
+                </template>
+            </div>
+        </section>
+
+        <!-- Beneficios (Persuasive Copywriting) -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-4 max-w-4xl text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">Agencia de Marketing y Desarrollo de Sitios Web</h2>
+                <p class="text-lg md:text-xl text-accent mb-8 leading-relaxed">
+                    <strong>Somos Expertos En Marketing Digital.</strong> Un equipo comprometido en el crecimiento de tu proyecto, con garantía de retorno de inversión a corto, mediano y largo plazo. Ofrecemos estrategias de marketing digital, publicidad digital y gestión de redes sociales. Tenemos el conocimiento, la experiencia y las relaciones para consolidar su negocio.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                    <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                        <i class="fas fa-bullseye text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-xl font-bold text-primary mb-2">Estrategia Personalizada</h3>
+                        <p class="text-accent">Planes a la medida para alcanzar a tu público objetivo.</p>
+                    </div>
+                    <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                        <i class="fas fa-chart-line text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-xl font-bold text-primary mb-2">Retorno de Inversión</h3>
+                        <p class="text-accent">Garantizamos resultados tangibles a corto, mediano y largo plazo.</p>
+                    </div>
+                    <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                        <i class="fas fa-users text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-xl font-bold text-primary mb-2">Expertos Comprometidos</h3>
+                        <p class="text-accent">Un equipo de profesionales dedicados al crecimiento de tu proyecto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios Destacados -->
+        <section id="servicios" class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary">Servicios Destacados</h2>
+                    <div class="w-24 h-1 bg-secondary mx-auto mt-4 rounded"></div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Servicio 1 -->
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-laptop-code text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Diseño de páginas web</h3>
+                        <p class="text-accent mb-4">Sitios web modernos, rápidos y optimizados para convertir visitantes en clientes.</p>
+                        <a href="#" class="text-secondary font-semibold hover:text-primary transition-colors flex items-center">
+                            Saber más <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                        </a>
+                    </div>
+                    <!-- Servicio 2 -->
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-chart-pie text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Marketing digital</h3>
+                        <p class="text-accent mb-4">Estrategias integrales para mejorar tu posicionamiento y aumentar tus ventas online.</p>
+                        <a href="#" class="text-secondary font-semibold hover:text-primary transition-colors flex items-center">
+                            Saber más <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                        </a>
+                    </div>
+                    <!-- Servicio 3 -->
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-ad text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Publicidad digital</h3>
+                        <p class="text-accent mb-4">Campañas efectivas en Google Ads y redes sociales para maximizar tu alcance.</p>
+                        <a href="#" class="text-secondary font-semibold hover:text-primary transition-colors flex items-center">
+                            Saber más <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                        </a>
+                    </div>
+                    <!-- Servicio 4 -->
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-shopping-cart text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Desarrollo de Tiendas Virtuales</h3>
+                        <p class="text-accent mb-4">E-commerce a la medida para vender tus productos 24/7 de forma segura.</p>
+                        <a href="#" class="text-secondary font-semibold hover:text-primary transition-colors flex items-center">
+                            Saber más <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                        </a>
+                    </div>
+                    <!-- Servicio 5 -->
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-lightbulb text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Estrategias de publicidad</h3>
+                        <p class="text-accent mb-4">Planificación creativa y analítica para destacar frente a tu competencia.</p>
+                        <a href="#" class="text-secondary font-semibold hover:text-primary transition-colors flex items-center">
+                            Saber más <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                        </a>
+                    </div>
+                    <!-- Servicio 6 -->
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-share-alt text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Manejo de redes sociales</h3>
+                        <p class="text-accent mb-4">Gestión profesional de perfiles para crear comunidad y fidelizar clientes.</p>
+                        <a href="#" class="text-secondary font-semibold hover:text-primary transition-colors flex items-center">
+                            Saber más <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-4 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary">Lo que dicen nuestros clientes</h2>
+                    <div class="w-24 h-1 bg-secondary mx-auto mt-4 rounded"></div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-gray-50 p-8 rounded-2xl relative mt-8">
+                        <img src="./assets/PROFILE (1).png" alt="Cliente 1" class="w-20 h-20 rounded-full object-cover absolute -top-10 left-1/2 transform -translate-x-1/2 border-4 border-white shadow-md">
+                        <div class="pt-8 text-center">
+                            <div class="text-yellow-400 mb-3">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-accent italic mb-4">"Webmaster Tijuana transformó por completo nuestra presencia online. El diseño web y la estrategia SEO nos ha traído clientes desde el primer mes."</p>
+                            <h4 class="font-bold text-primary">Alejandro M.</h4>
+                            <span class="text-sm text-gray-500">Emprendedor</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-2xl relative mt-8">
+                        <img src="./assets/PROFILE-2.png" alt="Cliente 2" class="w-20 h-20 rounded-full object-cover absolute -top-10 left-1/2 transform -translate-x-1/2 border-4 border-white shadow-md">
+                        <div class="pt-8 text-center">
+                            <div class="text-yellow-400 mb-3">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-accent italic mb-4">"Increíble equipo. Desarrollaron nuestra tienda virtual y las ventas se han disparado gracias a sus campañas de publicidad digital."</p>
+                            <h4 class="font-bold text-primary">Roberto S.</h4>
+                            <span class="text-sm text-gray-500">Dueño de Negocio Local</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-2xl relative mt-8">
+                        <img src="./assets/PROFILE-3.png" alt="Cliente 3" class="w-20 h-20 rounded-full object-cover absolute -top-10 left-1/2 transform -translate-x-1/2 border-4 border-white shadow-md">
+                        <div class="pt-8 text-center">
+                            <div class="text-yellow-400 mb-3">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-accent italic mb-4">"La atención es de primera. Manejan nuestras redes sociales de manera profesional, reflejando exactamente lo que queremos transmitir."</p>
+                            <h4 class="font-bold text-primary">Laura G.</h4>
+                            <span class="text-sm text-gray-500">Directora de Clínica</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto (Captación) -->
+        <section id="cotizar" class="py-16 bg-gray-900 text-white relative">
+            <div class="absolute inset-0 bg-primary opacity-90 z-0"></div>
+            <div class="container mx-auto px-4 lg:px-8 relative z-10">
+                <div class="flex flex-col lg:flex-row gap-12">
+                    <!-- Contact Info -->
+                    <div class="lg:w-5/12">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-6">Impulsa tu negocio hoy mismo</h2>
+                        <p class="text-blue-100 mb-8 text-lg">Ponte en contacto con nosotros para una cotización gratuita. Estamos listos para llevar tu presencia digital al siguiente nivel.</p>
+
+                        <div class="space-y-6">
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-envelope text-secondary text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-blue-200">Email</p>
+                                    <a href="mailto:contacto@webmastertijuana.com" class="font-medium text-lg hover:text-secondary transition-colors">contacto@webmastertijuana.com</a>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-phone text-secondary text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-blue-200">Teléfono</p>
+                                    <a href="tel:6644097979" class="font-medium text-lg hover:text-secondary transition-colors">664 409 7979</a>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-map-marker-alt text-secondary text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-blue-200">Ubicación</p>
+                                    <p class="font-medium text-lg">Tijuana, México</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="lg:w-7/12" id="contacto">
+                        <div class="bg-white rounded-2xl p-8 shadow-2xl text-gray-800">
+                            <h3 class="text-2xl font-bold text-primary mb-6">Solicita tu cotización</h3>
+                            <form action="mailto:contacto@webmastertijuana.com" method="POST" enctype="text/plain" class="space-y-4">
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-1">Nombre Completo</label>
+                                        <input type="text" name="nombre" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-secondary focus:border-secondary outline-none transition" placeholder="Juan Pérez">
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-1">Teléfono</label>
+                                        <input type="tel" name="telefono" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-secondary focus:border-secondary outline-none transition" placeholder="664 123 4567">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Correo Electrónico</label>
+                                    <input type="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-secondary focus:border-secondary outline-none transition" placeholder="correo@empresa.com">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Servicio de Interés</label>
+                                    <select name="servicio" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-secondary focus:border-secondary outline-none transition">
+                                        <option value="Diseño Web">Diseño de páginas web</option>
+                                        <option value="Tienda Virtual">Desarrollo de Tiendas Virtuales</option>
+                                        <option value="Marketing Digital">Marketing Digital</option>
+                                        <option value="Redes Sociales">Manejo de Redes Sociales</option>
+                                        <option value="Otro">Otro servicio</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Mensaje o Detalles del Proyecto</label>
+                                    <textarea name="mensaje" rows="4" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-secondary focus:border-secondary outline-none transition" placeholder="Cuéntanos un poco sobre tu proyecto..."></textarea>
+                                </div>
+                                <button type="submit" class="w-full bg-primary hover:bg-blue-800 text-white font-bold py-4 px-6 rounded-lg transition-colors shadow-lg mt-4 flex justify-center items-center">
+                                    Enviar Mensaje <i class="fas fa-paper-plane ml-2"></i>
+                                </button>
+                                <p class="text-xs text-center text-gray-500 mt-4">La información será enviada a contacto@webmastertijuana.com</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div class="md:col-span-1">
+                    <img src="./assets/LOGO WHITE.png" alt="Webmaster Tijuana" class="h-12 mb-4 object-contain">
+                    <p class="text-sm">Especialistas en Páginas Web, Posicionamiento SEO y Tiendas Virtuales. Llevamos tu negocio al siguiente nivel.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Enlaces Rápidos</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#inicio" class="hover:text-secondary transition-colors">Inicio</a></li>
+                        <li><a href="#servicios" class="hover:text-secondary transition-colors">Servicios</a></li>
+                        <li><a href="#portafolio" class="hover:text-secondary transition-colors">Portafolio</a></li>
+                        <li><a href="#contacto" class="hover:text-secondary transition-colors">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Servicios Principales</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-secondary transition-colors">Diseño Web</a></li>
+                        <li><a href="#" class="hover:text-secondary transition-colors">Marketing Digital</a></li>
+                        <li><a href="#" class="hover:text-secondary transition-colors">Tiendas Virtuales</a></li>
+                        <li><a href="#" class="hover:text-secondary transition-colors">SEO Local</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Síguenos</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-secondary hover:text-primary transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-secondary hover:text-primary transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-secondary hover:text-primary transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-sm text-center">
+                <p>Copyright &copy; 2026 Webmaster Tijuana. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
