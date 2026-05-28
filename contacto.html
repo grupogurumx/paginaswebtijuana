@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Webmaster Tijuana | Agencia de Marketing Digital</title>
+    <meta name="description" content="Contacta a Webmaster Tijuana. Solicita tu cotización para diseño web, marketing digital y tiendas virtuales. Estamos listos para ayudarte.">
+    <meta name="keywords" content="Contacto Webmaster Tijuana, cotizar pagina web tijuana, agencia marketing digital tijuana">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e3a8a',
+                        secondary: '#40e0d0',
+                        accent: '#4b5563',
+                        light: '#ffffff'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; color: #333; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #40e0d0; }
+        ::-webkit-scrollbar-thumb:hover { background: #1e3a8a; }
+    </style>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full z-50 top-0" x-data="{ mobileMenuOpen: false }">
+        <div class="container mx-auto px-4 lg:px-8 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center">
+                <img src="./assets/LOGO (5).png" alt="Webmaster Tijuana Logo" class="h-12 md:h-16 object-contain">
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex space-x-8 items-center">
+                <a href="index.html" class="text-gray-700 hover:text-secondary font-medium transition-colors">Inicio</a>
+                <a href="nosotros.html" class="text-gray-700 hover:text-secondary font-medium transition-colors">Nosotros</a>
+                <a href="servicios.html" class="text-gray-700 hover:text-secondary font-medium transition-colors">Servicios</a>
+                <a href="index.html#portafolio" class="text-gray-700 hover:text-secondary font-medium transition-colors">Portafolio</a>
+                <a href="contacto.html" class="text-secondary font-bold border-b-2 border-secondary transition-colors">Contacto</a>
+                <a href="contacto.html" class="bg-primary hover:bg-blue-800 text-white font-bold py-2 px-6 rounded-full transition-colors shadow-md">
+                    Cotizar Ahora
+                </a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button @click="mobileMenuOpen = !mobileMenuOpen" class="md:hidden text-primary focus:outline-none text-2xl">
+                <i class="fas" :class="mobileMenuOpen ? 'fa-times' : 'fa-bars'"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div x-show="mobileMenuOpen" x-transition class="md:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg">
+            <div class="px-4 pt-2 pb-6 space-y-3 flex flex-col">
+                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md font-medium">Inicio</a>
+                <a href="nosotros.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md font-medium">Nosotros</a>
+                <a href="servicios.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md font-medium">Servicios</a>
+                <a href="index.html#portafolio" class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md font-medium">Portafolio</a>
+                <a href="contacto.html" class="block px-3 py-2 text-secondary font-bold bg-gray-50 rounded-md">Contacto</a>
+                <a href="contacto.html" class="block text-center mt-4 bg-primary text-white font-bold py-3 px-4 rounded-full shadow-md">Cotizar Ahora</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow pt-24">
+        <!-- Hero Contacto -->
+        <section class="bg-primary text-white py-16 text-center">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Ponte en Contacto</h1>
+                <p class="text-xl text-blue-100 max-w-2xl mx-auto">Impulsa tu negocio hoy mismo. Estamos listos para llevar tu presencia digital al siguiente nivel.</p>
+            </div>
+        </section>
+
+        <!-- Formulario e Información -->
+        <section class="py-16 bg-white relative">
+            <div class="container mx-auto px-4 lg:px-8 relative z-10">
+                <div class="flex flex-col lg:flex-row gap-12">
+
+                    <!-- Contact Info -->
+                    <div class="lg:w-5/12 bg-gray-900 rounded-2xl p-8 text-white shadow-xl relative overflow-hidden">
+                        <div class="absolute -right-10 -bottom-10 opacity-10">
+                            <i class="fas fa-envelope text-9xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold mb-6 text-secondary">Nuestra Información</h2>
+                        <p class="text-gray-300 mb-8">Ponte en contacto con nosotros para una cotización gratuita.</p>
+
+                        <div class="space-y-6 relative z-10">
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-envelope text-secondary text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-400">Email</p>
+                                    <a href="mailto:contacto@webmastertijuana.com" class="font-medium text-lg hover:text-secondary transition-colors">contacto@webmastertijuana.com</a>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-phone text-secondary text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-400">Teléfono</p>
+                                    <a href="tel:6644097979" class="font-medium text-lg hover:text-secondary transition-colors">664 409 7979</a>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-map-marker-alt text-secondary text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-400">Ubicación</p>
+                                    <p class="font-medium text-lg">Tijuana, México</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social -->
+                        <div class="mt-12">
+                            <p class="text-sm text-gray-400 mb-4">Síguenos en redes sociales</p>
+                            <div class="flex space-x-4">
+                                <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-colors">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-colors">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-colors">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="lg:w-7/12">
+                        <div class="bg-gray-50 rounded-2xl p-8 shadow-inner border border-gray-100">
+                            <h3 class="text-2xl font-bold text-primary mb-6">Solicita tu cotización</h3>
+                            <form action="mailto:contacto@webmastertijuana.com" method="POST" enctype="text/plain" class="space-y-5">
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-1">Nombre Completo</label>
+                                        <input type="text" name="nombre" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-secondary focus:border-secondary outline-none transition bg-white" placeholder="Juan Pérez">
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-1">Teléfono</label>
+                                        <input type="tel" name="telefono" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-secondary focus:border-secondary outline-none transition bg-white" placeholder="664 123 4567">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Correo Electrónico</label>
+                                    <input type="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-secondary focus:border-secondary outline-none transition bg-white" placeholder="correo@empresa.com">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Servicio de Interés</label>
+                                    <select name="servicio" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-secondary focus:border-secondary outline-none transition bg-white">
+                                        <option value="Diseño Web">Diseño de páginas web</option>
+                                        <option value="Tienda Virtual">Desarrollo de Tiendas Virtuales</option>
+                                        <option value="Marketing Digital">Marketing Digital</option>
+                                        <option value="Redes Sociales">Manejo de Redes Sociales</option>
+                                        <option value="Otro">Otro servicio</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Mensaje o Detalles del Proyecto</label>
+                                    <textarea name="mensaje" rows="5" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-secondary focus:border-secondary outline-none transition bg-white" placeholder="Cuéntanos un poco sobre tu proyecto..."></textarea>
+                                </div>
+                                <button type="submit" class="w-full bg-primary hover:bg-blue-800 text-white font-bold py-4 px-6 rounded-lg transition-colors shadow-lg mt-4 flex justify-center items-center">
+                                    Enviar Mensaje <i class="fas fa-paper-plane ml-2"></i>
+                                </button>
+                                <p class="text-xs text-center text-gray-500 mt-4">La información será enviada a contacto@webmastertijuana.com</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div class="md:col-span-1">
+                    <img src="./assets/LOGO WHITE.png" alt="Webmaster Tijuana" class="h-12 mb-4 object-contain">
+                    <p class="text-sm">Especialistas en Páginas Web, Posicionamiento SEO y Tiendas Virtuales. Llevamos tu negocio al siguiente nivel.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Enlaces Rápidos</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html" class="hover:text-secondary transition-colors">Inicio</a></li>
+                        <li><a href="nosotros.html" class="hover:text-secondary transition-colors">Nosotros</a></li>
+                        <li><a href="servicios.html" class="hover:text-secondary transition-colors">Servicios</a></li>
+                        <li><a href="contacto.html" class="hover:text-secondary transition-colors">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Servicios Principales</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="servicios.html" class="hover:text-secondary transition-colors">Diseño Web</a></li>
+                        <li><a href="servicios.html" class="hover:text-secondary transition-colors">Marketing Digital</a></li>
+                        <li><a href="servicios.html" class="hover:text-secondary transition-colors">Tiendas Virtuales</a></li>
+                        <li><a href="servicios.html" class="hover:text-secondary transition-colors">SEO Local</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Contacto</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><i class="fas fa-envelope mr-2"></i> contacto@webmastertijuana.com</li>
+                        <li><i class="fas fa-phone mr-2"></i> 664 409 7979</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> Tijuana, México</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-sm text-center">
+                <p>Copyright &copy; 2026 Webmaster Tijuana. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
