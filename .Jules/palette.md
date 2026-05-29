@@ -1,0 +1,3 @@
+## 2024-05-18 - Accessibility for AlpineJS Carousels and Icon-only Elements
+**Learning:** Icon-only buttons (like hamburger menus or social media links) often lack accessible names, making them unreadable by screen readers. Furthermore, dynamic components like AlpineJS sliders need dynamic `aria-label`s (using `:aria-label`) and stateful attributes (like `:aria-expanded`) so that screen reader users understand the component's state and navigation options.
+**Action:** Always verify that every icon-only link or button has an explicit `aria-label`. For dynamic UI elements built with frameworks like AlpineJS, ensure `aria` attributes are dynamically bound to the component's state variables.
