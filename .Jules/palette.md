@@ -1,0 +1,3 @@
+## 2026-06-02 - Adding ARIA labels to Alpine.js and Tailwind UI components
+**Learning:** Alpine.js components (like sliders or mobile menus) often have dynamic interactions without built-in accessibility. When working with CDN-based Tailwind CSS and Alpine.js, interactive elements like buttons and links often lack screen-reader context and visual focus indicators. Also, Alpine.js requires dynamically bound ARIA labels to use the `:` prefix (e.g. `:aria-label="\`Ir a la diapositiva ${slide.id}\`"`).
+**Action:** Add `aria-label` attributes and use Tailwind's `focus:outline-none focus-visible:ring-2 focus-visible:ring-[color]` classes on icon-only buttons to ensure they are accessible via keyboard and screen readers.
