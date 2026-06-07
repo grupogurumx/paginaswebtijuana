@@ -1,0 +1,3 @@
+## 2024-05-14 - Missing ARIA Labels and Focus States on Icon-Only Elements
+**Learning:** Found an accessibility issue pattern specific to this app's components: icon-only interactive elements (like the mobile menu button, slider navigation controls, and footer social links) lack `aria-label` attributes and keyboard focus indicators (`focus-visible` styles). This makes navigation extremely difficult for screen reader and keyboard-only users.
+**Action:** Add `aria-label` to all icon-only buttons and links, ensure inner `<i>` tags have `aria-hidden="true"`, and apply `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary` (or appropriate color) using existing Tailwind classes to improve keyboard navigation visibility.
