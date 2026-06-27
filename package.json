@@ -15,5 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "hallmark": "^5.0.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
   }
 }
