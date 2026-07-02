@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Diseño Web en Tijuana | Proyectos y Casos de Éxito | Webmaster Tijuana</title>
+    <meta name="description" content="Conoce nuestro portafolio de diseño web en Tijuana: sitios corporativos, tiendas virtuales, restaurantes, clínicas e inmobiliarias. Proyectos que posicionan y venden.">
+    <meta name="keywords" content="portafolio diseño web Tijuana, proyectos páginas web Tijuana, ejemplos de páginas web, casos de éxito diseño web, agencia web Tijuana portafolio, sitios web hechos en Tijuana">
+    <meta name="author" content="Webmaster Tijuana">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://webmastertijuana.com/portafolio.html">
+
+    <meta name="geo.region" content="MX-BCN">
+    <meta name="geo.placename" content="Tijuana, Baja California, México">
+    <meta name="theme-color" content="#1e3a8a">
+
+    <meta property="og:title" content="Portafolio de Diseño Web en Tijuana | Webmaster Tijuana">
+    <meta property="og:description" content="Sitios corporativos, tiendas virtuales y proyectos digitales desarrollados en Tijuana. Diseño que posiciona y vende.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://webmastertijuana.com/portafolio.html">
+    <meta property="og:image" content="https://webmastertijuana.com/assets/LOGO%20(5).png">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:site_name" content="Webmaster Tijuana">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portafolio de Diseño Web en Tijuana | Webmaster Tijuana">
+    <meta name="twitter:description" content="Sitios corporativos, tiendas virtuales y proyectos digitales desarrollados en Tijuana.">
+    <meta name="twitter:image" content="https://webmastertijuana.com/assets/LOGO%20(5).png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Portafolio de Diseño Web en Tijuana",
+      "url": "https://webmastertijuana.com/portafolio.html",
+      "description": "Portafolio de proyectos de diseño web, tiendas virtuales y marketing digital desarrollados por Webmaster Tijuana.",
+      "inLanguage": "es-MX",
+      "isPartOf": { "@type": "WebSite", "name": "Webmaster Tijuana", "url": "https://webmastertijuana.com/" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://webmastertijuana.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Portafolio", "item": "https://webmastertijuana.com/portafolio.html" }
+      ]
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e3a8a',
+                        secondary: '#40e0d0',
+                        accent: '#4b5563',
+                        light: '#ffffff'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; color: #333; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased overflow-x-hidden">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 lg:px-8 py-4 flex justify-between items-center">
+            <a href="./index.html" class="flex-shrink-0">
+                <img src="./assets/LOGO (5).png" alt="Webmaster Tijuana - Diseño Web y Marketing Digital" class="h-12 w-auto object-contain">
+            </a>
+            <nav class="hidden md:flex space-x-8 text-accent font-medium">
+                <a href="./index.html" class="hover:text-primary transition-colors">Inicio</a>
+                <a href="./index.html#servicios" class="hover:text-primary transition-colors">Servicios</a>
+                <a href="./portafolio.html" class="text-primary font-semibold">Portafolio</a>
+                <a href="./contacto.html" class="hover:text-primary transition-colors">Contacto</a>
+            </nav>
+            <a href="./contacto.html" class="hidden md:inline-block bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-secondary transition-colors duration-300 shadow-lg">Cotizar Ahora</a>
+            <div x-data="{ open: false }" class="md:hidden">
+                <button @click="open = !open" aria-label="Abrir menú" class="text-primary focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+                <div x-show="open" @click.away="open = false" class="absolute top-20 left-0 w-full bg-white shadow-lg p-6 flex flex-col space-y-4">
+                    <a href="./index.html" @click="open = false" class="text-lg font-medium text-accent">Inicio</a>
+                    <a href="./index.html#servicios" @click="open = false" class="text-lg font-medium text-accent">Servicios</a>
+                    <a href="./portafolio.html" @click="open = false" class="text-lg font-medium text-accent">Portafolio</a>
+                    <a href="./contacto.html" @click="open = false" class="bg-primary text-white px-6 py-2 rounded-full font-semibold text-center mt-2">Cotizar Ahora</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="bg-primary text-white py-20">
+            <div class="container mx-auto px-4 lg:px-8 max-w-4xl text-center">
+                <nav aria-label="Ruta de navegación" class="text-blue-200 text-sm mb-6">
+                    <a href="./index.html" class="hover:text-secondary">Inicio</a>
+                    <span class="mx-2">/</span>
+                    <span class="text-white">Portafolio</span>
+                </nav>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Portafolio de Diseño Web en Tijuana</h1>
+                <p class="text-xl text-blue-100 mb-8">Proyectos digitales que posicionan marcas y generan ventas: sitios corporativos, tiendas virtuales y campañas de marketing digital.</p>
+                <a href="./contacto.html" class="bg-secondary text-primary font-bold px-8 py-3 rounded-full hover:bg-white transition-colors shadow-lg inline-block">Quiero un Proyecto Así</a>
+            </div>
+        </section>
+
+        <!-- Tipos de proyectos -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-4 lg:px-8">
+                <div class="text-center mb-16 max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary">Proyectos que Desarrollamos</h2>
+                    <div class="w-24 h-1 bg-secondary mx-auto mt-4 rounded"></div>
+                    <p class="text-lg text-accent mt-6">Cada proyecto se construye a la medida del giro del negocio, con diseño profesional y <strong>posicionamiento SEO</strong> desde el primer día.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <article class="bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('./assets/slides de sitio web_Mesa de trabajo 1.jpg');" role="img" aria-label="Sitio web corporativo responsivo"></div>
+                        <div class="p-6">
+                            <span class="text-xs font-semibold text-secondary uppercase tracking-wide">Sitio Corporativo</span>
+                            <h3 class="text-xl font-bold text-gray-800 mt-2 mb-3">Sitios Web Corporativos</h3>
+                            <p class="text-accent mb-4">Presencia profesional para empresas de manufactura, servicios y comercio en Tijuana, con secciones de servicios, equipo y contacto.</p>
+                            <a href="./servicios/diseno-de-paginas-web.html" class="text-secondary font-semibold hover:text-primary transition-colors">Ver servicio de diseño web <i class="fas fa-arrow-right ml-1 text-sm"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('./assets/slides de sitio web_Mesa de trabajo 1 copia.jpg');" role="img" aria-label="Tienda virtual con carrito de compras"></div>
+                        <div class="p-6">
+                            <span class="text-xs font-semibold text-secondary uppercase tracking-wide">E-commerce</span>
+                            <h3 class="text-xl font-bold text-gray-800 mt-2 mb-3">Tiendas Virtuales</h3>
+                            <p class="text-accent mb-4">Tiendas en línea con carrito de compras, pasarela de pagos y envíos, listas para vender 24/7 en México y Estados Unidos.</p>
+                            <a href="./servicios/tiendas-virtuales.html" class="text-secondary font-semibold hover:text-primary transition-colors">Ver servicio de tiendas virtuales <i class="fas fa-arrow-right ml-1 text-sm"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('./assets/slides de sitio web-02.jpg');" role="img" aria-label="Página web para restaurante"></div>
+                        <div class="p-6">
+                            <span class="text-xs font-semibold text-secondary uppercase tracking-wide">Restaurantes y Comida</span>
+                            <h3 class="text-xl font-bold text-gray-800 mt-2 mb-3">Restaurantes y Cafeterías</h3>
+                            <p class="text-accent mb-4">Menús digitales, reservaciones y pedidos en línea, con SEO local para aparecer en búsquedas de "restaurante cerca de mí".</p>
+                            <a href="./servicios/marketing-digital.html" class="text-secondary font-semibold hover:text-primary transition-colors">Ver servicio de SEO local <i class="fas fa-arrow-right ml-1 text-sm"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('./assets/slides de sitio web-04.jpg');" role="img" aria-label="Página web para clínica y consultorio"></div>
+                        <div class="p-6">
+                            <span class="text-xs font-semibold text-secondary uppercase tracking-wide">Salud</span>
+                            <h3 class="text-xl font-bold text-gray-800 mt-2 mb-3">Clínicas y Consultorios</h3>
+                            <p class="text-accent mb-4">Sitios para dentistas, médicos y clínicas de turismo médico en Tijuana, con citas en línea y contenido bilingüe.</p>
+                            <a href="./servicios/diseno-de-paginas-web.html" class="text-secondary font-semibold hover:text-primary transition-colors">Ver servicio de diseño web <i class="fas fa-arrow-right ml-1 text-sm"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('./assets/slides de sitio web_Mesa de trabajo 1.jpg');" role="img" aria-label="Página web para inmobiliaria"></div>
+                        <div class="p-6">
+                            <span class="text-xs font-semibold text-secondary uppercase tracking-wide">Bienes Raíces</span>
+                            <h3 class="text-xl font-bold text-gray-800 mt-2 mb-3">Inmobiliarias y Constructoras</h3>
+                            <p class="text-accent mb-4">Catálogos de propiedades con búsqueda avanzada, galerías y formularios de contacto que generan prospectos calificados.</p>
+                            <a href="./servicios/publicidad-digital.html" class="text-secondary font-semibold hover:text-primary transition-colors">Ver servicio de publicidad digital <i class="fas fa-arrow-right ml-1 text-sm"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('./assets/slides de sitio web_Mesa de trabajo 1 copia.jpg');" role="img" aria-label="Marca personal y redes sociales"></div>
+                        <div class="p-6">
+                            <span class="text-xs font-semibold text-secondary uppercase tracking-wide">Marca Personal</span>
+                            <h3 class="text-xl font-bold text-gray-800 mt-2 mb-3">Profesionistas y Marcas Personales</h3>
+                            <p class="text-accent mb-4">Sitios y redes sociales para abogados, contadores, coaches y creadores que quieren destacar en su industria.</p>
+                            <a href="./servicios/manejo-de-redes-sociales.html" class="text-secondary font-semibold hover:text-primary transition-colors">Ver servicio de redes sociales <i class="fas fa-arrow-right ml-1 text-sm"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proceso de trabajo -->
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4 lg:px-8 max-w-5xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary">Nuestro Proceso de Trabajo</h2>
+                    <div class="w-24 h-1 bg-secondary mx-auto mt-4 rounded"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                    <div>
+                        <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">1</div>
+                        <h3 class="text-lg font-bold text-primary mb-2">Descubrimiento</h3>
+                        <p class="text-accent text-sm">Conocemos tu negocio, tus objetivos y a tu competencia.</p>
+                    </div>
+                    <div>
+                        <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">2</div>
+                        <h3 class="text-lg font-bold text-primary mb-2">Diseño</h3>
+                        <p class="text-accent text-sm">Creamos la propuesta visual y la estructura optimizada para SEO.</p>
+                    </div>
+                    <div>
+                        <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
+                        <h3 class="text-lg font-bold text-primary mb-2">Desarrollo</h3>
+                        <p class="text-accent text-sm">Construimos tu sitio rápido, seguro y responsivo.</p>
+                    </div>
+                    <div>
+                        <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">4</div>
+                        <h3 class="text-lg font-bold text-primary mb-2">Lanzamiento y SEO</h3>
+                        <p class="text-accent text-sm">Publicamos, indexamos en Google y medimos resultados.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="py-16 bg-gray-900 text-white relative">
+            <div class="absolute inset-0 bg-primary opacity-90 z-0"></div>
+            <div class="container mx-auto px-4 lg:px-8 relative z-10 max-w-3xl text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Tu proyecto puede ser el siguiente</h2>
+                <p class="text-blue-100 mb-8 text-lg">Cuéntanos tu idea y te enviamos una propuesta con diseño, tiempos y precio. La cotización es gratuita.</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://wa.me/526644097979?text=Hola%2C%20vi%20su%20portafolio%20y%20quiero%20cotizar%20mi%20proyecto" target="_blank" rel="noopener" class="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-full transition-colors shadow-lg">
+                        <i class="fab fa-whatsapp mr-2"></i>WhatsApp: 664 409 7979
+                    </a>
+                    <a href="./contacto.html" class="bg-secondary text-primary font-bold px-8 py-4 rounded-full hover:bg-white transition-colors shadow-lg">
+                        <i class="fas fa-envelope mr-2"></i>Ir a Contacto
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <img src="./assets/LOGO WHITE.png" alt="Webmaster Tijuana" class="h-12 mb-4 object-contain">
+                    <p class="text-sm">Especialistas en Páginas Web, Posicionamiento SEO y Tiendas Virtuales en Tijuana. Llevamos tu negocio al siguiente nivel.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Servicios</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="./servicios/diseno-de-paginas-web.html" class="hover:text-secondary transition-colors">Diseño de Páginas Web Tijuana</a></li>
+                        <li><a href="./servicios/marketing-digital.html" class="hover:text-secondary transition-colors">Marketing Digital y SEO</a></li>
+                        <li><a href="./servicios/publicidad-digital.html" class="hover:text-secondary transition-colors">Publicidad Digital (Google Ads)</a></li>
+                        <li><a href="./servicios/tiendas-virtuales.html" class="hover:text-secondary transition-colors">Tiendas Virtuales</a></li>
+                        <li><a href="./servicios/estrategias-de-publicidad.html" class="hover:text-secondary transition-colors">Estrategias de Publicidad</a></li>
+                        <li><a href="./servicios/manejo-de-redes-sociales.html" class="hover:text-secondary transition-colors">Manejo de Redes Sociales</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Contacto</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><i class="fas fa-envelope mr-2 text-secondary"></i><a href="mailto:contacto@webmastertijuana.com" class="hover:text-secondary transition-colors">contacto@webmastertijuana.com</a></li>
+                        <li><i class="fas fa-phone mr-2 text-secondary"></i><a href="tel:+526644097979" class="hover:text-secondary transition-colors">664 409 7979</a></li>
+                        <li><i class="fas fa-map-marker-alt mr-2 text-secondary"></i>Tijuana, Baja California, México</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-sm text-center">
+                <p>Copyright &copy; 2026 Webmaster Tijuana. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/526644097979?text=Hola%2C%20vi%20su%20portafolio%20y%20quiero%20cotizar%20mi%20proyecto"
+       target="_blank" rel="noopener"
+       aria-label="Contactar por WhatsApp"
+       class="fixed bottom-6 right-6 z-50 w-16 h-16 bg-green-500 hover:bg-green-600 text-white rounded-full flex items-center justify-center shadow-2xl transition-transform hover:scale-110">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+</body>
+</html>
