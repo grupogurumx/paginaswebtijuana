@@ -5,14 +5,13 @@
 1. **Inicio**
    - Página principal con resumen de la agencia, hero slider, servicios destacados, y formulario de contacto rápido.
 
-2. **Servicios** (Página principal de servicios)
-   - **Sub-secciones (Páginas individuales para cada servicio):**
-     - Diseño de páginas web
-     - Marketing digital
-     - Publicidad digital
-     - Desarrollo de Tiendas Virtuales
-     - Estrategias de publicidad
-     - Manejo de redes sociales
+2. **Servicios** (Páginas individuales para cada servicio, en `/servicios/`)
+   - Diseño de páginas web (`servicios/diseno-de-paginas-web.html`)
+   - Marketing digital y SEO (`servicios/marketing-digital.html`)
+   - Publicidad digital (`servicios/publicidad-digital.html`)
+   - Desarrollo de Tiendas Virtuales (`servicios/tiendas-virtuales.html`)
+   - Estrategias de publicidad (`servicios/estrategias-de-publicidad.html`)
+   - Manejo de redes sociales (`servicios/manejo-de-redes-sociales.html`)
 
 3. **Portafolio / Galería**
    - Muestra de proyectos recientes y casos de éxito.
