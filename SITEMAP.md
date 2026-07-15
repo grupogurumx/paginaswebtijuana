@@ -13,6 +13,7 @@
      - Desarrollo de Tiendas Virtuales
      - Estrategias de publicidad
      - Manejo de redes sociales
+     - Anuncios en Video con IA (`videos-ia.html`)
 
 3. **Portafolio / Galería**
    - Muestra de proyectos recientes y casos de éxito.
