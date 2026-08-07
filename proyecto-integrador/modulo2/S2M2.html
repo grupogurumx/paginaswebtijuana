@@ -74,8 +74,8 @@
     font-family:"DejaVu Sans",sans-serif; font-size:7.4pt; letter-spacing:.1em; text-transform:uppercase;
     font-weight:700; padding:2.2mm 4mm; border-radius:100px; color:#fff;
   }
-  .chip.h{ background:var(--habanero); }
-  .chip.j{ background:var(--indigo); }
+  .chip.h{ background:#8C6B3F; }
+  .chip.j{ background:var(--habanero); }
   .chip.o{ background:var(--jade); }
 
   .cover-meta{ margin-top:auto; display:grid; grid-template-columns:1fr 1fr; gap:7mm 10mm; }
@@ -123,9 +123,9 @@
     text-align:left; padding:2.4mm 2.6mm; color:#fff; font-weight:700; vertical-align:middle;
   }
   th.crit{ background:var(--ink); width:15%; }
-  th.jp{ background:var(--habanero); }
-  th.kr{ background:#8C6B3F; }
-  th.sg{ background:var(--jade); }
+  th.my{ background:#8C6B3F; }
+  th.sg{ background:var(--habanero); }
+  th.ph{ background:var(--jade); }
   td{ padding:2.6mm 2.6mm; border-bottom:.5pt solid var(--rule); vertical-align:top; text-align:left; }
   tbody tr:nth-child(even) td{ background:var(--sand); }
   td.crit{
@@ -148,7 +148,7 @@
 
   /* ---------- CAJAS ---------- */
   .box{
-    padding:4mm 4.6mm; margin:4mm 0; page-break-inside:avoid;
+    padding:4mm 4.6mm; margin:3mm 0; page-break-inside:avoid;
     background:var(--sand); border-left:2.4pt solid var(--habanero);
   }
   .box.jade{ border-left-color:var(--jade); background:var(--jade-soft); }
@@ -194,7 +194,7 @@
   }
   .avatar{ width:26mm; height:26mm; margin-bottom:3.4mm; }
   .persona-face .nm{ font-size:15pt; font-weight:700; line-height:1.12; color:#fff; }
-  .persona-face .nmjp{ font-family:"IPAGothic",sans-serif; font-size:9pt; color:#F7D9CD; margin-top:1mm; }
+  .persona-face .nmjp{ font-size:9pt; color:#F7D9CD; margin-top:1mm; font-style:italic; }
   .persona-face .rl{
     font-family:"DejaVu Sans",sans-serif; font-size:7pt; line-height:1.45; color:#FCE9E1;
     margin-top:2.6mm; padding-top:2.6mm; border-top:.7pt solid rgba(255,255,255,.4);
@@ -267,19 +267,19 @@
   .barrier .bn.mid{ background:var(--mango); }
 
   /* segmentación */
-  .segs{ display:grid; grid-template-columns:1fr 1fr; gap:3.2mm; margin-top:3mm; }
-  .seg{ border:.7pt solid var(--rule); padding:3.2mm 3.6mm; page-break-inside:avoid; background:var(--paper); }
+  .segs{ display:grid; grid-template-columns:1fr 1fr; gap:2.8mm; margin-top:2.6mm; }
+  .seg{ border:.7pt solid var(--rule); padding:2.4mm 2.8mm; page-break-inside:avoid; background:var(--paper); }
   .seg .st{
     font-family:"DejaVu Sans",sans-serif; font-size:7.6pt; letter-spacing:.15em; text-transform:uppercase;
-    font-weight:700; color:var(--habanero); margin-bottom:2.4mm; padding-bottom:1.6mm;
+    font-weight:700; color:var(--habanero); margin-bottom:2mm; padding-bottom:1.2mm;
     border-bottom:.7pt solid var(--rule);
   }
-  .seg ul{ margin:0; padding-left:4mm; font-size:8.1pt; line-height:1.42; }
-  .seg li{ margin-bottom:1.2mm; text-align:left; }
+  .seg ul{ margin:0; padding-left:3.4mm; font-size:7.4pt; line-height:1.32; }
+  .seg li{ margin-bottom:.9mm; text-align:left; }
 
   /* referencias */
-  .refs{ font-size:8.2pt; line-height:1.42; }
-  .refs p{ padding-left:6mm; text-indent:-6mm; margin-bottom:2.1mm; text-align:left; }
+  .refs{ font-size:7.9pt; line-height:1.38; }
+  .refs p{ padding-left:5mm; text-indent:-5mm; margin-bottom:1.7mm; text-align:left; }
   .refs a{ color:var(--indigo); word-break:break-all; text-decoration:none; }
 
   .footnote{
@@ -295,18 +295,19 @@
 <section class="cover">
   <div class="cover-kicker">Proyecto Integrador · Sesión 2 · Módulo 2</div>
 
-  <h1>Del fuego maya<br>al <em>umami</em> japonés</h1>
-  <div class="sub">Investigación del mercado internacional para la Salsa de Habanero con Mango de la Península de Yucatán: comparativo Japón · Corea del Sur · Singapur</div>
+  <h1>Del fuego maya<br>al <em>sambal</em> del sudeste</h1>
+  <div class="sub">Investigación del mercado internacional para la Salsa de Habanero con Mango de la Península de Yucatán: comparativo Malasia · Singapur · Filipinas</div>
 
   <div class="cover-flag">
-    <span class="chip h">Japón</span>
-    <span class="chip j">Corea del Sur</span>
-    <span class="chip o">Singapur</span>
+    <span class="chip h">Malasia</span>
+    <span class="chip j">Singapur</span>
+    <span class="chip o">Filipinas</span>
   </div>
 
   <p style="font-size:10.5pt; line-height:1.5; max-width:150mm; color:#4A4F57;">
-    Continente asignado: <strong>Asia</strong>. Producto: salsa artesanal de chile habanero con mango,
-    elaborada por una empresa social de la Zona Maya de Quintana Roo al amparo de la Denominación de Origen
+    Continente asignado: <strong>Asia</strong>, con foco en el bloque del sudeste asiático (ASEAN).
+    Producto: salsa artesanal de chile habanero con mango, elaborada por una empresa social de la Zona
+    Maya de Quintana Roo al amparo de la Denominación de Origen
     <em>Chile Habanero de la Península de Yucatán</em>.
   </p>
 
@@ -344,42 +345,44 @@
   <div class="cover-foot">RafaelH_Rodriguez_S2M2.pdf · Referencias en formato APA 7.ª edición · Bibliografía anexa en PDF</div>
 </section>
 
-<!-- ============ 1. POR QUÉ ASIA ============ -->
+<!-- ============ 1. POR QUÉ ESTE MERCADO ============ -->
 <section class="sec">
   <h2 class="section"><span class="num">01</span>¿Por qué este mercado? Planteamiento y criterios de decisión</h2>
 
   <p class="lead">La pregunta del módulo no es a qué país se puede exportar, sino a cuál conviene exportar primero. Para una empresa social con producción limitada, la selección de mercado no es una lista de deseos: es una decisión de asignación de recursos escasos.</p>
 
-  <p>El Módulo 1 estableció el punto de partida: el chile habanero de la Península de Yucatán cuenta con una <strong>Denominación de Origen</strong> declarada en 2010 y una norma técnica propia, la <strong>NOM-189-SCFI-2017</strong>, y la unidad de análisis es una empresa social de la Zona Maya de Quintana Roo que busca su primera exportación. También se estableció la conclusión estratégica: no exportar el chile a granel, sino el producto transformado con marca, historia y valor agregado. La <strong>salsa de habanero con mango</strong> materializa esa decisión, porque combina el activo intangible protegido (el habanero peninsular) con un ingrediente de alta aceptación internacional (el mango mexicano) y suaviza el picor mediante el dulzor de la fruta, resolviendo de origen la principal barrera sensorial detectada.</p>
+  <p>El Módulo 1 estableció el punto de partida: el chile habanero de la Península de Yucatán cuenta con una <strong>Denominación de Origen</strong> declarada en 2010 y una norma técnica propia, la <strong>NOM-189-SCFI-2017</strong>, y la unidad de análisis es una empresa social de la Zona Maya de Quintana Roo que busca su primera exportación. También se estableció la conclusión estratégica: no exportar el chile a granel, sino el producto transformado con marca, historia y valor agregado. La <strong>salsa de habanero con mango</strong> materializa esa decisión, porque combina el activo intangible protegido con un ingrediente de altísima aceptación internacional y suaviza el picor mediante el dulzor de la fruta.</p>
 
-  <p>Al equipo se le asignó el continente <strong>asiático</strong>. Asia concentra la mayor población consumidora del planeta y, a diferencia de Europa o Norteamérica, posee una cultura del picante preexistente que elimina la necesidad de educar al consumidor sobre la categoría. Sin embargo, Asia no es un mercado: es una colección de mercados con regímenes arancelarios, sistemas regulatorios y paladares radicalmente distintos. Por eso se seleccionaron tres candidatos que representan tres modelos de acceso opuestos:</p>
+  <p>Dentro del continente asiático asignado al equipo, la investigación se concentró en el <strong>sudeste asiático</strong>. La razón es de coherencia de producto: es la única región del mundo, junto con México, donde el chile no es un ingrediente exótico sino un componente estructural de la dieta diaria, y donde además <strong>la combinación de mango con chile ya existe culturalmente</strong> —en el <em>rojak</em>, en el <em>mangga</em> con sal y chile, en las variantes de <em>sambal</em> con fruta—. El producto no llega a inventar una categoría: llega a una conversación que ya está en curso. Eso reduce drásticamente el costo de educar al consumidor, que en el Módulo 1 se identificó como el principal riesgo de la comercialización internacional.</p>
+
+  <p>Se seleccionaron tres candidatos que representan tres modelos de acceso claramente distintos:</p>
 
   <ul>
-    <li><strong>Japón</strong> — mercado grande, de alto ingreso, con acuerdo comercial preferencial vigente con México y una barrera técnica exigente. Modelo de <em>alto valor con alta exigencia</em>.</li>
-    <li><strong>Corea del Sur</strong> — mercado dinámico, joven y digital, con cultura del picante profundamente arraigada, pero <em>sin</em> tratado de libre comercio vigente con México. Modelo de <em>alta afinidad cultural con alto costo de acceso</em>.</li>
-    <li><strong>Singapur</strong> — mercado pequeño pero riquísimo, en inglés, con arancel cero y regulación simple. Modelo de <em>acceso fácil con escala limitada</em>.</li>
+    <li><strong>Malasia</strong> — mercado de tamaño medio, cultura del <em>sambal</em>, con el TIPAT en vigor desde 2022 y un ecosistema halal de clase mundial que funciona a la vez como barrera y como plataforma. Modelo de <em>afinidad cultural con exigencia de certificación</em>.</li>
+    <li><strong>Singapur</strong> — mercado pequeño en población pero el de mayor ingreso per cápita del grupo, en inglés, con arancel cero, regulación simple y función de <em>hub</em> regional. Modelo de <em>acceso máximo con escala nacional limitada</em>.</li>
+    <li><strong>Filipinas</strong> — el mercado más grande en población y en valor de la categoría, pero el de menor ingreso, sin tratado comercial vigente con México y con un registro sanitario lento. Modelo de <em>volumen potencial con acceso costoso</em>.</li>
   </ul>
 
   <p>La comparación se organizó en las seis variables solicitadas —economía, cultura, competencia, consumidor, barreras comerciales y tendencias de consumo— y se cerró con una matriz de selección ponderada que traduce el análisis cualitativo en una calificación defendible.</p>
 
   <div class="stats">
     <div class="stat">
-      <div class="n">US$323.5 M</div>
-      <div class="l">Mercado japonés de salsas picantes en 2024, con proyección de US$479.9 M para 2033 (TCAC 4.48%)</div>
-    </div>
-    <div class="stat">
-      <div class="n">US$104.3 M</div>
-      <div class="l">Mercado surcoreano de salsas picantes en 2024, con proyección de US$154.1 M para 2033 (TCAC 4.44%)</div>
+      <div class="n">US$23.1 M</div>
+      <div class="l">Mercado malasio de salsas picantes en 2024, con proyección de US$34.1 M para 2033 (TCAC 4.44%)</div>
     </div>
     <div class="stat">
       <div class="n">US$249.7 M</div>
-      <div class="l">Mercado singapurense de salsas y condimentos en 2024 (categoría completa, no solo picante)</div>
+      <div class="l">Mercado singapurense de salsas y especias en 2024 (categoría completa) para apenas 6.0 millones de habitantes</div>
+    </div>
+    <div class="stat">
+      <div class="n">US$109.4 M</div>
+      <div class="l">Mercado filipino de salsas picantes en 2024, con proyección de US$161.7 M para 2033 (TCAC 4.44%)</div>
     </div>
   </div>
 
   <div class="box">
     <div class="bt">El hallazgo que ordena la decisión</div>
-    <p>De acuerdo con Data México, en 2024 los principales destinos de las exportaciones mexicanas de salsas y condimentos fueron Estados Unidos (US$553 M), Guatemala (US$66.7 M), Colombia (US$17.3 M), Reino Unido (US$8.14 M) y Países Bajos (US$7.54 M). <strong>Ningún país asiático aparece en el top cinco.</strong> Al mismo tiempo, la Secretaría de Agricultura y Desarrollo Rural documenta que México exporta más de US$1,300 millones en alimentos y bebidas a Japón, que es el principal mercado de alimentos mexicanos en Asia-Pacífico y el segundo destino de las agroexportaciones nacionales. Existe entonces un corredor comercial consolidado hacia Japón que la categoría de salsas todavía no aprovecha: infraestructura probada, demanda validada y competencia mexicana escasa.</p>
+    <p>De acuerdo con Data México, en 2024 los principales destinos de las exportaciones mexicanas de salsas y condimentos fueron Estados Unidos (US$553 M), Guatemala (US$66.7 M), Colombia (US$17.3 M), Reino Unido (US$8.14 M) y Países Bajos (US$7.54 M). <strong>Ningún país asiático aparece en el top cinco.</strong> Al mismo tiempo, el mercado de salsas, aderezos y condimentos del sudeste asiático se valuó en US$8.42 mil millones en 2024 con una proyección de US$13.78 mil millones para 2030, es decir, una tasa de crecimiento anual cercana al 8.4%, casi el doble de la de cualquiera de los mercados asiáticos maduros. Hay una región que crece al doble de velocidad y donde la oferta mexicana está prácticamente ausente.</p>
   </div>
 </section>
 
@@ -393,52 +396,52 @@
     <thead>
       <tr>
         <th class="crit">Variable</th>
-        <th class="jp">Japón</th>
-        <th class="kr">Corea del Sur</th>
+        <th class="my">Malasia</th>
         <th class="sg">Singapur</th>
+        <th class="ph">Filipinas</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td class="crit">Economía</td>
-        <td>Cuarta economía mundial. PIB per cápita de US$32,487 (Banco Mundial, 2024); población de 123.3 millones. Crecimiento del PIB de 0.1% e inflación de 2.7% en 2024: economía madura, estable y de bajo crecimiento, pero de enorme masa crítica. Mercado de salsas picantes de US$323.5 M (2024) con proyección a US$479.9 M en 2033. Importa más de US$1,300 M en alimentos y bebidas mexicanos.</td>
-        <td>PIB per cápita de US$36,239 (Banco Mundial, 2024); US$55,071 en paridad de poder adquisitivo. Población de 51.7 millones. Economía industrializada, exportadora y de crecimiento superior al japonés. Mercado de salsas picantes de US$104.3 M (2024) con proyección a US$154.1 M en 2033: una tercera parte del japonés.</td>
-        <td>El ingreso más alto de los tres: PIB per cápita de US$67,707 (Banco Mundial, 2024) y US$132,570 en paridad de poder adquisitivo. Población de apenas 6 millones. Mercado de salsas y condimentos de US$249.7 M (2024) con crecimiento de 3.44% al 2029. Altísimo poder de compra individual, escala nacional mínima.</td>
+        <td>Economía de renta media-alta y perfil exportador. PIB per cápita de US$11,874 y población de 35.6 millones (Banco Mundial, 2024). Mercado de salsas picantes de US$23.1 M en 2024, con proyección de US$34.1 M para 2033. Sus exportaciones halal alcanzaron RM61.7 mil millones en 2024, lo que revela una industria alimentaria consolidada y orientada al comercio exterior.</td>
+        <td>El ingreso más alto del grupo y uno de los más altos del mundo: PIB per cápita de US$90,674 con apenas 6.0 millones de habitantes (Banco Mundial, 2024). Mercado de salsas y especias de US$249.7 M en 2024, con crecimiento estimado de 4.8% anual para la categoría de condimentos. Economía abierta, de servicios y con función de centro logístico y financiero regional.</td>
+        <td>El mercado más grande en población: 115.8 millones de habitantes, pero también el de menor ingreso: PIB per cápita de US$3,985 (Banco Mundial, 2024), menos de la mitad del malasio y una veintiúnava parte del singapurense. Mercado de salsas picantes de US$109.4 M en 2024 con proyección de US$161.7 M para 2033: el mayor de los tres en valor de la categoría.</td>
       </tr>
       <tr>
         <td class="crit">Cultura</td>
-        <td>Cocina <em>washoku</em> centrada en el umami, la estacionalidad y la presentación. Paladar tradicionalmente suave, con condimentos picantes propios (<em>shichimi togarashi</em>, <em>rayu</em>, wasabi, <em>yuzu koshō</em>). Cultura del regalo altamente formalizada —<em>ochūgen</em> en verano y <em>oseibo</em> en invierno— donde la fruta premium es objeto de prestigio: el mango Taiyō no Tamago de Miyazaki es un símbolo de lujo. Enorme respeto por el productor artesanal y por el origen certificado.</td>
-        <td>El picante es identidad nacional: <em>gochujang</em>, kimchi y <em>ssamjang</em> estructuran la dieta diaria. Comer es un acto colectivo. La ola <em>hallyu</em> proyecta el K-food al mundo y genera orgullo por lo local. Consecuencia comercial: el atributo "picante" no comunica novedad alguna; es la norma, no la excepción.</td>
-        <td>Sociedad multicultural (china, malaya, india y occidental) sin una única tradición dominante. El picante es cotidiano vía <em>sambal</em> y <em>chilli padi</em>. El inglés es lengua franca, lo que elimina la barrera idiomática. Cultura de <em>hawker centres</em> y altísimo consumo fuera del hogar.</td>
+        <td>El <em>sambal</em> es el condimento indispensable en las mesas malaya, china, india e indígena por igual, con el <em>belacan</em> (pasta de camarón) como variante más común. Sociedad de mayoría musulmana donde lo halal se asocia culturalmente con confianza, trazabilidad y disciplina de producción, no solo con religión. El mango es fruta local y cotidiana, no un artículo de lujo.</td>
+        <td>Sociedad multicultural —china, malaya, india y occidental— sin una tradición culinaria única dominante. El picante es cotidiano vía <em>sambal</em> y <em>chilli padi</em>. El inglés es lengua oficial de trabajo, lo que elimina por completo la barrera idiomática de etiquetado. Cultura gastronómica intensa alrededor de los <em>hawker centres</em>, reconocidos por la UNESCO, y altísimo consumo fuera del hogar.</td>
+        <td>A diferencia del resto del sudeste asiático, <strong>la cocina filipina no es picante</strong>: su perfil dominante es dulce, ácido, salado y amargo, con excepciones regionales como Bicol. Fuerte influencia cultural estadounidense y uso extendido del inglés. El mango carabao es emblema nacional y producto de exportación propio, por lo que no aporta ninguna novedad.</td>
       </tr>
       <tr>
         <td class="crit">Competencia</td>
-        <td>Anaquel dominado por condimentos locales, con Tabasco como marca importada de referencia y presencia creciente de sriracha y sambal. El Yucateco ya circula en el canal gourmet e importador, lo que valida la categoría sin saturarla. Competencia media, fragmentada en el nicho premium y con espacio para propuestas de autor.</td>
-        <td>Competencia alta y estructural. Gochujang y ssamjang dominan el anaquel picante —el mercado global del gochujang se valuó en US$3.8 mil millones en 2025—, con conglomerados locales de gran poder de canal. Compiten además sriracha tailandesa, harissa y ají amarillo peruano por la misma atención del consumidor.</td>
-        <td>Mercado totalmente abierto: conviven marcas globales, regionales y sambales locales. Alta rotación pero anaquel saturado y márgenes presionados. La facilidad de entrada es simétrica: lo que es fácil para nosotros lo es para todos los competidores.</td>
+        <td>Competencia alta y culturalmente arraigada: cada hogar y cada marca local tiene su sambal. Conviven fabricantes industriales, marcas regionales y producción artesanal. La ventaja de una marca extranjera no puede ser el picor, que es el terreno propio del competidor local.</td>
+        <td>Anaquel abierto y saturado: conviven marcas globales, regionales, sambales locales y producto gourmet importado. Alta rotación pero márgenes presionados. La facilidad de entrada es simétrica —lo que es fácil para nosotros lo es para todos—, de modo que la diferenciación debe venir del producto y de la narrativa, no del acceso.</td>
+        <td>La categoría de salsa picante está menos desarrollada que en sus vecinos, con dominancia de marcas locales de bajo precio y del <em>banana ketchup</em> como condimento nacional. Menor saturación en el segmento premium, pero también un segmento premium mucho más pequeño en términos absolutos de poder de compra.</td>
       </tr>
       <tr>
         <td class="crit">Consumidor</td>
-        <td>Población envejecida pero con un núcleo joven de 20 a 39 años que impulsa el consumo de picante, por primera vez de forma transversal entre mujeres. Exigente en calidad, consistencia y presentación; dispuesto a pagar sobreprecio por autenticidad verificable. Altamente digital: 99.0 millones de usuarios de redes sociales, equivalentes al 80.5% de la población (octubre de 2025).</td>
-        <td>Consumidor joven, hiperdigital y dependiente de tendencia. Adopta con enorme velocidad y abandona con la misma rapidez. Exige innovación constante y responde a la validación social. Altísima penetración del comercio electrónico.</td>
-        <td>Consumidor cosmopolita, de alto poder adquisitivo y muy abierto a cualquier origen. Alta frecuencia de consumo fuera de casa y baja lealtad de marca: prueba mucho y repite poco.</td>
+        <td>Consumidor urbano en rápida expansión, concentrado en el valle de Klang. Crece la demanda de productos importados, premium, naturales y halal, impulsada por la urbanización y el comercio digital. Sensible al precio en el segmento masivo, pero con una clase media urbana dispuesta a pagar por producto diferenciado.</td>
+        <td>Consumidor cosmopolita, de altísimo poder adquisitivo y muy abierto a cualquier origen. Adopción de pagos digitales del 92.0% en 2025. Prueba mucho y repite poco: la lealtad de marca es baja y se gana con consistencia. Muy expuesto a redes sociales, con TikTok alcanzando al 75.4% de los adultos a finales de 2025 e Instagram usado por el 62.6% de los usuarios.</td>
+        <td>Consumidor joven, hiperconectado y con enorme consumo de redes sociales, pero con presupuesto alimentario restringido y alta sensibilidad al precio. Los menores de 40 años declaran preferencia por sabores dulces y picantes, y los adultos urbanos se inclinan más por lo salado y picante que los rurales: hay un nicho real, aunque delgado.</td>
       </tr>
       <tr>
         <td class="crit">Barreras<br>comerciales</td>
-        <td><strong>Arancelaria: baja.</strong> El Acuerdo de Asociación Económica México–Japón (2005) y el TIPAT otorgan trato preferencial; la fracción 2103.90 registra un arancel NMF cercano a 7.6% sujeto a desgravación bajo el AAE. <strong>Técnica: alta.</strong> Notificación de importación ante el MHLW conforme al artículo 27 de la Ley de Sanidad Alimentaria, con inspección en 32 puertos y aeropuertos; sistema de lista positiva para aditivos y residuos de plaguicidas; etiquetado íntegro en japonés bajo la Ley de Etiquetado de Alimentos (Consumer Affairs Agency): denominación, ingredientes, alérgenos, contenido neto, conservación, caducidad e importador.</td>
-        <td><strong>Arancelaria: alta.</strong> No existe tratado de libre comercio vigente entre México y Corea del Sur; las negociaciones siguen abiertas y Corea solicitó reanudarlas en diciembre de 2025. Se paga arancel NMF pleno, en desventaja frente a Chile, Perú, Estados Unidos y la Unión Europea, que sí tienen acuerdo. <strong>Técnica: alta.</strong> Registro previo del establecimiento extranjero ante el MFDS, notificación de importación, etiqueta en coreano, trazabilidad documentada y plan de retiro del producto.</td>
-        <td><strong>Arancelaria: nula.</strong> Singapur no aplica aranceles ni cuotas a los alimentos importados, salvo tabaco y alcohol, y el TIPAT está vigente con México. <strong>Técnica: baja.</strong> Licencia de importador y declaración ante la Singapore Food Agency mediante TradeNet; etiquetado en inglés. Es el acceso más sencillo de los tres.</td>
+        <td><strong>Arancelaria: baja.</strong> El TIPAT entró en vigor para Malasia el 29 de noviembre de 2022 y para México desde el 30 de diciembre de 2018, de modo que existe trato preferencial recíproco. <strong>Técnica: alta.</strong> Food Act 1983 y Food Regulations 1985 bajo el Ministerio de Salud; etiquetado conforme a normativa local. La certificación halal de JAKIM no es legalmente obligatoria para productos no cárnicos, pero en la práctica es indispensable para acceder al anaquel masivo, y todo producto importado que se venda como halal debe contar con certificado de JAKIM o de un organismo extranjero reconocido por JAKIM.</td>
+        <td><strong>Arancelaria: nula.</strong> Singapur no aplica aranceles ni cuotas a los alimentos importados, salvo tabaco y alcohol, y el TIPAT está vigente con México. <strong>Técnica: baja.</strong> Licencia de importador y declaración ante la Singapore Food Agency mediante el sistema TradeNet; etiquetado en inglés. Es el acceso más sencillo de los tres y el único que no exige traducción ni certificación religiosa obligatoria.</td>
+        <td><strong>Arancelaria: alta.</strong> No existe tratado de libre comercio vigente entre México y Filipinas; el país presentó su solicitud de adhesión al TIPAT en agosto de 2025 y el proceso apenas comenzaría, por lo que hoy se paga arancel de nación más favorecida. <strong>Técnica: alta.</strong> Se requiere License to Operate (LTO) de la FDA filipina y un Certificate of Product Registration (CPR) por cada producto, gestionados obligatoriamente a través de un importador o distribuidor local con licencia vigente.</td>
       </tr>
       <tr>
         <td class="crit">Tendencias<br>de consumo</td>
-        <td>Auge sostenido del <em>gekikara</em> (激辛, "picante feroz"), esta vez transversal a mujeres y jóvenes y amplificado en Instagram y X, donde el consumo de picante se comparte como experiencia. Premiumización y valoración del producto artesanal; etiqueta limpia y menor sodio; interés por cocinas del mundo y por cocinar en casa. Rakuten, Amazon Japan y Yahoo! Shopping concentran cerca del 50% del comercio electrónico nacional.</td>
-        <td>Premiumización del anaquel picante y expansión del K-food, con exportaciones coreanas de salsas creciendo 12% en 2024. Demanda de fórmulas bajas en sodio, sin conservadores y con chile natural. Fuerte apetito por sabores globales de fusión.</td>
-        <td>Salud, sostenibilidad y trazabilidad. Interés genuino por productos étnicos auténticos. Muy alto consumo fuera del hogar y función de <em>hub</em> de reexportación hacia el resto del sudeste asiático.</td>
+        <td>Auge de lo importado y lo premium, con la certificación halal, el sabor, la salud y el valor como los cuatro motores declarados del consumo alimentario. Expansión acelerada del retail digital y de las cadenas de suministro halal. Malasia se posiciona como plataforma de innovación halal con exportaciones a más de 200 países.</td>
+        <td>Salud, etiqueta limpia, sostenibilidad y trazabilidad. Interés genuino por productos étnicos auténticos y por la historia detrás del producto. Muy alto consumo fuera del hogar y función de <em>hub</em> de reexportación hacia el resto del sudeste asiático. Comercio electrónico de alimentos plenamente consolidado vía RedMart, Shopee y las plataformas de las cadenas.</td>
+        <td>Crece la demanda de salsas y especias naturales y orgánicas, y la población joven busca activamente alternativas bajas en azúcar y con ingredientes naturales. Expansión del servicio de alimentos y de las cadenas de comida rápida, y creciente exposición a sabores globales a través de redes sociales.</td>
       </tr>
     </tbody>
   </table>
 
-  <p class="t-note">Nota metodológica: las cifras de mercado de salsas picantes de Japón y Corea del Sur provienen de reportes sectoriales de IMARC Group; la de Singapur corresponde a la categoría más amplia de salsas y condimentos según Statista, por lo que no es estrictamente comparable y se emplea únicamente como referencia de orden de magnitud. Los indicadores macroeconómicos corresponden al Banco Mundial (2024). Se recomienda verificar la fracción arancelaria específica en la tarifa vigente de Japan Customs antes de cotizar una operación real.</p>
+  <p class="t-note">Nota metodológica: las cifras de mercado de salsas picantes de Malasia y Filipinas provienen de una misma casa de investigación (IMARC Group), por lo que son comparables entre sí. No existe una estimación pública equivalente para Singapur, de modo que su cifra corresponde a la categoría más amplia de salsas y especias según Statista y se emplea únicamente como referencia de orden de magnitud, no como dato comparable. Los indicadores macroeconómicos corresponden al Banco Mundial (2024). Se recomienda verificar la fracción arancelaria específica y el certificado de origen aplicable antes de cotizar una operación real.</p>
 </section>
 
 <!-- ============ 3. MATRIZ Y JUSTIFICACIÓN ============ -->
@@ -452,103 +455,104 @@
       <tr>
         <th>Criterio de evaluación</th>
         <th style="width:12%;">Peso</th>
-        <th style="width:15%;">Japón</th>
-        <th style="width:15%;">Corea del Sur</th>
+        <th style="width:15%;">Malasia</th>
         <th style="width:15%;">Singapur</th>
+        <th style="width:15%;">Filipinas</th>
       </tr>
     </thead>
     <tbody>
-      <tr><td>Tamaño y valor del mercado meta</td><td>20%</td><td class="win">5</td><td>3</td><td>2</td></tr>
-      <tr><td>Acceso preferencial y costo arancelario</td><td>20%</td><td class="win">5</td><td>1</td><td class="win">5</td></tr>
-      <tr><td>Disposición a pagar por producto premium</td><td>15%</td><td class="win">5</td><td>3</td><td>4</td></tr>
-      <tr><td>Poder diferenciador del atributo (picor + origen)</td><td>15%</td><td class="win">5</td><td>2</td><td>3</td></tr>
-      <tr><td>Baja intensidad competitiva en el nicho</td><td>10%</td><td class="win">3</td><td>2</td><td>2</td></tr>
-      <tr><td>Facilidad regulatoria y de etiquetado</td><td>10%</td><td>2</td><td>2</td><td class="win">5</td></tr>
-      <tr><td>Corredor logístico y comercial ya existente</td><td>10%</td><td class="win">5</td><td>4</td><td>4</td></tr>
-      <tr class="total"><td>Calificación ponderada final</td><td>100%</td><td>4.50</td><td>2.35</td><td>3.55</td></tr>
+      <tr><td>Tamaño y valor del mercado meta</td><td>20%</td><td>3</td><td>3</td><td class="win">5</td></tr>
+      <tr><td>Acceso preferencial y costo arancelario</td><td>20%</td><td>4</td><td class="win">5</td><td>1</td></tr>
+      <tr><td>Disposición a pagar por producto premium</td><td>15%</td><td>3</td><td class="win">5</td><td>1</td></tr>
+      <tr><td>Poder diferenciador del atributo (picor + origen)</td><td>15%</td><td>2</td><td class="win">4</td><td>3</td></tr>
+      <tr><td>Baja intensidad competitiva en el nicho</td><td>10%</td><td>2</td><td>2</td><td class="win">3</td></tr>
+      <tr><td>Facilidad regulatoria y de etiquetado</td><td>10%</td><td>2</td><td class="win">5</td><td>2</td></tr>
+      <tr><td>Corredor logístico y comercial ya existente</td><td>10%</td><td>3</td><td class="win">5</td><td>2</td></tr>
+      <tr class="total"><td>Calificación ponderada final</td><td>100%</td><td>2.85</td><td>4.15</td><td>2.50</td></tr>
     </tbody>
   </table>
 
   <div class="box">
     <div class="bt">Mercado seleccionado</div>
-    <p style="font-size:12pt; color:var(--ink); font-style:italic;">Japón, con entrada por el canal gourmet e importador especializado del área metropolitana de Tokio.</p>
+    <p style="font-size:12pt; color:var(--ink); font-style:italic;">Singapur, como cabeza de playa regional, con entrada por el canal de supermercado premium y tienda especializada.</p>
   </div>
 
   <h3>Los cinco argumentos que sostienen la elección</h3>
 
-  <p><strong>1. Es el único de los tres que combina escala y acceso preferencial.</strong> Japón ofrece un mercado de salsas picantes tres veces mayor que el coreano y, simultáneamente, el mejor régimen de acceso: el Acuerdo de Asociación Económica México–Japón, vigente desde 2005, y el TIPAT eliminan o reducen sustancialmente el arancel que Corea del Sur cobraría íntegro. Singapur iguala a Japón en facilidad arancelaria, pero con seis millones de habitantes no puede sostener el crecimiento de una empresa productora; sirve como mercado de expansión posterior, no como cabeza de playa.</p>
+  <p><strong>1. Es el único mercado donde el costo de entrar es casi cero.</strong> Singapur no aplica arancel ni cuota a los alimentos importados y el TIPAT está vigente con México; el etiquetado va en inglés, de modo que no hay traducción que pagar ni validar; el trámite se reduce a la licencia de importador y a la declaración ante la Singapore Food Agency vía TradeNet. Frente a esto, Filipinas exige arancel de nación más favorecida —no hay tratado vigente— más una <em>License to Operate</em> y un <em>Certificate of Product Registration</em> por producto, y Malasia exige, de facto, certificación halal para llegar al anaquel masivo. Para una empresa social que no puede financiar dieciocho meses de trámites antes de su primera venta, esa diferencia es determinante.</p>
 
-  <p><strong>2. El picor todavía es novedad, y eso vale dinero.</strong> Ésta es la diferencia decisiva frente a Corea del Sur. En Corea, un producto picante compite contra el gochujang en su propio terreno cultural: llega tarde a una conversación de siglos. En Japón, en cambio, el <em>gekikara</em> es una tendencia en expansión y no una tradición consolidada, lo que significa que el consumidor todavía está construyendo sus referencias y una marca nueva puede ocupar un lugar en su mapa mental. El atributo diferenciador conserva poder porque el mercado aún no lo ha normalizado.</p>
+  <p><strong>2. Es donde el consumidor puede pagar lo que el producto vale.</strong> Con un PIB per cápita de US$90,674, Singapur multiplica por 7.6 el ingreso malasio y por 22.8 el filipino. Un producto artesanal, de lote pequeño y con denominación de origen no compite por precio: compite por valor percibido, y solo un consumidor con ingreso disponible alto puede validar ese precio. En Filipinas, con US$3,985 per cápita, el mercado es enorme en población pero el segmento capaz de pagar un premium sostenido es delgado; el volumen que la empresa podría atender de todos modos es pequeño, así que el tamaño absoluto del mercado importa mucho menos que el margen por unidad.</p>
 
-  <p><strong>3. El mango convierte al producto en objeto de prestigio, no solo en condimento.</strong> En Japón la fruta premium tiene un estatus simbólico que no existe en Occidente: el mango de Miyazaki se regala en ocasiones ceremoniales y en intercambios de negocios. Japón, además, importa mango principalmente de México. La combinación habanero–mango no se lee, por tanto, como una salsa exótica más, sino como el cruce entre un ingrediente de lujo reconocido y un origen protegido, lo que habilita el acceso a la temporada de regalo formal —<em>ochūgen</em> y <em>oseibo</em>— con márgenes muy superiores a los del anaquel ordinario.</p>
+  <p><strong>3. La escala pequeña deja de ser un defecto cuando la producción también lo es.</strong> Éste es el punto que suele invertirse mal. Seis millones de habitantes serían un problema para una empresa que necesita colocar contenedores; para una empresa social de la Zona Maya que busca su primera exportación, Singapur es exactamente del tamaño correcto: suficiente para absorber toda su producción exportable con márgenes altos, y lo bastante concentrado geográficamente para que un solo distribuidor cubra el país entero sin costo logístico interno.</p>
 
-  <p><strong>4. La denominación de origen encuentra aquí a su público natural.</strong> El activo intangible descrito en el Módulo 1 solo produce valor si alguien lo entiende. El consumidor japonés está culturalmente entrenado para pagar por procedencia certificada, temporada y trazabilidad; la lógica de la Denominación de Origen del Chile Habanero de la Península de Yucatán es equivalente a la de las indicaciones geográficas que el mercado japonés ya reconoce y valora. En Singapur, mercado de bajo apego a la marca, esa misma inversión narrativa rendiría mucho menos.</p>
+  <p><strong>4. Singapur no es un destino: es una puerta.</strong> Es el mayor centro de transbordo del mundo y el nodo de distribución del sudeste asiático. Entrar por Singapur permite construir historial comercial, reseñas, precio de referencia y relación con un distribuidor regional antes de enfrentar los trámites de Malasia o Filipinas. Además, la certificación halal que Singapur no exige pero sí valora —por su población musulmana y por su papel de reexportador— es la misma llave que después abre Malasia. La secuencia lógica es Singapur, luego Malasia con el TIPAT y el halal ya resueltos, y finalmente Filipinas si prospera su adhesión al TIPAT solicitada en agosto de 2025.</p>
 
-  <p><strong>5. El corredor ya existe y está probado.</strong> México exporta más de US$1,300 millones en alimentos y bebidas a Japón, que es el principal mercado de alimentos mexicanos en Asia-Pacífico. Existen ferias de acceso estructurado como Foodex Japan —donde en 2026 participaron cuarenta empresas mexicanas—, importadores familiarizados con el trámite del producto mexicano y consumidores con experiencia previa positiva del país de origen gracias al aguacate y al tequila. El Módulo 1 documentó, además, que Quintana Roo ya registra a Japón entre sus destinos de exportación de habanero. No se está abriendo una ruta: se está subiendo a una que ya funciona.</p>
+  <p><strong>5. La cultura ya entiende el producto, y ahí la denominación de origen sí se cobra.</strong> En un mercado donde el chile es cotidiano, el picor no diferencia: lo que diferencia es de dónde viene, quién lo hace y bajo qué garantía. El consumidor singapurense es, de los tres, el más entrenado para leer y pagar por trazabilidad, sostenibilidad e historia del productor. La Denominación de Origen del Chile Habanero de la Península de Yucatán y el origen maya del cultivo son argumentos que en Singapur se convierten en precio, mientras que en un anaquel malasio saturado de sambal o en uno filipino gobernado por el precio se perderían.</p>
 
   <div class="box jade">
     <div class="bt">El costo de la decisión, dicho con honestidad</div>
-    <p>Japón es el mercado más exigente de los tres en materia técnica y es, deliberadamente, el que peor califica en facilidad regulatoria. Exige etiqueta íntegra en japonés, cumplimiento del sistema de lista positiva de aditivos y residuos, notificación de importación ante el MHLW y una consistencia de lote que una empresa social debe construir antes de embarcar. También exige paciencia: la relación comercial japonesa se cimienta en el tiempo y no en la primera cotización. Se eligió Japón sabiendo que es el camino más lento; se eligió porque es el único que, al final del recorrido, deja a la empresa con una marca y no con un cliente.</p>
+    <p>Singapur es el mercado más pequeño de los tres y el de anaquel más disputado: entra todo el mundo, precisamente porque entrar es fácil. La lealtad de marca del consumidor singapurense es baja y la rotación se gana con consistencia, no con una buena primera impresión. Además, el mercado nacional por sí solo nunca sostendrá el crecimiento de la empresa: Singapur solo tiene sentido si se asume desde el principio como una fase, no como un destino. Se eligió sabiendo que es el mercado que menos volumen ofrece; se eligió porque es el único donde la empresa puede aprender a exportar con margen positivo en lugar de gastarse su capital en trámites.</p>
   </div>
 </section>
 
 <!-- ============ 4. SEGMENTACIÓN ============ -->
 <section class="sec" style="page-break-before:always;">
-  <h2 class="section"><span class="num">04</span>Segmentación del mercado japonés</h2>
+  <h2 class="section"><span class="num">04</span>Segmentación del mercado singapurense</h2>
 
-  <p>Elegir Japón todavía no es elegir un cliente. Con 123 millones de habitantes, atacar el mercado completo es imposible para una empresa social con producción limitada. La segmentación delimita el subconjunto donde el producto tiene la máxima probabilidad de ser comprendido, comprado y recomprado.</p>
+  <p>Elegir Singapur todavía no es elegir un cliente. Aunque el país sea pequeño, su anaquel es de los más competidos del mundo y el producto no puede dirigirse a todos. La segmentación delimita el subconjunto donde tiene la máxima probabilidad de ser comprendido, comprado y recomprado.</p>
 
   <div class="segs">
     <div class="seg">
       <div class="st">Segmentación geográfica</div>
       <ul>
-        <li><strong>Región prioritaria:</strong> Kantō, con foco en el área metropolitana de Tokio y Yokohama, la mayor concentración de ingreso, densidad y comercio especializado del país.</li>
-        <li><strong>Micromercado inicial:</strong> los 23 barrios especiales de Tokio, en particular Setagaya, Meguro, Shibuya y Minato, por su combinación de ingreso alto y densidad de tiendas gourmet e importadores.</li>
-        <li><strong>Región de expansión:</strong> Kansai (Osaka, Kioto y Kobe), segundo polo de consumo y puerta de entrada portuaria alternativa.</li>
-        <li><strong>Entorno:</strong> exclusivamente urbano y de alta densidad, con hogares pequeños que privilegian envases compactos.</li>
-        <li><strong>Ruta logística:</strong> embarque marítimo desde Manzanillo o Lázaro Cárdenas hacia Yokohama o Kobe; producto ambiente, sin cadena de frío, lo que reduce costo y riesgo.</li>
+        <li><strong>País:</strong> República de Singapur, ciudad-estado de 734 km², sin distinción urbano-rural: todo el mercado es metropolitano y de alta densidad.</li>
+        <li><strong>Micromercado inicial:</strong> distritos centrales y de renta alta —Tiong Bahru, Tanjong Pagar, Holland Village, River Valley y Orchard—, donde se concentran los supermercados premium y las tiendas especializadas.</li>
+        <li><strong>Cobertura:</strong> un solo distribuidor cubre el país entero; el costo logístico interno es prácticamente nulo, ventaja que ningún otro mercado del grupo ofrece.</li>
+        <li><strong>Función regional:</strong> mayor centro de transbordo del mundo, lo que habilita la reexportación posterior hacia Malasia e Indonesia desde la misma operación.</li>
+        <li><strong>Ruta logística:</strong> embarque marítimo desde Manzanillo o Lázaro Cárdenas al puerto de Singapur; producto ambiente, sin cadena de frío, lo que reduce costo y riesgo.</li>
       </ul>
     </div>
 
     <div class="seg">
       <div class="st">Segmentación demográfica</div>
       <ul>
-        <li><strong>Edad:</strong> 28 a 45 años, el núcleo que sostiene la tendencia <em>gekikara</em> y que aún tiene hábitos de consumo en formación.</li>
-        <li><strong>Género:</strong> ambos, con sesgo hacia mujeres urbanas de 25 a 39 años, grupo donde el boom del picante creció de manera más marcada.</li>
-        <li><strong>Ingreso del hogar:</strong> ¥6 a ¥10 millones anuales, por encima de la mediana nacional: puede pagar sobreprecio sin que sea una compra excepcional.</li>
-        <li><strong>Escolaridad:</strong> licenciatura o superior.</li>
-        <li><strong>Ocupación:</strong> profesionistas asalariados de oficina, sector servicios, creativo o corporativo.</li>
-        <li><strong>Composición del hogar:</strong> solteros que viven solos y parejas de doble ingreso sin hijos, con presupuesto discrecional y disposición a experimentar.</li>
+        <li><strong>Edad:</strong> 28 a 45 años, el tramo de mayor ingreso disponible y mayor apertura a productos nuevos.</li>
+        <li><strong>Género:</strong> ambos, con ligero sesgo hacia mujeres profesionistas de 28 a 40 años, principales decisoras de la compra de despensa y del descubrimiento de marcas.</li>
+        <li><strong>Ingreso del hogar:</strong> superior a S$120,000 anuales, por encima de la mediana nacional.</li>
+        <li><strong>Escolaridad:</strong> licenciatura o posgrado.</li>
+        <li><strong>Ocupación:</strong> profesionistas y mandos medios de los sectores financiero, tecnológico, creativo y de consumo, incluida la numerosa población expatriada.</li>
+        <li><strong>Composición del hogar:</strong> parejas de doble ingreso sin hijos y solteros que viven solos, con presupuesto discrecional alto.</li>
+        <li><strong>Grupo étnico y religión:</strong> segmento inicial sin restricción dietética (mayoritariamente chino-singapurense y expatriado), con el segmento malayo-musulmán —cerca del 15% de la población— como expansión condicionada a la certificación halal.</li>
       </ul>
     </div>
 
     <div class="seg">
       <div class="st">Segmentación psicográfica</div>
       <ul>
-        <li><strong>Estilo de vida:</strong> urbano, de jornada laboral extensa, que compensa con experiencias gastronómicas y viaje internacional una o dos veces al año.</li>
-        <li><strong>Valores:</strong> autenticidad, honestidad de la etiqueta, respeto al productor y sostenibilidad con impacto social verificable.</li>
-        <li><strong>Personalidad:</strong> curioso, explorador culinario, prescriptor dentro de su círculo; construye identidad mediante lo que descubre y comparte.</li>
-        <li><strong>Actitud ante el precio:</strong> no busca lo barato; busca que el precio esté justificado por una historia y una calidad comprobables.</li>
-        <li><strong>Prestigio discreto:</strong> valora lo excepcional sin ostentación, coherente con la estética japonesa del lujo silencioso.</li>
+        <li><strong>Estilo de vida:</strong> urbano intenso, jornada laboral larga, altísima frecuencia de comida fuera de casa y cocina de fin de semana como actividad de disfrute, no de necesidad.</li>
+        <li><strong>Valores:</strong> sostenibilidad, comercio justo, trazabilidad, salud y etiqueta limpia; apertura multicultural como parte de la identidad nacional.</li>
+        <li><strong>Personalidad:</strong> explorador gastronómico y prescriptor: descubre, fotografía, publica y recomienda; su capital social se construye en parte sobre lo que come.</li>
+        <li><strong>Actitud ante el precio:</strong> tiene con qué pagar, pero es notoriamente racional; exige que el sobreprecio esté explicado por calidad, origen o impacto verificable.</li>
+        <li><strong>Actitud ante la marca:</strong> baja lealtad estructural; cambia sin costo emocional. La permanencia se gana con consistencia de producto y de abasto.</li>
       </ul>
     </div>
 
     <div class="seg">
       <div class="st">Segmentación conductual</div>
       <ul>
-        <li><strong>Beneficio buscado:</strong> transformar la comida cotidiana con un sabor complejo —fruta y fuego— en lugar de solo añadir picor.</li>
-        <li><strong>Ocasión de uso:</strong> cocina diaria en casa, reuniones informales con amigos y, dos veces al año, regalo formal de temporada (<em>ochūgen</em> y <em>oseibo</em>).</li>
-        <li><strong>Frecuencia de compra:</strong> descubre un producto nuevo al mes; recompra su salsa favorita cada seis a ocho semanas.</li>
-        <li><strong>Lealtad:</strong> baja al inicio y muy alta después de la adopción; el consumidor japonés que integra un producto a su rutina tiende a permanecer, siempre que el abasto sea constante.</li>
-        <li><strong>Estatus de usuario:</strong> usuario habitual de condimentos picantes locales, no usuario de salsas mexicanas: hay que convertirlo, no crearlo.</li>
-        <li><strong>Sensibilidad al estímulo:</strong> reacciona a la degustación en punto de venta, a la recomendación del comprador de la tienda y a la prueba social en redes.</li>
+        <li><strong>Beneficio buscado:</strong> elevar un plato sencillo con un sabor complejo —fruta y fuego— que no sea otro sambal más de los que ya tiene en la alacena.</li>
+        <li><strong>Ocasión de uso:</strong> cocina de fin de semana, reuniones con amigos, acompañamiento de comida para llevar y, secundariamente, regalo corporativo y de fin de año.</li>
+        <li><strong>Frecuencia de compra:</strong> despensa semanal en línea, visita física quincenal al supermercado premium, prueba de un producto nuevo cada dos o tres semanas y recompra de su salsa favorita cada seis a ocho semanas.</li>
+        <li><strong>Estatus de usuario:</strong> usuario habitual de condimentos picantes locales y de salsas importadas; no usuario de producto mexicano artesanal. Hay que convertirlo, no crearlo.</li>
+        <li><strong>Lealtad:</strong> baja y disputada; se conserva únicamente con disponibilidad constante y calidad sin variación entre lotes.</li>
+        <li><strong>Sensibilidad al estímulo:</strong> responde con fuerza a la reseña de creadores locales de contenido gastronómico, a la degustación en tienda y a la selección del comprador del retailer, que funciona como aval.</li>
       </ul>
     </div>
   </div>
 
   <div class="box indigo">
     <div class="bt">Segmento meta resultante</div>
-    <p>Mujeres y hombres de 28 a 45 años, profesionistas de ingreso medio-alto, residentes en el área metropolitana de Tokio, exploradores gastronómicos que cocinan en casa, compran en tiendas de importación como Kaldi Coffee Farm o Seijo Ishii y recompran en línea a través de Rakuten y Amazon Japan; valoran el origen certificado y la historia del productor por encima del precio, y utilizan las redes sociales como fuente de descubrimiento y como vitrina de lo que consumen.</p>
+    <p>Profesionistas de 28 a 45 años, de ingreso alto, residentes en los distritos centrales de Singapur; exploradores gastronómicos que comen fuera entre semana y cocinan por gusto los fines de semana. Compran en Cold Storage, FairPrice Finest y Little Farms, recompran en RedMart y Shopee, y pagan con PayNow y tarjeta. Valoran sostenibilidad, trazabilidad e historia del productor por encima del precio, y descubren en Instagram y TikTok.</p>
   </div>
 </section>
 
@@ -557,7 +561,7 @@
   <div class="info-head">
     <div class="k">Entregable · Infografía</div>
     <h2>Buyer Persona Internacional</h2>
-    <div class="d">Perfil del consumidor meta de la Salsa de Habanero con Mango en el mercado japonés</div>
+    <div class="d">Perfil del consumidor meta de la Salsa de Habanero con Mango en el mercado de Singapur</div>
   </div>
 
   <!-- 1. DATOS GENERALES -->
@@ -569,24 +573,24 @@
         <path d="M50 26c-11 0-19 8.5-19 19.5 0 7 2.8 13 7 16.6v4.2c0 1.6-1 3-2.5 3.6L24 74.5C19.6 76.3 17 80.4 17 85v4h66v-4c0-4.6-2.6-8.7-7-10.5l-11.5-4.6c-1.5-.6-2.5-2-2.5-3.6v-4.2c4.2-3.6 7-9.6 7-16.6C69 34.5 61 26 50 26z" fill="#FFFFFF"/>
         <path d="M31 45c0-11 8-19.5 19-19.5S69 34 69 45c0-3-2-5.5-5.5-6.5-4-1.2-6.5-3.5-8-6.5-3 4.5-9 8-15 8.5-5 .4-8 3.5-9.5 4.5z" fill="#7E2A0E"/>
       </svg>
-      <div class="nm">Yui Nakamura</div>
-      <div class="nmjp">中村 結衣</div>
+      <div class="nm">Rachel Tan<br>Wei Ling</div>
+      <div class="nmjp">陈玮玲</div>
       <div class="rl">
-        Planificadora de producto<br>en una empresa de bienes de consumo<br>Tokio, Japón
+        Gerente de mercadotecnia regional<br>en una empresa de bienes de consumo<br>Singapur
       </div>
     </div>
 
     <div class="persona-data">
       <div class="ct" style="font-family:'DejaVu Sans',sans-serif; font-size:7.4pt; letter-spacing:.15em; text-transform:uppercase; font-weight:700; color:#C8451B; margin-bottom:3mm;">1 · Datos generales</div>
       <div class="dgrid">
-        <div class="f"><div class="lbl">Edad</div><div class="val">34 años</div></div>
+        <div class="f"><div class="lbl">Edad</div><div class="val">33 años</div></div>
         <div class="f"><div class="lbl">Género</div><div class="val">Femenino</div></div>
-        <div class="f"><div class="lbl">País y ciudad</div><div class="val">Japón · Tokio, barrio de Setagaya</div></div>
+        <div class="f"><div class="lbl">País y ciudad</div><div class="val">Singapur · distrito de Tiong Bahru</div></div>
         <div class="f"><div class="lbl">Estado civil</div><div class="val">Casada, sin hijos (hogar de doble ingreso)</div></div>
-        <div class="f"><div class="lbl">Profesión</div><div class="val">Planificadora de producto (<span style="font-family:'IPAGothic',sans-serif;">商品企画</span>) en bienes de consumo</div></div>
-        <div class="f"><div class="lbl">Nivel educativo</div><div class="val">Licenciatura, universidad privada de Tokio</div></div>
-        <div class="f"><div class="lbl">Ingreso aproximado</div><div class="val">¥7.2 millones anuales<br><span style="color:#6B7078; font-size:8pt;">≈ US$48,000 · ≈ MXN 890,000</span></div></div>
-        <div class="f"><div class="lbl">Idioma</div><div class="val">Japonés nativo; inglés funcional de lectura</div></div>
+        <div class="f"><div class="lbl">Profesión</div><div class="val">Gerente de mercadotecnia regional en bienes de consumo</div></div>
+        <div class="f"><div class="lbl">Nivel educativo</div><div class="val">Licenciatura por la Universidad Nacional de Singapur</div></div>
+        <div class="f"><div class="lbl">Ingreso aproximado</div><div class="val">S$105,000 anuales<br><span style="color:#6B7078; font-size:8pt;">≈ US$82,000 · ≈ MXN 1,500,000</span></div></div>
+        <div class="f"><div class="lbl">Idiomas</div><div class="val">Inglés (lengua de trabajo) y mandarín</div></div>
       </div>
     </div>
   </div>
@@ -596,26 +600,26 @@
     <div class="card">
       <div class="ct"><span class="no">2</span> Perfil personal</div>
       <ul>
-        <li><strong>Estilo de vida:</strong> jornada laboral larga en oficina del centro de Tokio; cocina en casa tres o cuatro veces por semana; cena fuera los viernes; viaja al extranjero una o dos veces al año.</li>
-        <li><strong>Valores:</strong> autenticidad por encima de la moda, honestidad de la etiqueta, respeto por el trabajo del productor, sostenibilidad con impacto social comprobable.</li>
-        <li><strong>Intereses:</strong> gastronomía internacional, café de especialidad, diseño de producto y empaque, viajes culinarios.</li>
-        <li><strong>Hobbies:</strong> cocinar recetas nuevas, fotografiar su mesa para Instagram, asistir a festivales gastronómicos como el Gekikara Gourmet Festival.</li>
-        <li><strong>Hábitos de consumo:</strong> compra semanal en el supermercado de barrio, visita quincenal a tiendas de importación, prueba deliberadamente un producto nuevo al mes y lee la lista de ingredientes antes de decidir.</li>
+        <li><strong>Estilo de vida:</strong> vive en un condominio del centro; jornada laboral larga; come fuera cinco o seis veces por semana entre <em>hawker centres</em> y restaurantes; cocina por gusto los fines de semana; viaja por la región tres o cuatro veces al año.</li>
+        <li><strong>Valores:</strong> sostenibilidad y comercio justo con impacto verificable, trazabilidad del origen, salud y etiqueta limpia, respeto multicultural como parte de su identidad singapurense.</li>
+        <li><strong>Intereses:</strong> gastronomía global, viajes por el sudeste asiático, bienestar y ejercicio, diseño de producto y empaque.</li>
+        <li><strong>Hobbies:</strong> probar restaurantes nuevos, cocinar los domingos, publicar en Instagram y TikTok, yoga y <em>brunch</em> de fin de semana.</li>
+        <li><strong>Hábitos de consumo:</strong> pedido de despensa semanal en línea, visita quincenal al supermercado premium, lectura sistemática de la etiqueta y prueba deliberada de un producto nuevo cada dos o tres semanas.</li>
       </ul>
     </div>
 
     <div class="card c2">
       <div class="ct"><span class="no">3</span> Comportamiento de compra</div>
       <div class="qa"><span class="q">¿Dónde compra?</span>
-        Descubre en tienda física —Kaldi Coffee Farm y Seijo Ishii— y en Nissin World Delicatessen; recompra en línea en Rakuten Ichiba y Amazon Japan; en temporada de regalo acude a la <em>depachika</em> de las grandes tiendas departamentales.</div>
+        Descubre en tienda física —Cold Storage y FairPrice Finest para importados, Little Farms para producto natural y sostenible, Mustafa Centre para lo difícil de encontrar— y recompra en línea en RedMart, Shopee Supermarket, Amazon.sg y FairPrice Online.</div>
       <div class="qa"><span class="q">¿Con qué frecuencia?</span>
-        Descubre un producto nuevo al mes; recompra su salsa favorita cada 6 a 8 semanas; compra formatos de regalo dos veces al año, en julio (<em>ochūgen</em>) y en diciembre (<em>oseibo</em>).</div>
+        Despensa semanal en línea; visita física quincenal; prueba un producto nuevo cada dos o tres semanas; recompra su salsa favorita cada seis a ocho semanas, siempre que siga disponible.</div>
       <div class="qa"><span class="q">¿Qué influye en su decisión?</span>
-        Una historia de origen verificable; el nivel de picor claramente indicado; el diseño del envase; la reseña de conocidos y de creadores que sigue; la degustación en punto de venta; y una etiqueta en japonés correctamente redactada, no traducida a medias.</div>
+        La reseña de creadores gastronómicos locales; la selección del comprador del retailer, que funciona como aval; la etiqueta limpia y la lista corta de ingredientes; la historia verificable del productor y su impacto social; la degustación en punto de venta; y que el nivel de picor esté claramente indicado.</div>
       <div class="qa"><span class="q">¿Cuánto está dispuesta a pagar?</span>
-        Entre ¥900 y ¥1,600 por una botella de 100 a 150 ml (≈ US$6 a US$11), muy por encima de una salsa de anaquel común; hasta ¥3,500–¥5,000 por un estuche de regalo de dos o tres piezas.</div>
+        Entre S$9 y S$16 por una botella de 150 ml (≈ US$7 a US$12), muy por encima de un sambal de anaquel; hasta S$40 por un estuche de regalo de dos o tres piezas para obsequio corporativo o de fin de año.</div>
       <div class="qa" style="margin-bottom:0;"><span class="q">¿Qué medios de pago utiliza?</span>
-        Tarjeta de crédito como método principal —cerca del 70% de la población japonesa la usa y representa alrededor del 30% del gasto sin efectivo—; PayPay para compras cotidianas, plataforma que superó los 70 millones de usuarios registrados en julio de 2025 y concentra cerca del 60% del pago por código QR; pago contra entrega en <em>konbini</em> para el comercio electrónico. El efectivo sigue vigente: la razón de pagos sin efectivo en Japón rondaba el 42% en 2025.</div>
+        PayNow para transferencias y compras cotidianas —es el proveedor de pago digital preferido por el 68% de la generación Z singapurense—, tarjeta de crédito con devolución en efectivo para la compra en línea, y billeteras como GrabPay. La adopción de pagos digitales en Singapur alcanzó el 92.0% en 2025, de modo que el efectivo es residual.</div>
     </div>
   </div>
 
@@ -624,31 +628,31 @@
     <div class="card c3">
       <div class="ct"><span class="no">4</span> Necesidades</div>
       <div class="qa"><span class="q">¿Qué problema busca resolver?</span>
-        La monotonía de su cocina diaria. Quiere transformar una comida ordinaria en algo memorable sin dedicarle más tiempo ni arriesgarse a arruinarla. El anaquel japonés le ofrece intensidad —cada vez más picante— pero rara vez le ofrece sabor propio: el picante disponible es plano.</div>
+        Come fuera casi todos los días y, cuando cocina, quiere que valga la pena sin robarle el fin de semana. Su alacena ya tiene tres o cuatro salsas picantes que le saben igual: busca algo que aporte sabor, no solo intensidad, y que además pueda contar.</div>
       <div class="qa"><span class="q">¿Qué beneficios espera obtener?</span>
-        Un sabor con carácter donde la fruta y el fuego conviven; una historia que valga la pena contar en la mesa y en redes; la sensación de haber descubierto algo antes que los demás; versatilidad de uso más allá de la cocina mexicana.</div>
+        Un perfil que le resulte a la vez nuevo y legible —la combinación de mango y chile ya existe en su cultura—; una historia de origen y de comunidad que encaje con sus valores; versatilidad de uso más allá de la cocina mexicana; y la satisfacción de haber encontrado algo antes que los demás.</div>
       <div class="qa" style="margin-bottom:0;"><span class="q">¿Qué características considera indispensables?</span>
         <ul style="margin-top:1.4mm;">
-          <li>Etiqueta íntegra en japonés, conforme a la Ley de Etiquetado de Alimentos, con alérgenos y caducidad legibles.</li>
+          <li>Etiqueta completa en inglés con tabla nutrimental, alérgenos y caducidad legibles.</li>
+          <li>Lista de ingredientes corta, natural y sin conservadores artificiales.</li>
           <li>Escala de picor explícita y graduada, no una advertencia genérica.</li>
-          <li>Envase de 100 a 150 ml con tapa dosificadora, adecuado a una despensa pequeña.</li>
-          <li>Lista de ingredientes corta y reconocible, sin aditivos innecesarios.</li>
-          <li>Sugerencias de uso en japonés, dentro del empaque o por código QR.</li>
+          <li>Envase de 150 ml con tapa dosificadora, adecuado a una cocina pequeña.</li>
+          <li>Evidencia verificable del impacto social y del origen: no basta con afirmarlo en la etiqueta.</li>
         </ul>
       </div>
       <div class="heat">
         <span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot"></span><span class="dot"></span>
-        <span class="hl">Nivel de picor preferido: 3 de 5 — busca intensidad con sabor, no dolor</span>
+        <span class="hl">Nivel de picor preferido: 3 de 5 — tolera bien el chile, busca sabor</span>
       </div>
     </div>
 
     <div class="card c4">
       <div class="ct"><span class="no">5</span> Barreras de compra</div>
-      <div class="barrier"><span class="bn mid">Precio</span><span>Paga sobreprecio, pero exige que esté justificado. Por arriba de ¥2,000 la botella sale de su rutina y se convierte en compra excepcional.</span></div>
-      <div class="barrier"><span class="bn">Desconfianza</span><span>Teme que el producto sea "solo picante" y termine olvidado en el refrigerador. Teme sobre todo un picor no calibrado que arruine el platillo.</span></div>
-      <div class="barrier"><span class="bn">Marca desconocida</span><span>No reconoce al productor ni sabe dónde está Quintana Roo. Sin prueba social o aval de la tienda, la marca nueva no supera el primer filtro.</span></div>
-      <div class="barrier"><span class="bn">Falta de certificaciones</span><span>Da por sentado el cumplimiento del MHLW; valora explícitamente HACCP, certificación orgánica JAS y el sello de Denominación de Origen como garantía verificable.</span></div>
-      <div class="barrier" style="margin-bottom:0;"><span class="bn">Entrega y abasto</span><span>El peor escenario no es no comprar: es adoptar el producto y que desaparezca del anaquel. La irregularidad de abasto destruye la recompra y con ella la relación con el importador.</span></div>
+      <div class="barrier"><span class="bn mid">Precio</span><span>Tiene con qué pagar, pero es racional. Por arriba de S$20 la botella sale de su rutina y se convierte en compra excepcional o en regalo.</span></div>
+      <div class="barrier"><span class="bn">Desconfianza</span><span>Escéptica ante otra salsa picante más en un anaquel saturado. Sospecha que el relato de sostenibilidad sea mercadotecnia sin respaldo.</span></div>
+      <div class="barrier"><span class="bn">Marca desconocida</span><span>No ubica Quintana Roo ni al productor. Sin el aval del retailer o la reseña de un creador local, la marca nueva no supera el primer filtro.</span></div>
+      <div class="barrier"><span class="bn">Falta de certificaciones</span><span>Espera HACCP y valora la certificación orgánica y la Denominación de Origen. La ausencia de certificación halal reconocida le impide servirla cuando invita a colegas o amigos malayos.</span></div>
+      <div class="barrier" style="margin-bottom:0;"><span class="bn">Entrega y abasto</span><span>Espera entrega en uno o dos días. Su lealtad es baja: si el producto se agota o desaparece del anaquel, cambia de marca sin costo emocional y no regresa.</span></div>
     </div>
   </div>
 
@@ -657,10 +661,10 @@
     <div class="card c5">
       <div class="ct"><span class="no">6</span> Canales de comunicación</div>
       <ul>
-        <li><strong>Redes sociales favoritas:</strong> Instagram para descubrimiento visual de comida; X (Twitter) para la conversación del <em>gekikara</em> —Japón es el segundo mercado mundial de la plataforma—; LINE como canal directo de marca y cupones, con cerca de 96 millones de usuarios; YouTube para recetas y reseñas.</li>
-        <li><strong>Sitios web que consulta:</strong> Cookpad y Rakuten Recipe para recetas; Rakuten Ichiba y Amazon.co.jp para comprar y leer reseñas; Tabelog para restaurantes; el blog y el catálogo de Kaldi para novedades de importación.</li>
-        <li><strong>Influencers y líderes de opinión:</strong> creadores de recetas caseras en YouTube e Instagram; los compradores de producto (<em>buyers</em>) de Kaldi y Seijo Ishii, cuya selección funciona como aval; chefs japoneses de cocina mexicana en Tokio.</li>
-        <li><strong>Medios de comunicación:</strong> revistas de estilo de vida y gastronomía, programas televisivos de comida y ferias sectoriales como Foodex Japan, donde participaron cuarenta empresas mexicanas en 2026.</li>
+        <li><strong>Redes sociales favoritas:</strong> Instagram, usado por el 62.6% de los usuarios de redes en Singapur, para el descubrimiento visual de comida; TikTok, con 3.80 millones de usuarios adultos y una cobertura publicitaria del 75.4% de los adultos a finales de 2025; WhatsApp, que cerca del 80% de los usuarios de internet emplea cada mes, como canal de grupo y recomendación; YouTube y Facebook para receta y reseña larga.</li>
+        <li><strong>Sitios web que consulta:</strong> portales gastronómicos locales como SETHLUI.com, Eatbook, Burpple y HungryGoWhere para descubrimiento y reseña; RedMart, Shopee y Amazon.sg para comparar precio y leer opiniones de compradores.</li>
+        <li><strong>Influencers y líderes de opinión:</strong> creadores gastronómicos singapurenses en Instagram y TikTok; chefs de restaurantes independientes del centro; y los compradores de producto de Cold Storage y Little Farms, cuya selección funciona como certificación implícita de calidad.</li>
+        <li><strong>Medios de comunicación:</strong> la sección de estilo de vida de The Straits Times y CNA Lifestyle; ferias sectoriales como Food&amp;HotelAsia y Speciality Food &amp; Drinks Asia, que son además la puerta de entrada al distribuidor.</li>
       </ul>
     </div>
 
@@ -668,20 +672,20 @@
       <div class="ct"><span class="no">7</span> Motivadores de compra</div>
       <p style="margin-bottom:2.4mm; color:#6B7078; font-size:7.6pt; font-family:'DejaVu Sans',sans-serif;">Peso relativo de cada motivador en su decisión final</p>
       <div class="bars">
-        <div class="bar"><span class="bl">Calidad</span><span class="bt"><span class="bf" style="width:95%;"></span></span><span class="bv">95</span></div>
-        <div class="bar"><span class="bl">Origen del producto</span><span class="bt"><span class="bf" style="width:90%;"></span></span><span class="bv">90</span></div>
-        <div class="bar"><span class="bl">Innovación de sabor</span><span class="bt"><span class="bf" style="width:82%;"></span></span><span class="bv">82</span></div>
-        <div class="bar"><span class="bl">Certificaciones</span><span class="bt"><span class="bf" style="width:75%;"></span></span><span class="bv">75</span></div>
-        <div class="bar"><span class="bl">Sustentabilidad</span><span class="bt"><span class="bf" style="width:70%;"></span></span><span class="bv">70</span></div>
-        <div class="bar"><span class="bl">Prestigio (regalo)</span><span class="bt"><span class="bf" style="width:60%;"></span></span><span class="bv">60</span></div>
-        <div class="bar"><span class="bl">Precio</span><span class="bt"><span class="bf" style="width:35%;"></span></span><span class="bv">35</span></div>
+        <div class="bar"><span class="bl">Calidad</span><span class="bt"><span class="bf" style="width:92%;"></span></span><span class="bv">92</span></div>
+        <div class="bar"><span class="bl">Sustentabilidad</span><span class="bt"><span class="bf" style="width:88%;"></span></span><span class="bv">88</span></div>
+        <div class="bar"><span class="bl">Origen del producto</span><span class="bt"><span class="bf" style="width:85%;"></span></span><span class="bv">85</span></div>
+        <div class="bar"><span class="bl">Certificaciones</span><span class="bt"><span class="bf" style="width:80%;"></span></span><span class="bv">80</span></div>
+        <div class="bar"><span class="bl">Innovación de sabor</span><span class="bt"><span class="bf" style="width:76%;"></span></span><span class="bv">76</span></div>
+        <div class="bar"><span class="bl">Precio</span><span class="bt"><span class="bf" style="width:55%;"></span></span><span class="bv">55</span></div>
+        <div class="bar"><span class="bl">Prestigio</span><span class="bt"><span class="bf" style="width:45%;"></span></span><span class="bv">45</span></div>
       </div>
-      <p style="margin-top:2.6mm; margin-bottom:0; font-size:8.2pt;"><strong>Lectura estratégica:</strong> el precio es su motivador más débil y la calidad el más fuerte. Competir por precio contra el gochujang o la sriracha sería competir en el terreno donde menos decide. La Denominación de Origen, la comunidad maya productora y el mango de origen mexicano son, en cambio, exactamente los tres primeros motivadores de su lista.</p>
+      <p style="margin-top:2.6mm; margin-bottom:0; font-size:8.1pt;"><strong>Lectura estratégica:</strong> el prestigio es su motivador más débil y la calidad, la sustentabilidad y el origen los más fuertes. A diferencia de mercados donde el lujo vende, aquí la ostentación no funciona: lo que se cobra es la prueba. La Denominación de Origen, la comunidad maya productora y la certificación verificable son exactamente los tres primeros motivadores de su lista; el precio pesa, pero no decide.</p>
     </div>
   </div>
 
   <div class="footnote">
-    Yui Nakamura es un personaje ficticio que sintetiza el segmento meta del apartado 04. Se construyó con fuentes secundarias documentales: Banco Mundial, IMARC Group, Statista, DataReportal, KOMOJU, PayPay Corporation y la normativa del MHLW y de la Consumer Affairs Agency de Japón. Los rangos de precio, frecuencia y consumo son estimaciones razonadas que deberían validarse con investigación primaria antes de una operación comercial real.
+    Rachel Tan Wei Ling es un personaje ficticio que sintetiza el segmento meta del apartado 04. Se construyó con fuentes secundarias documentales: Banco Mundial, IMARC Group, Statista, DataReportal, PwC Singapur, Meltwater, la Singapore Food Agency y fuentes especializadas en retail y consumo singapurense. Los rangos de precio, frecuencia y consumo son estimaciones razonadas que deberían validarse con investigación primaria antes de una operación comercial real.
   </div>
 </section>
 
@@ -692,20 +696,20 @@
   <p>La investigación no termina en la elección del país: termina cuando esa elección se traduce en decisiones concretas de producto, precio, plaza y promoción. Estas son las consecuencias directas del perfil documentado.</p>
 
   <h4>Producto</h4>
-  <p>Formulación en el nivel 3 de una escala de cinco, con el dulzor del mango como amortiguador del capsaicinoide del habanero. Envase de 100 a 150 ml con tapa dosificadora. Etiqueta bilingüe con predominio del japonés, conforme a la Ley de Etiquetado de Alimentos, con declaración de alérgenos, contenido neto, conservación, caducidad e importador. Sello visible de la Denominación de Origen y mención expresa del origen maya del cultivo. Desarrollo de un estuche de dos o tres piezas específicamente diseñado para <em>ochūgen</em> y <em>oseibo</em>.</p>
+  <p>Formulación en el nivel 3 de una escala de cinco, con el dulzor del mango como amortiguador del capsaicinoide del habanero; en un mercado acostumbrado al <em>chilli padi</em>, el reto ya no es suavizar sino aportar complejidad. Envase de 150 ml con tapa dosificadora. Etiqueta íntegra en inglés con tabla nutrimental, alérgenos y caducidad. Lista de ingredientes corta, sin conservadores artificiales. Sello visible de la Denominación de Origen y evidencia verificable —no solo declarativa— del origen maya y del impacto social. <strong>Decisión estratégica de fondo:</strong> gestionar desde el inicio una certificación halal reconocida, aunque Singapur no la exija; es lo que amplía el mercado local hacia el segmento malayo-musulmán y, sobre todo, lo que después abre Malasia sin rehacer el proceso.</p>
 
   <h4>Precio</h4>
-  <p>Posicionamiento en el rango de ¥1,200 a ¥1,500 al consumidor final, dentro de la zona de disposición a pagar identificada y por encima del anaquel masivo, para sostener la percepción premium. El precio de exportación debe construirse hacia atrás desde ese precio de anaquel, descontando margen de retail, margen del importador, despacho aduanal, flete y seguro, y no hacia adelante desde el costo de producción.</p>
+  <p>Posicionamiento en el rango de S$12 a S$14 al consumidor final, dentro de la zona de disposición a pagar identificada y claramente por encima del sambal de anaquel, para sostener la percepción premium sin salirse de la compra rutinaria. El precio de exportación debe construirse hacia atrás desde ese precio de anaquel, descontando margen de retail, margen del distribuidor, despacho y flete, y no hacia adelante desde el costo de producción. La ventaja singapurense es que en esa cascada no hay arancel que absorber.</p>
 
   <h4>Plaza</h4>
-  <p>Entrada por importador especializado en producto gourmet con acceso a Kaldi Coffee Farm, Seijo Ishii y Nissin World Delicatessen en el área metropolitana de Tokio. Presencia simultánea en Rakuten Ichiba y Amazon Japan para capturar la recompra, dado que estas plataformas junto con Yahoo! Shopping concentran cerca de la mitad del comercio electrónico japonés. La prioridad operativa número uno es garantizar continuidad de abasto: es la barrera de compra más destructiva del perfil.</p>
+  <p>Entrada por un distribuidor especializado en producto gourmet importado con acceso a Cold Storage, FairPrice Finest y Little Farms. Presencia simultánea en RedMart y Shopee Supermarket para capturar la recompra, que en este perfil ocurre en línea. Un solo distribuidor cubre el país completo. La prioridad operativa número uno es garantizar continuidad de abasto: con una lealtad de marca tan baja como la del consumidor singapurense, un desabasto no significa una venta perdida sino un cliente perdido.</p>
 
   <h4>Promoción</h4>
-  <p>Estrategia de prueba y prescripción antes que de alcance masivo. Degustación en punto de venta; contenido de receta en japonés en Instagram y YouTube; conversación en X aprovechando la tendencia <em>gekikara</em>; cuenta oficial de LINE para fidelización y cupones de recompra; participación en Foodex Japan como puerta de entrada al importador. El mensaje central no es "salsa picante mexicana", sino el encuentro entre un chile con denominación de origen, una comunidad maya que lo cultiva y un mango que Japón ya conoce y aprecia.</p>
+  <p>Estrategia de prescripción y prueba antes que de alcance masivo. Reseña con creadores gastronómicos locales en Instagram y TikTok; degustación en punto de venta en los distritos centrales; presencia en Food&amp;HotelAsia como puerta de entrada al distribuidor regional; y contenido que demuestre —con nombres, lugares y cifras— el impacto en las comunidades productoras de la Zona Maya. El mensaje central no es "salsa picante mexicana", porque en Singapur el picante no es noticia: es el encuentro entre un chile con denominación de origen, una comunidad maya que lo cultiva y un mango que en el sudeste asiático ya se come con chile.</p>
 
   <div class="box">
     <div class="bt">Conclusión</div>
-    <p>Japón no es el mercado más fácil de Asia: Singapur lo es. Tampoco es el más afín culturalmente al picante: Corea del Sur lo es. Japón es el único de los tres donde coinciden un mercado de tamaño suficiente, un régimen arancelario preferencial ya negociado, un consumidor dispuesto a pagar por origen certificado y una tendencia de consumo en ascenso que todavía no ha normalizado el atributo que diferencia al producto. Para una empresa social que exporta por primera vez y solo tendrá una oportunidad de hacerlo bien, esa coincidencia vale más que la facilidad de entrada.</p>
+    <p>Filipinas es el mercado más grande de los tres y Malasia el más afín al producto. Singapur no es ninguna de las dos cosas: es el único donde una empresa social de la Zona Maya puede exportar por primera vez sin arancel, sin traducción, sin certificación religiosa obligatoria y sin registro sanitario por producto, y cobrar además el precio más alto de la región. Para quien solo tendrá una oportunidad de hacerlo bien, empezar donde el margen es máximo y el riesgo mínimo vale más que empezar donde el mercado es más grande. Singapur es la cabeza de playa; Malasia, la fase dos con el TIPAT y el halal ya resueltos; Filipinas, la fase tres si prospera su adhesión al TIPAT.</p>
   </div>
 </section>
 
@@ -715,57 +719,63 @@
   <p style="font-family:'DejaVu Sans',sans-serif; font-size:7.6pt; color:#6B7078; letter-spacing:.04em; margin-bottom:4mm;">Formato APA, 7.ª edición. Se anexa bibliografía completa en archivo PDF independiente.</p>
 
   <div class="refs">
-    <p>Banco Mundial. (2025). <em>GDP per capita (current US$)</em>. World Bank Open Data. <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD">https://data.worldbank.org/indicator/NY.GDP.PCAP.CD</a></p>
+    <p>Banco Mundial. (2025). <em>Data for Singapore, Malaysia, Philippines</em>. World Bank Open Data. <a href="https://data.worldbank.org/?locations=SG-MY-PH">https://data.worldbank.org/?locations=SG-MY-PH</a></p>
 
-    <p>Banco Interamericano de Desarrollo. (s. f.). <em>Guía práctica para exportar productos agrícolas a Corea del Sur, Japón y Singapur</em>. <a href="https://publications.iadb.org/">https://publications.iadb.org/</a></p>
+    <p>ChemLinked. (s. f.). <em>Malaysian halal food regulation</em>. REACH24H. <a href="https://food.chemlinked.com/foodpedia/malaysian-halal-food-regulation">https://food.chemlinked.com/foodpedia/malaysian-halal-food-regulation</a></p>
 
-    <p>Consumer Affairs Agency of Japan. (s. f.). <em>Food Labeling Act: Requisitos de etiquetado para alimentos comercializados en Japón</em>. Japan Market Gateway. <a href="https://jmgateway.com/food-labeling-act.html">https://jmgateway.com/food-labeling-act.html</a></p>
+    <p>ChemLinked. (s. f.). <em>Understanding the Philippines' Certificate of Product Registration (CPR) requirements for imported foods</em>. REACH24H. <a href="https://food.chemlinked.com/expert-article/understanding-the-philippines-certificate-of-product-registration-cpr-requirements-for-imported-foods">https://food.chemlinked.com/expert-article/</a></p>
 
-    <p>DataReportal. (2026). <em>Digital 2026: Japan</em>. Kepios. <a href="https://datareportal.com/reports/digital-2026-japan">https://datareportal.com/reports/digital-2026-japan</a></p>
+    <p>DataReportal. (2026). <em>Digital 2026: Singapore</em>. Kepios. <a href="https://datareportal.com/reports/digital-2026-singapore">https://datareportal.com/reports/digital-2026-singapore</a></p>
 
     <p>Diario Oficial de la Federación. (2010, 4 de junio). <em>Declaratoria general de protección de la denominación de origen Chile Habanero de la Península de Yucatán</em>. Secretaría de Economía. <a href="https://dof.gob.mx/nota_detalle.php?codigo=5145315&fecha=04/06/2010">https://dof.gob.mx/nota_detalle.php?codigo=5145315&amp;fecha=04/06/2010</a></p>
 
     <p>Diario Oficial de la Federación. (2018, 21 de febrero). <em>Norma Oficial Mexicana NOM-189-SCFI-2017, Chile habanero de la Península de Yucatán (Capsicum chinense Jacq.) — Especificaciones y métodos de prueba</em>. Secretaría de Economía. <a href="https://www.dof.gob.mx/nota_detalle.php?codigo=5513923&fecha=21/02/2018">https://www.dof.gob.mx/nota_detalle.php?codigo=5513923&amp;fecha=21/02/2018</a></p>
 
-    <p>El Financiero. (2025, 19 de diciembre). <em>Corea del Sur solicita "trato vip" a México por aranceles: pide retomar negociación para tratado comercial</em>. <a href="https://www.elfinanciero.com.mx/economia/2025/12/19/corea-del-sur-solicita-trato-vip-a-mexico-por-aranceles-pide-retomar-negociacion-para-tratado-comercial/">https://www.elfinanciero.com.mx/economia/2025/12/19/</a></p>
+    <p>Emerhub. (s. f.). <em>How to import food products to the Philippines</em>. <a href="https://emerhub.com/philippines/import-food-products-philippines/">https://emerhub.com/philippines/import-food-products-philippines/</a></p>
 
-    <p>Embajada de México en Japón. (s. f.). <em>Acuerdo de Asociación Económica México–Japón</em>. Secretaría de Relaciones Exteriores. <a href="https://embamex.sre.gob.mx/japon/index.php/es/embajada/economica-esp/123-relacion-economica/acuerdo-de-asociacion-economica/">https://embamex.sre.gob.mx/japon/</a></p>
+    <p>Enterprise Singapore. (s. f.). <em>Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)</em>. Gobierno de Singapur. <a href="https://www.enterprisesg.gov.sg/grow-your-business/go-global/international-agreements/free-trade-agreements/find-an-fta/cptpp">https://www.enterprisesg.gov.sg/</a></p>
 
-    <p>Enterprise Singapore. (s. f.). <em>Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)</em>. <a href="https://www.enterprisesg.gov.sg/grow-your-business/go-global/international-agreements/free-trade-agreements/find-an-fta/cptpp">https://www.enterprisesg.gov.sg/</a></p>
+    <p>Federal Agricultural Marketing Authority. (s. f.). <em>Consumers' perspective towards Malaysian traditional food: Sambal belacan (chilli shrimp paste), a preliminary investigation</em>. Gobierno de Malasia. <a href="https://www.fama.gov.my/documents/">https://www.fama.gov.my/documents/</a></p>
 
-    <p>Gobierno de Japón. (2024, febrero). <em>Miyazaki-grown fully ripened mangoes</em>. Highlighting Japan. <a href="https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202402/202402_05_en.html">https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202402/202402_05_en.html</a></p>
+    <p>IMARC Group. (2025). <em>Malaysia hot sauce market size, growth and forecast 2025–2033</em>. <a href="https://www.imarcgroup.com/malaysia-hot-sauce-market">https://www.imarcgroup.com/malaysia-hot-sauce-market</a></p>
 
-    <p>IGNITE. (s. f.). <em>Top 8 shops with imported goods in Japanese supermarkets</em>. <a href="https://igni7e.com/blog/supermarkets-with-imported-goods-in-japan">https://igni7e.com/blog/supermarkets-with-imported-goods-in-japan</a></p>
+    <p>IMARC Group. (2025). <em>Philippines hot sauce market size, share and forecast 2025–2033</em>. <a href="https://www.imarcgroup.com/philippines-hot-sauce-market">https://www.imarcgroup.com/philippines-hot-sauce-market</a></p>
 
-    <p>IMARC Group. (2025). <em>Japan hot sauce market size, share, trends and forecast 2025–2033</em>. <a href="https://www.imarcgroup.com/japan-hot-sauce-market">https://www.imarcgroup.com/japan-hot-sauce-market</a></p>
+    <p>Innova Market Insights. (2025). <em>Food trends in the Philippines: consumer insights and preferences</em>. <a href="https://www.innovamarketinsights.com/trends/food-trends-in-philippines-consumer-insights-and-preferences/">https://www.innovamarketinsights.com/trends/</a></p>
 
-    <p>IMARC Group. (2025). <em>South Korea hot sauce market size, trends and forecast 2025–2033</em>. <a href="https://www.imarcgroup.com/south-korea-hot-sauce-market">https://www.imarcgroup.com/south-korea-hot-sauce-market</a></p>
+    <p>Innova Market Insights. (2025). <em>Food trends in Malaysia: consumer insights and preferences</em>. <a href="https://www.innovamarketinsights.com/trends/food-trends-in-malaysia/">https://www.innovamarketinsights.com/trends/food-trends-in-malaysia/</a></p>
 
-    <p>Japan Customs. (2025). <em>Japan's tariff schedule as of April 1, 2025</em>. Ministry of Finance. <a href="https://www.customs.go.jp/english/tariff/2025_04_01/index.htm">https://www.customs.go.jp/english/tariff/2025_04_01/index.htm</a></p>
+    <p>MarkNtel Advisors. (2025). <em>Southeast Asia sauces, dressings and condiments market analysis 2025–2030</em>. <a href="https://www.marknteladvisors.com/research-library/southeast-asia-sauces-dressings-condiments-market.html">https://www.marknteladvisors.com/research-library/</a></p>
 
-    <p>KOMOJU. (2025). <em>Cashless shift in Japan: Key trends uncovered 2025</em>. <a href="https://en.komoju.com/blog/payment-method/cashless-shift/">https://en.komoju.com/blog/payment-method/cashless-shift/</a></p>
+    <p>McCarthy Tétrault. (2022). <em>Malaysia joins the CPTPP</em>. Spotlight on Canada-Asia. <a href="https://www.mccarthy.ca/en/insights/blogs/spotlight-can-asia/malaysia-joins-cptpp">https://www.mccarthy.ca/en/insights/blogs/spotlight-can-asia/malaysia-joins-cptpp</a></p>
 
-    <p>La Jornada. (2026, 15 de marzo). <em>Participan 40 empresas mexicanas en la feria de alimentos y bebidas Foodex 2026 en Japón</em>. <a href="https://www.jornada.com.mx/noticia/2026/03/15/economia/">https://www.jornada.com.mx/noticia/2026/03/15/economia/</a></p>
+    <p>Meltwater. (2025). <em>Social media statistics in Singapore</em>. <a href="https://www.meltwater.com/en/blog/social-media-statistics-singapore">https://www.meltwater.com/en/blog/social-media-statistics-singapore</a></p>
 
-    <p>Ministry of Health, Labour and Welfare. (s. f.). <em>Import procedure under the Food Sanitation Act</em>. Gobierno de Japón. <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/yunyu_kanshi/kanshi/index_00004.html">https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/yunyu_kanshi/kanshi/index_00004.html</a></p>
+    <p>Ministry of International Trade and Industry. (s. f.). <em>CPTPP/TPP text agreement</em>. Gobierno de Malasia. <a href="https://fta.miti.gov.my/index.php/pages/view/71">https://fta.miti.gov.my/index.php/pages/view/71</a></p>
 
-    <p>Ministry of Food and Drug Safety. (s. f.). <em>Application for registration of foreign food facility</em>. Gobierno de la República de Corea. <a href="https://impfood.mfds.go.kr/">https://impfood.mfds.go.kr/</a></p>
+    <p>PwC Singapore. (2026). <em>Payments' state of play 2026</em>. <a href="https://www.pwc.com/sg/en/publications/payments-state-of-play.html">https://www.pwc.com/sg/en/publications/payments-state-of-play.html</a></p>
 
-    <p>PayPay Corporation. (2025, 15 de julio). <em>"PayPay" reaches 70 million registered users</em> [Comunicado de prensa]. <a href="https://about.paypay.ne.jp/en/pr/20250715/01/">https://about.paypay.ne.jp/en/pr/20250715/01/</a></p>
-
-    <p>QAZ Japan. (s. f.). <em>Japan's gekikara spicy hot craze</em>. <a href="https://qazjapan.com/dive/gekikara-craze/">https://qazjapan.com/dive/gekikara-craze/</a></p>
-
-    <p>Secretaría de Agricultura y Desarrollo Rural. (s. f.). <em>Representa Japón el principal mercado de alimentos mexicanos en Asia-Pacífico y uno de los tres a nivel mundial</em>. Gobierno de México. <a href="https://www.gob.mx/agricultura/prensa/representa-japon-el-principal-mercado-de-alimentos-mexicanos-en-asia-pacifico-y-uno-de-los-tres-a-nivel-mundial-agricultura">https://www.gob.mx/agricultura/prensa/</a></p>
+    <p>REACH24H. (s. f.). <em>Malaysian food import regulations: registration, labeling and compliance essentials</em>. <a href="https://www.reach24h.com/en/service/food-service/malaysian-food-import-regulations-registration-labeling-and-compliance-essentials.html">https://www.reach24h.com/en/service/food-service/</a></p>
 
     <p>Secretaría de Economía. (2025). <em>Preparaciones para salsas, salsas, condimentos y sazonadores: intercambio comercial, importaciones y exportaciones</em>. Data México. <a href="https://www.economia.gob.mx/datamexico/es/profile/product/preparations-for-prepared-sauces-and-sauces-condiments-and-seasonings-exc-soy-sauce-tomato-sauces-mustard-flour-and-prepared-mustard">https://www.economia.gob.mx/datamexico/</a></p>
 
+    <p>SIAL Network. (2025). <em>Malaysia's food economy: where culture, halal and trade meet</em>. <a href="https://www.sial-network.com/en/trends/Newsroom/Malaysia-food-economy-where-culture-halal-and-trade-meet">https://www.sial-network.com/en/trends/Newsroom/</a></p>
+
+    <p>Singapore Customs. (s. f.). <em>Singapore Food Agency (SFA): processed food requirements under TradeNet</em>. Gobierno de Singapur. <a href="https://www.customs.gov.sg/businesses/national-single-window/tradenet/competent-authorities-requirements/sfa-processed-food">https://www.customs.gov.sg/businesses/</a></p>
+
     <p>Singapore Food Agency. (s. f.). <em>Food import and export</em>. Gobierno de Singapur. <a href="https://www.sfa.gov.sg/food-import-export">https://www.sfa.gov.sg/food-import-export</a></p>
 
+    <p>Spherical Insights. (2025). <em>Singapore condiments and sauces market size and forecasts to 2033</em>. <a href="https://www.sphericalinsights.com/reports/singapore-condiments-and-sauces-market">https://www.sphericalinsights.com/reports/singapore-condiments-and-sauces-market</a></p>
+
     <p>Statista. (2024). <em>Sauces and spices – Singapore</em>. Statista Market Forecast. <a href="https://www.statista.com/outlook/cmo/food/sauces-spices/singapore">https://www.statista.com/outlook/cmo/food/sauces-spices/singapore</a></p>
+
+    <p>The Diplomat. (2025, noviembre). <em>Philippines, UAE have applied for CPTPP membership, report claims</em>. <a href="https://thediplomat.com/2025/11/philippine-uae-have-applied-for-cptpp-membership-report-claims/">https://thediplomat.com/2025/11/</a></p>
+
+    <p>US-ASEAN Business Council. (2025). <em>Philippines expands market access push with CPTPP application and new tariff exemptions</em>. <a href="https://www.usasean.org/article/philippine-expands-market-access-push-cptpp-application-and-new-tariff-exemptions">https://www.usasean.org/article/</a></p>
   </div>
 
   <div class="footnote">
-    Nota sobre fuentes: los indicadores macroeconómicos y de tamaño de mercado se actualizan periódicamente; se recomienda verificar la última cifra disponible antes de utilizar este documento con fines comerciales. La tasa arancelaria aplicable a la fracción 2103.90 debe confirmarse en la tarifa vigente publicada por Japan Customs y en el certificado de origen correspondiente al Acuerdo de Asociación Económica México–Japón o al TIPAT, según el régimen que resulte más favorable en la operación concreta.
+    Nota sobre fuentes: los indicadores macroeconómicos y de tamaño de mercado se actualizan periódicamente; se recomienda verificar la última cifra disponible antes de utilizar este documento con fines comerciales. El régimen arancelario aplicable debe confirmarse en la tarifa vigente del país destino y en el certificado de origen correspondiente al TIPAT. El estatus de la solicitud de adhesión de Filipinas al TIPAT debe consultarse antes de considerar ese mercado, ya que modificaría sustancialmente su calificación en la matriz de selección.
   </div>
 </section>
 
