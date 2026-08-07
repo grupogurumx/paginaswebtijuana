@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Investigación del mercado internacional · Módulo 2</title>
+<style>
+  @page { size: A4; margin: 16mm 15mm 18mm 15mm; }
+  @page :first { margin: 0; }
+
+  :root{
+    --ink:#16181D;
+    --body:#2C3038;
+    --muted:#6B7078;
+    --rule:#E4DED2;
+    --paper:#FFFFFF;
+    --sand:#FBF7F0;
+    --sand2:#F5EFE4;
+    --habanero:#C8451B;
+    --habanero-soft:#F6E3DA;
+    --mango:#E09B26;
+    --mango-soft:#FBF0DA;
+    --jade:#1E5F55;
+    --jade-soft:#DFEBE7;
+    --indigo:#1D3557;
+    --indigo-soft:#E2E8F0;
+  }
+
+  *{ box-sizing:border-box; }
+
+  html{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+
+  body{
+    margin:0;
+    font-family:"Bitstream Charter","Charter",Georgia,serif;
+    font-size:9.6pt;
+    line-height:1.55;
+    color:var(--body);
+    background:var(--paper);
+  }
+
+  .sans{ font-family:"DejaVu Sans","Liberation Sans",sans-serif; }
+
+  h1,h2,h3,h4{ color:var(--ink); margin:0; font-weight:700; }
+
+  /* ---------- PORTADA ---------- */
+  .cover{
+    height:297mm; width:210mm;
+    padding:26mm 22mm 20mm 22mm;
+    background:var(--sand);
+    position:relative;
+    page-break-after:always;
+    display:flex; flex-direction:column;
+  }
+  .cover::before{
+    content:""; position:absolute; top:0; left:0; right:0; height:9mm;
+    background:linear-gradient(90deg,var(--habanero) 0%,var(--habanero) 33%,var(--mango) 33%,var(--mango) 66%,var(--jade) 66%,var(--jade) 100%);
+  }
+  .cover-kicker{
+    font-family:"DejaVu Sans",sans-serif; font-size:7.6pt; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--habanero); font-weight:700; margin-bottom:14mm;
+  }
+  .cover h1{
+    font-size:40pt; line-height:1.04; letter-spacing:-.02em; margin-bottom:6mm;
+  }
+  .cover h1 em{ font-style:italic; color:var(--habanero); }
+  .cover .sub{
+    font-size:13pt; line-height:1.4; color:var(--muted); font-style:italic;
+    padding-bottom:9mm; border-bottom:1.6pt solid var(--ink); margin-bottom:9mm; max-width:150mm;
+  }
+  .cover-flag{
+    display:flex; gap:5mm; align-items:center; margin-bottom:11mm;
+  }
+  .chip{
+    font-family:"DejaVu Sans",sans-serif; font-size:7.4pt; letter-spacing:.1em; text-transform:uppercase;
+    font-weight:700; padding:2.2mm 4mm; border-radius:100px; color:#fff;
+  }
+  .chip.h{ background:var(--habanero); }
+  .chip.j{ background:var(--indigo); }
+  .chip.o{ background:var(--jade); }
+
+  .cover-meta{ margin-top:auto; display:grid; grid-template-columns:1fr 1fr; gap:7mm 10mm; }
+  .cover-meta .lbl{
+    font-family:"DejaVu Sans",sans-serif; font-size:6.8pt; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--habanero); font-weight:700; margin-bottom:1.4mm;
+  }
+  .cover-meta .val{ font-size:10pt; color:var(--ink); line-height:1.45; }
+  .cover-foot{
+    margin-top:10mm; padding-top:4mm; border-top:.6pt solid var(--rule);
+    font-family:"DejaVu Sans",sans-serif; font-size:7.2pt; color:var(--muted); letter-spacing:.04em;
+  }
+
+  /* ---------- ESTRUCTURA ---------- */
+  .sec{ margin-top:9mm; }
+  .sec:first-of-type{ margin-top:0; }
+
+  h2.section{
+    font-size:16pt; letter-spacing:-.01em; line-height:1.15;
+    padding-bottom:2.6mm; margin-bottom:4mm;
+    border-bottom:1.4pt solid var(--ink);
+    page-break-after:avoid;
+  }
+  h2.section .num{
+    font-family:"DejaVu Sans",sans-serif; font-size:9pt; color:var(--habanero);
+    font-weight:700; letter-spacing:.06em; margin-right:3mm; vertical-align:.6mm;
+  }
+  h3{ font-size:11pt; margin:6mm 0 2.2mm; page-break-after:avoid; }
+  h4{
+    font-family:"DejaVu Sans",sans-serif; font-size:7.6pt; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--habanero); margin:5mm 0 2mm; page-break-after:avoid;
+  }
+  p{ margin:0 0 2.8mm; text-align:justify; hyphens:auto; }
+  ul,ol{ margin:0 0 3mm; padding-left:5mm; }
+  li{ margin-bottom:1.6mm; text-align:justify; }
+  li::marker{ color:var(--habanero); }
+  strong{ color:var(--ink); }
+  .lead{ font-size:11pt; line-height:1.5; color:var(--ink); font-style:italic; margin-bottom:4mm; }
+
+  /* ---------- TABLAS ---------- */
+  table{ width:100%; border-collapse:collapse; margin:3mm 0 4mm; font-size:8.2pt; line-height:1.42; }
+  thead{ display:table-header-group; }
+  th{
+    font-family:"DejaVu Sans",sans-serif; font-size:7.2pt; letter-spacing:.08em; text-transform:uppercase;
+    text-align:left; padding:2.4mm 2.6mm; color:#fff; font-weight:700; vertical-align:middle;
+  }
+  th.crit{ background:var(--ink); width:15%; }
+  th.jp{ background:var(--habanero); }
+  th.kr{ background:#8C6B3F; }
+  th.sg{ background:var(--jade); }
+  td{ padding:2.6mm 2.6mm; border-bottom:.5pt solid var(--rule); vertical-align:top; text-align:left; }
+  tbody tr:nth-child(even) td{ background:var(--sand); }
+  td.crit{
+    font-family:"DejaVu Sans",sans-serif; font-size:7.2pt; letter-spacing:.09em; text-transform:uppercase;
+    font-weight:700; color:var(--ink); background:var(--sand2) !important; width:15%;
+  }
+  tr{ page-break-inside:avoid; }
+  .t-note{ font-family:"DejaVu Sans",sans-serif; font-size:6.8pt; color:var(--muted); line-height:1.4; margin-top:-2mm; }
+
+  /* matriz */
+  table.matrix{ font-size:8pt; }
+  table.matrix th{ background:var(--ink); text-align:center; }
+  table.matrix th:first-child{ text-align:left; }
+  table.matrix td{ text-align:center; font-family:"DejaVu Sans",sans-serif; font-size:8pt; }
+  table.matrix td:first-child{ text-align:left; font-family:"Bitstream Charter",serif; font-size:8.4pt; }
+  table.matrix tr.total td{
+    font-weight:700; background:var(--ink) !important; color:#fff; border-bottom:none; font-size:9pt;
+  }
+  .win{ background:var(--habanero-soft) !important; font-weight:700; color:var(--habanero); }
+
+  /* ---------- CAJAS ---------- */
+  .box{
+    padding:4mm 4.6mm; margin:4mm 0; page-break-inside:avoid;
+    background:var(--sand); border-left:2.4pt solid var(--habanero);
+  }
+  .box.jade{ border-left-color:var(--jade); background:var(--jade-soft); }
+  .box.indigo{ border-left-color:var(--indigo); background:var(--indigo-soft); }
+  .box .bt{
+    font-family:"DejaVu Sans",sans-serif; font-size:7pt; letter-spacing:.16em; text-transform:uppercase;
+    font-weight:700; color:var(--habanero); margin-bottom:2mm;
+  }
+  .box.jade .bt{ color:var(--jade); }
+  .box.indigo .bt{ color:var(--indigo); }
+  .box p:last-child{ margin-bottom:0; }
+
+  .stats{ display:grid; grid-template-columns:repeat(3,1fr); gap:3mm; margin:4mm 0; page-break-inside:avoid; }
+  .stat{ background:var(--sand); padding:3.4mm; border-top:2pt solid var(--habanero); }
+  .stat .n{ font-family:"DejaVu Sans",sans-serif; font-size:15pt; font-weight:700; color:var(--habanero); line-height:1.1; }
+  .stat .l{ font-family:"DejaVu Sans",sans-serif; font-size:6.9pt; line-height:1.4; color:var(--muted); margin-top:1.4mm; }
+
+  /* ---------- INFOGRAFÍA ---------- */
+  .info-page{ page-break-before:always; }
+
+  .info-head{
+    background:var(--ink); color:#fff; padding:6mm 7mm; position:relative; overflow:hidden;
+    page-break-inside:avoid; page-break-after:avoid;
+  }
+  .info-head::after{
+    content:""; position:absolute; right:-14mm; top:-14mm; width:52mm; height:52mm;
+    border-radius:50%; background:var(--habanero); opacity:.28;
+  }
+  .info-head .k{
+    font-family:"DejaVu Sans",sans-serif; font-size:7pt; letter-spacing:.24em; text-transform:uppercase;
+    color:var(--mango); font-weight:700; margin-bottom:2.4mm;
+  }
+  .info-head h2{ color:#fff; font-size:23pt; line-height:1.08; letter-spacing:-.01em; }
+  .info-head .d{ font-size:9.4pt; color:#C9CDD4; font-style:italic; margin-top:2.4mm; max-width:130mm; position:relative; z-index:2; }
+
+  .persona{
+    display:grid; grid-template-columns:52mm 1fr; gap:0;
+    border:.7pt solid var(--rule); border-top:none; page-break-inside:avoid;
+  }
+  .persona-face{
+    background:var(--habanero); color:#fff; padding:6mm 5mm; text-align:center;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+  }
+  .avatar{ width:26mm; height:26mm; margin-bottom:3.4mm; }
+  .persona-face .nm{ font-size:15pt; font-weight:700; line-height:1.12; color:#fff; }
+  .persona-face .nmjp{ font-family:"IPAGothic",sans-serif; font-size:9pt; color:#F7D9CD; margin-top:1mm; }
+  .persona-face .rl{
+    font-family:"DejaVu Sans",sans-serif; font-size:7pt; line-height:1.45; color:#FCE9E1;
+    margin-top:2.6mm; padding-top:2.6mm; border-top:.7pt solid rgba(255,255,255,.4);
+  }
+  .persona-data{ padding:5mm 5.5mm; background:var(--paper); }
+  .dgrid{ display:grid; grid-template-columns:repeat(2,1fr); gap:3.2mm 5mm; }
+  .dgrid .f .lbl{
+    font-family:"DejaVu Sans",sans-serif; font-size:6.4pt; letter-spacing:.15em; text-transform:uppercase;
+    color:var(--habanero); font-weight:700;
+  }
+  .dgrid .f .val{ font-size:9pt; color:var(--ink); line-height:1.35; }
+
+  .cards{ display:grid; grid-template-columns:1fr 1fr; gap:3.2mm; margin-top:3.2mm; }
+  .card{
+    border:.7pt solid var(--rule); border-top:2.4pt solid var(--jade);
+    padding:3.2mm 3.6mm; background:var(--paper); page-break-inside:avoid;
+  }
+  .card.c2{ border-top-color:var(--mango); }
+  .card.c3{ border-top-color:var(--indigo); }
+  .card.c4{ border-top-color:var(--habanero); }
+  .card.c5{ border-top-color:#8C6B3F; }
+  .card.wide{ grid-column:1 / -1; }
+  .card .ct{
+    font-family:"DejaVu Sans",sans-serif; font-size:7.4pt; letter-spacing:.15em; text-transform:uppercase;
+    font-weight:700; color:var(--jade); margin-bottom:2.6mm;
+    display:flex; align-items:center; gap:2.4mm;
+  }
+  .card.c2 .ct{ color:#B57A12; }
+  .card.c3 .ct{ color:var(--indigo); }
+  .card.c4 .ct{ color:var(--habanero); }
+  .card.c5 .ct{ color:#8C6B3F; }
+  .card .ct .no{
+    width:5.4mm; height:5.4mm; border-radius:50%; background:var(--jade); color:#fff;
+    display:inline-flex; align-items:center; justify-content:center; font-size:6.8pt; flex:0 0 auto;
+  }
+  .card.c2 .ct .no{ background:var(--mango); }
+  .card.c3 .ct .no{ background:var(--indigo); }
+  .card.c4 .ct .no{ background:var(--habanero); }
+  .card.c5 .ct .no{ background:#8C6B3F; }
+  .card ul{ margin:0; padding-left:4mm; font-size:8.1pt; line-height:1.42; }
+  .card li{ margin-bottom:1.2mm; text-align:left; }
+  .card p{ font-size:8.1pt; line-height:1.42; text-align:left; }
+  .qa{ font-size:8.1pt; line-height:1.42; margin-bottom:1.9mm; }
+  .qa .q{
+    font-family:"DejaVu Sans",sans-serif; font-size:6.8pt; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--muted); font-weight:700; display:block;
+  }
+
+  /* barras de motivadores */
+  .bars{ margin-top:1mm; }
+  .bar{ display:grid; grid-template-columns:34mm 1fr 10mm; align-items:center; gap:2.4mm; margin-bottom:1.8mm; }
+  .bar .bl{ font-family:"DejaVu Sans",sans-serif; font-size:7.2pt; color:var(--ink); }
+  .bar .bt{ display:block; height:3.2mm; background:var(--sand2); border-radius:100px; overflow:hidden; }
+  .bar .bf{ display:block; height:3.2mm; background:var(--habanero); border-radius:100px; }
+  .bar .bv{ font-family:"DejaVu Sans",sans-serif; font-size:6.8pt; color:var(--muted); text-align:right; }
+
+  /* escala de picor */
+  .heat{ display:flex; gap:1.4mm; align-items:center; margin-top:1.6mm; }
+  .heat .dot{ flex:0 0 auto; width:4.2mm; height:4.2mm; border-radius:50%; background:var(--sand2); border:.5pt solid var(--rule); }
+  .heat .dot.on{ background:var(--habanero); border-color:var(--habanero); }
+  .heat .hl{ font-family:"DejaVu Sans",sans-serif; font-size:6.8pt; color:var(--muted); margin-left:2mm; }
+
+  .barrier{ display:grid; grid-template-columns:27mm 1fr; gap:2.4mm; font-size:8.1pt; margin-bottom:1.8mm; line-height:1.42; }
+  .barrier .bn{
+    font-family:"DejaVu Sans",sans-serif; font-size:6pt; letter-spacing:.03em; text-transform:uppercase;
+    font-weight:700; color:#fff; background:var(--habanero); padding:1mm 1.4mm; border-radius:2px;
+    text-align:center; height:fit-content; line-height:1.35;
+  }
+  .barrier .bn.low{ background:#9AA0A6; }
+  .barrier .bn.mid{ background:var(--mango); }
+
+  /* segmentación */
+  .segs{ display:grid; grid-template-columns:1fr 1fr; gap:3.2mm; margin-top:3mm; }
+  .seg{ border:.7pt solid var(--rule); padding:3.2mm 3.6mm; page-break-inside:avoid; background:var(--paper); }
+  .seg .st{
+    font-family:"DejaVu Sans",sans-serif; font-size:7.6pt; letter-spacing:.15em; text-transform:uppercase;
+    font-weight:700; color:var(--habanero); margin-bottom:2.4mm; padding-bottom:1.6mm;
+    border-bottom:.7pt solid var(--rule);
+  }
+  .seg ul{ margin:0; padding-left:4mm; font-size:8.1pt; line-height:1.42; }
+  .seg li{ margin-bottom:1.2mm; text-align:left; }
+
+  /* referencias */
+  .refs{ font-size:8.2pt; line-height:1.42; }
+  .refs p{ padding-left:6mm; text-indent:-6mm; margin-bottom:2.1mm; text-align:left; }
+  .refs a{ color:var(--indigo); word-break:break-all; text-decoration:none; }
+
+  .footnote{
+    font-family:"DejaVu Sans",sans-serif; font-size:6.7pt; color:var(--muted);
+    line-height:1.42; border-top:.5pt solid var(--rule); padding-top:2.2mm; margin-top:3.2mm;
+    page-break-inside:avoid;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ PORTADA ============ -->
+<section class="cover">
+  <div class="cover-kicker">Proyecto Integrador · Sesión 2 · Módulo 2</div>
+
+  <h1>Del fuego maya<br>al <em>umami</em> japonés</h1>
+  <div class="sub">Investigación del mercado internacional para la Salsa de Habanero con Mango de la Península de Yucatán: comparativo Japón · Corea del Sur · Singapur</div>
+
+  <div class="cover-flag">
+    <span class="chip h">Japón</span>
+    <span class="chip j">Corea del Sur</span>
+    <span class="chip o">Singapur</span>
+  </div>
+
+  <p style="font-size:10.5pt; line-height:1.5; max-width:150mm; color:#4A4F57;">
+    Continente asignado: <strong>Asia</strong>. Producto: salsa artesanal de chile habanero con mango,
+    elaborada por una empresa social de la Zona Maya de Quintana Roo al amparo de la Denominación de Origen
+    <em>Chile Habanero de la Península de Yucatán</em>.
+  </p>
+
+  <div class="cover-meta">
+    <div>
+      <div class="lbl">Materia</div>
+      <div class="val">Mercadotecnia Internacional</div>
+    </div>
+    <div>
+      <div class="lbl">Actividad</div>
+      <div class="val">Investigación documental, cuadro comparativo,<br>segmentación e infografía de Buyer Persona</div>
+    </div>
+    <div>
+      <div class="lbl">Alumno</div>
+      <div class="val">Rafael H. Rodríguez Morales<br><span style="color:#6B7078; font-size:9pt;">Matrícula 00883482</span></div>
+    </div>
+    <div>
+      <div class="lbl">Integrantes del equipo</div>
+      <div class="val" style="font-size:9pt;">
+        Rafael H. Rodríguez Morales — 00883482<br>
+        Addy Lili Pastrana Sánchez — 00880385<br>
+        Elmer Pech Escobedo — 00882141
+      </div>
+    </div>
+    <div>
+      <div class="lbl">Docente</div>
+      <div class="val">Mtra. Marisol Guadalupe Joya Nava</div>
+    </div>
+    <div>
+      <div class="lbl">Fecha de entrega</div>
+      <div class="val">7 de agosto de 2026</div>
+    </div>
+  </div>
+
+  <div class="cover-foot">RafaelH_Rodriguez_S2M2.pdf · Referencias en formato APA 7.ª edición · Bibliografía anexa en PDF</div>
+</section>
+
+<!-- ============ 1. POR QUÉ ASIA ============ -->
+<section class="sec">
+  <h2 class="section"><span class="num">01</span>¿Por qué este mercado? Planteamiento y criterios de decisión</h2>
+
+  <p class="lead">La pregunta del módulo no es a qué país se puede exportar, sino a cuál conviene exportar primero. Para una empresa social con producción limitada, la selección de mercado no es una lista de deseos: es una decisión de asignación de recursos escasos.</p>
+
+  <p>El Módulo 1 estableció el punto de partida: el chile habanero de la Península de Yucatán cuenta con una <strong>Denominación de Origen</strong> declarada en 2010 y una norma técnica propia, la <strong>NOM-189-SCFI-2017</strong>, y la unidad de análisis es una empresa social de la Zona Maya de Quintana Roo que busca su primera exportación. También se estableció la conclusión estratégica: no exportar el chile a granel, sino el producto transformado con marca, historia y valor agregado. La <strong>salsa de habanero con mango</strong> materializa esa decisión, porque combina el activo intangible protegido (el habanero peninsular) con un ingrediente de alta aceptación internacional (el mango mexicano) y suaviza el picor mediante el dulzor de la fruta, resolviendo de origen la principal barrera sensorial detectada.</p>
+
+  <p>Al equipo se le asignó el continente <strong>asiático</strong>. Asia concentra la mayor población consumidora del planeta y, a diferencia de Europa o Norteamérica, posee una cultura del picante preexistente que elimina la necesidad de educar al consumidor sobre la categoría. Sin embargo, Asia no es un mercado: es una colección de mercados con regímenes arancelarios, sistemas regulatorios y paladares radicalmente distintos. Por eso se seleccionaron tres candidatos que representan tres modelos de acceso opuestos:</p>
+
+  <ul>
+    <li><strong>Japón</strong> — mercado grande, de alto ingreso, con acuerdo comercial preferencial vigente con México y una barrera técnica exigente. Modelo de <em>alto valor con alta exigencia</em>.</li>
+    <li><strong>Corea del Sur</strong> — mercado dinámico, joven y digital, con cultura del picante profundamente arraigada, pero <em>sin</em> tratado de libre comercio vigente con México. Modelo de <em>alta afinidad cultural con alto costo de acceso</em>.</li>
+    <li><strong>Singapur</strong> — mercado pequeño pero riquísimo, en inglés, con arancel cero y regulación simple. Modelo de <em>acceso fácil con escala limitada</em>.</li>
+  </ul>
+
+  <p>La comparación se organizó en las seis variables solicitadas —economía, cultura, competencia, consumidor, barreras comerciales y tendencias de consumo— y se cerró con una matriz de selección ponderada que traduce el análisis cualitativo en una calificación defendible.</p>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="n">US$323.5 M</div>
+      <div class="l">Mercado japonés de salsas picantes en 2024, con proyección de US$479.9 M para 2033 (TCAC 4.48%)</div>
+    </div>
+    <div class="stat">
+      <div class="n">US$104.3 M</div>
+      <div class="l">Mercado surcoreano de salsas picantes en 2024, con proyección de US$154.1 M para 2033 (TCAC 4.44%)</div>
+    </div>
+    <div class="stat">
+      <div class="n">US$249.7 M</div>
+      <div class="l">Mercado singapurense de salsas y condimentos en 2024 (categoría completa, no solo picante)</div>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="bt">El hallazgo que ordena la decisión</div>
+    <p>De acuerdo con Data México, en 2024 los principales destinos de las exportaciones mexicanas de salsas y condimentos fueron Estados Unidos (US$553 M), Guatemala (US$66.7 M), Colombia (US$17.3 M), Reino Unido (US$8.14 M) y Países Bajos (US$7.54 M). <strong>Ningún país asiático aparece en el top cinco.</strong> Al mismo tiempo, la Secretaría de Agricultura y Desarrollo Rural documenta que México exporta más de US$1,300 millones en alimentos y bebidas a Japón, que es el principal mercado de alimentos mexicanos en Asia-Pacífico y el segundo destino de las agroexportaciones nacionales. Existe entonces un corredor comercial consolidado hacia Japón que la categoría de salsas todavía no aprovecha: infraestructura probada, demanda validada y competencia mexicana escasa.</p>
+  </div>
+</section>
+
+<!-- ============ 2. CUADRO COMPARATIVO ============ -->
+<section class="sec" style="page-break-before:always;">
+  <h2 class="section"><span class="num">02</span>Cuadro comparativo de los tres mercados candidatos</h2>
+
+  <p>Análisis documental sobre las seis variables solicitadas. Las cifras corresponden a los últimos datos disponibles al momento de la investigación; su fuente se detalla en el apartado de referencias.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="crit">Variable</th>
+        <th class="jp">Japón</th>
+        <th class="kr">Corea del Sur</th>
+        <th class="sg">Singapur</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="crit">Economía</td>
+        <td>Cuarta economía mundial. PIB per cápita de US$32,487 (Banco Mundial, 2024); población de 123.3 millones. Crecimiento del PIB de 0.1% e inflación de 2.7% en 2024: economía madura, estable y de bajo crecimiento, pero de enorme masa crítica. Mercado de salsas picantes de US$323.5 M (2024) con proyección a US$479.9 M en 2033. Importa más de US$1,300 M en alimentos y bebidas mexicanos.</td>
+        <td>PIB per cápita de US$36,239 (Banco Mundial, 2024); US$55,071 en paridad de poder adquisitivo. Población de 51.7 millones. Economía industrializada, exportadora y de crecimiento superior al japonés. Mercado de salsas picantes de US$104.3 M (2024) con proyección a US$154.1 M en 2033: una tercera parte del japonés.</td>
+        <td>El ingreso más alto de los tres: PIB per cápita de US$67,707 (Banco Mundial, 2024) y US$132,570 en paridad de poder adquisitivo. Población de apenas 6 millones. Mercado de salsas y condimentos de US$249.7 M (2024) con crecimiento de 3.44% al 2029. Altísimo poder de compra individual, escala nacional mínima.</td>
+      </tr>
+      <tr>
+        <td class="crit">Cultura</td>
+        <td>Cocina <em>washoku</em> centrada en el umami, la estacionalidad y la presentación. Paladar tradicionalmente suave, con condimentos picantes propios (<em>shichimi togarashi</em>, <em>rayu</em>, wasabi, <em>yuzu koshō</em>). Cultura del regalo altamente formalizada —<em>ochūgen</em> en verano y <em>oseibo</em> en invierno— donde la fruta premium es objeto de prestigio: el mango Taiyō no Tamago de Miyazaki es un símbolo de lujo. Enorme respeto por el productor artesanal y por el origen certificado.</td>
+        <td>El picante es identidad nacional: <em>gochujang</em>, kimchi y <em>ssamjang</em> estructuran la dieta diaria. Comer es un acto colectivo. La ola <em>hallyu</em> proyecta el K-food al mundo y genera orgullo por lo local. Consecuencia comercial: el atributo "picante" no comunica novedad alguna; es la norma, no la excepción.</td>
+        <td>Sociedad multicultural (china, malaya, india y occidental) sin una única tradición dominante. El picante es cotidiano vía <em>sambal</em> y <em>chilli padi</em>. El inglés es lengua franca, lo que elimina la barrera idiomática. Cultura de <em>hawker centres</em> y altísimo consumo fuera del hogar.</td>
+      </tr>
+      <tr>
+        <td class="crit">Competencia</td>
+        <td>Anaquel dominado por condimentos locales, con Tabasco como marca importada de referencia y presencia creciente de sriracha y sambal. El Yucateco ya circula en el canal gourmet e importador, lo que valida la categoría sin saturarla. Competencia media, fragmentada en el nicho premium y con espacio para propuestas de autor.</td>
+        <td>Competencia alta y estructural. Gochujang y ssamjang dominan el anaquel picante —el mercado global del gochujang se valuó en US$3.8 mil millones en 2025—, con conglomerados locales de gran poder de canal. Compiten además sriracha tailandesa, harissa y ají amarillo peruano por la misma atención del consumidor.</td>
+        <td>Mercado totalmente abierto: conviven marcas globales, regionales y sambales locales. Alta rotación pero anaquel saturado y márgenes presionados. La facilidad de entrada es simétrica: lo que es fácil para nosotros lo es para todos los competidores.</td>
+      </tr>
+      <tr>
+        <td class="crit">Consumidor</td>
+        <td>Población envejecida pero con un núcleo joven de 20 a 39 años que impulsa el consumo de picante, por primera vez de forma transversal entre mujeres. Exigente en calidad, consistencia y presentación; dispuesto a pagar sobreprecio por autenticidad verificable. Altamente digital: 99.0 millones de usuarios de redes sociales, equivalentes al 80.5% de la población (octubre de 2025).</td>
+        <td>Consumidor joven, hiperdigital y dependiente de tendencia. Adopta con enorme velocidad y abandona con la misma rapidez. Exige innovación constante y responde a la validación social. Altísima penetración del comercio electrónico.</td>
+        <td>Consumidor cosmopolita, de alto poder adquisitivo y muy abierto a cualquier origen. Alta frecuencia de consumo fuera de casa y baja lealtad de marca: prueba mucho y repite poco.</td>
+      </tr>
+      <tr>
+        <td class="crit">Barreras<br>comerciales</td>
+        <td><strong>Arancelaria: baja.</strong> El Acuerdo de Asociación Económica México–Japón (2005) y el TIPAT otorgan trato preferencial; la fracción 2103.90 registra un arancel NMF cercano a 7.6% sujeto a desgravación bajo el AAE. <strong>Técnica: alta.</strong> Notificación de importación ante el MHLW conforme al artículo 27 de la Ley de Sanidad Alimentaria, con inspección en 32 puertos y aeropuertos; sistema de lista positiva para aditivos y residuos de plaguicidas; etiquetado íntegro en japonés bajo la Ley de Etiquetado de Alimentos (Consumer Affairs Agency): denominación, ingredientes, alérgenos, contenido neto, conservación, caducidad e importador.</td>
+        <td><strong>Arancelaria: alta.</strong> No existe tratado de libre comercio vigente entre México y Corea del Sur; las negociaciones siguen abiertas y Corea solicitó reanudarlas en diciembre de 2025. Se paga arancel NMF pleno, en desventaja frente a Chile, Perú, Estados Unidos y la Unión Europea, que sí tienen acuerdo. <strong>Técnica: alta.</strong> Registro previo del establecimiento extranjero ante el MFDS, notificación de importación, etiqueta en coreano, trazabilidad documentada y plan de retiro del producto.</td>
+        <td><strong>Arancelaria: nula.</strong> Singapur no aplica aranceles ni cuotas a los alimentos importados, salvo tabaco y alcohol, y el TIPAT está vigente con México. <strong>Técnica: baja.</strong> Licencia de importador y declaración ante la Singapore Food Agency mediante TradeNet; etiquetado en inglés. Es el acceso más sencillo de los tres.</td>
+      </tr>
+      <tr>
+        <td class="crit">Tendencias<br>de consumo</td>
+        <td>Auge sostenido del <em>gekikara</em> (激辛, "picante feroz"), esta vez transversal a mujeres y jóvenes y amplificado en Instagram y X, donde el consumo de picante se comparte como experiencia. Premiumización y valoración del producto artesanal; etiqueta limpia y menor sodio; interés por cocinas del mundo y por cocinar en casa. Rakuten, Amazon Japan y Yahoo! Shopping concentran cerca del 50% del comercio electrónico nacional.</td>
+        <td>Premiumización del anaquel picante y expansión del K-food, con exportaciones coreanas de salsas creciendo 12% en 2024. Demanda de fórmulas bajas en sodio, sin conservadores y con chile natural. Fuerte apetito por sabores globales de fusión.</td>
+        <td>Salud, sostenibilidad y trazabilidad. Interés genuino por productos étnicos auténticos. Muy alto consumo fuera del hogar y función de <em>hub</em> de reexportación hacia el resto del sudeste asiático.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="t-note">Nota metodológica: las cifras de mercado de salsas picantes de Japón y Corea del Sur provienen de reportes sectoriales de IMARC Group; la de Singapur corresponde a la categoría más amplia de salsas y condimentos según Statista, por lo que no es estrictamente comparable y se emplea únicamente como referencia de orden de magnitud. Los indicadores macroeconómicos corresponden al Banco Mundial (2024). Se recomienda verificar la fracción arancelaria específica en la tarifa vigente de Japan Customs antes de cotizar una operación real.</p>
+</section>
+
+<!-- ============ 3. MATRIZ Y JUSTIFICACIÓN ============ -->
+<section class="sec" style="page-break-before:always;">
+  <h2 class="section"><span class="num">03</span>Matriz de selección ponderada y justificación del mercado elegido</h2>
+
+  <p>Para evitar que la decisión dependa de la impresión general, cada variable se convirtió en un criterio con peso explícito y calificación de 1 a 5, donde 5 es la condición más favorable para la empresa social exportadora. Los pesos reflejan las prioridades de un exportador primerizo con capital limitado: pesa más el acceso real al mercado que su tamaño absoluto.</p>
+
+  <table class="matrix">
+    <thead>
+      <tr>
+        <th>Criterio de evaluación</th>
+        <th style="width:12%;">Peso</th>
+        <th style="width:15%;">Japón</th>
+        <th style="width:15%;">Corea del Sur</th>
+        <th style="width:15%;">Singapur</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Tamaño y valor del mercado meta</td><td>20%</td><td class="win">5</td><td>3</td><td>2</td></tr>
+      <tr><td>Acceso preferencial y costo arancelario</td><td>20%</td><td class="win">5</td><td>1</td><td class="win">5</td></tr>
+      <tr><td>Disposición a pagar por producto premium</td><td>15%</td><td class="win">5</td><td>3</td><td>4</td></tr>
+      <tr><td>Poder diferenciador del atributo (picor + origen)</td><td>15%</td><td class="win">5</td><td>2</td><td>3</td></tr>
+      <tr><td>Baja intensidad competitiva en el nicho</td><td>10%</td><td class="win">3</td><td>2</td><td>2</td></tr>
+      <tr><td>Facilidad regulatoria y de etiquetado</td><td>10%</td><td>2</td><td>2</td><td class="win">5</td></tr>
+      <tr><td>Corredor logístico y comercial ya existente</td><td>10%</td><td class="win">5</td><td>4</td><td>4</td></tr>
+      <tr class="total"><td>Calificación ponderada final</td><td>100%</td><td>4.50</td><td>2.35</td><td>3.55</td></tr>
+    </tbody>
+  </table>
+
+  <div class="box">
+    <div class="bt">Mercado seleccionado</div>
+    <p style="font-size:12pt; color:var(--ink); font-style:italic;">Japón, con entrada por el canal gourmet e importador especializado del área metropolitana de Tokio.</p>
+  </div>
+
+  <h3>Los cinco argumentos que sostienen la elección</h3>
+
+  <p><strong>1. Es el único de los tres que combina escala y acceso preferencial.</strong> Japón ofrece un mercado de salsas picantes tres veces mayor que el coreano y, simultáneamente, el mejor régimen de acceso: el Acuerdo de Asociación Económica México–Japón, vigente desde 2005, y el TIPAT eliminan o reducen sustancialmente el arancel que Corea del Sur cobraría íntegro. Singapur iguala a Japón en facilidad arancelaria, pero con seis millones de habitantes no puede sostener el crecimiento de una empresa productora; sirve como mercado de expansión posterior, no como cabeza de playa.</p>
+
+  <p><strong>2. El picor todavía es novedad, y eso vale dinero.</strong> Ésta es la diferencia decisiva frente a Corea del Sur. En Corea, un producto picante compite contra el gochujang en su propio terreno cultural: llega tarde a una conversación de siglos. En Japón, en cambio, el <em>gekikara</em> es una tendencia en expansión y no una tradición consolidada, lo que significa que el consumidor todavía está construyendo sus referencias y una marca nueva puede ocupar un lugar en su mapa mental. El atributo diferenciador conserva poder porque el mercado aún no lo ha normalizado.</p>
+
+  <p><strong>3. El mango convierte al producto en objeto de prestigio, no solo en condimento.</strong> En Japón la fruta premium tiene un estatus simbólico que no existe en Occidente: el mango de Miyazaki se regala en ocasiones ceremoniales y en intercambios de negocios. Japón, además, importa mango principalmente de México. La combinación habanero–mango no se lee, por tanto, como una salsa exótica más, sino como el cruce entre un ingrediente de lujo reconocido y un origen protegido, lo que habilita el acceso a la temporada de regalo formal —<em>ochūgen</em> y <em>oseibo</em>— con márgenes muy superiores a los del anaquel ordinario.</p>
+
+  <p><strong>4. La denominación de origen encuentra aquí a su público natural.</strong> El activo intangible descrito en el Módulo 1 solo produce valor si alguien lo entiende. El consumidor japonés está culturalmente entrenado para pagar por procedencia certificada, temporada y trazabilidad; la lógica de la Denominación de Origen del Chile Habanero de la Península de Yucatán es equivalente a la de las indicaciones geográficas que el mercado japonés ya reconoce y valora. En Singapur, mercado de bajo apego a la marca, esa misma inversión narrativa rendiría mucho menos.</p>
+
+  <p><strong>5. El corredor ya existe y está probado.</strong> México exporta más de US$1,300 millones en alimentos y bebidas a Japón, que es el principal mercado de alimentos mexicanos en Asia-Pacífico. Existen ferias de acceso estructurado como Foodex Japan —donde en 2026 participaron cuarenta empresas mexicanas—, importadores familiarizados con el trámite del producto mexicano y consumidores con experiencia previa positiva del país de origen gracias al aguacate y al tequila. El Módulo 1 documentó, además, que Quintana Roo ya registra a Japón entre sus destinos de exportación de habanero. No se está abriendo una ruta: se está subiendo a una que ya funciona.</p>
+
+  <div class="box jade">
+    <div class="bt">El costo de la decisión, dicho con honestidad</div>
+    <p>Japón es el mercado más exigente de los tres en materia técnica y es, deliberadamente, el que peor califica en facilidad regulatoria. Exige etiqueta íntegra en japonés, cumplimiento del sistema de lista positiva de aditivos y residuos, notificación de importación ante el MHLW y una consistencia de lote que una empresa social debe construir antes de embarcar. También exige paciencia: la relación comercial japonesa se cimienta en el tiempo y no en la primera cotización. Se eligió Japón sabiendo que es el camino más lento; se eligió porque es el único que, al final del recorrido, deja a la empresa con una marca y no con un cliente.</p>
+  </div>
+</section>
+
+<!-- ============ 4. SEGMENTACIÓN ============ -->
+<section class="sec" style="page-break-before:always;">
+  <h2 class="section"><span class="num">04</span>Segmentación del mercado japonés</h2>
+
+  <p>Elegir Japón todavía no es elegir un cliente. Con 123 millones de habitantes, atacar el mercado completo es imposible para una empresa social con producción limitada. La segmentación delimita el subconjunto donde el producto tiene la máxima probabilidad de ser comprendido, comprado y recomprado.</p>
+
+  <div class="segs">
+    <div class="seg">
+      <div class="st">Segmentación geográfica</div>
+      <ul>
+        <li><strong>Región prioritaria:</strong> Kantō, con foco en el área metropolitana de Tokio y Yokohama, la mayor concentración de ingreso, densidad y comercio especializado del país.</li>
+        <li><strong>Micromercado inicial:</strong> los 23 barrios especiales de Tokio, en particular Setagaya, Meguro, Shibuya y Minato, por su combinación de ingreso alto y densidad de tiendas gourmet e importadores.</li>
+        <li><strong>Región de expansión:</strong> Kansai (Osaka, Kioto y Kobe), segundo polo de consumo y puerta de entrada portuaria alternativa.</li>
+        <li><strong>Entorno:</strong> exclusivamente urbano y de alta densidad, con hogares pequeños que privilegian envases compactos.</li>
+        <li><strong>Ruta logística:</strong> embarque marítimo desde Manzanillo o Lázaro Cárdenas hacia Yokohama o Kobe; producto ambiente, sin cadena de frío, lo que reduce costo y riesgo.</li>
+      </ul>
+    </div>
+
+    <div class="seg">
+      <div class="st">Segmentación demográfica</div>
+      <ul>
+        <li><strong>Edad:</strong> 28 a 45 años, el núcleo que sostiene la tendencia <em>gekikara</em> y que aún tiene hábitos de consumo en formación.</li>
+        <li><strong>Género:</strong> ambos, con sesgo hacia mujeres urbanas de 25 a 39 años, grupo donde el boom del picante creció de manera más marcada.</li>
+        <li><strong>Ingreso del hogar:</strong> ¥6 a ¥10 millones anuales, por encima de la mediana nacional: puede pagar sobreprecio sin que sea una compra excepcional.</li>
+        <li><strong>Escolaridad:</strong> licenciatura o superior.</li>
+        <li><strong>Ocupación:</strong> profesionistas asalariados de oficina, sector servicios, creativo o corporativo.</li>
+        <li><strong>Composición del hogar:</strong> solteros que viven solos y parejas de doble ingreso sin hijos, con presupuesto discrecional y disposición a experimentar.</li>
+      </ul>
+    </div>
+
+    <div class="seg">
+      <div class="st">Segmentación psicográfica</div>
+      <ul>
+        <li><strong>Estilo de vida:</strong> urbano, de jornada laboral extensa, que compensa con experiencias gastronómicas y viaje internacional una o dos veces al año.</li>
+        <li><strong>Valores:</strong> autenticidad, honestidad de la etiqueta, respeto al productor y sostenibilidad con impacto social verificable.</li>
+        <li><strong>Personalidad:</strong> curioso, explorador culinario, prescriptor dentro de su círculo; construye identidad mediante lo que descubre y comparte.</li>
+        <li><strong>Actitud ante el precio:</strong> no busca lo barato; busca que el precio esté justificado por una historia y una calidad comprobables.</li>
+        <li><strong>Prestigio discreto:</strong> valora lo excepcional sin ostentación, coherente con la estética japonesa del lujo silencioso.</li>
+      </ul>
+    </div>
+
+    <div class="seg">
+      <div class="st">Segmentación conductual</div>
+      <ul>
+        <li><strong>Beneficio buscado:</strong> transformar la comida cotidiana con un sabor complejo —fruta y fuego— en lugar de solo añadir picor.</li>
+        <li><strong>Ocasión de uso:</strong> cocina diaria en casa, reuniones informales con amigos y, dos veces al año, regalo formal de temporada (<em>ochūgen</em> y <em>oseibo</em>).</li>
+        <li><strong>Frecuencia de compra:</strong> descubre un producto nuevo al mes; recompra su salsa favorita cada seis a ocho semanas.</li>
+        <li><strong>Lealtad:</strong> baja al inicio y muy alta después de la adopción; el consumidor japonés que integra un producto a su rutina tiende a permanecer, siempre que el abasto sea constante.</li>
+        <li><strong>Estatus de usuario:</strong> usuario habitual de condimentos picantes locales, no usuario de salsas mexicanas: hay que convertirlo, no crearlo.</li>
+        <li><strong>Sensibilidad al estímulo:</strong> reacciona a la degustación en punto de venta, a la recomendación del comprador de la tienda y a la prueba social en redes.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box indigo">
+    <div class="bt">Segmento meta resultante</div>
+    <p>Mujeres y hombres de 28 a 45 años, profesionistas de ingreso medio-alto, residentes en el área metropolitana de Tokio, exploradores gastronómicos que cocinan en casa, compran en tiendas de importación como Kaldi Coffee Farm o Seijo Ishii y recompran en línea a través de Rakuten y Amazon Japan; valoran el origen certificado y la historia del productor por encima del precio, y utilizan las redes sociales como fuente de descubrimiento y como vitrina de lo que consumen.</p>
+  </div>
+</section>
+
+<!-- ============ 5. INFOGRAFÍA BUYER PERSONA ============ -->
+<section class="info-page">
+  <div class="info-head">
+    <div class="k">Entregable · Infografía</div>
+    <h2>Buyer Persona Internacional</h2>
+    <div class="d">Perfil del consumidor meta de la Salsa de Habanero con Mango en el mercado japonés</div>
+  </div>
+
+  <!-- 1. DATOS GENERALES -->
+  <div class="persona">
+    <div class="persona-face">
+      <svg class="avatar" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="48" fill="#FFFFFF" opacity="0.16"/>
+        <circle cx="50" cy="50" r="40" fill="#FFFFFF" opacity="0.10"/>
+        <path d="M50 26c-11 0-19 8.5-19 19.5 0 7 2.8 13 7 16.6v4.2c0 1.6-1 3-2.5 3.6L24 74.5C19.6 76.3 17 80.4 17 85v4h66v-4c0-4.6-2.6-8.7-7-10.5l-11.5-4.6c-1.5-.6-2.5-2-2.5-3.6v-4.2c4.2-3.6 7-9.6 7-16.6C69 34.5 61 26 50 26z" fill="#FFFFFF"/>
+        <path d="M31 45c0-11 8-19.5 19-19.5S69 34 69 45c0-3-2-5.5-5.5-6.5-4-1.2-6.5-3.5-8-6.5-3 4.5-9 8-15 8.5-5 .4-8 3.5-9.5 4.5z" fill="#7E2A0E"/>
+      </svg>
+      <div class="nm">Yui Nakamura</div>
+      <div class="nmjp">中村 結衣</div>
+      <div class="rl">
+        Planificadora de producto<br>en una empresa de bienes de consumo<br>Tokio, Japón
+      </div>
+    </div>
+
+    <div class="persona-data">
+      <div class="ct" style="font-family:'DejaVu Sans',sans-serif; font-size:7.4pt; letter-spacing:.15em; text-transform:uppercase; font-weight:700; color:#C8451B; margin-bottom:3mm;">1 · Datos generales</div>
+      <div class="dgrid">
+        <div class="f"><div class="lbl">Edad</div><div class="val">34 años</div></div>
+        <div class="f"><div class="lbl">Género</div><div class="val">Femenino</div></div>
+        <div class="f"><div class="lbl">País y ciudad</div><div class="val">Japón · Tokio, barrio de Setagaya</div></div>
+        <div class="f"><div class="lbl">Estado civil</div><div class="val">Casada, sin hijos (hogar de doble ingreso)</div></div>
+        <div class="f"><div class="lbl">Profesión</div><div class="val">Planificadora de producto (<span style="font-family:'IPAGothic',sans-serif;">商品企画</span>) en bienes de consumo</div></div>
+        <div class="f"><div class="lbl">Nivel educativo</div><div class="val">Licenciatura, universidad privada de Tokio</div></div>
+        <div class="f"><div class="lbl">Ingreso aproximado</div><div class="val">¥7.2 millones anuales<br><span style="color:#6B7078; font-size:8pt;">≈ US$48,000 · ≈ MXN 890,000</span></div></div>
+        <div class="f"><div class="lbl">Idioma</div><div class="val">Japonés nativo; inglés funcional de lectura</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 y 3 -->
+  <div class="cards">
+    <div class="card">
+      <div class="ct"><span class="no">2</span> Perfil personal</div>
+      <ul>
+        <li><strong>Estilo de vida:</strong> jornada laboral larga en oficina del centro de Tokio; cocina en casa tres o cuatro veces por semana; cena fuera los viernes; viaja al extranjero una o dos veces al año.</li>
+        <li><strong>Valores:</strong> autenticidad por encima de la moda, honestidad de la etiqueta, respeto por el trabajo del productor, sostenibilidad con impacto social comprobable.</li>
+        <li><strong>Intereses:</strong> gastronomía internacional, café de especialidad, diseño de producto y empaque, viajes culinarios.</li>
+        <li><strong>Hobbies:</strong> cocinar recetas nuevas, fotografiar su mesa para Instagram, asistir a festivales gastronómicos como el Gekikara Gourmet Festival.</li>
+        <li><strong>Hábitos de consumo:</strong> compra semanal en el supermercado de barrio, visita quincenal a tiendas de importación, prueba deliberadamente un producto nuevo al mes y lee la lista de ingredientes antes de decidir.</li>
+      </ul>
+    </div>
+
+    <div class="card c2">
+      <div class="ct"><span class="no">3</span> Comportamiento de compra</div>
+      <div class="qa"><span class="q">¿Dónde compra?</span>
+        Descubre en tienda física —Kaldi Coffee Farm y Seijo Ishii— y en Nissin World Delicatessen; recompra en línea en Rakuten Ichiba y Amazon Japan; en temporada de regalo acude a la <em>depachika</em> de las grandes tiendas departamentales.</div>
+      <div class="qa"><span class="q">¿Con qué frecuencia?</span>
+        Descubre un producto nuevo al mes; recompra su salsa favorita cada 6 a 8 semanas; compra formatos de regalo dos veces al año, en julio (<em>ochūgen</em>) y en diciembre (<em>oseibo</em>).</div>
+      <div class="qa"><span class="q">¿Qué influye en su decisión?</span>
+        Una historia de origen verificable; el nivel de picor claramente indicado; el diseño del envase; la reseña de conocidos y de creadores que sigue; la degustación en punto de venta; y una etiqueta en japonés correctamente redactada, no traducida a medias.</div>
+      <div class="qa"><span class="q">¿Cuánto está dispuesta a pagar?</span>
+        Entre ¥900 y ¥1,600 por una botella de 100 a 150 ml (≈ US$6 a US$11), muy por encima de una salsa de anaquel común; hasta ¥3,500–¥5,000 por un estuche de regalo de dos o tres piezas.</div>
+      <div class="qa" style="margin-bottom:0;"><span class="q">¿Qué medios de pago utiliza?</span>
+        Tarjeta de crédito como método principal —cerca del 70% de la población japonesa la usa y representa alrededor del 30% del gasto sin efectivo—; PayPay para compras cotidianas, plataforma que superó los 70 millones de usuarios registrados en julio de 2025 y concentra cerca del 60% del pago por código QR; pago contra entrega en <em>konbini</em> para el comercio electrónico. El efectivo sigue vigente: la razón de pagos sin efectivo en Japón rondaba el 42% en 2025.</div>
+    </div>
+  </div>
+
+  <!-- 4 y 5 -->
+  <div class="cards">
+    <div class="card c3">
+      <div class="ct"><span class="no">4</span> Necesidades</div>
+      <div class="qa"><span class="q">¿Qué problema busca resolver?</span>
+        La monotonía de su cocina diaria. Quiere transformar una comida ordinaria en algo memorable sin dedicarle más tiempo ni arriesgarse a arruinarla. El anaquel japonés le ofrece intensidad —cada vez más picante— pero rara vez le ofrece sabor propio: el picante disponible es plano.</div>
+      <div class="qa"><span class="q">¿Qué beneficios espera obtener?</span>
+        Un sabor con carácter donde la fruta y el fuego conviven; una historia que valga la pena contar en la mesa y en redes; la sensación de haber descubierto algo antes que los demás; versatilidad de uso más allá de la cocina mexicana.</div>
+      <div class="qa" style="margin-bottom:0;"><span class="q">¿Qué características considera indispensables?</span>
+        <ul style="margin-top:1.4mm;">
+          <li>Etiqueta íntegra en japonés, conforme a la Ley de Etiquetado de Alimentos, con alérgenos y caducidad legibles.</li>
+          <li>Escala de picor explícita y graduada, no una advertencia genérica.</li>
+          <li>Envase de 100 a 150 ml con tapa dosificadora, adecuado a una despensa pequeña.</li>
+          <li>Lista de ingredientes corta y reconocible, sin aditivos innecesarios.</li>
+          <li>Sugerencias de uso en japonés, dentro del empaque o por código QR.</li>
+        </ul>
+      </div>
+      <div class="heat">
+        <span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot"></span><span class="dot"></span>
+        <span class="hl">Nivel de picor preferido: 3 de 5 — busca intensidad con sabor, no dolor</span>
+      </div>
+    </div>
+
+    <div class="card c4">
+      <div class="ct"><span class="no">5</span> Barreras de compra</div>
+      <div class="barrier"><span class="bn mid">Precio</span><span>Paga sobreprecio, pero exige que esté justificado. Por arriba de ¥2,000 la botella sale de su rutina y se convierte en compra excepcional.</span></div>
+      <div class="barrier"><span class="bn">Desconfianza</span><span>Teme que el producto sea "solo picante" y termine olvidado en el refrigerador. Teme sobre todo un picor no calibrado que arruine el platillo.</span></div>
+      <div class="barrier"><span class="bn">Marca desconocida</span><span>No reconoce al productor ni sabe dónde está Quintana Roo. Sin prueba social o aval de la tienda, la marca nueva no supera el primer filtro.</span></div>
+      <div class="barrier"><span class="bn">Falta de certificaciones</span><span>Da por sentado el cumplimiento del MHLW; valora explícitamente HACCP, certificación orgánica JAS y el sello de Denominación de Origen como garantía verificable.</span></div>
+      <div class="barrier" style="margin-bottom:0;"><span class="bn">Entrega y abasto</span><span>El peor escenario no es no comprar: es adoptar el producto y que desaparezca del anaquel. La irregularidad de abasto destruye la recompra y con ella la relación con el importador.</span></div>
+    </div>
+  </div>
+
+  <!-- 6 y 7 -->
+  <div class="cards">
+    <div class="card c5">
+      <div class="ct"><span class="no">6</span> Canales de comunicación</div>
+      <ul>
+        <li><strong>Redes sociales favoritas:</strong> Instagram para descubrimiento visual de comida; X (Twitter) para la conversación del <em>gekikara</em> —Japón es el segundo mercado mundial de la plataforma—; LINE como canal directo de marca y cupones, con cerca de 96 millones de usuarios; YouTube para recetas y reseñas.</li>
+        <li><strong>Sitios web que consulta:</strong> Cookpad y Rakuten Recipe para recetas; Rakuten Ichiba y Amazon.co.jp para comprar y leer reseñas; Tabelog para restaurantes; el blog y el catálogo de Kaldi para novedades de importación.</li>
+        <li><strong>Influencers y líderes de opinión:</strong> creadores de recetas caseras en YouTube e Instagram; los compradores de producto (<em>buyers</em>) de Kaldi y Seijo Ishii, cuya selección funciona como aval; chefs japoneses de cocina mexicana en Tokio.</li>
+        <li><strong>Medios de comunicación:</strong> revistas de estilo de vida y gastronomía, programas televisivos de comida y ferias sectoriales como Foodex Japan, donde participaron cuarenta empresas mexicanas en 2026.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="ct"><span class="no">7</span> Motivadores de compra</div>
+      <p style="margin-bottom:2.4mm; color:#6B7078; font-size:7.6pt; font-family:'DejaVu Sans',sans-serif;">Peso relativo de cada motivador en su decisión final</p>
+      <div class="bars">
+        <div class="bar"><span class="bl">Calidad</span><span class="bt"><span class="bf" style="width:95%;"></span></span><span class="bv">95</span></div>
+        <div class="bar"><span class="bl">Origen del producto</span><span class="bt"><span class="bf" style="width:90%;"></span></span><span class="bv">90</span></div>
+        <div class="bar"><span class="bl">Innovación de sabor</span><span class="bt"><span class="bf" style="width:82%;"></span></span><span class="bv">82</span></div>
+        <div class="bar"><span class="bl">Certificaciones</span><span class="bt"><span class="bf" style="width:75%;"></span></span><span class="bv">75</span></div>
+        <div class="bar"><span class="bl">Sustentabilidad</span><span class="bt"><span class="bf" style="width:70%;"></span></span><span class="bv">70</span></div>
+        <div class="bar"><span class="bl">Prestigio (regalo)</span><span class="bt"><span class="bf" style="width:60%;"></span></span><span class="bv">60</span></div>
+        <div class="bar"><span class="bl">Precio</span><span class="bt"><span class="bf" style="width:35%;"></span></span><span class="bv">35</span></div>
+      </div>
+      <p style="margin-top:2.6mm; margin-bottom:0; font-size:8.2pt;"><strong>Lectura estratégica:</strong> el precio es su motivador más débil y la calidad el más fuerte. Competir por precio contra el gochujang o la sriracha sería competir en el terreno donde menos decide. La Denominación de Origen, la comunidad maya productora y el mango de origen mexicano son, en cambio, exactamente los tres primeros motivadores de su lista.</p>
+    </div>
+  </div>
+
+  <div class="footnote">
+    Yui Nakamura es un personaje ficticio que sintetiza el segmento meta del apartado 04. Se construyó con fuentes secundarias documentales: Banco Mundial, IMARC Group, Statista, DataReportal, KOMOJU, PayPay Corporation y la normativa del MHLW y de la Consumer Affairs Agency de Japón. Los rangos de precio, frecuencia y consumo son estimaciones razonadas que deberían validarse con investigación primaria antes de una operación comercial real.
+  </div>
+</section>
+
+<!-- ============ 6. CONCLUSIONES ============ -->
+<section class="sec" style="page-break-before:always;">
+  <h2 class="section"><span class="num">05</span>Implicaciones estratégicas para la mezcla de mercadotecnia</h2>
+
+  <p>La investigación no termina en la elección del país: termina cuando esa elección se traduce en decisiones concretas de producto, precio, plaza y promoción. Estas son las consecuencias directas del perfil documentado.</p>
+
+  <h4>Producto</h4>
+  <p>Formulación en el nivel 3 de una escala de cinco, con el dulzor del mango como amortiguador del capsaicinoide del habanero. Envase de 100 a 150 ml con tapa dosificadora. Etiqueta bilingüe con predominio del japonés, conforme a la Ley de Etiquetado de Alimentos, con declaración de alérgenos, contenido neto, conservación, caducidad e importador. Sello visible de la Denominación de Origen y mención expresa del origen maya del cultivo. Desarrollo de un estuche de dos o tres piezas específicamente diseñado para <em>ochūgen</em> y <em>oseibo</em>.</p>
+
+  <h4>Precio</h4>
+  <p>Posicionamiento en el rango de ¥1,200 a ¥1,500 al consumidor final, dentro de la zona de disposición a pagar identificada y por encima del anaquel masivo, para sostener la percepción premium. El precio de exportación debe construirse hacia atrás desde ese precio de anaquel, descontando margen de retail, margen del importador, despacho aduanal, flete y seguro, y no hacia adelante desde el costo de producción.</p>
+
+  <h4>Plaza</h4>
+  <p>Entrada por importador especializado en producto gourmet con acceso a Kaldi Coffee Farm, Seijo Ishii y Nissin World Delicatessen en el área metropolitana de Tokio. Presencia simultánea en Rakuten Ichiba y Amazon Japan para capturar la recompra, dado que estas plataformas junto con Yahoo! Shopping concentran cerca de la mitad del comercio electrónico japonés. La prioridad operativa número uno es garantizar continuidad de abasto: es la barrera de compra más destructiva del perfil.</p>
+
+  <h4>Promoción</h4>
+  <p>Estrategia de prueba y prescripción antes que de alcance masivo. Degustación en punto de venta; contenido de receta en japonés en Instagram y YouTube; conversación en X aprovechando la tendencia <em>gekikara</em>; cuenta oficial de LINE para fidelización y cupones de recompra; participación en Foodex Japan como puerta de entrada al importador. El mensaje central no es "salsa picante mexicana", sino el encuentro entre un chile con denominación de origen, una comunidad maya que lo cultiva y un mango que Japón ya conoce y aprecia.</p>
+
+  <div class="box">
+    <div class="bt">Conclusión</div>
+    <p>Japón no es el mercado más fácil de Asia: Singapur lo es. Tampoco es el más afín culturalmente al picante: Corea del Sur lo es. Japón es el único de los tres donde coinciden un mercado de tamaño suficiente, un régimen arancelario preferencial ya negociado, un consumidor dispuesto a pagar por origen certificado y una tendencia de consumo en ascenso que todavía no ha normalizado el atributo que diferencia al producto. Para una empresa social que exporta por primera vez y solo tendrá una oportunidad de hacerlo bien, esa coincidencia vale más que la facilidad de entrada.</p>
+  </div>
+</section>
+
+<!-- ============ REFERENCIAS ============ -->
+<section class="sec" style="page-break-before:always;">
+  <h2 class="section"><span class="num">06</span>Referencias</h2>
+  <p style="font-family:'DejaVu Sans',sans-serif; font-size:7.6pt; color:#6B7078; letter-spacing:.04em; margin-bottom:4mm;">Formato APA, 7.ª edición. Se anexa bibliografía completa en archivo PDF independiente.</p>
+
+  <div class="refs">
+    <p>Banco Mundial. (2025). <em>GDP per capita (current US$)</em>. World Bank Open Data. <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD">https://data.worldbank.org/indicator/NY.GDP.PCAP.CD</a></p>
+
+    <p>Banco Interamericano de Desarrollo. (s. f.). <em>Guía práctica para exportar productos agrícolas a Corea del Sur, Japón y Singapur</em>. <a href="https://publications.iadb.org/">https://publications.iadb.org/</a></p>
+
+    <p>Consumer Affairs Agency of Japan. (s. f.). <em>Food Labeling Act: Requisitos de etiquetado para alimentos comercializados en Japón</em>. Japan Market Gateway. <a href="https://jmgateway.com/food-labeling-act.html">https://jmgateway.com/food-labeling-act.html</a></p>
+
+    <p>DataReportal. (2026). <em>Digital 2026: Japan</em>. Kepios. <a href="https://datareportal.com/reports/digital-2026-japan">https://datareportal.com/reports/digital-2026-japan</a></p>
+
+    <p>Diario Oficial de la Federación. (2010, 4 de junio). <em>Declaratoria general de protección de la denominación de origen Chile Habanero de la Península de Yucatán</em>. Secretaría de Economía. <a href="https://dof.gob.mx/nota_detalle.php?codigo=5145315&fecha=04/06/2010">https://dof.gob.mx/nota_detalle.php?codigo=5145315&amp;fecha=04/06/2010</a></p>
+
+    <p>Diario Oficial de la Federación. (2018, 21 de febrero). <em>Norma Oficial Mexicana NOM-189-SCFI-2017, Chile habanero de la Península de Yucatán (Capsicum chinense Jacq.) — Especificaciones y métodos de prueba</em>. Secretaría de Economía. <a href="https://www.dof.gob.mx/nota_detalle.php?codigo=5513923&fecha=21/02/2018">https://www.dof.gob.mx/nota_detalle.php?codigo=5513923&amp;fecha=21/02/2018</a></p>
+
+    <p>El Financiero. (2025, 19 de diciembre). <em>Corea del Sur solicita "trato vip" a México por aranceles: pide retomar negociación para tratado comercial</em>. <a href="https://www.elfinanciero.com.mx/economia/2025/12/19/corea-del-sur-solicita-trato-vip-a-mexico-por-aranceles-pide-retomar-negociacion-para-tratado-comercial/">https://www.elfinanciero.com.mx/economia/2025/12/19/</a></p>
+
+    <p>Embajada de México en Japón. (s. f.). <em>Acuerdo de Asociación Económica México–Japón</em>. Secretaría de Relaciones Exteriores. <a href="https://embamex.sre.gob.mx/japon/index.php/es/embajada/economica-esp/123-relacion-economica/acuerdo-de-asociacion-economica/">https://embamex.sre.gob.mx/japon/</a></p>
+
+    <p>Enterprise Singapore. (s. f.). <em>Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)</em>. <a href="https://www.enterprisesg.gov.sg/grow-your-business/go-global/international-agreements/free-trade-agreements/find-an-fta/cptpp">https://www.enterprisesg.gov.sg/</a></p>
+
+    <p>Gobierno de Japón. (2024, febrero). <em>Miyazaki-grown fully ripened mangoes</em>. Highlighting Japan. <a href="https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202402/202402_05_en.html">https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202402/202402_05_en.html</a></p>
+
+    <p>IGNITE. (s. f.). <em>Top 8 shops with imported goods in Japanese supermarkets</em>. <a href="https://igni7e.com/blog/supermarkets-with-imported-goods-in-japan">https://igni7e.com/blog/supermarkets-with-imported-goods-in-japan</a></p>
+
+    <p>IMARC Group. (2025). <em>Japan hot sauce market size, share, trends and forecast 2025–2033</em>. <a href="https://www.imarcgroup.com/japan-hot-sauce-market">https://www.imarcgroup.com/japan-hot-sauce-market</a></p>
+
+    <p>IMARC Group. (2025). <em>South Korea hot sauce market size, trends and forecast 2025–2033</em>. <a href="https://www.imarcgroup.com/south-korea-hot-sauce-market">https://www.imarcgroup.com/south-korea-hot-sauce-market</a></p>
+
+    <p>Japan Customs. (2025). <em>Japan's tariff schedule as of April 1, 2025</em>. Ministry of Finance. <a href="https://www.customs.go.jp/english/tariff/2025_04_01/index.htm">https://www.customs.go.jp/english/tariff/2025_04_01/index.htm</a></p>
+
+    <p>KOMOJU. (2025). <em>Cashless shift in Japan: Key trends uncovered 2025</em>. <a href="https://en.komoju.com/blog/payment-method/cashless-shift/">https://en.komoju.com/blog/payment-method/cashless-shift/</a></p>
+
+    <p>La Jornada. (2026, 15 de marzo). <em>Participan 40 empresas mexicanas en la feria de alimentos y bebidas Foodex 2026 en Japón</em>. <a href="https://www.jornada.com.mx/noticia/2026/03/15/economia/">https://www.jornada.com.mx/noticia/2026/03/15/economia/</a></p>
+
+    <p>Ministry of Health, Labour and Welfare. (s. f.). <em>Import procedure under the Food Sanitation Act</em>. Gobierno de Japón. <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/yunyu_kanshi/kanshi/index_00004.html">https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/yunyu_kanshi/kanshi/index_00004.html</a></p>
+
+    <p>Ministry of Food and Drug Safety. (s. f.). <em>Application for registration of foreign food facility</em>. Gobierno de la República de Corea. <a href="https://impfood.mfds.go.kr/">https://impfood.mfds.go.kr/</a></p>
+
+    <p>PayPay Corporation. (2025, 15 de julio). <em>"PayPay" reaches 70 million registered users</em> [Comunicado de prensa]. <a href="https://about.paypay.ne.jp/en/pr/20250715/01/">https://about.paypay.ne.jp/en/pr/20250715/01/</a></p>
+
+    <p>QAZ Japan. (s. f.). <em>Japan's gekikara spicy hot craze</em>. <a href="https://qazjapan.com/dive/gekikara-craze/">https://qazjapan.com/dive/gekikara-craze/</a></p>
+
+    <p>Secretaría de Agricultura y Desarrollo Rural. (s. f.). <em>Representa Japón el principal mercado de alimentos mexicanos en Asia-Pacífico y uno de los tres a nivel mundial</em>. Gobierno de México. <a href="https://www.gob.mx/agricultura/prensa/representa-japon-el-principal-mercado-de-alimentos-mexicanos-en-asia-pacifico-y-uno-de-los-tres-a-nivel-mundial-agricultura">https://www.gob.mx/agricultura/prensa/</a></p>
+
+    <p>Secretaría de Economía. (2025). <em>Preparaciones para salsas, salsas, condimentos y sazonadores: intercambio comercial, importaciones y exportaciones</em>. Data México. <a href="https://www.economia.gob.mx/datamexico/es/profile/product/preparations-for-prepared-sauces-and-sauces-condiments-and-seasonings-exc-soy-sauce-tomato-sauces-mustard-flour-and-prepared-mustard">https://www.economia.gob.mx/datamexico/</a></p>
+
+    <p>Singapore Food Agency. (s. f.). <em>Food import and export</em>. Gobierno de Singapur. <a href="https://www.sfa.gov.sg/food-import-export">https://www.sfa.gov.sg/food-import-export</a></p>
+
+    <p>Statista. (2024). <em>Sauces and spices – Singapore</em>. Statista Market Forecast. <a href="https://www.statista.com/outlook/cmo/food/sauces-spices/singapore">https://www.statista.com/outlook/cmo/food/sauces-spices/singapore</a></p>
+  </div>
+
+  <div class="footnote">
+    Nota sobre fuentes: los indicadores macroeconómicos y de tamaño de mercado se actualizan periódicamente; se recomienda verificar la última cifra disponible antes de utilizar este documento con fines comerciales. La tasa arancelaria aplicable a la fracción 2103.90 debe confirmarse en la tarifa vigente publicada por Japan Customs y en el certificado de origen correspondiente al Acuerdo de Asociación Económica México–Japón o al TIPAT, según el régimen que resulte más favorable en la operación concreta.
+  </div>
+</section>
+
+</body>
+</html>
