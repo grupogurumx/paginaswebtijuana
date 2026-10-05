@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Peanut Bakery 2.0 — importación de contenido (Herramientas → Importar → WordPress).
+     Crea: Mayoreo, Blog, 3 artículos SEO y el menú "Principal". Inicio, Nosotros, Productos y Contacto conservan
+     su fecha original para que el importador las reconozca como existentes y NO las duplique.
+     IMPORTANTE: borra el menú "Principal" anterior antes de importar (el importador siempre agrega elementos de menú). -->
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+  <channel>
+    <title>Peanut Bakery</title>
+    <link>https://www.peanutbakery.com</link>
+    <description>Panadería artesanal en Playas de Rosarito</description>
+    <pubDate>Thu, 01 Oct 2026 10:00:00 +0000</pubDate>
+    <language>es-MX</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.peanutbakery.com</wp:base_site_url>
+    <wp:base_blog_url>https://www.peanutbakery.com</wp:base_blog_url>
+    <wp:author>
+      <wp:author_id>1</wp:author_id>
+      <wp:author_login><![CDATA[grupoguru]]></wp:author_login>
+      <wp:author_email><![CDATA[grupogurumx@gmail.com]]></wp:author_email>
+      <wp:author_display_name><![CDATA[Grupo Gurú]]></wp:author_display_name>
+      <wp:author_first_name/>
+      <wp:author_last_name/>
+    </wp:author>
+    <wp:category>
+      <wp:term_id>3</wp:term_id>
+      <wp:category_nicename><![CDATA[pan-artesanal]]></wp:category_nicename>
+      <wp:category_parent><![CDATA[]]></wp:category_parent>
+      <wp:cat_name><![CDATA[Pan artesanal]]></wp:cat_name>
+    </wp:category>
+    <wp:category>
+      <wp:term_id>4</wp:term_id>
+      <wp:category_nicename><![CDATA[negocios]]></wp:category_nicename>
+      <wp:category_parent><![CDATA[]]></wp:category_parent>
+      <wp:cat_name><![CDATA[Para negocios]]></wp:cat_name>
+    </wp:category>
+    <wp:term>
+      <wp:term_id>2</wp:term_id>
+      <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+      <wp:term_slug>principal</wp:term_slug>
+      <wp:term_name><![CDATA[Principal]]></wp:term_name>
+    </wp:term>
+    <generator>https://wordpress.org/?v=6.6</generator>
+
+    <!-- ===================== PÁGINAS ===================== -->
+    <item>
+      <title>Inicio</title>
+      <link>https://www.peanutbakery.com/</link>
+      <pubDate>Mon, 05 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?page_id=10</guid>
+      <description/>
+      <content:encoded><![CDATA[<!-- El diseño de Inicio (slider panorámico 3D, líneas de pan, proceso, mayoreo, galería, FAQ y contacto) lo genera front-page.php del tema Peanut Bakery. Asigna esta página como portada en Ajustes → Lectura. -->]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>10</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-05 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-05 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[inicio]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>0</wp:menu_order>
+      <wp:post_type><![CDATA[page]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+        <wp:meta_value><![CDATA[default]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Nosotros</title>
+      <link>https://www.peanutbakery.com/nosotros/</link>
+      <pubDate>Mon, 05 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?page_id=11</guid>
+      <description/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <excerpt:encoded><![CDATA[Peanut Bakery: panadería artesanal en Playas de Rosarito que aplica la ingeniería del pan.]]></excerpt:encoded>
+      <wp:post_id>11</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-05 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-05 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[nosotros]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>1</wp:menu_order>
+      <wp:post_type><![CDATA[page]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+        <wp:meta_value><![CDATA[template-nosotros.php]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Productos</title>
+      <link>https://www.peanutbakery.com/productos/</link>
+      <pubDate>Mon, 05 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?page_id=12</guid>
+      <description/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <excerpt:encoded><![CDATA[Masa madre, pan dulce, bolillo y birote, panes artesanales y repostería fina en Rosarito.]]></excerpt:encoded>
+      <wp:post_id>12</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-05 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-05 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[productos]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>2</wp:menu_order>
+      <wp:post_type><![CDATA[page]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+        <wp:meta_value><![CDATA[template-productos.php]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Mayoreo</title>
+      <link>https://www.peanutbakery.com/mayoreo/</link>
+      <pubDate>Thu, 01 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?page_id=14</guid>
+      <description/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <excerpt:encoded><![CDATA[Pan al mayoreo para cafeterías, restaurantes, hoteles y tiendas en Rosarito y Tijuana.]]></excerpt:encoded>
+      <wp:post_id>14</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-01 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-01 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[mayoreo]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>3</wp:menu_order>
+      <wp:post_type><![CDATA[page]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+        <wp:meta_value><![CDATA[template-mayoreo.php]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Contacto</title>
+      <link>https://www.peanutbakery.com/contacto/</link>
+      <pubDate>Mon, 05 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?page_id=13</guid>
+      <description/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <excerpt:encoded><![CDATA[Pedidos y cotizaciones: WhatsApp 661 114 7744 · ventas@peanutbakery.com · Playas de Rosarito, B.C.]]></excerpt:encoded>
+      <wp:post_id>13</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-05 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-05 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[contacto]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>4</wp:menu_order>
+      <wp:post_type><![CDATA[page]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+        <wp:meta_value><![CDATA[template-contacto.php]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://www.peanutbakery.com/blog/</link>
+      <pubDate>Thu, 01 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?page_id=15</guid>
+      <description/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>15</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-01 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-01 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[blog]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>5</wp:menu_order>
+      <wp:post_type><![CDATA[page]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- ===================== ARTÍCULOS SEO ===================== -->
+    <item>
+      <title>Pan de masa madre en Rosarito: qué es y por qué lo fermentamos 30 horas</title>
+      <link>https://www.peanutbakery.com/pan-de-masa-madre-rosarito/</link>
+      <pubDate>Thu, 01 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?p=30</guid>
+      <description/>
+      <content:encoded><![CDATA[<p>Si buscas <strong>pan de masa madre en Rosarito</strong>, seguramente ya probaste la diferencia: corteza que cruje, miga húmeda y abierta, y un sabor ligeramente ácido que no se parece a ningún pan de supermercado. En Peanut Bakery lo hacemos todos los días a mano, con una fermentación lenta de 30 horas. Aquí te contamos por qué.</p>
+
+<h2>¿Qué es la masa madre?</h2>
+<p>La masa madre es una <strong>levadura natural</strong>: un cultivo vivo de harina y agua donde conviven levaduras silvestres y bacterias lácticas. En lugar de usar levadura comercial, alimentamos este cultivo diario y lo usamos para que el pan suba de forma natural.</p>
+
+<h2>¿Por qué fermentar 30 horas?</h2>
+<ul>
+<li><strong>Más sabor:</strong> la fermentación lenta en frío desarrolla aromas profundos y una acidez suave.</li>
+<li><strong>Corteza caramelizada:</strong> los azúcares liberados durante la fermentación se caramelizan en el horno.</li>
+<li><strong>Más fácil de digerir:</strong> las bacterias lácticas predigieren parte del gluten y los almidones.</li>
+<li><strong>Dura más fresco:</strong> el pan de masa madre se conserva mejor sin conservadores.</li>
+</ul>
+
+<h2>Ingeniería del pan: precisión + oficio</h2>
+<p>Controlamos temperatura, hidratación y tiempos en cada lote. Esa es nuestra <em>ingeniería del pan</em>: procesos medibles para que cada hogaza tenga la misma calidad, sin perder el toque artesanal del formado a mano.</p>
+
+<h2>¿Cómo conservar tu pan de masa madre?</h2>
+<ol>
+<li>Guárdalo en bolsa de tela o papel, con el corte hacia abajo.</li>
+<li>Para más de 3 días, rebánalo y congélalo; tuéstalo directo del congelador.</li>
+<li>Nunca lo guardes en el refrigerador: se endurece más rápido.</li>
+</ol>
+
+<h2>¿Dónde comprar pan de masa madre en Rosarito?</h2>
+<p>En <a href="/productos/#masa-madre">Peanut Bakery</a>, en Playas de Rosarito. Puedes pedir tu hogaza por WhatsApp al 661 114 7744 o, si tienes un restaurante o cafetería, revisar nuestro <a href="/mayoreo/">programa de mayoreo</a>.</p>]]></content:encoded>
+      <excerpt:encoded><![CDATA[Qué es la masa madre, por qué fermentamos 30 horas y dónde comprar pan de masa madre artesanal en Playas de Rosarito.]]></excerpt:encoded>
+      <wp:post_id>30</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-01 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-01 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[pan-de-masa-madre-rosarito]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>0</wp:menu_order>
+      <wp:post_type><![CDATA[post]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <category domain="category" nicename="pan-artesanal"><![CDATA[Pan artesanal]]></category>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_pb_meta_description]]></wp:meta_key>
+        <wp:meta_value><![CDATA[Pan de masa madre en Rosarito con 30 horas de fermentación: qué es, beneficios, cómo conservarlo y dónde comprarlo. Pide por WhatsApp 661 114 7744.]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Proveedor de pan para restaurantes en Tijuana y Rosarito: cómo elegir el correcto</title>
+      <link>https://www.peanutbakery.com/proveedor-de-pan-para-restaurantes-tijuana-rosarito/</link>
+      <pubDate>Thu, 01 Oct 2026 11:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?p=31</guid>
+      <description/>
+      <content:encoded><![CDATA[<p>El pan es lo primero que llega a la mesa y lo último que el cliente olvida. Si tienes una cafetería, restaurante, taquería u hotel, elegir bien a tu <strong>proveedor de pan en Tijuana o Rosarito</strong> impacta directo en la experiencia y en tus costos. Esta es la lista que usamos con nuestros clientes de mayoreo.</p>
+
+<h2>1. Consistencia en cada entrega</h2>
+<p>Mismo gramaje, mismo tamaño, misma corteza. Pide a tu proveedor que te explique cómo controla su proceso. En Peanut Bakery aplicamos procesos medidos (temperatura, hidratación y tiempos) para que el pan del lunes sea igual al del sábado.</p>
+
+<h2>2. Entregas programadas y puntuales</h2>
+<p>Tu cocina no puede esperar. Busca rutas fijas y horarios definidos antes de tu apertura. Atendemos Playas de Rosarito y la zona Tijuana–costa con entregas programadas.</p>
+
+<h2>3. Variedad para toda tu carta</h2>
+<ul>
+<li><strong>Cafeterías:</strong> croissants, roles de canela, conchas y masa madre para toast.</li>
+<li><strong>Restaurantes y taquerías:</strong> birote salado, bolillo, telera y pan para hamburguesa.</li>
+<li><strong>Hoteles y eventos:</strong> canasta de pan para desayunos y banquetes.</li>
+</ul>
+
+<h2>4. Precio preferente y descuentos por volumen</h2>
+<p>Un buen proveedor premia la recurrencia. Pide una tabla de precios por volumen y condiciones claras de pago.</p>
+
+<h2>5. Muestras antes de cerrar</h2>
+<p>Prueba el pan con tu propio menú. Enviamos muestras a tu equipo de cocina antes de iniciar.</p>
+
+<h2>Cotiza tu pan al mayoreo</h2>
+<p>Solicita tu cotización en la página de <a href="/mayoreo/">Mayoreo</a> o escríbenos por WhatsApp al 661 114 7744. Respondemos en menos de 24 horas.</p>]]></content:encoded>
+      <excerpt:encoded><![CDATA[Checklist para elegir proveedor de pan para tu restaurante, cafetería u hotel en Tijuana y Rosarito.]]></excerpt:encoded>
+      <wp:post_id>31</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-01 11:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-01 18:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[proveedor-de-pan-para-restaurantes-tijuana-rosarito]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>0</wp:menu_order>
+      <wp:post_type><![CDATA[post]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <category domain="category" nicename="negocios"><![CDATA[Para negocios]]></category>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_pb_meta_description]]></wp:meta_key>
+        <wp:meta_value><![CDATA[¿Buscas proveedor de pan para tu restaurante en Tijuana o Rosarito? 5 claves para elegir: consistencia, entregas, variedad, precio y muestras.]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+    <item>
+      <title>Birote salado vs. bolillo: diferencias y cuál elegir para tus tortas</title>
+      <link>https://www.peanutbakery.com/birote-salado-vs-bolillo/</link>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?p=32</guid>
+      <description/>
+      <content:encoded><![CDATA[<p>En Baja California los dos son protagonistas de la torta, pero no son lo mismo. Te explicamos las diferencias entre el <strong>birote salado</strong> y el <strong>bolillo</strong> para que elijas el ideal para tu mesa o tu negocio.</p>
+
+<h2>Birote salado</h2>
+<p>Originario de Guadalajara, el birote tiene una <strong>corteza gruesa y muy crujiente</strong> y un sabor ligeramente ácido gracias a su fermentación larga. Aguanta salsas y caldos sin deshacerse: por eso es el pan de la torta ahogada.</p>
+
+<h2>Bolillo</h2>
+<p>El bolillo tiene una corteza más delgada y un <strong>interior suave y esponjoso</strong>. Es el pan de todos los días: perfecto para tortas, molletes, chilaquiles en torta o para acompañar la comida.</p>
+
+<h2>¿Cuál elegir?</h2>
+<ul>
+<li><strong>Tortas con salsa o caldo:</strong> birote salado.</li>
+<li><strong>Molletes y tortas secas:</strong> bolillo.</li>
+<li><strong>Lonches de carnes asadas:</strong> birote o telera, según la textura que busques.</li>
+</ul>
+
+<h2>Bolillo y birote recién horneados en Rosarito</h2>
+<p>En Peanut Bakery horneamos <a href="/productos/#bolillo-y-birote">bolillo y birote</a> todos los días en Playas de Rosarito. ¿Tienes taquería o lonchería? Pregunta por nuestros <a href="/mayoreo/">precios de mayoreo</a> y entregas programadas.</p>]]></content:encoded>
+      <excerpt:encoded><![CDATA[Diferencias entre birote salado y bolillo, y cuál conviene para tortas, molletes y lonches.]]></excerpt:encoded>
+      <wp:post_id>32</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-01 12:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-01 19:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[birote-salado-vs-bolillo]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>0</wp:menu_order>
+      <wp:post_type><![CDATA[post]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <category domain="category" nicename="pan-artesanal"><![CDATA[Pan artesanal]]></category>
+      <wp:postmeta>
+        <wp:meta_key><![CDATA[_pb_meta_description]]></wp:meta_key>
+        <wp:meta_value><![CDATA[Birote salado vs. bolillo: diferencias de corteza, miga y sabor, y cuál usar para tortas ahogadas, molletes y lonches. Horneados diario en Rosarito.]]></wp:meta_value>
+      </wp:postmeta>
+    </item>
+
+    <!-- ===================== MENÚ PRINCIPAL ===================== -->
+    <item>
+      <title>Inicio</title>
+      <link>https://www.peanutbakery.com/</link>
+      <pubDate>Thu, 01 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?p=20</guid>
+      <description/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>20</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-01 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-01 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[20]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>1</wp:menu_order>
+      <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <category domain="nav_menu" nicename="principal"><![CDATA[Principal]]></category>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[10]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    </item>
+    <item>
+      <title>Nosotros</title>
+      <link>https://www.peanutbakery.com/</link>
+      <pubDate>Thu, 01 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?p=21</guid>
+      <description/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>21</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-01 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-01 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[21]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>2</wp:menu_order>
+      <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <category domain="nav_menu" nicename="principal"><![CDATA[Principal]]></category>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[11]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    </item>
+    <item>
+      <title>Productos</title>
+      <link>https://www.peanutbakery.com/</link>
+      <pubDate>Thu, 01 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?p=22</guid>
+      <description/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>22</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-01 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-01 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[22]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>3</wp:menu_order>
+      <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <category domain="nav_menu" nicename="principal"><![CDATA[Principal]]></category>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[12]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    </item>
+    <item>
+      <title>Ventas</title>
+      <link>https://www.peanutbakery.com/</link>
+      <pubDate>Thu, 01 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?p=23</guid>
+      <description/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>23</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-01 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-01 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[23]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>4</wp:menu_order>
+      <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <category domain="nav_menu" nicename="principal"><![CDATA[Principal]]></category>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[14]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://www.peanutbakery.com/</link>
+      <pubDate>Thu, 01 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?p=25</guid>
+      <description/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>25</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-01 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-01 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[25]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>5</wp:menu_order>
+      <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <category domain="nav_menu" nicename="principal"><![CDATA[Principal]]></category>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[15]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    </item>
+    <item>
+      <title>Contacto</title>
+      <link>https://www.peanutbakery.com/</link>
+      <pubDate>Thu, 01 Oct 2026 10:00:00 +0000</pubDate>
+      <dc:creator><![CDATA[grupoguru]]></dc:creator>
+      <guid isPermaLink="false">https://www.peanutbakery.com/?p=24</guid>
+      <description/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+      <wp:post_id>24</wp:post_id>
+      <wp:post_date><![CDATA[2026-10-01 10:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-10-01 17:00:00]]></wp:post_date_gmt>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+      <wp:post_name><![CDATA[24]]></wp:post_name>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:post_parent>0</wp:post_parent>
+      <wp:menu_order>6</wp:menu_order>
+      <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+      <wp:post_password/>
+      <wp:is_sticky>0</wp:is_sticky>
+      <category domain="nav_menu" nicename="principal"><![CDATA[Principal]]></category>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[13]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key><wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key><wp:meta_value><![CDATA[]]></wp:meta_value></wp:postmeta>
+    </item>
+  </channel>
+</rss>
