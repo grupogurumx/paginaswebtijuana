@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for SEO positioning -->
+    <title>Cardiólogo en Tijuana | Cardiología Tijuana | Consulta y Estudios del Corazón</title>
+    <meta name="description" content="Cardiología Tijuana: consulta con cardiólogo, electrocardiograma, ecocardiograma, prueba de esfuerzo y Holter en Tijuana, B.C. Atención a pacientes de México y Estados Unidos. ¡Agenda tu cita!">
+    <meta name="keywords" content="cardiólogo Tijuana, cardiología Tijuana, cardiologo en tijuana, ecocardiograma Tijuana, electrocardiograma Tijuana, prueba de esfuerzo Tijuana, holter Tijuana, presión arterial Tijuana, cardiologist Tijuana, heart doctor Tijuana">
+    <meta name="author" content="Cardiología Tijuana">
+    <link rel="canonical" href="https://cardiologiatijuana.com/">
+
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="Cardiología Tijuana | Cardiólogo en Tijuana">
+    <meta property="og:description" content="Consulta cardiológica y estudios del corazón en Tijuana. Agenda tu cita por WhatsApp.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cardiologiatijuana.com">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Alpine.js for interactive components (mobile menu / FAQ) -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom configuration for Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f2a4a',   // Navy
+                        secondary: '#c8102e', // Cardio red
+                        soft: '#fdf2f4',      // Light rose
+                        accent: '#4b5563'     // Gray
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; color: #333; }
+        html { scroll-behavior: smooth; }
+        [x-cloak] { display: none !important; }
+        .pulse-line { stroke-dasharray: 600; stroke-dashoffset: 600; animation: draw 3s linear infinite; }
+        @keyframes draw { to { stroke-dashoffset: 0; } }
+        @media (prefers-reduced-motion: reduce) { .pulse-line { animation: none; stroke-dashoffset: 0; } }
+    </style>
+
+    <!-- Structured data for local SEO (completar datos reales) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MedicalClinic",
+        "name": "Cardiología Tijuana",
+        "url": "https://cardiologiatijuana.com",
+        "medicalSpecialty": "Cardiovascular",
+        "telephone": "+52 664 000 0000",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "[Dirección del consultorio]",
+            "addressLocality": "Tijuana",
+            "addressRegion": "B.C.",
+            "addressCountry": "MX"
+        }
+    }
+    </script>
+</head>
+<body class="bg-white" x-data="{ mobileOpen: false }">
+
+    <a href="#contenido" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-white text-primary px-4 py-2 rounded z-50">Saltar al contenido</a>
+
+    <!-- Top bar -->
+    <div class="bg-primary text-white text-sm">
+        <div class="max-w-7xl mx-auto px-4 py-2 flex flex-wrap justify-between gap-2">
+            <span><i class="fa-solid fa-location-dot mr-1" aria-hidden="true"></i> Tijuana, Baja California</span>
+            <span class="flex gap-4">
+                <a href="tel:+526640000000" class="hover:text-red-200"><i class="fa-solid fa-phone mr-1" aria-hidden="true"></i> (664) 000 0000</a>
+                <span class="hidden sm:inline"><i class="fa-regular fa-clock mr-1" aria-hidden="true"></i> Lun–Sáb, previa cita</span>
+            </span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between" aria-label="Navegación principal">
+            <a href="#inicio" class="flex items-center gap-2 text-primary font-extrabold text-xl">
+                <i class="fa-solid fa-heart-pulse text-secondary text-2xl" aria-hidden="true"></i>
+                Cardiología <span class="text-secondary">Tijuana</span>
+            </a>
+            <ul class="hidden md:flex items-center gap-8 font-medium text-accent">
+                <li><a href="#servicios" class="hover:text-secondary">Servicios</a></li>
+                <li><a href="#doctor" class="hover:text-secondary">El cardiólogo</a></li>
+                <li><a href="#pacientes-usa" class="hover:text-secondary">Pacientes de EE.UU.</a></li>
+                <li><a href="#preguntas" class="hover:text-secondary">Preguntas</a></li>
+                <li><a href="#cita" class="bg-secondary text-white px-5 py-2 rounded-full hover:bg-red-700 transition">Agendar cita</a></li>
+            </ul>
+            <button class="md:hidden text-primary text-2xl" @click="mobileOpen = !mobileOpen" :aria-expanded="mobileOpen" aria-controls="menu-movil" aria-label="Abrir menú">
+                <i class="fa-solid" :class="mobileOpen ? 'fa-xmark' : 'fa-bars'" aria-hidden="true"></i>
+            </button>
+        </nav>
+        <div id="menu-movil" x-show="mobileOpen" x-cloak x-transition class="md:hidden border-t bg-white">
+            <ul class="px-4 py-4 space-y-3 font-medium text-accent" @click="mobileOpen = false">
+                <li><a href="#servicios" class="block">Servicios</a></li>
+                <li><a href="#doctor" class="block">El cardiólogo</a></li>
+                <li><a href="#pacientes-usa" class="block">Pacientes de EE.UU.</a></li>
+                <li><a href="#preguntas" class="block">Preguntas</a></li>
+                <li><a href="#cita" class="block bg-secondary text-white text-center px-5 py-2 rounded-full">Agendar cita</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="contenido">
+
+        <!-- Hero -->
+        <section id="inicio" class="bg-gradient-to-br from-soft via-white to-white">
+            <div class="max-w-7xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <p class="text-secondary font-semibold uppercase tracking-wide text-sm mb-3">Cardiólogo en Tijuana</p>
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-primary leading-tight mb-6">
+                        Cuidamos tu corazón con atención cercana y estudios en un solo lugar
+                    </h1>
+                    <p class="text-lg text-accent mb-8">
+                        Consulta cardiológica, electrocardiograma, ecocardiograma, prueba de esfuerzo y monitoreo Holter en Tijuana, B.C. Atendemos a pacientes de México y Estados Unidos.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#cita" class="bg-secondary text-white px-7 py-3 rounded-full font-semibold hover:bg-red-700 transition">
+                            <i class="fa-regular fa-calendar-check mr-2" aria-hidden="true"></i>Agendar cita
+                        </a>
+                        <a href="https://wa.me/526640000000?text=Hola%2C%20quiero%20agendar%20una%20cita%20con%20el%20cardi%C3%B3logo" target="_blank" rel="noopener" class="border-2 border-primary text-primary px-7 py-3 rounded-full font-semibold hover:bg-primary hover:text-white transition">
+                            <i class="fa-brands fa-whatsapp mr-2" aria-hidden="true"></i>WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-3xl shadow-xl p-8">
+                    <svg viewBox="0 0 400 120" class="w-full mb-6" role="img" aria-label="Línea de electrocardiograma">
+                        <polyline class="pulse-line" fill="none" stroke="#c8102e" stroke-width="3" stroke-linejoin="round"
+                            points="0,60 80,60 100,60 115,30 130,95 145,10 160,100 175,60 260,60 275,45 290,60 400,60"/>
+                    </svg>
+                    <ul class="space-y-4 text-accent">
+                        <li class="flex gap-3"><i class="fa-solid fa-circle-check text-secondary mt-1" aria-hidden="true"></i> Diagnóstico y estudios el mismo día (según disponibilidad)</li>
+                        <li class="flex gap-3"><i class="fa-solid fa-circle-check text-secondary mt-1" aria-hidden="true"></i> Atención en español e inglés</li>
+                        <li class="flex gap-3"><i class="fa-solid fa-circle-check text-secondary mt-1" aria-hidden="true"></i> Resultados e interpretación explicados con claridad</li>
+                        <li class="flex gap-3"><i class="fa-solid fa-circle-check text-secondary mt-1" aria-hidden="true"></i> Cerca de la garita de San Ysidro</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios -->
+        <section id="servicios" class="py-20">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="text-center max-w-2xl mx-auto mb-14">
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Servicios de cardiología</h2>
+                    <p class="text-accent">Evaluación completa del corazón y la presión arterial, desde la consulta hasta los estudios especializados.</p>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <article class="p-7 rounded-2xl border hover:shadow-lg transition">
+                        <i class="fa-solid fa-user-doctor text-3xl text-secondary mb-4" aria-hidden="true"></i>
+                        <h3 class="text-xl font-semibold text-primary mb-2">Consulta cardiológica</h3>
+                        <p class="text-accent">Valoración integral, revisión de antecedentes, exploración física y plan de tratamiento personalizado.</p>
+                    </article>
+                    <article class="p-7 rounded-2xl border hover:shadow-lg transition">
+                        <i class="fa-solid fa-wave-square text-3xl text-secondary mb-4" aria-hidden="true"></i>
+                        <h3 class="text-xl font-semibold text-primary mb-2">Electrocardiograma</h3>
+                        <p class="text-accent">Registro de la actividad eléctrica del corazón para detectar arritmias y otras alteraciones.</p>
+                    </article>
+                    <article class="p-7 rounded-2xl border hover:shadow-lg transition">
+                        <i class="fa-solid fa-heart text-3xl text-secondary mb-4" aria-hidden="true"></i>
+                        <h3 class="text-xl font-semibold text-primary mb-2">Ecocardiograma</h3>
+                        <p class="text-accent">Ultrasonido del corazón para evaluar su estructura, válvulas y capacidad de bombeo.</p>
+                    </article>
+                    <article class="p-7 rounded-2xl border hover:shadow-lg transition">
+                        <i class="fa-solid fa-person-running text-3xl text-secondary mb-4" aria-hidden="true"></i>
+                        <h3 class="text-xl font-semibold text-primary mb-2">Prueba de esfuerzo</h3>
+                        <p class="text-accent">Evaluación del corazón durante el ejercicio para detectar problemas de circulación coronaria.</p>
+                    </article>
+                    <article class="p-7 rounded-2xl border hover:shadow-lg transition">
+                        <i class="fa-solid fa-clock-rotate-left text-3xl text-secondary mb-4" aria-hidden="true"></i>
+                        <h3 class="text-xl font-semibold text-primary mb-2">Holter de ritmo</h3>
+                        <p class="text-accent">Monitoreo continuo del ritmo cardiaco durante 24 a 48 horas en tu vida diaria.</p>
+                    </article>
+                    <article class="p-7 rounded-2xl border hover:shadow-lg transition">
+                        <i class="fa-solid fa-gauge-high text-3xl text-secondary mb-4" aria-hidden="true"></i>
+                        <h3 class="text-xl font-semibold text-primary mb-2">Monitoreo de presión (MAPA)</h3>
+                        <p class="text-accent">Registro de la presión arterial durante 24 horas para diagnosticar y controlar la hipertensión.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Doctor -->
+        <section id="doctor" class="py-20 bg-soft">
+            <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-5 gap-12 items-center">
+                <div class="md:col-span-2">
+                    <!-- Reemplazar por la foto real del cardiólogo -->
+                    <div class="aspect-[4/5] rounded-3xl bg-white shadow-lg flex items-center justify-center text-primary/30">
+                        <i class="fa-solid fa-user-doctor text-8xl" aria-hidden="true"></i>
+                        <span class="sr-only">Foto del cardiólogo</span>
+                    </div>
+                </div>
+                <div class="md:col-span-3">
+                    <p class="text-secondary font-semibold uppercase tracking-wide text-sm mb-3">Conoce a tu cardiólogo</p>
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">[Dr./Dra. Nombre Apellido]</h2>
+                    <p class="text-accent mb-6">
+                        [Breve semblanza: formación, especialidad en cardiología, hospital donde realizó la residencia y años de experiencia.]
+                    </p>
+                    <ul class="grid sm:grid-cols-2 gap-4 text-accent">
+                        <li class="flex gap-3"><i class="fa-solid fa-graduation-cap text-secondary mt-1" aria-hidden="true"></i> [Universidad / especialidad]</li>
+                        <li class="flex gap-3"><i class="fa-solid fa-award text-secondary mt-1" aria-hidden="true"></i> [Certificación del Consejo]</li>
+                        <li class="flex gap-3"><i class="fa-solid fa-id-card text-secondary mt-1" aria-hidden="true"></i> Céd. Prof. [número]</li>
+                        <li class="flex gap-3"><i class="fa-solid fa-id-card-clip text-secondary mt-1" aria-hidden="true"></i> Céd. Esp. [número]</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pacientes de EE.UU. -->
+        <section id="pacientes-usa" class="py-20">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="bg-primary text-white rounded-3xl p-10 md:p-14 grid md:grid-cols-2 gap-10 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-4">Patients from the U.S.</h2>
+                        <p class="text-blue-100 mb-6">
+                            We see patients from San Diego and Southern California. Bilingual care, clear results and appointments that fit your schedule, just minutes from the San Ysidro border crossing.
+                        </p>
+                        <a href="#cita" class="inline-block bg-secondary px-6 py-3 rounded-full font-semibold hover:bg-red-700 transition">Book an appointment</a>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3"><i class="fa-solid fa-language text-2xl text-red-300" aria-hidden="true"></i> Atención en inglés y español</li>
+                        <li class="flex gap-3"><i class="fa-solid fa-car text-2xl text-red-300" aria-hidden="true"></i> Ubicación de fácil acceso desde la garita</li>
+                        <li class="flex gap-3"><i class="fa-solid fa-file-medical text-2xl text-red-300" aria-hidden="true"></i> Reportes de estudios para tu médico en EE.UU.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Preguntas frecuentes -->
+        <section id="preguntas" class="py-20 bg-gray-50">
+            <div class="max-w-3xl mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary text-center mb-10">Preguntas frecuentes</h2>
+                <div class="space-y-4" x-data="{ open: 1 }">
+                    <template x-for="(item, i) in [
+                        { q: '¿Cuándo debo acudir con un cardiólogo?', a: 'Si tienes dolor u opresión en el pecho, falta de aire, palpitaciones, desmayos, presión alta o antecedentes familiares de enfermedad del corazón. Si el dolor de pecho es intenso o repentino, acude de inmediato a urgencias o llama al 911.' },
+                        { q: '¿Necesito preparación para los estudios?', a: 'Depende del estudio. Al agendar tu cita te indicamos si necesitas ayuno, ropa cómoda o suspender algún medicamento.' },
+                        { q: '¿Qué debo llevar a mi consulta?', a: 'Identificación, lista de medicamentos que tomas y estudios o análisis previos que tengas.' },
+                        { q: '¿Atienden pacientes de Estados Unidos?', a: 'Sí. Ofrecemos atención bilingüe y entregamos reportes que puedes compartir con tu médico en EE.UU.' }
+                    ]" :key="i">
+                        <div class="bg-white rounded-xl border">
+                            <h3>
+                                <button class="w-full flex justify-between items-center text-left p-5 font-semibold text-primary"
+                                    @click="open = open === i + 1 ? null : i + 1" :aria-expanded="open === i + 1">
+                                    <span x-text="item.q"></span>
+                                    <i class="fa-solid fa-chevron-down transition" :class="open === i + 1 && 'rotate-180'" aria-hidden="true"></i>
+                                </button>
+                            </h3>
+                            <p x-show="open === i + 1" x-transitionclass="px-5 pb-5 text-accent" x-text="item.a"></p>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </section>
+
+        <!-- Agendar cita -->
+        <section id="cita" class="py-20">
+            <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Agenda tu cita</h2>
+                    <p class="text-accent mb-8">Llena el formulario y te contactaremos por WhatsApp para confirmar día y hora.</p>
+                    <ul class="space-y-5 text-accent">
+                        <li class="flex gap-4"><i class="fa-solid fa-location-dot text-secondary text-xl w-6" aria-hidden="true"></i> [Dirección del consultorio], Tijuana, B.C.</li>
+                        <li class="flex gap-4"><i class="fa-solid fa-phone text-secondary text-xl w-6" aria-hidden="true"></i> <a href="tel:+526640000000" class="hover:text-secondary">(664) 000 0000</a></li>
+                        <li class="flex gap-4"><i class="fa-regular fa-envelope text-secondary text-xl w-6" aria-hidden="true"></i> <a href="mailto:contacto@cardiologiatijuana.com" class="hover:text-secondary">contacto@cardiologiatijuana.com</a></li>
+                        <li class="flex gap-4"><i class="fa-regular fa-clock text-secondary text-xl w-6" aria-hidden="true"></i> [Horario de atención]</li>
+                    </ul>
+                </div>
+                <form id="form-cita" class="bg-soft rounded-3xl p-8 space-y-5">
+                    <div>
+                        <label for="nombre" class="block text-sm font-semibold text-primary mb-1">Nombre completo</label>
+                        <input id="nombre" name="nombre" required autocomplete="name" class="w-full rounded-lg border-gray-300 border px-4 py-3 focus:outline-none focus:ring-2 focus:ring-secondary">
+                    </div>
+                    <div>
+                        <label for="telefono" class="block text-sm font-semibold text-primary mb-1">Teléfono / WhatsApp</label>
+                        <input id="telefono" name="telefono" type="tel" required autocomplete="tel" class="w-full rounded-lg border-gray-300 border px-4 py-3 focus:outline-none focus:ring-2 focus:ring-secondary">
+                    </div>
+                    <div>
+                        <label for="servicio" class="block text-sm font-semibold text-primary mb-1">Servicio</label>
+                        <select id="servicio" name="servicio" class="w-full rounded-lg border-gray-300 border px-4 py-3 focus:outline-none focus:ring-2 focus:ring-secondary">
+                            <option>Consulta cardiológica</option>
+                            <option>Electrocardiograma</option>
+                            <option>Ecocardiograma</option>
+                            <option>Prueba de esfuerzo</option>
+                            <option>Holter de ritmo</option>
+                            <option>Monitoreo de presión (MAPA)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mensaje" class="block text-sm font-semibold text-primary mb-1">Motivo de consulta (opcional)</label>
+                        <textarea id="mensaje" name="mensaje" rows="3" class="w-full rounded-lg border-gray-300 border px-4 py-3 focus:outline-none focus:ring-2 focus:ring-secondary"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-secondary text-white py-3 rounded-full font-semibold hover:bg-red-700 transition">
+                        <i class="fa-brands fa-whatsapp mr-2" aria-hidden="true"></i>Enviar por WhatsApp
+                    </button>
+                    <p class="text-xs text-accent text-center">En caso de emergencia llama al 911.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-blue-100">
+        <div class="max-w-7xl mx-auto px-4 py-10 flex flex-col md:flex-row justify-between gap-6 text-sm">
+            <p><i class="fa-solid fa-heart-pulse text-red-300 mr-1" aria-hidden="true"></i> © <span id="anio"></span> Cardiología Tijuana. Todos los derechos reservados.</p>
+            <p>Sitio por <a href="https://webmastertijuana.com" class="underline hover:text-white">Webmaster Tijuana</a></p>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/526640000000" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp"
+        class="fixed bottom-5 right-5 z-50 w-14 h-14 rounded-full bg-green-500 text-white text-3xl flex items-center justify-center shadow-lg hover:bg-green-600">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    </a>
+
+    <script>
+        // Número de WhatsApp del consultorio (formato internacional sin "+")
+        const WHATSAPP = '526640000000';
+
+        document.getElementById('anio').textContent = new Date().getFullYear();
+
+        document.getElementById('form-cita').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const f = e.target;
+            const texto = `Hola, quiero agendar una cita.\nNombre: ${f.nombre.value}\nTeléfono: ${f.telefono.value}\nServicio: ${f.servicio.value}` +
+                (f.mensaje.value ? `\nMotivo: ${f.mensaje.value}` : '');
+            window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(texto)}`, '_blank', 'noopener');
+        });
+    </script>
+</body>
+</html>
