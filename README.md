@@ -13,3 +13,12 @@ npm install
 ```bash
 npm start
 ```
+
+## Bot de WhatsApp (open-wa)
+
+```bash
+npm run bot:install
+npm run bot
+```
+
+Ver [whatsapp-bot/README.md](whatsapp-bot/README.md) para requisitos y detalles.
