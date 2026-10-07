@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot:install": "npm --prefix whatsapp-bot install",
+    "bot": "npm --prefix whatsapp-bot start"
   },
   "repository": {
     "type": "git",
