@@ -13,3 +13,7 @@ npm install
 ```bash
 npm start
 ```
+
+## Proyectos
+
+- [Agave Taco Shop — sitio WordPress (tema, XML de importación y SEO)](agave-taco-shop/README.md)

@@ -1,0 +1,9 @@
+/* Block editor parity with the front end. */
+body { font-family: "Manrope", system-ui, sans-serif; color: #151311; background: #fbf4e6; line-height: 1.7; }
+h1, h2, h3, h4 { font-family: "Fraunces", Georgia, serif; color: #0d1f1a; line-height: 1.1; }
+h3 { color: #1f5c4a; }
+a { color: #1f5c4a; }
+.agave-feature-grid, .agave-packages { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.agave-feature, .agave-package { background: #fff; border-radius: 18px; padding: 22px; border: 1px solid rgba(0,0,0,.1); }
+.agave-quote-band { background: #1f5c4a; color: #fbf4e6; padding: 30px; border-radius: 18px; text-align: center; }
+details.faq summary { font-weight: 700; font-size: 1.15em; }

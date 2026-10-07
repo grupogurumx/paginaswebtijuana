@@ -1,0 +1,17 @@
+/*
+Theme Name: Agave Taco Shop
+Theme URI: https://www.agavetacoshop.com/
+Author: Webmaster Tijuana — Páginas Web Tijuana
+Author URI: https://webmastertijuana.com/
+Description: Premium restaurant theme for Agave Taco Shop, Point Loma, San Diego. 3D panoramic motion hero, signature menu, catering and order-online funnels, built-in local SEO (Restaurant, Menu, FAQ and BlogPosting schema, Open Graph) and lightning-fast vanilla JavaScript — no page builder required.
+Version: 1.0.0
+Requires at least: 6.2
+Tested up to: 6.8
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: agave
+Tags: restaurant, food-and-drink, one-column, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, blog
+*/
+
+/* All visual styles live in assets/css/main.css (enqueued in functions.php). */
