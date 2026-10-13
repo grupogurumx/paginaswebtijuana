@@ -19,10 +19,10 @@ const MENU = [
 ].join('\n');
 
 const RESPUESTAS = {
-  1: `🖥️ *Diseño de páginas web*\nSitios modernos, rápidos y optimizados para móviles y Google.\nMás información: ${SITIO}`,
+  1: `🖥️ *Diseño de páginas web*\nSitios que cargan rápido, se ven bien en el celular y aparecen en Google.\nMás información: ${SITIO}`,
   2: `🛒 *Tiendas virtuales*\nVende en línea con pagos, inventario y envíos integrados.\nMás información: ${SITIO}`,
-  3: `📈 *Marketing y publicidad digital*\nCampañas en Google, Facebook e Instagram enfocadas en resultados.\nMás información: ${SITIO}`,
-  4: `📱 *Manejo de redes sociales*\nContenido, publicaciones y atención a tu comunidad.\nMás información: ${SITIO}`,
+  3: `📈 *Marketing y publicidad digital*\nCampañas en Google Ads, Facebook e Instagram, segmentadas por zona e intereses.\nMás información: ${SITIO}`,
+  4: `📱 *Manejo de redes sociales*\nCalendario de publicaciones, diseño del contenido y respuesta a mensajes y comentarios.\nMás información: ${SITIO}`,
   5: `🤝 En breve un asesor te atenderá por este medio.\nTambién puedes llamarnos al ${TELEFONO} o escribir a ${CORREO}.`,
 };
 
