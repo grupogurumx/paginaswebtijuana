@@ -1,0 +1,56 @@
+/*
+Theme Name: Webmaster Tijuana
+Theme URI: https://webmastertijuana.com/
+Author: Webmaster Tijuana
+Author URI: https://webmastertijuana.com/
+Description: Tema a medida para Webmaster Tijuana, agencia de diseño web y marketing digital. Slider de servicios, catálogo de servicios y portafolio administrables, formulario de cotización que guarda cada solicitud en el escritorio y la envía por correo, datos estructurados de ProfessionalService y todos los datos del negocio editables desde el Personalizador. Sin dependencia de plugins ni constructores de páginas.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: webmaster-tijuana
+Tags: one-column, custom-logo, custom-menu, featured-images, full-width-template, theme-options, translation-ready
+*/
+
+/*
+  Las reglas de diseño viven en assets/css/main.css, que se encola desde
+  functions.php. Este archivo declara la cabecera del tema y los estilos
+  del contenido generado por el editor.
+*/
+
+.alignleft  { float: left;  margin: 0.4rem 1.5rem 1rem 0; }
+.alignright { float: right; margin: 0.4rem 0 1rem 1.5rem; }
+.aligncenter { display: block; margin-inline: auto; }
+.alignwide, .alignfull { max-width: none; }
+
+.wp-caption { max-width: 100%; }
+.wp-caption-text,
+.wp-block-image figcaption {
+  font-size: 0.85rem;
+  color: #5b6478;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.wp-block-table table { width: 100%; border-collapse: collapse; }
+.wp-block-table th,
+.wp-block-table td { padding: 0.75rem 1rem; border: 1px solid #e6e9f2; text-align: left; }
+.wp-block-table th { background: #f4f6fb; font-weight: 600; }
+
+.screen-reader-text {
+  border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%);
+  height: 1px; margin: -1px; overflow: hidden; padding: 0;
+  position: absolute !important; width: 1px; word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background: #fff; clip: auto !important; clip-path: none; color: #0d1257;
+  display: block; font-size: 1rem; height: auto; left: 1rem; top: 1rem;
+  padding: 0.75rem 1.25rem; width: auto; z-index: 100000; border-radius: 8px;
+}
+
+.admin-bar .site-header { top: 32px; }
+@media screen and (max-width: 782px) {
+  .admin-bar .site-header { top: 46px; }
+}
