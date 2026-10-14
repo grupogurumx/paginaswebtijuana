@@ -60,7 +60,21 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #1e3a8a;
         }
+        /* Framer Motion: elementos ocultos hasta que entran en pantalla */
+        .motion-ready [data-animate],
+        .motion-ready [data-animate-stagger] > * {
+            opacity: 0;
+        }
     </style>
+    <script>
+        // Solo ocultamos si hay animaciones; si el CDN falla, mostramos todo a los 3 s
+        if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.documentElement.classList.add('motion-ready');
+            setTimeout(function () {
+                if (!window.motionLoaded) document.documentElement.classList.remove('motion-ready');
+            }, 3000);
+        }
+    </script>
 </head>
 <body class="bg-gray-50 text-gray-800 antialiased overflow-x-hidden">
     <!-- Header -->
@@ -151,22 +165,22 @@
         <!-- Beneficios (Persuasive Copywriting) -->
         <section class="py-16 bg-white">
             <div class="container mx-auto px-4 max-w-4xl text-center">
-                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">Agencia de Marketing y Desarrollo de Sitios Web</h2>
-                <p class="text-lg md:text-xl text-accent mb-8 leading-relaxed">
+                <h2 data-animate class="text-3xl md:text-4xl font-bold text-primary mb-6">Agencia de Marketing y Desarrollo de Sitios Web</h2>
+                <p data-animate class="text-lg md:text-xl text-accent mb-8 leading-relaxed">
                     <strong>Somos Expertos En Marketing Digital.</strong> Un equipo comprometido en el crecimiento de tu proyecto, con garantía de retorno de inversión a corto, mediano y largo plazo. Ofrecemos estrategias de marketing digital, publicidad digital y gestión de redes sociales. Tenemos el conocimiento, la experiencia y las relaciones para consolidar su negocio.
                 </p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                    <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div data-animate-stagger class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                    <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                         <i class="fas fa-bullseye text-4xl text-secondary mb-4"></i>
                         <h3 class="text-xl font-bold text-primary mb-2">Estrategia Personalizada</h3>
                         <p class="text-accent">Planes a la medida para alcanzar a tu público objetivo.</p>
                     </div>
-                    <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                         <i class="fas fa-chart-line text-4xl text-secondary mb-4"></i>
                         <h3 class="text-xl font-bold text-primary mb-2">Retorno de Inversión</h3>
                         <p class="text-accent">Garantizamos resultados tangibles a corto, mediano y largo plazo.</p>
                     </div>
-                    <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                         <i class="fas fa-users text-4xl text-secondary mb-4"></i>
                         <h3 class="text-xl font-bold text-primary mb-2">Expertos Comprometidos</h3>
                         <p class="text-accent">Un equipo de profesionales dedicados al crecimiento de tu proyecto.</p>
@@ -178,12 +192,12 @@
         <!-- Servicios Destacados -->
         <section id="servicios" class="py-16 bg-gray-50">
             <div class="container mx-auto px-4 lg:px-8">
-                <div class="text-center mb-16">
+                <div data-animate class="text-center mb-16">
                     <h2 class="text-3xl md:text-4xl font-bold text-primary">Servicios Destacados</h2>
                     <div class="w-24 h-1 bg-secondary mx-auto mt-4 rounded"></div>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div data-animate-stagger class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Servicio 1 -->
                     <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-gray-100">
                         <div class="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-6">
@@ -257,12 +271,12 @@
         <!-- Testimonios -->
         <section class="py-16 bg-white">
             <div class="container mx-auto px-4 lg:px-8">
-                <div class="text-center mb-16">
+                <div data-animate class="text-center mb-16">
                     <h2 class="text-3xl md:text-4xl font-bold text-primary">Lo que dicen nuestros clientes</h2>
                     <div class="w-24 h-1 bg-secondary mx-auto mt-4 rounded"></div>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div data-animate-stagger class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-gray-50 p-8 rounded-2xl relative mt-8">
                         <img src="./assets/PROFILE (1).png" alt="Cliente 1" class="w-20 h-20 rounded-full object-cover absolute -top-10 left-1/2 transform -translate-x-1/2 border-4 border-white shadow-md">
                         <div class="pt-8 text-center">
@@ -308,7 +322,7 @@
             <div class="container mx-auto px-4 lg:px-8 relative z-10">
                 <div class="flex flex-col lg:flex-row gap-12">
                     <!-- Contact Info -->
-                    <div class="lg:w-5/12">
+                    <div data-animate class="lg:w-5/12">
                         <h2 class="text-3xl md:text-4xl font-bold mb-6">Impulsa tu negocio hoy mismo</h2>
                         <p class="text-blue-100 mb-8 text-lg">Ponte en contacto con nosotros para una cotización gratuita. Estamos listos para llevar tu presencia digital al siguiente nivel.</p>
 
@@ -344,7 +358,7 @@
                     </div>
 
                     <!-- Contact Form -->
-                    <div class="lg:w-7/12" id="contacto">
+                    <div data-animate class="lg:w-7/12" id="contacto">
                         <div class="bg-white rounded-2xl p-8 shadow-2xl text-gray-800">
                             <h3 class="text-2xl font-bold text-primary mb-6">Solicita tu cotización</h3>
                             <form action="mailto:contacto@webmastertijuana.com" method="POST" enctype="text/plain" class="space-y-4">
@@ -434,5 +448,24 @@
             </div>
         </div>
     </footer>
+
+    <!-- Framer Motion (versión sin React): animaciones al hacer scroll -->
+    <script type="module">
+        import { animate, inView, stagger } from 'https://cdn.jsdelivr.net/npm/framer-motion@14.2.0/dom/+esm';
+
+        window.motionLoaded = true;
+
+        if (document.documentElement.classList.contains('motion-ready')) {
+            const ease = [0.22, 1, 0.36, 1];
+
+            inView('[data-animate]', (el) => {
+                animate(el, { opacity: [0, 1], y: [24, 0] }, { duration: 0.6, ease });
+            }, { amount: 0.2 });
+
+            inView('[data-animate-stagger]', (grid) => {
+                animate([...grid.children], { opacity: [0, 1], y: [32, 0] }, { duration: 0.6, ease, delay: stagger(0.1) });
+            }, { amount: 0.15 });
+        }
+    </script>
 </body>
 </html>
