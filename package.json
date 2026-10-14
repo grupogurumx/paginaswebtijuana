@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "framer-motion": "^14.2.0",
     "hallmark": "^5.0.2"
   }
 }
