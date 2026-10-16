@@ -1,0 +1,3 @@
+## 2026-05-30 - Enhance Screen Reader Experience for Icon-Only Buttons
+**Learning:** The site relies on FontAwesome icons combined with Alpine.js state for mobile menus and sliders. Missing ARIA labels and `aria-hidden` on decorative elements caused poor screen reader navigation. Alpine.js state bindings (like `:aria-expanded=\"open.toString()\"`) are crucial for dynamic ARIA attributes. All ARIA labels must be localized to Spanish to match the site's primary language.
+**Action:** When adding interactive icon-only elements (like FontAwesome), always include localized `aria-label` on the parent interactive element and `aria-hidden=\"true\"` on the icon itself. Use Alpine.js to dynamically bind stateful attributes like `:aria-expanded` and `:aria-current`.
