@@ -79,7 +79,7 @@
 
             <!-- Mobile Menu Button (AlpineJS) -->
             <div x-data="{ open: false }" class="md:hidden">
-                <button @click="open = !open" class="text-primary focus:outline-none">
+                <button @click="open = !open" :aria-expanded="open.toString()" aria-label="Menú principal" class="text-primary focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:rounded">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
                 <div x-show="open" @click.away="open = false" class="absolute top-20 left-0 w-full bg-white shadow-lg p-6 flex flex-col space-y-4">
@@ -133,10 +133,10 @@
             </template>
 
             <!-- Navigation Controls -->
-            <button @click="prev()" class="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 text-white opacity-70 hover:opacity-100 focus:outline-none">
+            <button @click="prev()" aria-label="Diapositiva anterior" class="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 text-white opacity-70 hover:opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:rounded">
                 <i class="fas fa-chevron-left text-4xl"></i>
             </button>
-            <button @click="next()" class="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 text-white opacity-70 hover:opacity-100 focus:outline-none">
+            <button @click="next()" aria-label="Diapositiva siguiente" class="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 text-white opacity-70 hover:opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:rounded">
                 <i class="fas fa-chevron-right text-4xl"></i>
             </button>
 
