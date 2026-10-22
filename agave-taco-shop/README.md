@@ -71,3 +71,13 @@ python3 content/build_wxr.py            # escribe dist/agave-taco-shop-wordpress
 ```
 
 Edita los textos en `content/pages.py` y `content/posts.py`; las imágenes en `content/images.py`.
+
+## Vista previa en Vercel
+
+`agave-taco-shop/vercel-site/` es una versión estática del sitio (8 páginas) exportada desde el tema de WordPress, con las fotos reales de Freepik/Magnific enlazadas. El archivo `vercel.json` en la raíz del repositorio ya apunta a esa carpeta, así que no hace falta configurar nada:
+
+1. En <https://vercel.com/new> importa el repositorio `grupogurumx/paginaswebtijuana`.
+2. Deja **Framework Preset: Other** y no cambies Root Directory (usa la raíz). Haz clic en **Deploy**.
+3. Vercel crea una vista previa por cada rama; la de producción sale de la rama principal (`main`).
+
+La vista previa lleva `noindex` para no competir en Google con agavetacoshop.com. Los formularios de la vista estática solo muestran un aviso; en WordPress sí envían correo.
