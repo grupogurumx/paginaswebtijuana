@@ -1,0 +1,2624 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- WordPress eXtended RSS (WXR) import for drmariocamelo.com -->
+<!-- Tools > Import > WordPress. Activate the "Dr. Mario Camelo" theme BEFORE importing. -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+	<title>Dr. Mario Camelo | Bariatric Surgery Tijuana</title>
+	<link>https://drmariocamelo.com</link>
+	<description>Bariatric Surgery &amp; Metabolic Medicine in Tijuana</description>
+	<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://drmariocamelo.com</wp:base_site_url>
+	<wp:base_blog_url>https://drmariocamelo.com</wp:base_blog_url>
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login><![CDATA[drmariocamelo]]></wp:author_login>
+		<wp:author_email><![CDATA[]]></wp:author_email>
+		<wp:author_display_name><![CDATA[Dr. Mario Camelo]]></wp:author_display_name>
+		<wp:author_first_name><![CDATA[Mario]]></wp:author_first_name>
+		<wp:author_last_name><![CDATA[Camelo]]></wp:author_last_name>
+	</wp:author>
+	<wp:category>
+		<wp:term_id>11</wp:term_id>
+		<wp:category_nicename><![CDATA[bariatric-surgery]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Bariatric Surgery]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>12</wp:term_id>
+		<wp:category_nicename><![CDATA[es-bariatric-surgery]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Cirugía Bariátrica]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>13</wp:term_id>
+		<wp:category_nicename><![CDATA[gallbladder]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Gallbladder]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>14</wp:term_id>
+		<wp:category_nicename><![CDATA[es-gallbladder]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Vesícula]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>15</wp:term_id>
+		<wp:category_nicename><![CDATA[metabolic-health]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Metabolic Health]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>16</wp:term_id>
+		<wp:category_nicename><![CDATA[es-metabolic-health]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Salud Metabólica]]></wp:cat_name>
+	</wp:category>
+	<generator>https://wordpress.org/?v=6.6</generator>
+	<item>
+		<title><![CDATA[Bariatric surgery and gallstones]]></title>
+		<link>https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/blog-bariatrica-vesicula.jpg</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/blog-bariatrica-vesicula.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[Bariatric surgery and gallstones]]></excerpt:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog-bariatrica-vesicula]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:post_mime_type><![CDATA[image/jpeg]]></wp:post_mime_type>
+		<wp:attachment_url><![CDATA[https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/blog-bariatrica-vesicula.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bariatric surgery and gallstones]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Complications of untreated gallstones]]></title>
+		<link>https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/blog-complicaciones-vesicula.jpg</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/blog-complicaciones-vesicula.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[Complications of untreated gallstones]]></excerpt:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog-complicaciones-vesicula]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:post_mime_type><![CDATA[image/jpeg]]></wp:post_mime_type>
+		<wp:attachment_url><![CDATA[https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/blog-complicaciones-vesicula.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Complications of untreated gallstones]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Risks of self-medicating for weight loss — Dr. Mario Camelo]]></title>
+		<link>https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/blog-riesgos-automedicacion.jpg</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/blog-riesgos-automedicacion.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[Risks of self-medicating for weight loss — Dr. Mario Camelo]]></excerpt:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog-riesgos-automedicacion]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:post_mime_type><![CDATA[image/jpeg]]></wp:post_mime_type>
+		<wp:attachment_url><![CDATA[https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/blog-riesgos-automedicacion.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Risks of self-medicating for weight loss — Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Dr. Mario Camelo performing laparoscopic bariatric surgery]]></title>
+		<link>https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/dr-camelo-laparoscopia-2.jpg</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/dr-camelo-laparoscopia-2.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[Dr. Mario Camelo performing laparoscopic bariatric surgery]]></excerpt:encoded>
+		<wp:post_id>104</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dr-camelo-laparoscopia-2]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:post_mime_type><![CDATA[image/jpeg]]></wp:post_mime_type>
+		<wp:attachment_url><![CDATA[https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/dr-camelo-laparoscopia-2.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dr. Mario Camelo performing laparoscopic bariatric surgery]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Dr. Mario Camelo in the operating room in Tijuana]]></title>
+		<link>https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/dr-camelo-quirofano-1.jpg</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/dr-camelo-quirofano-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[Dr. Mario Camelo in the operating room in Tijuana]]></excerpt:encoded>
+		<wp:post_id>105</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dr-camelo-quirofano-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:post_mime_type><![CDATA[image/jpeg]]></wp:post_mime_type>
+		<wp:attachment_url><![CDATA[https://drmariocamelo.com/wp-content/themes/drmariocamelo/assets/img/dr-camelo-quirofano-1.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dr. Mario Camelo in the operating room in Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Home]]></title>
+		<link>https://drmariocamelo.com/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=106</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- The home page layout is rendered by the theme (front-page.php). -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Gastric sleeve and gastric bypass in Tijuana with Dr. Mario Camelo, certified bariatric surgeon with 10,000+ surgeries.]]></excerpt:encoded>
+		<wp:post_id>106</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:46:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:46:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bariatric Surgery in Tijuana | Dr. Mario Camelo #SuperDrSleeve]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric sleeve & gastric bypass in Tijuana with Dr. Mario Camelo, certified bariatric surgeon with 10,000+ surgeries. Free evaluation & financing.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bariatric surgery Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bariatric Surgery in Tijuana | Dr. Mario Camelo #SuperDrSleeve]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric sleeve & gastric bypass in Tijuana with Dr. Mario Camelo, certified bariatric surgeon with 10,000+ surgeries. Free evaluation & financing.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bariatric surgery Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Inicio]]></title>
+		<link>https://drmariocamelo.com/es/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=107</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- El diseño de esta página lo genera el tema (template-home-es.php). -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Manga gástrica y bypass gástrico en Tijuana con el Dr. Mario Camelo, cirujano bariatra certificado con más de 10,000 cirugías.]]></excerpt:encoded>
+		<wp:post_id>107</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:47:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:47:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[es]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[home]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[template-home-es.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cirugía Bariátrica en Tijuana | Dr. Mario Camelo #SuperDrSleeve]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga gástrica y bypass gástrico en Tijuana con el Dr. Mario Camelo, cirujano bariatra certificado con +10,000 cirugías. Valoración gratis y financiamiento.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirugía bariátrica Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cirugía Bariátrica en Tijuana | Dr. Mario Camelo #SuperDrSleeve]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga gástrica y bypass gástrico en Tijuana con el Dr. Mario Camelo, cirujano bariatra certificado con +10,000 cirugías. Valoración gratis y financiamiento.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirugía bariátrica Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[About Dr. Mario Camelo]]></title>
+		<link>https://drmariocamelo.com/about-dr-mario-camelo/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=108</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>The surgeon behind #SuperDrSleeve</h2>
+<p>Dr. Mario Camelo is a certified bariatric surgeon dedicated to bariatric surgery and metabolic medicine in Tijuana, Baja California. With <strong>more than 10,000 surgeries performed</strong>, he has helped patients from across the United States and Mexico take back control of their health.</p>
+<p>His approach is simple and demanding at the same time: obesity is a chronic disease, not a lack of willpower. It deserves the same scientific, compassionate and individualized care as diabetes or heart disease.</p>
+<img src="/wp-content/themes/drmariocamelo/assets/img/dr-camelo-laparoscopia-2.jpg" alt="Dr. Mario Camelo performing laparoscopic gastric sleeve surgery with his team in Tijuana" width="1440" height="959" loading="lazy">
+<h2>A multidisciplinary team for every patient</h2>
+<p>Surgery is only one part of the journey. Every patient is supported by a team that may include:</p>
+<ul>
+<li><strong>Bariatric surgery</strong> — laparoscopic, minimally invasive technique.</li>
+<li><strong>Internal medicine and metabolic medicine</strong> — control of diabetes, blood pressure and cholesterol.</li>
+<li><strong>Nutrition</strong> — pre-operative diet and staged post-operative nutrition plan.</li>
+<li><strong>Psychology</strong> — preparation for the emotional changes of rapid weight loss.</li>
+<li><strong>Patient coordination</strong> — bilingual support from your first message to your last follow-up.</li>
+</ul>
+<h2>Why patients from the U.S. choose Dr. Camelo</h2>
+<ul>
+<li>Experience backed by more than 10,000 bariatric procedures.</li>
+<li>Bilingual care in English and Spanish.</li>
+<li>Located in Playas de Tijuana, minutes from the San Diego border.</li>
+<li>Transparent, personalized evaluation — every case is individualized.</li>
+<li>Patient financing available through a fast online application.</li>
+</ul>
+<blockquote>“My goal is not that you lose weight for a season. It is that you gain years of healthy life.” — Dr. Mario Camelo</blockquote>
+<h2>Follow his work</h2>
+<p>Dr. Camelo shares patient education every week on <a href="https://www.instagram.com/superdrsleeve/" target="_blank" rel="noopener">Instagram @superdrsleeve</a> and <a href="https://www.facebook.com/Drmariocamelo/" target="_blank" rel="noopener">Facebook</a>: real information about gallstones, medications for weight loss, supplements and life after surgery.</p>
+[dmc_reviews]
+<p class="disclaimer">*Results vary from patient to patient. This information is educational and does not replace an individual medical evaluation.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Meet Dr. Mario Camelo, #SuperDrSleeve: certified bariatric surgeon in Tijuana with more than 10,000 surgeries and a multidisciplinary team.]]></excerpt:encoded>
+		<wp:post_id>108</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:48:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:48:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about-dr-mario-camelo]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es/sobre-el-dr-mario-camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Certified bariatric surgeon. More than 10,000 surgeries. One mission: to help you beat obesity for good.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dr. Mario Camelo | Certified Bariatric Surgeon in Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Meet Dr. Mario Camelo (#SuperDrSleeve), certified bariatric surgeon in Tijuana with 10,000+ surgeries and a multidisciplinary metabolic team.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bariatric surgeon Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dr. Mario Camelo | Certified Bariatric Surgeon in Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Meet Dr. Mario Camelo (#SuperDrSleeve), certified bariatric surgeon in Tijuana with 10,000+ surgeries and a multidisciplinary metabolic team.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bariatric surgeon Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[105]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Sobre el Dr. Mario Camelo]]></title>
+		<link>https://drmariocamelo.com/es/sobre-el-dr-mario-camelo/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=109</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>El cirujano detrás de #SuperDrSleeve</h2>
+<p>El Dr. Mario Camelo es cirujano bariatra certificado, dedicado a la cirugía bariátrica y la medicina metabólica en Tijuana, Baja California. Con <strong>más de 10,000 cirugías realizadas</strong>, ha ayudado a pacientes de México y Estados Unidos a recuperar el control de su salud.</p>
+<p>Su enfoque es sencillo y exigente a la vez: la obesidad es una enfermedad crónica, no una falta de voluntad. Merece la misma atención científica, humana e individualizada que la diabetes o las enfermedades del corazón.</p>
+<img src="/wp-content/themes/drmariocamelo/assets/img/dr-camelo-laparoscopia-2.jpg" alt="Dr. Mario Camelo realizando manga gástrica laparoscópica con su equipo en Tijuana" width="1440" height="959" loading="lazy">
+<h2>Un equipo multidisciplinario para cada paciente</h2>
+<p>La cirugía es solo una parte del camino. Cada paciente cuenta con un equipo que puede incluir:</p>
+<ul>
+<li><strong>Cirugía bariátrica</strong>: técnica laparoscópica de mínima invasión.</li>
+<li><strong>Medicina interna y metabólica</strong>: control de diabetes, presión arterial y colesterol.</li>
+<li><strong>Nutrición</strong>: dieta preoperatoria y plan nutricional por etapas después de la cirugía.</li>
+<li><strong>Psicología</strong>: preparación para los cambios emocionales de la pérdida de peso.</li>
+<li><strong>Coordinación de pacientes</strong>: atención bilingüe desde tu primer mensaje hasta tu último seguimiento.</li>
+</ul>
+<h2>Por qué los pacientes eligen al Dr. Camelo</h2>
+<ul>
+<li>Experiencia respaldada por más de 10,000 procedimientos bariátricos.</li>
+<li>Atención en español e inglés.</li>
+<li>Ubicado en Playas de Tijuana, a minutos de la frontera con San Diego.</li>
+<li>Valoración transparente y personalizada: cada caso se individualiza.</li>
+<li>Financiamiento disponible con una solicitud en línea rápida.</li>
+</ul>
+<blockquote>“Mi objetivo no es que bajes de peso por una temporada. Es que ganes años de vida saludable.” — Dr. Mario Camelo</blockquote>
+<h2>Sigue su trabajo</h2>
+<p>El Dr. Camelo comparte educación para pacientes cada semana en <a href="https://www.instagram.com/superdrsleeve/" target="_blank" rel="noopener">Instagram @superdrsleeve</a> y <a href="https://www.facebook.com/Drmariocamelo/" target="_blank" rel="noopener">Facebook</a>: información real sobre piedras en la vesícula, medicamentos para bajar de peso, suplementos y la vida después de la cirugía.</p>
+[dmc_reviews]
+<p class="disclaimer">*Los resultados varían en cada paciente. Esta información es educativa y no sustituye una valoración médica individual.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Conoce al Dr. Mario Camelo, #SuperDrSleeve: cirujano bariatra certificado en Tijuana con más de 10,000 cirugías y un equipo multidisciplinario.]]></excerpt:encoded>
+		<wp:post_id>109</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:49:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:49:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[sobre-el-dr-mario-camelo]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>107</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[about-dr-mario-camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cirujano bariatra certificado. Más de 10,000 cirugías. Una misión: ayudarte a vencer la obesidad para siempre.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dr. Mario Camelo | Cirujano Bariatra Certificado en Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Conoce al Dr. Mario Camelo (#SuperDrSleeve), cirujano bariatra certificado en Tijuana con +10,000 cirugías y un equipo metabólico multidisciplinario.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirujano bariatra Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dr. Mario Camelo | Cirujano Bariatra Certificado en Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Conoce al Dr. Mario Camelo (#SuperDrSleeve), cirujano bariatra certificado en Tijuana con +10,000 cirugías y un equipo metabólico multidisciplinario.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirujano bariatra Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[105]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Gastric Sleeve in Tijuana]]></title>
+		<link>https://drmariocamelo.com/gastric-sleeve-tijuana/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=110</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>What is the gastric sleeve?</h2>
+<p>The <strong>sleeve gastrectomy</strong> (gastric sleeve) is a laparoscopic procedure that removes approximately 75–80% of the stomach, leaving a narrow, tube-shaped stomach. It works in two ways:</p>
+<ul>
+<li><strong>Restriction:</strong> you feel full with much smaller portions.</li>
+<li><strong>Hormonal effect:</strong> it reduces ghrelin, the “hunger hormone”, so appetite goes down.</li>
+</ul>
+<h2>Expected results</h2>
+<p>On average, gastric sleeve patients lose approximately <strong>25–30% of their total body weight*</strong>. Many also see improvement in type 2 diabetes, high blood pressure, sleep apnea and joint pain.</p>
+<table>
+<thead><tr><th></th><th>Gastric Sleeve</th><th>Gastric Bypass</th></tr></thead>
+<tbody>
+<tr><td>Average total body weight loss*</td><td>25–30%</td><td>30–32%</td></tr>
+<tr><td>Technique</td><td>Laparoscopic</td><td>Laparoscopic</td></tr>
+<tr><td>Intestinal rerouting</td><td>No</td><td>Yes</td></tr>
+<tr><td>Best for</td><td>Most patients, BMI 35–50</td><td>Diabetes, severe reflux, higher BMI</td></tr>
+</tbody>
+</table>
+<h2>Am I a candidate?</h2>
+<ul>
+<li>BMI of 35 or more, or</li>
+<li>BMI of 30–35 with obesity-related conditions (type 2 diabetes, hypertension, sleep apnea), and</li>
+<li>No contraindications found during your medical evaluation.</li>
+</ul>
+<p>If you have severe acid reflux (GERD), the <a href="/gastric-bypass-tijuana/">gastric bypass</a> may be a better option — Dr. Camelo will recommend what fits your case.</p>
+<h2>Your journey, step by step</h2>
+<ol>
+<li><strong>Free online evaluation</strong> — send your height, weight and medical history.</li>
+<li><strong>Pre-operative plan</strong> — lab work and a pre-surgery liquid diet to reduce liver size and make surgery safer.</li>
+<li><strong>Surgery</strong> — laparoscopic procedure through small incisions.</li>
+<li><strong>Recovery</strong> — staged diet (liquids, purées, soft foods, solids) and walking early.</li>
+<li><strong>Follow-up</strong> — nutrition, supplements and check-ins so your results last.</li>
+</ol>
+<h2>Risks you should know</h2>
+<p>Every surgery carries risks. With the gastric sleeve they include bleeding, staple-line leak, reflux, nutritional deficiencies and gallstone formation during rapid weight loss. A careful evaluation, an experienced team and disciplined follow-up reduce these risks — and we will discuss them openly with you.</p>
+<p>Read more: <a href="/gallstones-after-bariatric-surgery/">Gallstones after bariatric surgery</a> · <a href="/gastric-sleeve-vs-gastric-bypass/">Sleeve vs. bypass</a></p>
+[dmc_cta]
+<p class="disclaimer">*Results vary from patient to patient. This information is educational and does not replace an individual medical evaluation.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Gastric sleeve surgery in Tijuana with Dr. Mario Camelo: candidates, procedure, recovery and expected results (25–30% total body weight loss).]]></excerpt:encoded>
+		<wp:post_id>110</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:50:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:50:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gastric-sleeve-tijuana]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es/manga-gastrica-tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The world’s most performed weight-loss surgery, done by the surgeon patients call #SuperDrSleeve.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric Sleeve Tijuana | Sleeve Gastrectomy by Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric sleeve in Tijuana with certified bariatric surgeon Dr. Mario Camelo. 25–30% average total body weight loss, free evaluation and financing.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric sleeve Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric Sleeve Tijuana | Sleeve Gastrectomy by Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric sleeve in Tijuana with certified bariatric surgeon Dr. Mario Camelo. 25–30% average total body weight loss, free evaluation and financing.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric sleeve Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[105]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_schema]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sleeve Gastrectomy (Gastric Sleeve)]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Manga Gástrica en Tijuana]]></title>
+		<link>https://drmariocamelo.com/es/manga-gastrica-tijuana/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=111</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>¿Qué es la manga gástrica?</h2>
+<p>La <strong>gastrectomía en manga</strong> (manga gástrica) es un procedimiento laparoscópico que retira aproximadamente el 75–80% del estómago y deja un estómago delgado en forma de tubo. Funciona de dos maneras:</p>
+<ul>
+<li><strong>Restricción:</strong> te sientes satisfecho con porciones mucho más pequeñas.</li>
+<li><strong>Efecto hormonal:</strong> disminuye la grelina, la “hormona del hambre”, y con ella el apetito.</li>
+</ul>
+<h2>Resultados esperados</h2>
+<p>En promedio, los pacientes de manga gástrica pierden aproximadamente <strong>entre 25 y 30% de su peso corporal total*</strong>. Muchos también mejoran su diabetes tipo 2, presión arterial, apnea del sueño y dolor articular.</p>
+<table>
+<thead><tr><th></th><th>Manga gástrica</th><th>Bypass gástrico</th></tr></thead>
+<tbody>
+<tr><td>Pérdida promedio del peso corporal total*</td><td>25–30%</td><td>30–32%</td></tr>
+<tr><td>Técnica</td><td>Laparoscópica</td><td>Laparoscópica</td></tr>
+<tr><td>Desvío intestinal</td><td>No</td><td>Sí</td></tr>
+<tr><td>Ideal para</td><td>La mayoría de pacientes, IMC 35–50</td><td>Diabetes, reflujo severo, IMC elevado</td></tr>
+</tbody>
+</table>
+<h2>¿Soy candidato?</h2>
+<ul>
+<li>IMC de 35 o más, o</li>
+<li>IMC de 30 a 35 con enfermedades asociadas (diabetes tipo 2, hipertensión, apnea del sueño), y</li>
+<li>Sin contraindicaciones en tu valoración médica.</li>
+</ul>
+<p>Si tienes reflujo severo (ERGE), el <a href="/es/bypass-gastrico-tijuana/">bypass gástrico</a> puede ser una mejor opción; el Dr. Camelo te recomendará lo que mejor se adapte a tu caso.</p>
+<h2>Tu proceso, paso a paso</h2>
+<ol>
+<li><strong>Valoración gratuita en línea</strong>: envía tu estatura, peso e historial médico.</li>
+<li><strong>Plan preoperatorio</strong>: estudios de laboratorio y dieta líquida previa para reducir el tamaño del hígado y hacer la cirugía más segura.</li>
+<li><strong>Cirugía</strong>: procedimiento laparoscópico con pequeñas incisiones.</li>
+<li><strong>Recuperación</strong>: dieta por etapas (líquidos, purés, blandos y sólidos) y caminar desde el inicio.</li>
+<li><strong>Seguimiento</strong>: nutrición, suplementos y revisiones para que tus resultados perduren.</li>
+</ol>
+<h2>Riesgos que debes conocer</h2>
+<p>Toda cirugía tiene riesgos. En la manga gástrica incluyen sangrado, fuga en la línea de grapas, reflujo, deficiencias nutricionales y formación de piedras en la vesícula durante la pérdida rápida de peso. Una valoración cuidadosa, un equipo con experiencia y un seguimiento disciplinado reducen estos riesgos, y los hablaremos contigo con total transparencia.</p>
+<p>Lee también: <a href="/piedras-en-la-vesicula-y-cirugia-bariatrica/">Piedras en la vesícula y cirugía bariátrica</a> · <a href="/manga-gastrica-vs-bypass-gastrico/">Manga vs. bypass</a></p>
+[dmc_cta]
+<p class="disclaimer">*Los resultados varían en cada paciente. Esta información es educativa y no sustituye una valoración médica individual.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Manga gástrica en Tijuana con el Dr. Mario Camelo: candidatos, procedimiento, recuperación y resultados esperados (25–30% del peso corporal total).]]></excerpt:encoded>
+		<wp:post_id>111</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:51:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:51:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[manga-gastrica-tijuana]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>107</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric-sleeve-tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[La cirugía para bajar de peso más realizada del mundo, en manos del cirujano al que sus pacientes llaman #SuperDrSleeve.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga Gástrica en Tijuana | Dr. Mario Camelo Cirujano Bariatra]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga gástrica en Tijuana con el Dr. Mario Camelo, cirujano bariatra certificado. Pérdida promedio de 25–30% del peso total. Valoración gratis y financiamiento.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manga gástrica Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga Gástrica en Tijuana | Dr. Mario Camelo Cirujano Bariatra]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga gástrica en Tijuana con el Dr. Mario Camelo, cirujano bariatra certificado. Pérdida promedio de 25–30% del peso total. Valoración gratis y financiamiento.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manga gástrica Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[105]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_schema]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sleeve Gastrectomy (Gastric Sleeve)]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Gastric Bypass in Tijuana]]></title>
+		<link>https://drmariocamelo.com/gastric-bypass-tijuana/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=112</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>What is the gastric bypass?</h2>
+<p>The <strong>Roux-en-Y gastric bypass</strong> creates a small stomach pouch and connects it directly to the small intestine, bypassing most of the stomach and the first part of the intestine. It combines restriction, reduced absorption and powerful hormonal changes.</p>
+<h2>Who benefits most</h2>
+<ul>
+<li>Patients with <strong>type 2 diabetes</strong> — bypass has a strong metabolic effect on blood sugar.</li>
+<li>Patients with <strong>severe acid reflux (GERD)</strong> or a hiatal hernia.</li>
+<li>Patients with a <strong>higher BMI</strong> who need greater weight loss.</li>
+<li>Patients with weight regain or reflux after a previous sleeve (see <a href="/revision-bariatric-surgery/">revision surgery</a>).</li>
+</ul>
+<h2>Expected results</h2>
+<p>On average, gastric bypass patients lose approximately <strong>30–32% of their total body weight*</strong>, with frequent improvement or remission of diabetes, hypertension and sleep apnea.</p>
+<h2>Life after bypass</h2>
+<p>Because absorption changes, lifelong vitamin and mineral supplementation and periodic lab work are essential. Our nutrition team will give you a clear plan, and we will teach you to avoid “dumping syndrome” by limiting sugars and eating slowly.</p>
+<h2>Risks</h2>
+<p>As with any surgery, there are risks: bleeding, leaks, marginal ulcers, internal hernias, nutritional deficiencies and gallstones. Our evaluation and follow-up protocol is designed to reduce them, and we explain them openly before you decide.</p>
+<p>Compare options: <a href="/gastric-sleeve-vs-gastric-bypass/">Gastric sleeve vs. gastric bypass</a></p>
+[dmc_cta]
+<p class="disclaimer">*Results vary from patient to patient. This information is educational and does not replace an individual medical evaluation.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Roux-en-Y gastric bypass in Tijuana with Dr. Mario Camelo: how it works, who it is for, results and recovery.]]></excerpt:encoded>
+		<wp:post_id>112</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:52:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:52:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gastric-bypass-tijuana]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es/bypass-gastrico-tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The gold standard for type 2 diabetes, severe reflux and higher BMI — with 30–32% average total body weight loss.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric Bypass Tijuana | Roux-en-Y by Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric bypass in Tijuana with certified bariatric surgeon Dr. Mario Camelo. Ideal for type 2 diabetes and reflux. 30–32% average total weight loss.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric bypass Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric Bypass Tijuana | Roux-en-Y by Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric bypass in Tijuana with certified bariatric surgeon Dr. Mario Camelo. Ideal for type 2 diabetes and reflux. 30–32% average total weight loss.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric bypass Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[104]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_schema]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Roux-en-Y Gastric Bypass]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Bypass Gástrico en Tijuana]]></title>
+		<link>https://drmariocamelo.com/es/bypass-gastrico-tijuana/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=113</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>¿Qué es el bypass gástrico?</h2>
+<p>El <strong>bypass gástrico en Y de Roux</strong> crea un pequeño reservorio gástrico y lo conecta directamente al intestino delgado, desviando la mayor parte del estómago y la primera porción del intestino. Combina restricción, menor absorción y potentes cambios hormonales.</p>
+<h2>¿Quién se beneficia más?</h2>
+<ul>
+<li>Pacientes con <strong>diabetes tipo 2</strong>: el bypass tiene un fuerte efecto metabólico sobre la glucosa.</li>
+<li>Pacientes con <strong>reflujo severo (ERGE)</strong> o hernia hiatal.</li>
+<li>Pacientes con <strong>IMC elevado</strong> que necesitan una mayor pérdida de peso.</li>
+<li>Pacientes con reganancia de peso o reflujo después de una manga (ver <a href="/es/cirugia-de-revision/">cirugía de revisión</a>).</li>
+</ul>
+<h2>Resultados esperados</h2>
+<p>En promedio, los pacientes de bypass gástrico pierden aproximadamente <strong>entre 30 y 32% de su peso corporal total*</strong>, con mejoría o remisión frecuente de diabetes, hipertensión y apnea del sueño.</p>
+<h2>La vida después del bypass</h2>
+<p>Como cambia la absorción, es indispensable tomar vitaminas y minerales de por vida y realizar estudios periódicos. Nuestro equipo de nutrición te dará un plan claro y te enseñará a evitar el “síndrome de dumping” limitando azúcares y comiendo despacio.</p>
+<h2>Riesgos</h2>
+<p>Como en toda cirugía, existen riesgos: sangrado, fugas, úlceras marginales, hernias internas, deficiencias nutricionales y piedras en la vesícula. Nuestro protocolo de valoración y seguimiento está diseñado para reducirlos, y te los explicamos con claridad antes de que decidas.</p>
+<p>Compara opciones: <a href="/manga-gastrica-vs-bypass-gastrico/">Manga gástrica vs. bypass gástrico</a></p>
+[dmc_cta]
+<p class="disclaimer">*Los resultados varían en cada paciente. Esta información es educativa y no sustituye una valoración médica individual.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Bypass gástrico en Y de Roux en Tijuana con el Dr. Mario Camelo: cómo funciona, para quién es, resultados y recuperación.]]></excerpt:encoded>
+		<wp:post_id>113</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:53:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:53:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[bypass-gastrico-tijuana]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>107</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric-bypass-tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[El estándar de oro para diabetes tipo 2, reflujo severo e IMC elevado, con una pérdida promedio de 30–32% del peso total.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bypass Gástrico en Tijuana | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bypass gástrico en Tijuana con el Dr. Mario Camelo, cirujano bariatra certificado. Ideal para diabetes tipo 2 y reflujo. Pérdida promedio de 30–32%.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bypass gástrico Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bypass Gástrico en Tijuana | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bypass gástrico en Tijuana con el Dr. Mario Camelo, cirujano bariatra certificado. Ideal para diabetes tipo 2 y reflujo. Pérdida promedio de 30–32%.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bypass gástrico Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[104]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_schema]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Roux-en-Y Gastric Bypass]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Revision Bariatric Surgery]]></title>
+		<link>https://drmariocamelo.com/revision-bariatric-surgery/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=114</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>When is revision surgery considered?</h2>
+<ul>
+<li><strong>Weight regain</strong> after gastric sleeve or gastric band.</li>
+<li><strong>Severe reflux (GERD)</strong> after a sleeve that does not respond to medication.</li>
+<li><strong>Band complications</strong>: slippage, erosion, intolerance or insufficient weight loss.</li>
+</ul>
+<h2>Common revision procedures</h2>
+<ul>
+<li><strong>Sleeve to gastric bypass</strong> — the most frequent conversion, especially for reflux.</li>
+<li><strong>Lap band removal and conversion</strong> to sleeve or bypass.</li>
+</ul>
+<h2>A careful, individualized evaluation</h2>
+<p>Revision surgery is more complex than a first procedure. Before any recommendation we review your previous operative notes and studies (endoscopy or imaging when needed), your eating habits and your metabolic health. Sometimes the best answer is not surgery but a structured metabolic and nutrition program — and we will tell you honestly.</p>
+<p>Related: <a href="/gastric-bypass-tijuana/">Gastric bypass</a> · <a href="/metabolic-medicine/">Metabolic medicine</a></p>
+[dmc_cta]
+<p class="disclaimer">*Results vary from patient to patient. This information is educational and does not replace an individual medical evaluation.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Revision bariatric surgery in Tijuana: sleeve to bypass and band to sleeve or bypass conversions, evaluated individually by Dr. Mario Camelo.]]></excerpt:encoded>
+		<wp:post_id>114</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:54:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:54:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[revision-bariatric-surgery]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es/cirugia-de-revision]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Weight regain or reflux after a previous surgery? You still have options.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Revision Bariatric Surgery Tijuana | Sleeve to Bypass]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Weight regain or reflux after gastric sleeve or lap band? Revision bariatric surgery in Tijuana with Dr. Mario Camelo. Individual evaluation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[revision bariatric surgery Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Revision Bariatric Surgery Tijuana | Sleeve to Bypass]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Weight regain or reflux after gastric sleeve or lap band? Revision bariatric surgery in Tijuana with Dr. Mario Camelo. Individual evaluation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[revision bariatric surgery Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_schema]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Revision Bariatric Surgery]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Cirugía de Revisión Bariátrica]]></title>
+		<link>https://drmariocamelo.com/es/cirugia-de-revision/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=115</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>¿Cuándo se considera una cirugía de revisión?</h2>
+<ul>
+<li><strong>Reganancia de peso</strong> después de manga o banda gástrica.</li>
+<li><strong>Reflujo severo (ERGE)</strong> después de una manga que no responde a medicamentos.</li>
+<li><strong>Complicaciones de banda</strong>: deslizamiento, erosión, intolerancia o pérdida de peso insuficiente.</li>
+</ul>
+<h2>Procedimientos de revisión más comunes</h2>
+<ul>
+<li><strong>Conversión de manga a bypass gástrico</strong>: la más frecuente, sobre todo por reflujo.</li>
+<li><strong>Retiro de banda y conversión</strong> a manga o bypass.</li>
+</ul>
+<h2>Una valoración cuidadosa e individual</h2>
+<p>La cirugía de revisión es más compleja que un primer procedimiento. Antes de cualquier recomendación revisamos tus notas quirúrgicas y estudios previos (endoscopia o imagen cuando se requiere), tus hábitos de alimentación y tu salud metabólica. A veces la mejor respuesta no es cirugía sino un programa metabólico y nutricional estructurado, y te lo diremos con honestidad.</p>
+<p>Relacionado: <a href="/es/bypass-gastrico-tijuana/">Bypass gástrico</a> · <a href="/es/medicina-metabolica/">Medicina metabólica</a></p>
+[dmc_cta]
+<p class="disclaimer">*Los resultados varían en cada paciente. Esta información es educativa y no sustituye una valoración médica individual.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Cirugía de revisión bariátrica en Tijuana: conversión de manga a bypass y de banda a manga o bypass, con valoración individual del Dr. Mario Camelo.]]></excerpt:encoded>
+		<wp:post_id>115</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:55:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:55:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cirugia-de-revision]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>107</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[revision-bariatric-surgery]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Reganancia de peso o reflujo después de una cirugía previa? Todavía tienes opciones.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cirugía de Revisión Bariátrica en Tijuana | Manga a Bypass]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Reganancia de peso o reflujo tras manga gástrica o banda? Cirugía de revisión bariátrica en Tijuana con el Dr. Mario Camelo. Valoración individual.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirugía de revisión bariátrica]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cirugía de Revisión Bariátrica en Tijuana | Manga a Bypass]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Reganancia de peso o reflujo tras manga gástrica o banda? Cirugía de revisión bariátrica en Tijuana con el Dr. Mario Camelo. Valoración individual.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirugía de revisión bariátrica]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_schema]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Revision Bariatric Surgery]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Metabolic Medicine]]></title>
+		<link>https://drmariocamelo.com/metabolic-medicine/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=116</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>Obesity is a chronic disease</h2>
+<p>Obesity rarely travels alone. It is closely linked to <strong>type 2 diabetes, hypertension, high cholesterol, fatty liver, sleep apnea, joint disease and some cancers</strong>. Our metabolic medicine program treats the whole picture, not just the number on the scale.</p>
+<h2>What the program includes</h2>
+<ul>
+<li>Complete metabolic evaluation and lab work.</li>
+<li>Personalized nutrition and physical activity plan.</li>
+<li>Medical treatment of diabetes, blood pressure and cholesterol.</li>
+<li>Anti-obesity medication — including GLP-1 therapy — <strong>only when indicated and under medical supervision</strong>.</li>
+<li>Pre- and post-bariatric surgery metabolic follow-up.</li>
+</ul>
+<h2>Please do not self-medicate</h2>
+<p>Weight-loss medications can cause nausea and vomiting, diarrhea and abdominal pain, dehydration, pancreas and gallbladder problems and changes in blood pressure. The same caution applies to vitamins, supplements, protein and creatine: self-medication can be dangerous and they are not always necessary.</p>
+<ul>
+<li>Do not copy treatments from social media, friends or family.</li>
+<li>Do not use medications or supplements without medical supervision.</li>
+<li>Every person has different needs and a unique health context.</li>
+</ul>
+<p><strong>The best decision is to see a specialist.</strong> A proper evaluation can make the difference between getting a benefit and putting your health at risk. Read: <a href="/weight-loss-medications-self-medication-risks/">The risks of self-medicating for weight loss</a>.</p>
+[dmc_cta]
+<p class="disclaimer">*Results vary from patient to patient. This information is educational and does not replace an individual medical evaluation.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Metabolic medicine with Dr. Mario Camelo: medical treatment of obesity, type 2 diabetes and metabolic syndrome, including supervised GLP-1 therapy when indicated.]]></excerpt:encoded>
+		<wp:post_id>116</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:56:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:56:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[metabolic-medicine]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es/medicina-metabolica]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Treating obesity and its comorbidities with science — with or without surgery.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Metabolic Medicine & Medical Weight Loss | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Medical treatment of obesity, diabetes and metabolic syndrome in Tijuana. Supervised GLP-1 therapy when indicated. Do not self-medicate — get evaluated.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[metabolic medicine obesity]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Metabolic Medicine & Medical Weight Loss | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Medical treatment of obesity, diabetes and metabolic syndrome in Tijuana. Supervised GLP-1 therapy when indicated. Do not self-medicate — get evaluated.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[metabolic medicine obesity]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[103]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Medicina Metabólica]]></title>
+		<link>https://drmariocamelo.com/es/medicina-metabolica/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=117</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>La obesidad es una enfermedad crónica</h2>
+<p>La obesidad rara vez llega sola. Se relaciona con <strong>diabetes tipo 2, hipertensión, colesterol alto, hígado graso, apnea del sueño, enfermedad articular y algunos tipos de cáncer</strong>. Nuestro programa de medicina metabólica atiende el panorama completo, no solo el número en la báscula.</p>
+<h2>Qué incluye el programa</h2>
+<ul>
+<li>Valoración metabólica completa y estudios de laboratorio.</li>
+<li>Plan personalizado de nutrición y actividad física.</li>
+<li>Tratamiento médico de diabetes, presión arterial y colesterol.</li>
+<li>Medicamentos para la obesidad, incluyendo terapia GLP-1, <strong>solo cuando están indicados y bajo supervisión médica</strong>.</li>
+<li>Seguimiento metabólico antes y después de la cirugía bariátrica.</li>
+</ul>
+<h2>Por favor, no te automediques</h2>
+<p>Los medicamentos para bajar de peso pueden causar náuseas y vómito, diarrea y dolor abdominal, deshidratación, problemas en el páncreas, alteraciones en la vesícula y cambios en la presión arterial. Lo mismo aplica a vitaminas, suplementos, proteína y creatina: la automedicación puede ser peligrosa para tu salud y no siempre son necesarios.</p>
+<ul>
+<li>No copies tratamientos de redes sociales, amigos o familiares.</li>
+<li>No uses medicamentos o suplementos sin supervisión médica.</li>
+<li>Cada persona tiene necesidades diferentes y un contexto de salud único.</li>
+</ul>
+<p><strong>Lo mejor es acudir con un especialista.</strong> Una valoración adecuada puede hacer la diferencia entre obtener un beneficio y poner en riesgo tu salud. Lee: <a href="/riesgos-de-automedicarse-para-bajar-de-peso/">Los riesgos de automedicarse para bajar de peso</a>.</p>
+[dmc_cta]
+<p class="disclaimer">*Los resultados varían en cada paciente. Esta información es educativa y no sustituye una valoración médica individual.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Medicina metabólica con el Dr. Mario Camelo: tratamiento médico de la obesidad, diabetes tipo 2 y síndrome metabólico, con terapia GLP-1 supervisada cuando está indicada.]]></excerpt:encoded>
+		<wp:post_id>117</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:57:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:57:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[medicina-metabolica]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>107</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[metabolic-medicine]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tratamos la obesidad y sus comorbilidades con ciencia, con o sin cirugía.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Medicina Metabólica y Tratamiento de la Obesidad | Dr. Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tratamiento médico de la obesidad, diabetes y síndrome metabólico en Tijuana. Terapia GLP-1 supervisada cuando está indicada. No te automediques.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[medicina metabólica obesidad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Medicina Metabólica y Tratamiento de la Obesidad | Dr. Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tratamiento médico de la obesidad, diabetes y síndrome metabólico en Tijuana. Terapia GLP-1 supervisada cuando está indicada. No te automediques.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[medicina metabólica obesidad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[103]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Bariatric Surgery Financing]]></title>
+		<link>https://drmariocamelo.com/financing/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=118</guid>
+		<description></description>
+		<content:encoded><![CDATA[[dmc_financing]
+<h2>How it works</h2>
+<ol>
+<li><strong>Complete the application</strong> — it only takes a few minutes.</li>
+<li><strong>Our team reviews it</strong> and contacts you with the available options.</li>
+<li><strong>Schedule your surgery</strong> with a plan that fits your budget.</li>
+</ol>
+<p>Questions about financing? Use the form below or message us on WhatsApp and a coordinator will help you.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Apply for bariatric surgery financing with Dr. Mario Camelo. Fast, secure online application for gastric sleeve and gastric bypass.]]></excerpt:encoded>
+		<wp:post_id>118</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:58:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:58:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[financing]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es/financiamiento]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Start your transformation today with a payment plan that fits your budget.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bariatric Surgery Financing | Gastric Sleeve Payment Plans]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Finance your gastric sleeve or gastric bypass in Tijuana. Fast, secure online application with Dr. Mario Camelo's team. Apply in minutes.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bariatric surgery financing]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bariatric Surgery Financing | Gastric Sleeve Payment Plans]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Finance your gastric sleeve or gastric bypass in Tijuana. Fast, secure online application with Dr. Mario Camelo's team. Apply in minutes.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bariatric surgery financing]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Financiamiento para Cirugía Bariátrica]]></title>
+		<link>https://drmariocamelo.com/es/financiamiento/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=119</guid>
+		<description></description>
+		<content:encoded><![CDATA[[dmc_financing]
+<h2>Cómo funciona</h2>
+<ol>
+<li><strong>Completa la solicitud</strong>: toma solo unos minutos.</li>
+<li><strong>Nuestro equipo la revisa</strong> y te contacta con las opciones disponibles.</li>
+<li><strong>Agenda tu cirugía</strong> con un plan que se adapta a tu presupuesto.</li>
+</ol>
+<p>¿Dudas sobre el financiamiento? Usa el formulario o escríbenos por WhatsApp y un coordinador te ayudará.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Solicita financiamiento para tu cirugía bariátrica con el Dr. Mario Camelo. Solicitud en línea rápida y segura para manga gástrica y bypass.]]></excerpt:encoded>
+		<wp:post_id>119</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:59:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:59:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[financiamiento]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>107</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[financing]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Comienza hoy tu transformación con un plan de pagos que se adapta a tu presupuesto.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Financiamiento Cirugía Bariátrica | Manga Gástrica a Pagos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Financia tu manga gástrica o bypass gástrico en Tijuana. Solicitud en línea rápida y segura con el equipo del Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[financiamiento cirugía bariátrica]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Financiamiento Cirugía Bariátrica | Manga Gástrica a Pagos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Financia tu manga gástrica o bypass gástrico en Tijuana. Solicitud en línea rápida y segura con el equipo del Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[financiamiento cirugía bariátrica]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Patient Reviews]]></title>
+		<link>https://drmariocamelo.com/reviews/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=120</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Our patients’ experiences are our best introduction. Read their reviews on Google and follow their transformations on our social media.</p>
+[dmc_reviews]
+<p class="center"><a class="btn btn--navy" href="https://www.instagram.com/superdrsleeve/" target="_blank" rel="noopener">@superdrsleeve on Instagram</a></p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Read reviews from patients of Dr. Mario Camelo, certified bariatric surgeon in Tijuana.]]></excerpt:encoded>
+		<wp:post_id>120</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[reviews]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es/testimonios]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Real stories from real patients of Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Patient Reviews | Dr. Mario Camelo Bariatric Surgery]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Read real Google reviews from patients of Dr. Mario Camelo, certified bariatric surgeon in Tijuana with 10,000+ surgeries.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dr. Mario Camelo reviews]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Patient Reviews | Dr. Mario Camelo Bariatric Surgery]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Read real Google reviews from patients of Dr. Mario Camelo, certified bariatric surgeon in Tijuana with 10,000+ surgeries.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dr. Mario Camelo reviews]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Testimonios de Pacientes]]></title>
+		<link>https://drmariocamelo.com/es/testimonios/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=121</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>La experiencia de nuestros pacientes es nuestra mejor carta de presentación. Lee sus reseñas en Google y sigue sus transformaciones en nuestras redes sociales.</p>
+[dmc_reviews]
+<p class="center"><a class="btn btn--navy" href="https://www.instagram.com/superdrsleeve/" target="_blank" rel="noopener">@superdrsleeve en Instagram</a></p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Lee las reseñas de pacientes del Dr. Mario Camelo, cirujano bariatra certificado en Tijuana.]]></excerpt:encoded>
+		<wp:post_id>121</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:01:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:01:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[testimonios]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>107</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[reviews]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Historias reales de pacientes reales del Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Testimonios de Pacientes | Dr. Mario Camelo Cirugía Bariátrica]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Lee reseñas reales en Google de pacientes del Dr. Mario Camelo, cirujano bariatra certificado en Tijuana con más de 10,000 cirugías.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dr. Mario Camelo opiniones]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Testimonios de Pacientes | Dr. Mario Camelo Cirugía Bariátrica]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Lee reseñas reales en Google de pacientes del Dr. Mario Camelo, cirujano bariatra certificado en Tijuana con más de 10,000 cirugías.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dr. Mario Camelo opiniones]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Contact & Free Evaluation]]></title>
+		<link>https://drmariocamelo.com/contact/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=122</guid>
+		<description></description>
+		<content:encoded><![CDATA[[dmc_cta]
+<h2>Visit our office</h2>
+<p>Paseo Playas de Tijuana No. 19, Terrazas de Playas, Tijuana, B.C. 22504, Mexico<br>Monday to Friday, 9:00 a.m. – 6:00 p.m.</p>
+<iframe src="https://www.google.com/maps?q=Paseo+Playas+de+Tijuana+19,+Playas+de+Tijuana,+22504+Tijuana,+B.C.&output=embed" width="100%" height="420" style="border:0;border-radius:22px" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map — Dr. Mario Camelo"></iframe>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Contact Dr. Mario Camelo's team in Playas de Tijuana for a free bariatric surgery evaluation.]]></excerpt:encoded>
+		<wp:post_id>122</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:02:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:02:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es/contacto]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tell us about your goals. Your free evaluation starts here.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Dr. Mario Camelo | Free Bariatric Evaluation Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Schedule your free bariatric surgery evaluation with Dr. Mario Camelo in Playas de Tijuana, minutes from San Diego. Bilingual team.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[free bariatric evaluation]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Dr. Mario Camelo | Free Bariatric Evaluation Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Schedule your free bariatric surgery evaluation with Dr. Mario Camelo in Playas de Tijuana, minutes from San Diego. Bilingual team.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[free bariatric evaluation]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Contacto y Valoración Gratuita]]></title>
+		<link>https://drmariocamelo.com/es/contacto/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=123</guid>
+		<description></description>
+		<content:encoded><![CDATA[[dmc_cta]
+<h2>Visita nuestro consultorio</h2>
+<p>Paseo Playas de Tijuana No. 19, Terrazas de Playas, Tijuana, B.C. 22504, México<br>Lunes a viernes, 9:00 a 18:00 h.</p>
+<iframe src="https://www.google.com/maps?q=Paseo+Playas+de+Tijuana+19,+Playas+de+Tijuana,+22504+Tijuana,+B.C.&output=embed" width="100%" height="420" style="border:0;border-radius:22px" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa — Dr. Mario Camelo"></iframe>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Contacta al equipo del Dr. Mario Camelo en Playas de Tijuana para una valoración bariátrica gratuita.]]></excerpt:encoded>
+		<wp:post_id>123</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:03:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:03:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contacto]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>107</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[contact]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cuéntanos tus objetivos. Tu valoración gratuita empieza aquí.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contacto Dr. Mario Camelo | Valoración Bariátrica Gratis]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Agenda tu valoración gratuita de cirugía bariátrica con el Dr. Mario Camelo en Playas de Tijuana. Equipo bilingüe.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[valoración bariátrica gratis]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contacto Dr. Mario Camelo | Valoración Bariátrica Gratis]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Agenda tu valoración gratuita de cirugía bariátrica con el Dr. Mario Camelo en Playas de Tijuana. Equipo bilingüe.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[valoración bariátrica gratis]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Bariatric Health Blog]]></title>
+		<link>https://drmariocamelo.com/blog/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=124</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[Bariatric surgery and metabolic health articles by Dr. Mario Camelo.]]></excerpt:encoded>
+		<wp:post_id>124</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:04:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:04:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es/blog]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bariatric Surgery Blog | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Expert articles on gastric sleeve, gastric bypass, gallstones, weight-loss medications and metabolic health by Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bariatric surgery blog]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bariatric Surgery Blog | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Expert articles on gastric sleeve, gastric bypass, gallstones, weight-loss medications and metabolic health by Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bariatric surgery blog]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Blog de Salud Bariátrica]]></title>
+		<link>https://drmariocamelo.com/es/blog/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=125</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[Artículos de cirugía bariátrica y salud metabólica del Dr. Mario Camelo.]]></excerpt:encoded>
+		<wp:post_id>125</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:05:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:05:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>107</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[blog]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[template-blog-es.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Blog de Cirugía Bariátrica | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Artículos expertos sobre manga gástrica, bypass, piedras en la vesícula, medicamentos para bajar de peso y salud metabólica por el Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[blog cirugía bariátrica]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Blog de Cirugía Bariátrica | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Artículos expertos sobre manga gástrica, bypass, piedras en la vesícula, medicamentos para bajar de peso y salud metabólica por el Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[blog cirugía bariátrica]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Privacy Policy]]></title>
+		<link>https://drmariocamelo.com/privacy/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=126</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p><em>Template — have it reviewed by your legal advisor before publishing.</em></p>
+<h2>Who is responsible for your data</h2>
+<p>Dr. Mario Camelo, with offices at Paseo Playas de Tijuana No. 19, Terrazas de Playas, Tijuana, B.C. 22504, Mexico, is responsible for the processing of your personal data in accordance with Mexico’s Federal Law on the Protection of Personal Data Held by Private Parties (LFPDPPP).</p>
+<h2>Data we collect</h2>
+<p>Identification and contact data (name, email, phone), and health data you voluntarily share (height, weight, medical history) to evaluate your candidacy for treatment.</p>
+<h2>Purposes</h2>
+<ul><li>Evaluate your case and contact you about the services you requested.</li><li>Coordinate appointments, surgery logistics and follow-up.</li><li>Process financing applications through our partners when you request it.</li></ul>
+<h2>Third parties</h2>
+<p>Financing applications are processed through Typeform and the corresponding financing provider. We do not sell your data.</p>
+<h2>Your rights (ARCO)</h2>
+<p>You may access, rectify, cancel or oppose the use of your data by writing to our contact email.</p>
+<h2>Cookies and analytics</h2>
+<p>This site may use cookies and analytics tools (Google Analytics, Meta Pixel) to improve your experience and measure our campaigns.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Privacy policy of drmariocamelo.com.]]></excerpt:encoded>
+		<wp:post_id>126</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:06:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:06:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[privacy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>10</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es/aviso-de-privacidad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How we protect your personal and health information.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Privacy Policy | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Privacy policy of drmariocamelo.com: how we collect, use and protect your personal and health information.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[privacy policy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Privacy Policy | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Privacy policy of drmariocamelo.com: how we collect, use and protect your personal and health information.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[privacy policy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_meta-robots-noindex]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_robots]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:7:"noindex";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Aviso de Privacidad]]></title>
+		<link>https://drmariocamelo.com/es/aviso-de-privacidad/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=127</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p><em>Plantilla: solicita la revisión de tu asesor legal antes de publicar.</em></p>
+<h2>Responsable de tus datos</h2>
+<p>El Dr. Mario Camelo, con domicilio en Paseo Playas de Tijuana No. 19, Terrazas de Playas, Tijuana, B.C. 22504, México, es responsable del tratamiento de tus datos personales conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).</p>
+<h2>Datos que recabamos</h2>
+<p>Datos de identificación y contacto (nombre, correo, teléfono) y datos de salud que compartes voluntariamente (estatura, peso, antecedentes médicos) para valorar tu caso. Los datos de salud se consideran sensibles y requieren tu consentimiento expreso.</p>
+<h2>Finalidades</h2>
+<ul><li>Valorar tu caso y contactarte sobre los servicios que solicitaste.</li><li>Coordinar citas, logística quirúrgica y seguimiento.</li><li>Gestionar solicitudes de financiamiento con nuestros aliados cuando lo solicites.</li></ul>
+<h2>Transferencias</h2>
+<p>Las solicitudes de financiamiento se procesan mediante Typeform y el proveedor de financiamiento correspondiente. No vendemos tus datos.</p>
+<h2>Derechos ARCO</h2>
+<p>Puedes acceder, rectificar, cancelar u oponerte al uso de tus datos escribiendo a nuestro correo de contacto.</p>
+<h2>Cookies y analítica</h2>
+<p>Este sitio puede utilizar cookies y herramientas de analítica (Google Analytics, Meta Pixel) para mejorar tu experiencia y medir nuestras campañas.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Aviso de privacidad de drmariocamelo.com.]]></excerpt:encoded>
+		<wp:post_id>127</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 08:07:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 08:07:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[aviso-de-privacidad]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>107</wp:post_parent>
+		<wp:menu_order>10</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[privacy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cómo protegemos tus datos personales y de salud.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Aviso de Privacidad | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Aviso de privacidad de drmariocamelo.com: cómo recabamos, usamos y protegemos tus datos personales y de salud.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[aviso de privacidad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Aviso de Privacidad | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Aviso de privacidad de drmariocamelo.com: cómo recabamos, usamos y protegemos tus datos personales y de salud.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[aviso de privacidad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_meta-robots-noindex]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_robots]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:7:"noindex";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Gallstones After Bariatric Surgery: Why They Form and What You Can Do]]></title>
+		<link>https://drmariocamelo.com/gallstones-after-bariatric-surgery/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=128</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>One of the most common questions we hear in consultation is: <strong>“Can I get gallstones after bariatric surgery?”</strong> The short answer is yes — and understanding why helps you prevent problems.</p>
+<h2>Why rapid weight loss favors gallstones</h2>
+<p>When you lose weight quickly, the liver releases more cholesterol into the bile and the gallbladder empties less often. That combination makes it easier for cholesterol crystals to form stones. After bariatric surgery the loss is significant:</p>
+<ul>
+<li><strong>Gastric sleeve:</strong> approximately 25–30% of total body weight.</li>
+<li><strong>Gastric bypass:</strong> approximately 30–32% of total body weight.</li>
+</ul>
+<h2>Warning signs</h2>
+<ul>
+<li>Pain in the upper right abdomen, especially after eating.</li>
+<li>Nausea or vomiting.</li>
+<li>Fever, yellowing of the skin or eyes, or dark urine — these require urgent evaluation.</li>
+</ul>
+<h2>Can the gallbladder be removed at the same time as bariatric surgery?</h2>
+<p>It can be considered in some patients, but <strong>every case must be individualized</strong>. If you already have gallstones with symptoms, Dr. Camelo may recommend removing the gallbladder (cholecystectomy) during the same procedure. If you do not, a preventive plan and follow-up may be the better option.</p>
+<h2>How we reduce the risk</h2>
+<ul>
+<li>Abdominal ultrasound during your pre-operative evaluation.</li>
+<li>A structured nutrition plan that avoids long fasting periods.</li>
+<li>Medication to reduce stone formation when indicated.</li>
+<li>Close follow-up during the months of fastest weight loss.</li>
+</ul>
+<p>Do you have questions about your case? <a href="/contact/">Request your free evaluation</a> or learn more about the <a href="/gastric-sleeve-tijuana/">gastric sleeve</a>.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Rapid weight loss after gastric sleeve or bypass can favor gallstones. Learn why, the warning signs and whether your gallbladder can be removed during bariatric surgery.]]></excerpt:encoded>
+		<wp:post_id>128</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gallstones-after-bariatric-surgery]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="bariatric-surgery"><![CDATA[Bariatric Surgery]]></category>
+		<category domain="category" nicename="gallbladder"><![CDATA[Gallbladder]]></category>
+		<category domain="post_tag" nicename="gallstones"><![CDATA[gallstones]]></category>
+		<category domain="post_tag" nicename="gastric-sleeve"><![CDATA[gastric sleeve]]></category>
+		<category domain="post_tag" nicename="gastric-bypass"><![CDATA[gastric bypass]]></category>
+		<category domain="post_tag" nicename="gallbladder"><![CDATA[gallbladder]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[piedras-en-la-vesicula-y-cirugia-bariatrica]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gallstones After Bariatric Surgery | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Why rapid weight loss after gastric sleeve or bypass favors gallstones, warning signs, and whether the gallbladder can be removed at the same time.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gallstones after bariatric surgery]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gallstones After Bariatric Surgery | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Why rapid weight loss after gastric sleeve or bypass favors gallstones, warning signs, and whether the gallbladder can be removed at the same time.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gallstones after bariatric surgery]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[101]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Piedras en la Vesícula y Cirugía Bariátrica: Por Qué se Forman y Qué Hacer]]></title>
+		<link>https://drmariocamelo.com/piedras-en-la-vesicula-y-cirugia-bariatrica/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=129</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Una de las preguntas más frecuentes en consulta es: <strong>“¿Me pueden salir piedras en la vesícula después de la cirugía bariátrica?”</strong> La respuesta corta es sí, y entender por qué te ayuda a prevenir problemas.</p>
+<h2>Por qué la pérdida rápida de peso favorece las piedras</h2>
+<p>Cuando bajas de peso rápidamente, el hígado libera más colesterol a la bilis y la vesícula se vacía con menos frecuencia. Esa combinación facilita que los cristales de colesterol formen piedras. Después de una cirugía bariátrica la pérdida es importante:</p>
+<ul>
+<li><strong>Manga gástrica:</strong> aproximadamente 25–30% del peso corporal total.</li>
+<li><strong>Bypass gástrico:</strong> aproximadamente 30–32% del peso corporal total.</li>
+</ul>
+<h2>Síntomas de alarma</h2>
+<ul>
+<li>Dolor en la parte superior derecha del abdomen, sobre todo después de comer.</li>
+<li>Náuseas o vómito.</li>
+<li>Fiebre, coloración amarilla de piel u ojos u orina oscura: requieren valoración urgente.</li>
+</ul>
+<h2>¿Se puede operar la vesícula y una cirugía bariátrica al mismo tiempo?</h2>
+<p>Sí puede valorarse en algunos pacientes, pero <strong>cada caso debe individualizarse</strong>. Si ya tienes piedras con síntomas, el Dr. Camelo puede recomendar retirar la vesícula (colecistectomía) en el mismo procedimiento. Si no, un plan preventivo y seguimiento puede ser la mejor opción.</p>
+<h2>Cómo reducimos el riesgo</h2>
+<ul>
+<li>Ultrasonido abdominal durante tu valoración preoperatoria.</li>
+<li>Plan nutricional estructurado que evita ayunos prolongados.</li>
+<li>Medicamento para reducir la formación de piedras cuando está indicado.</li>
+<li>Seguimiento cercano durante los meses de mayor pérdida de peso.</li>
+</ul>
+<p>¿Tienes dudas sobre tu caso? <a href="/es/contacto/">Solicita tu valoración gratuita</a> o conoce más sobre la <a href="/es/manga-gastrica-tijuana/">manga gástrica</a>.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[La pérdida rápida de peso después de una manga o bypass puede favorecer piedras en la vesícula. Conoce por qué, los síntomas de alarma y si se puede operar al mismo tiempo.]]></excerpt:encoded>
+		<wp:post_id>129</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[piedras-en-la-vesicula-y-cirugia-bariatrica]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="es-bariatric-surgery"><![CDATA[Cirugía Bariátrica]]></category>
+		<category domain="category" nicename="es-gallbladder"><![CDATA[Vesícula]]></category>
+		<category domain="post_tag" nicename="piedras-en-la-vesícula"><![CDATA[piedras en la vesícula]]></category>
+		<category domain="post_tag" nicename="manga-gástrica"><![CDATA[manga gástrica]]></category>
+		<category domain="post_tag" nicename="bypass-gástrico"><![CDATA[bypass gástrico]]></category>
+		<category domain="post_tag" nicename="vesícula"><![CDATA[vesícula]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gallstones-after-bariatric-surgery]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Piedras en la Vesícula y Cirugía Bariátrica | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Por qué la pérdida rápida de peso tras manga o bypass favorece piedras en la vesícula, síntomas de alarma y si se puede operar la vesícula al mismo tiempo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[piedras en la vesícula cirugía bariátrica]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Piedras en la Vesícula y Cirugía Bariátrica | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Por qué la pérdida rápida de peso tras manga o bypass favorece piedras en la vesícula, síntomas de alarma y si se puede operar la vesícula al mismo tiempo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[piedras en la vesícula cirugía bariátrica]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[101]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[4 Complications of Untreated Gallstones You Should Not Ignore]]></title>
+		<link>https://drmariocamelo.com/untreated-gallstones-complications/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=130</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Many people live with gallstones without knowing it. But <strong>if they are not treated, gallstones can cause serious complications</strong>. These are the four we see most often:</p>
+<h2>1. Cholecystitis</h2>
+<p>Inflammation of the gallbladder caused by stones. It typically presents with persistent pain in the upper right abdomen, fever and nausea.</p>
+<h2>2. Choledocholithiasis</h2>
+<p>A stone can move from the gallbladder into the bile duct and cause an obstruction. Signs include jaundice (yellow skin or eyes), dark urine and pale stools.</p>
+<h2>3. Cholangitis</h2>
+<p>An infection of the bile ducts, usually caused by an obstruction. It is a medical emergency: fever with chills, jaundice and abdominal pain require immediate care.</p>
+<h2>4. Gallstone (biliary) pancreatitis</h2>
+<p>When a stone blocks the outlet shared by the bile duct and the pancreas, it can inflame the pancreas. It causes intense upper abdominal pain that may radiate to the back.</p>
+<blockquote>If you have these symptoms, it is important to get evaluated in time.</blockquote>
+<h2>What is the treatment?</h2>
+<p>For symptomatic gallstones, the standard treatment is <strong>laparoscopic cholecystectomy</strong> — removing the gallbladder through small incisions. When there are stones in the bile duct, additional procedures may be needed first.</p>
+<p>If you are planning bariatric surgery and have gallstones, read <a href="/gallstones-after-bariatric-surgery/">Gallstones after bariatric surgery</a> or <a href="/contact/">request an evaluation</a>.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Cholecystitis, choledocholithiasis, cholangitis and gallstone pancreatitis: what they are, how they present and why timely evaluation matters.]]></excerpt:encoded>
+		<wp:post_id>130</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-06 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-06 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[untreated-gallstones-complications]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="gallbladder"><![CDATA[Gallbladder]]></category>
+		<category domain="post_tag" nicename="gallstones"><![CDATA[gallstones]]></category>
+		<category domain="post_tag" nicename="cholecystitis"><![CDATA[cholecystitis]]></category>
+		<category domain="post_tag" nicename="pancreatitis"><![CDATA[pancreatitis]]></category>
+		<category domain="post_tag" nicename="gallbladder"><![CDATA[gallbladder]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[complicaciones-piedras-en-la-vesicula]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4 Complications of Untreated Gallstones | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cholecystitis, choledocholithiasis, cholangitis and biliary pancreatitis: the 4 complications of untreated gallstones and when to get evaluated.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gallstones complications]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4 Complications of Untreated Gallstones | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cholecystitis, choledocholithiasis, cholangitis and biliary pancreatitis: the 4 complications of untreated gallstones and when to get evaluated.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gallstones complications]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[102]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[4 Complicaciones de las Piedras en la Vesícula que No Debes Ignorar]]></title>
+		<link>https://drmariocamelo.com/complicaciones-piedras-en-la-vesicula/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=131</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Muchas personas viven con piedras en la vesícula sin saberlo. Pero <strong>si no se tratan, las piedras en la vesícula pueden causar complicaciones graves</strong>. Estas son las cuatro que vemos con mayor frecuencia:</p>
+<h2>1. Colecistitis</h2>
+<p>Inflamación de la vesícula debido a las piedras. Suele presentarse con dolor persistente en la parte superior derecha del abdomen, fiebre y náuseas.</p>
+<h2>2. Coledocolitiasis</h2>
+<p>Una piedra puede pasar al conducto biliar y causar obstrucción. Los signos incluyen ictericia (piel u ojos amarillos), orina oscura y heces claras.</p>
+<h2>3. Colangitis</h2>
+<p>Infección de la vía biliar, generalmente causada por una obstrucción. Es una urgencia médica: fiebre con escalofríos, ictericia y dolor abdominal requieren atención inmediata.</p>
+<h2>4. Pancreatitis biliar</h2>
+<p>Cuando una piedra obstruye la salida que comparten el conducto biliar y el páncreas, puede inflamar el páncreas. Provoca dolor intenso en la parte alta del abdomen que puede irradiarse a la espalda.</p>
+<blockquote>Si tienes estos síntomas, es importante valorarte a tiempo.</blockquote>
+<h2>¿Cuál es el tratamiento?</h2>
+<p>Para las piedras con síntomas, el tratamiento estándar es la <strong>colecistectomía laparoscópica</strong>: retirar la vesícula mediante pequeñas incisiones. Cuando hay piedras en el conducto biliar, pueden requerirse procedimientos adicionales antes.</p>
+<p>Si planeas una cirugía bariátrica y tienes piedras, lee <a href="/piedras-en-la-vesicula-y-cirugia-bariatrica/">Piedras en la vesícula y cirugía bariátrica</a> o <a href="/es/contacto/">solicita una valoración</a>.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Colecistitis, coledocolitiasis, colangitis y pancreatitis biliar: qué son, cómo se presentan y por qué es importante valorarte a tiempo.]]></excerpt:encoded>
+		<wp:post_id>131</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-06 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-06 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[complicaciones-piedras-en-la-vesicula]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="es-gallbladder"><![CDATA[Vesícula]]></category>
+		<category domain="post_tag" nicename="piedras-en-la-vesícula"><![CDATA[piedras en la vesícula]]></category>
+		<category domain="post_tag" nicename="colecistitis"><![CDATA[colecistitis]]></category>
+		<category domain="post_tag" nicename="pancreatitis"><![CDATA[pancreatitis]]></category>
+		<category domain="post_tag" nicename="vesícula"><![CDATA[vesícula]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[untreated-gallstones-complications]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4 Complicaciones de las Piedras en la Vesícula | Dr. Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Colecistitis, coledocolitiasis, colangitis y pancreatitis biliar: las 4 complicaciones de las piedras en la vesícula no tratadas y cuándo acudir al médico.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[complicaciones piedras en la vesícula]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4 Complicaciones de las Piedras en la Vesícula | Dr. Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Colecistitis, coledocolitiasis, colangitis y pancreatitis biliar: las 4 complicaciones de las piedras en la vesícula no tratadas y cuándo acudir al médico.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[complicaciones piedras en la vesícula]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[102]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[The Risks of Self-Medicating for Weight Loss (Including GLP-1 Drugs)]]></title>
+		<link>https://drmariocamelo.com/weight-loss-medications-self-medication-risks/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=132</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Weight-loss medications have become a social media trend. They can be a valuable tool — <strong>when they are prescribed and monitored by a specialist</strong>. Used on your own, they can put your health at risk.</p>
+<h2>Possible risks and complications</h2>
+<ul>
+<li><strong>Nausea and vomiting.</strong></li>
+<li><strong>Diarrhea and abdominal pain.</strong></li>
+<li><strong>Dehydration.</strong></li>
+<li><strong>Pancreas problems</strong>, including pancreatitis.</li>
+<li><strong>Gallbladder changes</strong>, such as gallstones.</li>
+<li><strong>Changes in blood pressure</strong> and other effects.</li>
+</ul>
+<h2>This also applies to vitamins, supplements, protein and creatine</h2>
+<p>“Natural” does not mean harmless. Self-medication can be dangerous, interact with other medications, overload the kidneys or liver — and often it is simply unnecessary.</p>
+<h2>Three rules we ask every patient to follow</h2>
+<ol>
+<li><strong>Do not copy treatments</strong> from social media, friends or family.</li>
+<li><strong>Do not use medications or supplements</strong> without medical supervision.</li>
+<li><strong>Remember that every person is different</strong>, with unique needs and health context.</li>
+</ol>
+<h2>The best option: see a specialist</h2>
+<p>A proper evaluation can make the difference between getting a benefit and putting your health at risk. In our <a href="/metabolic-medicine/">metabolic medicine program</a> we evaluate whether medication, surgery or a combination is right for you — and we monitor you along the way.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Nausea, dehydration, pancreas and gallbladder problems: why weight-loss medications, supplements and even protein or creatine should be used under medical supervision.]]></excerpt:encoded>
+		<wp:post_id>132</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-11 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-11 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[weight-loss-medications-self-medication-risks]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="metabolic-health"><![CDATA[Metabolic Health]]></category>
+		<category domain="post_tag" nicename="glp-1"><![CDATA[GLP-1]]></category>
+		<category domain="post_tag" nicename="weight-loss-medications"><![CDATA[weight loss medications]]></category>
+		<category domain="post_tag" nicename="supplements"><![CDATA[supplements]]></category>
+		<category domain="post_tag" nicename="self-medication"><![CDATA[self-medication]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[riesgos-de-automedicarse-para-bajar-de-peso]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Risks of Self-Medicating for Weight Loss | GLP-1 Safety]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Weight-loss medications like GLP-1 drugs can cause nausea, dehydration, pancreas and gallbladder problems. Why medical supervision matters.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[weight loss medication risks]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Risks of Self-Medicating for Weight Loss | GLP-1 Safety]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Weight-loss medications like GLP-1 drugs can cause nausea, dehydration, pancreas and gallbladder problems. Why medical supervision matters.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[weight loss medication risks]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[103]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Los Riesgos de Automedicarse para Bajar de Peso (Incluidos los GLP-1)]]></title>
+		<link>https://drmariocamelo.com/riesgos-de-automedicarse-para-bajar-de-peso/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=133</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Los medicamentos para bajar de peso se volvieron tendencia en redes sociales. Pueden ser una herramienta valiosa <strong>cuando los prescribe y vigila un especialista</strong>. Usados por tu cuenta, pueden poner en riesgo tu salud.</p>
+<h2>Riesgos y complicaciones posibles</h2>
+<ul>
+<li><strong>Náuseas y vómito.</strong></li>
+<li><strong>Diarrea y dolor abdominal.</strong></li>
+<li><strong>Deshidratación.</strong></li>
+<li><strong>Problemas en el páncreas</strong>, incluida la pancreatitis.</li>
+<li><strong>Alteraciones en la vesícula</strong>, como piedras.</li>
+<li><strong>Cambios en la presión arterial</strong> y otros efectos.</li>
+</ul>
+<h2>Esto también aplica a vitaminas, suplementos, proteína y creatina</h2>
+<p>“Natural” no significa inofensivo. La automedicación puede ser peligrosa para tu salud, interactuar con otros medicamentos, sobrecargar riñones o hígado y, muchas veces, simplemente no es necesaria.</p>
+<h2>Tres reglas que pedimos a cada paciente</h2>
+<ol>
+<li><strong>No copies tratamientos</strong> de redes sociales, amigos o familiares.</li>
+<li><strong>No uses medicamentos o suplementos</strong> sin supervisión médica.</li>
+<li><strong>Cada persona tiene necesidades diferentes</strong> y un contexto de salud único.</li>
+</ol>
+<h2>Lo mejor es acudir con un especialista</h2>
+<p>Una valoración adecuada puede hacer la diferencia entre obtener un beneficio y poner en riesgo tu salud. En nuestro <a href="/es/medicina-metabolica/">programa de medicina metabólica</a> evaluamos si te conviene un medicamento, una cirugía o una combinación, y te acompañamos en el proceso.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Náuseas, deshidratación, problemas de páncreas y vesícula: por qué los medicamentos para bajar de peso, suplementos, proteína y creatina deben usarse con supervisión médica.]]></excerpt:encoded>
+		<wp:post_id>133</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-11 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-11 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[riesgos-de-automedicarse-para-bajar-de-peso]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="es-metabolic-health"><![CDATA[Salud Metabólica]]></category>
+		<category domain="post_tag" nicename="glp-1"><![CDATA[GLP-1]]></category>
+		<category domain="post_tag" nicename="medicamentos-para-bajar-de-peso"><![CDATA[medicamentos para bajar de peso]]></category>
+		<category domain="post_tag" nicename="suplementos"><![CDATA[suplementos]]></category>
+		<category domain="post_tag" nicename="automedicación"><![CDATA[automedicación]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[weight-loss-medications-self-medication-risks]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Riesgos de Automedicarse para Bajar de Peso | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Los medicamentos para bajar de peso como los GLP-1 pueden causar náuseas, deshidratación y problemas de páncreas y vesícula. Por qué necesitas supervisión médica.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[riesgos medicamentos para bajar de peso]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Riesgos de Automedicarse para Bajar de Peso | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Los medicamentos para bajar de peso como los GLP-1 pueden causar náuseas, deshidratación y problemas de páncreas y vesícula. Por qué necesitas supervisión médica.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[riesgos medicamentos para bajar de peso]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[103]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Gastric Sleeve vs. Gastric Bypass: Which Is Right for You?]]></title>
+		<link>https://drmariocamelo.com/gastric-sleeve-vs-gastric-bypass/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=134</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Both are safe, effective and performed laparoscopically. The right one depends on <strong>your body, your health conditions and your goals</strong>.</p>
+<table>
+<thead><tr><th></th><th>Gastric Sleeve</th><th>Gastric Bypass</th></tr></thead>
+<tbody>
+<tr><td>Average total body weight loss*</td><td>25–30%</td><td>30–32%</td></tr>
+<tr><td>How it works</td><td>Restriction + lower hunger hormone</td><td>Restriction + reduced absorption + hormonal effect</td></tr>
+<tr><td>Type 2 diabetes</td><td>Good improvement</td><td>Strongest metabolic effect</td></tr>
+<tr><td>Acid reflux (GERD)</td><td>May worsen reflux</td><td>Usually improves reflux</td></tr>
+<tr><td>Supplements</td><td>Vitamins long term</td><td>Vitamins and minerals for life</td></tr>
+<tr><td>Complexity</td><td>Lower</td><td>Higher</td></tr>
+</tbody>
+</table>
+<h2>Choose the sleeve if…</h2>
+<ul><li>You want a simpler procedure with excellent results.</li><li>You do not have significant reflux.</li><li>Your BMI is in the 35–50 range.</li></ul>
+<h2>Choose the bypass if…</h2>
+<ul><li>You have type 2 diabetes or metabolic syndrome.</li><li>You suffer from severe reflux or a hiatal hernia.</li><li>You have a higher BMI or regained weight after a sleeve.</li></ul>
+<p>The final recommendation always comes after an individual evaluation. Learn more about the <a href="/gastric-sleeve-tijuana/">gastric sleeve</a> and <a href="/gastric-bypass-tijuana/">gastric bypass</a>, or <a href="/contact/">ask Dr. Camelo</a>.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Compare weight loss, effect on diabetes and reflux, nutrition and recovery between the gastric sleeve and gastric bypass.]]></excerpt:encoded>
+		<wp:post_id>134</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-16 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-16 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gastric-sleeve-vs-gastric-bypass]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="bariatric-surgery"><![CDATA[Bariatric Surgery]]></category>
+		<category domain="post_tag" nicename="gastric-sleeve"><![CDATA[gastric sleeve]]></category>
+		<category domain="post_tag" nicename="gastric-bypass"><![CDATA[gastric bypass]]></category>
+		<category domain="post_tag" nicename="type-2-diabetes"><![CDATA[type 2 diabetes]]></category>
+		<category domain="post_tag" nicename="gerd"><![CDATA[GERD]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manga-gastrica-vs-bypass-gastrico]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric Sleeve vs Gastric Bypass: Which Is Better for You?]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric sleeve (25–30%) vs gastric bypass (30–32%) total body weight loss, diabetes, reflux and recovery compared by Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric sleeve vs gastric bypass]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric Sleeve vs Gastric Bypass: Which Is Better for You?]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric sleeve (25–30%) vs gastric bypass (30–32%) total body weight loss, diabetes, reflux and recovery compared by Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric sleeve vs gastric bypass]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[104]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Manga Gástrica vs. Bypass Gástrico: ¿Cuál es Mejor para Ti?]]></title>
+		<link>https://drmariocamelo.com/manga-gastrica-vs-bypass-gastrico/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=135</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Ambas son seguras, efectivas y se realizan por laparoscopia. La correcta depende de <strong>tu cuerpo, tus enfermedades y tus objetivos</strong>.</p>
+<table>
+<thead><tr><th></th><th>Manga gástrica</th><th>Bypass gástrico</th></tr></thead>
+<tbody>
+<tr><td>Pérdida promedio del peso corporal total*</td><td>25–30%</td><td>30–32%</td></tr>
+<tr><td>Cómo funciona</td><td>Restricción + menos hormona del hambre</td><td>Restricción + menor absorción + efecto hormonal</td></tr>
+<tr><td>Diabetes tipo 2</td><td>Buena mejoría</td><td>Mayor efecto metabólico</td></tr>
+<tr><td>Reflujo (ERGE)</td><td>Puede empeorarlo</td><td>Generalmente lo mejora</td></tr>
+<tr><td>Suplementos</td><td>Vitaminas a largo plazo</td><td>Vitaminas y minerales de por vida</td></tr>
+<tr><td>Complejidad</td><td>Menor</td><td>Mayor</td></tr>
+</tbody>
+</table>
+<h2>Elige la manga si…</h2>
+<ul><li>Buscas un procedimiento más sencillo con excelentes resultados.</li><li>No tienes reflujo importante.</li><li>Tu IMC está entre 35 y 50.</li></ul>
+<h2>Elige el bypass si…</h2>
+<ul><li>Tienes diabetes tipo 2 o síndrome metabólico.</li><li>Padeces reflujo severo o hernia hiatal.</li><li>Tienes un IMC elevado o recuperaste peso después de una manga.</li></ul>
+<p>La recomendación final siempre llega después de una valoración individual. Conoce más sobre la <a href="/es/manga-gastrica-tijuana/">manga gástrica</a> y el <a href="/es/bypass-gastrico-tijuana/">bypass gástrico</a>, o <a href="/es/contacto/">pregúntale al Dr. Camelo</a>.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Compara pérdida de peso, efecto en diabetes y reflujo, nutrición y recuperación entre la manga gástrica y el bypass gástrico.]]></excerpt:encoded>
+		<wp:post_id>135</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-16 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-16 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[manga-gastrica-vs-bypass-gastrico]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="es-bariatric-surgery"><![CDATA[Cirugía Bariátrica]]></category>
+		<category domain="post_tag" nicename="manga-gástrica"><![CDATA[manga gástrica]]></category>
+		<category domain="post_tag" nicename="bypass-gástrico"><![CDATA[bypass gástrico]]></category>
+		<category domain="post_tag" nicename="diabetes-tipo-2"><![CDATA[diabetes tipo 2]]></category>
+		<category domain="post_tag" nicename="reflujo"><![CDATA[reflujo]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric-sleeve-vs-gastric-bypass]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga Gástrica vs Bypass Gástrico: ¿Cuál es Mejor para Ti?]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga gástrica (25–30%) vs bypass gástrico (30–32%) de pérdida de peso total, diabetes, reflujo y recuperación comparados por el Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manga gástrica vs bypass gástrico]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga Gástrica vs Bypass Gástrico: ¿Cuál es Mejor para Ti?]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga gástrica (25–30%) vs bypass gástrico (30–32%) de pérdida de peso total, diabetes, reflujo y recuperación comparados por el Dr. Mario Camelo.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manga gástrica vs bypass gástrico]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[104]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Gastric Sleeve in Tijuana: The Complete Guide for U.S. Patients]]></title>
+		<link>https://drmariocamelo.com/gastric-sleeve-tijuana-guide-us-patients/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=136</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Every year thousands of patients from California, Arizona, Texas and across the U.S. travel to Tijuana for weight-loss surgery. Here is what you need to know to do it <strong>safely and confidently</strong>.</p>
+<h2>1. Choose the surgeon, not the price</h2>
+<p>Ask about certification, the number of bariatric procedures performed, the team that will care for you and the follow-up plan after you return home. Dr. Mario Camelo is a certified bariatric surgeon with more than 10,000 surgeries and a multidisciplinary team.</p>
+<h2>2. Get a complete evaluation</h2>
+<p>Send your height, weight, medications and medical history. Expect questions about diabetes, blood pressure, sleep apnea, reflux and previous surgeries. A serious team will say “no” or “not yet” when that is the safest answer.</p>
+<h2>3. Plan your trip from San Diego</h2>
+<p>Our office is in Playas de Tijuana, minutes from the San Diego border. You will need a valid passport or passport card to return to the U.S. Our coordinators will guide you through arrival logistics.</p>
+<h2>4. Prepare your body</h2>
+<p>A pre-operative liquid diet for the days before surgery reduces liver size and makes surgery safer. Stop smoking, and follow the medication instructions you receive.</p>
+<h2>5. Recovery and life at home</h2>
+<ul>
+<li>Walk early and often.</li>
+<li>Follow the staged diet: liquids, purées, soft foods and then solids.</li>
+<li>Prioritize protein and hydration; take your vitamins.</li>
+<li>Keep your virtual follow-up appointments.</li>
+</ul>
+<h2>6. Make it affordable</h2>
+<p>You can <a href="/financing/">apply for financing online</a> in a few minutes.</p>
+<p>Ready to start? <a href="/contact/">Request your free evaluation</a> or read <a href="/gastric-sleeve-vs-gastric-bypass/">Sleeve vs. bypass</a>.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Everything U.S. patients need to know before having a gastric sleeve in Tijuana: choosing a surgeon, crossing the border, preparation, recovery and follow-up at home.]]></excerpt:encoded>
+		<wp:post_id>136</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-21 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-21 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gastric-sleeve-tijuana-guide-us-patients]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="bariatric-surgery"><![CDATA[Bariatric Surgery]]></category>
+		<category domain="post_tag" nicename="gastric-sleeve"><![CDATA[gastric sleeve]]></category>
+		<category domain="post_tag" nicename="tijuana"><![CDATA[Tijuana]]></category>
+		<category domain="post_tag" nicename="medical-tourism"><![CDATA[medical tourism]]></category>
+		<category domain="post_tag" nicename="san-diego"><![CDATA[San Diego]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manga-gastrica-en-tijuana-guia-completa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric Sleeve in Tijuana: Complete Guide for U.S. Patients]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Planning a gastric sleeve in Tijuana from the U.S.? How to choose a surgeon, travel from San Diego, prepare, recover and follow up at home.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric sleeve Mexico]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gastric Sleeve in Tijuana: Complete Guide for U.S. Patients]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Planning a gastric sleeve in Tijuana from the U.S.? How to choose a surgeon, travel from San Diego, prepare, recover and follow up at home.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric sleeve Mexico]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[105]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Manga Gástrica en Tijuana: Guía Completa para Pacientes de Estados Unidos]]></title>
+		<link>https://drmariocamelo.com/manga-gastrica-en-tijuana-guia-completa/</link>
+		<pubDate>Fri, 24 Oct 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmariocamelo]]></dc:creator>
+		<guid isPermaLink="false">https://drmariocamelo.com/?p=137</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Cada año miles de pacientes de California, Arizona, Texas y todo Estados Unidos viajan a Tijuana para su cirugía de pérdida de peso. Esto es lo que necesitas saber para hacerlo <strong>con seguridad y confianza</strong>.</p>
+<h2>1. Elige al cirujano, no el precio</h2>
+<p>Pregunta por la certificación, el número de procedimientos bariátricos realizados, el equipo que te atenderá y el plan de seguimiento cuando regreses a casa. El Dr. Mario Camelo es cirujano bariatra certificado con más de 10,000 cirugías y un equipo multidisciplinario.</p>
+<h2>2. Hazte una valoración completa</h2>
+<p>Envía tu estatura, peso, medicamentos e historial médico. Espera preguntas sobre diabetes, presión arterial, apnea del sueño, reflujo y cirugías previas. Un equipo serio te dirá “no” o “todavía no” cuando esa sea la respuesta más segura.</p>
+<h2>3. Planea tu viaje desde San Diego</h2>
+<p>Nuestro consultorio está en Playas de Tijuana, a minutos de la frontera con San Diego. Necesitarás pasaporte o tarjeta pasaporte vigente para regresar a EE. UU. Nuestros coordinadores te guiarán en la logística de llegada.</p>
+<h2>4. Prepara tu cuerpo</h2>
+<p>Una dieta líquida en los días previos a la cirugía reduce el tamaño del hígado y hace la cirugía más segura. Deja de fumar y sigue las indicaciones de medicamentos que recibas.</p>
+<h2>5. Recuperación y vida en casa</h2>
+<ul>
+<li>Camina pronto y con frecuencia.</li>
+<li>Sigue la dieta por etapas: líquidos, purés, blandos y después sólidos.</li>
+<li>Prioriza proteína e hidratación; toma tus vitaminas.</li>
+<li>No faltes a tus citas de seguimiento virtual.</li>
+</ul>
+<h2>6. Hazlo accesible</h2>
+<p>Puedes <a href="/es/financiamiento/">solicitar financiamiento en línea</a> en pocos minutos.</p>
+<p>¿Listo para empezar? <a href="/es/contacto/">Solicita tu valoración gratuita</a> o lee <a href="/manga-gastrica-vs-bypass-gastrico/">Manga vs. bypass</a>.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Todo lo que necesitas saber antes de hacerte la manga gástrica en Tijuana: cómo elegir cirujano, cruzar desde San Diego, prepararte, recuperarte y dar seguimiento en casa.]]></excerpt:encoded>
+		<wp:post_id>137</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-21 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-21 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[manga-gastrica-en-tijuana-guia-completa]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="es-bariatric-surgery"><![CDATA[Cirugía Bariátrica]]></category>
+		<category domain="post_tag" nicename="manga-gástrica"><![CDATA[manga gástrica]]></category>
+		<category domain="post_tag" nicename="tijuana"><![CDATA[Tijuana]]></category>
+		<category domain="post_tag" nicename="turismo-médico"><![CDATA[turismo médico]]></category>
+		<category domain="post_tag" nicename="san-diego"><![CDATA[San Diego]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_dmc_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gastric-sleeve-tijuana-guide-us-patients]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga Gástrica en Tijuana: Guía Completa | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Planeas una manga gástrica en Tijuana? Cómo elegir cirujano, viajar desde San Diego, prepararte, recuperarte y dar seguimiento desde casa.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manga gástrica en Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Manga Gástrica en Tijuana: Guía Completa | Dr. Mario Camelo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Planeas una manga gástrica en Tijuana? Cómo elegir cirujano, viajar desde San Diego, prepararte, recuperarte y dar seguimiento desde casa.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manga gástrica en Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[105]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>
