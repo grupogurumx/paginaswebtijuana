@@ -9,7 +9,18 @@ Rediseño completo del sitio del **Dr. Mario Camelo, #SuperDrSleeve**, cirujano 
 | `dist/drmariocamelo-theme.zip` | Tema de WordPress listo para subir (Apariencia → Temas → Añadir → Subir) |
 | `import/drmariocamelo-wordpress-import.xml` | Archivo WXR con 22 páginas (11 EN + 11 ES), 10 artículos de blog (5 EN + 5 ES), categorías, etiquetas, imágenes destacadas y metadatos SEO (Yoast y Rank Math) |
 | `wp-theme/drmariocamelo/` | Código fuente del tema |
-| `tools/` | Generador del XML (`python3 tools/build_wxr.py https://drmariocamelo.com`) y todos los textos |
+| `vercel-preview/` | Copia estática del sitio lista para Vercel (solo vista previa) |
+| `tools/` | Generador del XML (`python3 tools/build_wxr.py https://drmariocamelo.com`), exportador estático y todos los textos |
+
+## Vista previa en Vercel
+
+`vercel-preview/` es una copia estática del sitio, exportada del WordPress de prueba con `tools/export_static.py`. Sirve para mostrar el diseño al cliente: tiene las 32 páginas, el slider y las animaciones, y el Typeform funciona. **El formulario de contacto solo muestra un aviso**, porque necesita WordPress. Está marcada como `noindex` para que Google no la confunda con drmariocamelo.com.
+
+1. En vercel.com → **Add New… → Project**, importa el repo `grupogurumx/paginaswebtijuana`.
+2. En **Root Directory** elige `drmariocamelo/vercel-preview`. En Framework Preset deja **Other**, sin comando de build.
+3. **Deploy.** Si la rama de producción del proyecto es `main`, cada push a `claude/sweet-fermi-h5wpb2` crea una URL de *preview*; o haz merge a `main` para tener la URL de producción.
+
+Para regenerarla tras cambiar el tema: levanta WordPress con el tema y el XML, y corre `python3 tools/export_static.py http://localhost:8099 urls.txt vercel-preview`.
 
 ## Instalación (en este orden)
 
