@@ -243,7 +243,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 	font-size: clamp(2.8rem, 7.2vw, 7.4rem); line-height: .96; letter-spacing: -.02em;
 	max-width: 13ch; margin: 0 0 28px;
 }
-.hero__title .word { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: .08em; margin-right: .22em; }
+.hero__title .word { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: .08em; }
 .hero__title .word > span {
 	display: inline-block; transform: translateY(110%) rotate(6deg); transform-origin: left bottom;
 	transition: transform 1.3s var(--ease-out);
@@ -578,8 +578,11 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .js [data-reveal].is-visible { opacity: 1; transform: none; }
 .js .cat-card[data-reveal] { transform: translate3d(0, 80px, -120px) rotateX(12deg); }
 .js .cat-card[data-reveal].is-visible { transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); }
-.js .intro__media[data-reveal] { clip-path: inset(100% 0 0 0); transform: none; transition: clip-path 1.6s var(--ease-in-out), opacity .1s; }
-.js .intro__media[data-reveal].is-visible { clip-path: inset(0 0 0 0); }
+.js .intro__media[data-reveal] { opacity: 1; transform: none; }
+.js .intro__media[data-reveal] img { clip-path: inset(100% 0 0 0); transition: clip-path 1.6s var(--ease-in-out); }
+.js .intro__media[data-reveal].is-visible img { clip-path: inset(0 0 0 0); }
+.js .intro__media[data-reveal] .intro__badge { opacity: 0; transform: translateY(30px); transition: opacity 1s var(--ease-out) .9s, transform 1s var(--ease-out) .9s; }
+.js .intro__media[data-reveal].is-visible .intro__badge { opacity: 1; transform: none; }
 .split-line { display: block; overflow: hidden; padding-bottom: .06em; }
 .split-line > span { display: inline-block; transform: translateY(105%); transition: transform 1.2s var(--ease-out); transition-delay: calc(var(--l, 0) * .1s + .1s); }
 .is-visible .split-line > span, .split-line.is-visible > span { transform: none; }
@@ -630,6 +633,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 	.hero__title { font-size: clamp(2.5rem, 11vw, 3.4rem); }
 	.hero__shade { background: linear-gradient(0deg, rgba(10, 9, 8, .9) 0%, rgba(10, 9, 8, .35) 60%, rgba(10, 9, 8, .3) 100%); }
 	.hero__arrow { width: 48px; height: 48px; }
+	.hero__arrows { margin-right: 66px; }
 	.hero__counter [data-hero-current] { font-size: 2rem; }
 	.hero__actions .ac-btn { padding: .95em 1.4em; }
 	.cats__grid, .posts-grid { grid-template-columns: 1fr; }

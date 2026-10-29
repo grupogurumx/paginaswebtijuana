@@ -19,7 +19,7 @@ function ac_contact_form() {
 	$status = isset( $_GET['ac_sent'] ) ? sanitize_key( wp_unslash( $_GET['ac_sent'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification
 	ob_start();
 	?>
-	<form class="ac-form" method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" data-reveal>
+	<form class="ac-form" id="contacto" method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" data-reveal>
 		<?php if ( 'ok' === $status ) : ?>
 			<p class="ac-form__notice is-ok" role="status"><?php ac_e( 'f_ok' ); ?></p>
 		<?php elseif ( 'error' === $status ) : ?>

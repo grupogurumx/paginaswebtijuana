@@ -1,0 +1,7 @@
+# robots.txt recomendado para acabadoscontemporaneos.com
+# Súbelo a la raíz del hosting solo si tu plugin SEO no genera uno.
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://acabadoscontemporaneos.com/wp-sitemap.xml

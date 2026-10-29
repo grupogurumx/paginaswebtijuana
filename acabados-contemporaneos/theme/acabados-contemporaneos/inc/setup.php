@@ -46,9 +46,16 @@ function ac_nav_structure( $lang ) {
  * @param array $args Argumentos de wp_nav_menu.
  */
 function ac_fallback_menu( $args ) {
-	$lang = ( isset( $args['theme_location'] ) && false !== strpos( $args['theme_location'], '_en' ) ) ? 'en' : 'es';
+	$location  = isset( $args['theme_location'] ) ? $args['theme_location'] : '';
+	$lang      = false !== strpos( $location, '_en' ) ? 'en' : 'es';
+	$structure = ac_nav_structure( $lang );
+	if ( 0 === strpos( $location, 'footer' ) ) {
+		// En el pie: líneas de producto y aviso de privacidad, sin submenús.
+		$products  = 'en' === $lang ? $structure['en/products'] : $structure['productos'];
+		$structure = array_fill_keys( array_merge( $products, array( 'en' === $lang ? 'en/privacy-notice' : 'aviso-de-privacidad' ) ), array() );
+	}
 	echo '<ul class="' . esc_attr( $args['menu_class'] ) . '">';
-	foreach ( ac_nav_structure( $lang ) as $path => $children ) {
+	foreach ( $structure as $path => $children ) {
 		$page = get_page_by_path( $path );
 		if ( ! $page ) {
 			continue;

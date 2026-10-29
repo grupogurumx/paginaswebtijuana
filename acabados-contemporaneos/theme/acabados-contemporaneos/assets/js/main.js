@@ -274,7 +274,10 @@
 	var parallax = reduce ? [] : $$('[data-parallax]');
 	function onScrollParallax() {
 		var vh = window.innerHeight;
+		var narrow = window.innerWidth < 1020;
 		parallax.forEach(function (el) {
+			// En pantallas angostas solo se mueven los fondos (no las figuras en flujo).
+			if (narrow && !/__bg\b/.test(el.className)) { el.style.transform = ''; return; }
 			var host = el.parentElement;
 			var r = host.getBoundingClientRect();
 			if (r.bottom < -100 || r.top > vh + 100) { return; }
