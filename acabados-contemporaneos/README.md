@@ -23,7 +23,8 @@ acabados-contemporaneos/
 │   ├── ESTRATEGIA-SEO.md                   ← palabras clave, metas por URL, SEO técnico y local, plan editorial
 │   ├── COPY-ES-EN.md                       ← textos de marca ES/EN con palabras clave
 │   └── robots.txt
-├── preview/                                ← vista previa estática (HTML renderizado desde el tema)
+├── vercel/                                 ← sitio estático completo listo para Vercel
+├── preview/                                ← vistas previas sueltas para QA
 └── tools/                                  ← generadores del XML, del ZIP y de la vista previa
 ```
 
@@ -51,6 +52,22 @@ Los originales en alta resolución (PNG de hasta 3168 px) están en tu cuenta de
 | `cat-porcelanico`, `cat-ceramica`, `cat-recubrimientos`, `cat-madera`, `cat-mosaicos`, `cat-accesorios` | Tarjetas de colecciones (4:5) |
 | `nosotros-asesoria`, `textura-marmol` | Nosotros y fondo de la banda panorámica |
 | `blog-ceramica-vs-porcelanato`, `blog-tendencias`, `blog-instalacion`, `blog-gran-formato` | Artículos del blog (16:9) |
+
+## Ver el sitio en Vercel (demo navegable)
+
+La carpeta `vercel/` contiene una **versión estática de todo el sitio**: 38 páginas ES/EN, blog, 404 y sitemap, renderizadas con las plantillas reales del tema. Sirve para revisar el diseño antes de instalar WordPress. En Vercel las imágenes se descargan al compilar desde el ZIP público, y la demo tiene `noindex` para no competir con el dominio real.
+
+1. Entra a <https://vercel.com/new> e importa el repositorio `grupogurumx/paginaswebtijuana`.
+2. En **Root Directory** elige `acabados-contemporaneos/vercel`. El resto se toma de `vercel.json`: Framework *Other*, build `npm run build`, salida `public`.
+3. Pulsa **Deploy**. Mientras los cambios vivan en la rama `claude/peaceful-allen-p4muoh`, Vercel publica una URL de vista previa; cuando se una a `main`, queda en producción.
+
+En la demo, el formulario de cotización solo muestra un aviso: se activa al instalar el tema en WordPress.
+
+Para regenerar la demo después de cambiar el tema o los textos:
+
+```bash
+python3 tools/build_static.py
+```
 
 ## Bilingüe sin plugins
 

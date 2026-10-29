@@ -1,0 +1,16 @@
+{
+  "name": "acabados-contemporaneos-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Versión estática del sitio Acabados Contemporáneos para Vercel",
+  "type": "module",
+  "scripts": {
+    "build": "node fetch-images.mjs"
+  },
+  "dependencies": {
+    "adm-zip": "0.5.16"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
