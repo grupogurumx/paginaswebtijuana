@@ -178,12 +178,12 @@ function wp_head() {
 	echo '<link rel="icon" href="/assets/brand/icon.png" type="image/png">' . "\n";
 	echo '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' . "\n";
 	echo '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">' . "\n";
-	echo '<link rel="stylesheet" href="/assets/css/main.css">' . "\n";
+	echo '<link rel="stylesheet" href="/assets/css/main.css?v=' . substr( md5_file( $GLOBALS['THEME'] . '/assets/css/main.css' ), 0, 8 ) . '">' . "\n";
 	ac_head_meta();
 	ac_schema_output();
 }
 function wp_footer() {
-	echo '<script src="/assets/js/main.js" defer></script>' . "\n";
+	echo '<script src="/assets/js/main.js?v=' . substr( md5_file( $GLOBALS['THEME'] . '/assets/js/main.js' ), 0, 8 ) . '" defer></script>' . "\n";
 	// Versión estática: el formulario se activa al instalar el tema en WordPress.
 	echo '<script>document.addEventListener("submit",function(e){var f=e.target;if(!f.classList.contains("ac-form"))return;e.preventDefault();var p=document.createElement("p");p.className="ac-form__notice is-ok";p.textContent=document.documentElement.lang.indexOf("en")===0?"Demo version: the quote form is activated once the theme is installed in WordPress.":"Versión demo: el formulario de cotización se activa al instalar el tema en WordPress.";f.prepend(p);});</script>' . "\n";
 }
