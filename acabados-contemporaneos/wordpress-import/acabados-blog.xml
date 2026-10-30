@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Archivo de importación de WordPress (WXR 1.2) para Acabados Contemporáneos. -->
+<!-- Importar en: Herramientas > Importar > WordPress. Generado por tools/build_wxr.py -->
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+	<title>Acabados Contemporáneos — Blog</title>
+	<link>https://acabadoscontemporaneos.com</link>
+	<description>Recubrimientos, cerámica y porcelanato en México</description>
+	<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
+	<language>es-MX</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://acabadoscontemporaneos.com</wp:base_site_url>
+	<wp:base_blog_url>https://acabadoscontemporaneos.com</wp:base_blog_url>
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[acabados]]></wp:author_login><wp:author_email><![CDATA[]]></wp:author_email><wp:author_display_name><![CDATA[Acabados Contemporáneos]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:category><wp:term_id>2</wp:term_id><wp:category_nicename><![CDATA[blog]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Blog]]></wp:cat_name><wp:category_description><![CDATA[Guías de experto, tendencias y consejos sobre recubrimientos, porcelanato y cerámica.]]></wp:category_description><wp:termmeta><wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key><wp:meta_value><![CDATA[es]]></wp:meta_value></wp:termmeta></wp:category>
+	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename><![CDATA[blog-en]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Blog (EN)]]></wp:cat_name><wp:category_description><![CDATA[Expert guides, trends and tips on tile, porcelain and ceramics.]]></wp:category_description><wp:termmeta><wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key><wp:meta_value><![CDATA[en]]></wp:meta_value></wp:termmeta></wp:category>
+	<wp:tag><wp:term_id>100</wp:term_id><wp:tag_slug><![CDATA[accesorios]]></wp:tag_slug><wp:tag_name><![CDATA[accesorios]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>101</wp:term_id><wp:tag_slug><![CDATA[accessories]]></wp:tag_slug><wp:tag_name><![CDATA[accessories]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>102</wp:term_id><wp:tag_slug><![CDATA[alberca]]></wp:tag_slug><wp:tag_name><![CDATA[alberca]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>103</wp:term_id><wp:tag_slug><![CDATA[ceramic-tile]]></wp:tag_slug><wp:tag_name><![CDATA[ceramic tile]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>104</wp:term_id><wp:tag_slug><![CDATA[ceramica]]></wp:tag_slug><wp:tag_name><![CDATA[cerámica]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>105</wp:term_id><wp:tag_slug><![CDATA[commercial-projects]]></wp:tag_slug><wp:tag_name><![CDATA[commercial projects]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>106</wp:term_id><wp:tag_slug><![CDATA[diseno-de-interiores]]></wp:tag_slug><wp:tag_name><![CDATA[diseño de interiores]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>107</wp:term_id><wp:tag_slug><![CDATA[exteriores]]></wp:tag_slug><wp:tag_name><![CDATA[exteriores]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>108</wp:term_id><wp:tag_slug><![CDATA[flooring]]></wp:tag_slug><wp:tag_name><![CDATA[flooring]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>109</wp:term_id><wp:tag_slug><![CDATA[gran-formato]]></wp:tag_slug><wp:tag_name><![CDATA[gran formato]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>110</wp:term_id><wp:tag_slug><![CDATA[hospitality]]></wp:tag_slug><wp:tag_name><![CDATA[hospitality]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>111</wp:term_id><wp:tag_slug><![CDATA[hoteleria]]></wp:tag_slug><wp:tag_name><![CDATA[hotelería]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>112</wp:term_id><wp:tag_slug><![CDATA[instalacion]]></wp:tag_slug><wp:tag_name><![CDATA[instalación]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>113</wp:term_id><wp:tag_slug><![CDATA[installation]]></wp:tag_slug><wp:tag_name><![CDATA[installation]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>114</wp:term_id><wp:tag_slug><![CDATA[interior-design]]></wp:tag_slug><wp:tag_name><![CDATA[interior design]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>115</wp:term_id><wp:tag_slug><![CDATA[large-format]]></wp:tag_slug><wp:tag_name><![CDATA[large format]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>116</wp:term_id><wp:tag_slug><![CDATA[outdoor]]></wp:tag_slug><wp:tag_name><![CDATA[outdoor]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>117</wp:term_id><wp:tag_slug><![CDATA[pisos]]></wp:tag_slug><wp:tag_name><![CDATA[pisos]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>118</wp:term_id><wp:tag_slug><![CDATA[pool]]></wp:tag_slug><wp:tag_name><![CDATA[pool]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>119</wp:term_id><wp:tag_slug><![CDATA[porcelain-tile]]></wp:tag_slug><wp:tag_name><![CDATA[porcelain tile]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>120</wp:term_id><wp:tag_slug><![CDATA[porcelanato]]></wp:tag_slug><wp:tag_name><![CDATA[porcelanato]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>121</wp:term_id><wp:tag_slug><![CDATA[proyectos-comerciales]]></wp:tag_slug><wp:tag_name><![CDATA[proyectos comerciales]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>122</wp:term_id><wp:tag_slug><![CDATA[tendencias]]></wp:tag_slug><wp:tag_name><![CDATA[tendencias]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>123</wp:term_id><wp:tag_slug><![CDATA[trends]]></wp:tag_slug><wp:tag_name><![CDATA[trends]]></wp:tag_name></wp:tag>
+	<item>
+		<title><![CDATA[Cerámica vs. porcelanato: cómo elegir el piso ideal para cada espacio]]></title>
+		<link>https://acabadoscontemporaneos.com/ceramica-vs-porcelanato-como-elegir/</link>
+		<pubDate>Tue, 08 Sep 2026 10:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?p=1029</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Es la pregunta que más escuchamos en nuestro showroom: <strong>¿qué es mejor, cerámica o porcelanato?</strong> La respuesta honesta es que depende del espacio, del uso y del presupuesto. A simple vista pueden parecer iguales, pero por dentro son materiales muy distintos. En esta guía te explicamos las diferencias que realmente importan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">¿Qué es la cerámica?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>La cerámica se fabrica con arcillas, se prensa y se cuece a temperaturas cercanas a los 1,000 °C. Tiene un cuerpo más poroso, normalmente de color rojizo o claro, cubierto por un esmalte que le da color y diseño. Es más ligera, se corta con facilidad y ofrece una variedad enorme de colores, relieves y formatos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">¿Qué es el porcelanato?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El porcelanato (o porcelánico) utiliza arcillas más finas y feldespatos, se prensa a mayor presión y se cuece por encima de los 1,200 °C. El resultado es un cuerpo compacto, con una <strong>absorción de agua menor a 0.5%</strong>, mucho más resistente a la flexión, al desgaste y a los cambios de temperatura.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Comparativa rápida</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table>
+<thead><tr><th>Característica</th><th>Cerámica</th><th>Porcelanato</th></tr></thead>
+<tbody>
+<tr><td>Absorción de agua</td><td>3% a 10% o más</td><td>Menor a 0.5%</td></tr>
+<tr><td>Resistencia al desgaste</td><td>Media</td><td>Alta a muy alta</td></tr>
+<tr><td>Uso en exterior</td><td>No recomendado</td><td>Sí (versiones antiderrapantes)</td></tr>
+<tr><td>Formatos</td><td>Pequeños y medianos</td><td>Hasta gran formato</td></tr>
+<tr><td>Facilidad de corte</td><td>Alta</td><td>Requiere herramienta profesional</td></tr>
+<tr><td>Inversión</td><td>Menor</td><td>Mayor, con más durabilidad</td></tr>
+</tbody>
+</table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">¿Cuándo elegir cerámica?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Muros de baño y cocina:</strong> no soportan tránsito, así que la cerámica cumple perfecto.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Backsplash y muros decorativos:</strong> donde buscas color, brillo y textura artesanal.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Proyectos con presupuesto ajustado</strong> en áreas de tránsito ligero.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">¿Cuándo elegir porcelanato?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Pisos de alto tránsito:</strong> salas, pasillos, comercios, oficinas y restaurantes.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Exteriores, terrazas y albercas:</strong> resiste heladas, sol y humedad.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Baños y regaderas</strong> en piso, por su baja absorción.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Diseños de gran formato</strong> con mínimas juntas y estética de mármol o piedra.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Errores comunes al elegir</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El error más frecuente es instalar cerámica de muro en piso: se desgasta o se fractura pronto. Otro es elegir un porcelanato pulido para exterior, que se vuelve resbaloso con el agua. Y uno más: no considerar los <a href="/productos/accesorios-de-instalacion/">accesorios de instalación</a> correctos, que determinan la vida útil del recubrimiento.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Nuestra recomendación</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Una fórmula que funciona en la mayoría de los hogares: <strong>porcelanato en todos los pisos</strong> y <strong>cerámica en muros</strong> de baños y cocina. Así obtienes durabilidad donde más se necesita y libertad de diseño donde más se luce.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>¿Tienes dudas con tu proyecto? Visita nuestro showroom o <a href="/contacto/">solicita una cotización</a>: te ayudamos a elegir con más de 35 años de experiencia.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Absorción, resistencia, precio y mantenimiento: las diferencias reales entre cerámica y porcelanato para que inviertas en el recubrimiento correcto.]]></excerpt:encoded>
+		<wp:post_id>1029</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-08 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-08 16:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-08 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-08 16:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[ceramica-vs-porcelanato-como-elegir]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="blog"><![CDATA[Blog]]></category>
+		<category domain="post_tag" nicename="porcelanato"><![CDATA[porcelanato]]></category>
+		<category domain="post_tag" nicename="ceramica"><![CDATA[cerámica]]></category>
+		<category domain="post_tag" nicename="pisos"><![CDATA[pisos]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[ceramic-vs-porcelain-tile-how-to-choose]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[blog-ceramica-vs-porcelanato]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cerámica vs. Porcelanato: ¿Cuál Elegir? Guía 2026]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cerámica vs. Porcelanato: ¿Cuál Elegir? Guía 2026]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cerámica vs. Porcelanato: ¿Cuál Elegir? Guía 2026]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Cerámica o porcelanato? Comparamos absorción, resistencia, precio y usos ideales para que elijas el piso correcto en baño, cocina, sala o exterior.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Cerámica o porcelanato? Comparamos absorción, resistencia, precio y usos ideales para que elijas el piso correcto en baño, cocina, sala o exterior.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Cerámica o porcelanato? Comparamos absorción, resistencia, precio y usos ideales para que elijas el piso correcto en baño, cocina, sala o exterior.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cerámica vs porcelanato]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cerámica vs porcelanato]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Tendencias en recubrimientos 2026: lo que verás en los espacios más elegantes]]></title>
+		<link>https://acabadoscontemporaneos.com/tendencias-recubrimientos-2026/</link>
+		<pubDate>Tue, 22 Sep 2026 10:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?p=1030</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>El diseño de interiores se está alejando de lo frío y lo genérico. Las <strong>tendencias en recubrimientos 2026</strong> apuestan por espacios que se sienten cálidos, auténticos y serenos, sin renunciar a la resistencia técnica que exige la vida diaria. Estas son las que más vemos en proyectos residenciales y comerciales.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">1. Tonos tierra y paletas cálidas</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Terracotas, arenas, ocres, verdes oliva y marrones suaves reemplazan al gris como neutro dominante. En porcelanato y cerámica, estos tonos crean ambientes acogedores que dialogan con la madera, el lino y las plantas.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">2. Gran formato y superficies continuas</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El <strong>porcelanato de gran formato</strong> sigue creciendo: placas que visten piso, muro, isla y cubierta con la misma veta. Menos juntas significa más amplitud visual y una estética arquitectónica limpia.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_img slug="blog-gran-formato" caption="Muro de ónix en gran formato: el lujo de la continuidad."]
+<!-- /wp:shortcode -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">3. Texturas naturales: piedra, travertino y caliza</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Los acabados mate y con textura que imitan piedra natural se imponen en baños tipo spa, fachadas y terrazas. El travertino, en particular, vive un renacimiento por su calidez y su carácter atemporal.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">4. Efecto microcemento</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El look de microcemento en porcelanato ofrece la estética minimalista y continua del cemento pulido, pero con mayor resistencia a manchas y sin fisuras. Ideal para lofts, cocinas abiertas y espacios comerciales.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">5. Cerámica artesanal con imperfecciones</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Los esmaltes con variaciones de tono, bordes irregulares y efectos zellige aportan personalidad a backsplash y baños. La belleza de lo hecho a mano, ahora con calidad industrial.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">6. Mosaicos como protagonistas</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Los <a href="/productos/mosaicos/">mosaicos</a> salen de la alberca para convertirse en muros joya: verdes esmeralda, dorados y piezas iridiscentes en tocadores, bares y nichos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">7. Madera en espiga y chevron</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El <a href="/productos/porcelanato-tipo-madera/">porcelanato tipo madera</a> instalado en espiga o chevron aporta sofisticación clásica con mantenimiento cero.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">8. Continuidad interior–exterior</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Mismo diseño en sala y terraza, cambiando solo el acabado a antiderrapante. El resultado es un espacio que se siente más grande y conectado con el jardín.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Cómo aplicar las tendencias sin que pasen de moda</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Nuestra regla: usa lo atemporal en pisos (mármol, piedra, madera en tonos neutros) y juega con la tendencia en muros, backsplash y detalles, que son más fáciles de renovar. ¿Quieres ver estas colecciones en persona? <a href="/contacto/">Agenda tu visita al showroom</a>.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Tonos tierra, gran formato, texturas naturales y superficies continuas: las tendencias en pisos y muros que dominan el diseño de interiores.]]></excerpt:encoded>
+		<wp:post_id>1030</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-22 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-22 16:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-22 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-22 16:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tendencias-recubrimientos-2026]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="blog"><![CDATA[Blog]]></category>
+		<category domain="post_tag" nicename="tendencias"><![CDATA[tendencias]]></category>
+		<category domain="post_tag" nicename="diseno-de-interiores"><![CDATA[diseño de interiores]]></category>
+		<category domain="post_tag" nicename="porcelanato"><![CDATA[porcelanato]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tile-trends-2026]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[blog-tendencias]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tendencias en Recubrimientos y Pisos 2026 | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tendencias en Recubrimientos y Pisos 2026 | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tendencias en Recubrimientos y Pisos 2026 | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Descubre las tendencias en recubrimientos 2026: tonos tierra, porcelanato de gran formato, texturas naturales, microcemento y mosaicos protagonistas.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Descubre las tendencias en recubrimientos 2026: tonos tierra, porcelanato de gran formato, texturas naturales, microcemento y mosaicos protagonistas.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Descubre las tendencias en recubrimientos 2026: tonos tierra, porcelanato de gran formato, texturas naturales, microcemento y mosaicos protagonistas.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tendencias en recubrimientos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tendencias en recubrimientos]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Guía para instalar porcelanato de gran formato sin errores]]></title>
+		<link>https://acabadoscontemporaneos.com/guia-instalacion-porcelanato-gran-formato/</link>
+		<pubDate>Tue, 06 Oct 2026 10:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?p=1031</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>El <strong>porcelanato de gran formato</strong> transforma cualquier espacio, pero exige una instalación precisa. Una placa de 60×120 cm o más no perdona bases irregulares ni adhesivos incorrectos. Esta guía resume lo que nuestro equipo recomienda en cada obra.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">1. Prepara una base perfectamente plana</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>La base debe estar limpia, seca, firme y con una planicidad máxima de 3 mm en 2 metros. Si hay desniveles, corrige con un mortero autonivelante antes de empezar. Una base deficiente es la causa número uno de piezas huecas, cejas y fracturas.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">2. Elige el adhesivo adecuado</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Para gran formato usa un <strong>adhesivo para porcelanato</strong> cementicio de alto desempeño, modificado con polímeros (clasificación C2 o superior). En exteriores y fachadas, elige además uno deformable (S1 o S2) que absorba los movimientos térmicos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">3. Aplica doble encolado</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Extiende adhesivo en la base con llana dentada de 10 a 12 mm y aplica también una capa delgada en el reverso de la placa. El objetivo es lograr más de 90% de contacto, sin huecos que provoquen fracturas por impacto.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_img slug="blog-instalacion" caption="Doble encolado y sistema de nivelación: la base de un acabado perfecto."]
+<!-- /wp:shortcode -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">4. Usa un sistema de nivelación</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Los clips y cuñas niveladoras evitan cejas entre piezas mientras fragua el adhesivo. Son indispensables en formatos grandes y especialmente en porcelanatos pulidos, donde cualquier desnivel se nota con la luz.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">5. Respeta las juntas</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Junta entre piezas:</strong> mínimo 1.5 a 2 mm en porcelanato rectificado.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Juntas perimetrales:</strong> deja 5 a 8 mm en muros y columnas.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Juntas de dilatación:</strong> cada 25 a 36 m² en interiores y cada 16 m² en exteriores.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">6. Manipula las placas con cuidado</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Usa ventosas y transporta las placas de canto. Para cortes, emplea cortadoras de riel específicas para gran formato y discos de diamante de calidad.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">7. Emboquilla y limpia</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Espera el tiempo de fraguado indicado por el fabricante, aplica la boquilla adecuada al ancho de junta y limpia los residuos antes de que endurezcan. En zonas húmedas o de alto tráfico, considera boquilla epóxica.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Lista de materiales</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Adhesivo de alto desempeño, sistema de nivelación, llanas dentadas, ventosas, cortadora, disco de diamante, boquilla y <a href="/productos/accesorios-de-instalacion/">perfiles para cerámica</a>. En Acabados Contemporáneos te calculamos todo el paquete al cotizar tu recubrimiento.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="ac-note"><p><strong>Recomendación:</strong> confía el gran formato a instaladores con experiencia comprobada. El ahorro en mano de obra nunca compensa el costo de reponer una placa.</p></div>
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Base, adhesivo, doble encolado, nivelación y juntas: los pasos que garantizan un acabado perfecto y duradero en porcelanato de gran formato.]]></excerpt:encoded>
+		<wp:post_id>1031</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-06 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-06 16:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-06 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-06 16:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[guia-instalacion-porcelanato-gran-formato]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="blog"><![CDATA[Blog]]></category>
+		<category domain="post_tag" nicename="instalacion"><![CDATA[instalación]]></category>
+		<category domain="post_tag" nicename="porcelanato"><![CDATA[porcelanato]]></category>
+		<category domain="post_tag" nicename="accesorios"><![CDATA[accesorios]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[large-format-porcelain-installation-guide]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[blog-instalacion]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cómo Instalar Porcelanato de Gran Formato: Guía Paso a Paso]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cómo Instalar Porcelanato de Gran Formato: Guía Paso a Paso]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cómo Instalar Porcelanato de Gran Formato: Guía Paso a Paso]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Aprende a instalar porcelanato de gran formato: preparación de la base, adhesivo correcto, doble encolado, sistema de nivelación y juntas. Guía de expertos.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Aprende a instalar porcelanato de gran formato: preparación de la base, adhesivo correcto, doble encolado, sistema de nivelación y juntas. Guía de expertos.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Aprende a instalar porcelanato de gran formato: preparación de la base, adhesivo correcto, doble encolado, sistema de nivelación y juntas. Guía de expertos.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[instalar porcelanato de gran formato]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[instalar porcelanato de gran formato]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Pisos para exterior y alberca: cómo elegir un porcelánico antiderrapante]]></title>
+		<link>https://acabadoscontemporaneos.com/pisos-para-exterior-y-alberca/</link>
+		<pubDate>Tue, 13 Oct 2026 10:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?p=1032</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Terrazas, jardines, andadores y albercas enfrentan sol intenso, lluvia, cloro y cambios bruscos de temperatura. Elegir bien los <strong>pisos para exterior</strong> es una decisión de seguridad tanto como de diseño. Esto es lo que debes revisar.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Antiderrapancia: el dato más importante</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Busca porcelánico con clasificación <strong>R11 o superior</strong> para terrazas y bordes de alberca, y R12 para rampas o zonas con agua constante. Evita acabados pulidos o brillantes en exteriores: con el agua se vuelven peligrosamente resbalosos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Baja absorción y resistencia a heladas</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Un porcelánico con absorción menor a 0.5% no se agrieta con el agua ni con las heladas, y no permite la aparición de salitre. Por eso es superior a la cerámica y a muchas piedras naturales en exterior.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Resistencia al sol y temperatura</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El color del porcelánico es estable a los rayos UV. Además, los tonos claros (arena, caliza, travertino) se calientan menos y son más cómodos para caminar descalzo alrededor de la alberca.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_img slug="hero-terraza" caption="Porcelánico antiderrapante tipo caliza en terraza y alberca."]
+<!-- /wp:shortcode -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">¿Qué va dentro de la alberca?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Para el vaso de la alberca, el estándar es el <a href="/productos/mosaicos/">mosaico de vidrio</a>: no absorbe agua, resiste químicos y refleja la luz de forma espectacular. También existen porcelánicos certificados para inmersión. En ambos casos, usa adhesivo y boquilla epóxicos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Formatos y estilos recomendados</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Tipo piedra caliza o travertino:</strong> elegancia mediterránea y superficie fresca.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Tipo madera antiderrapante:</strong> calidez de deck sin mantenimiento.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Tipo cemento:</strong> estética contemporánea para jardines minimalistas.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Espesor de 20 mm:</strong> para instalaciones sobre grava, pasto o pedestales.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Instalación en exterior</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Usa adhesivo flexible clase C2 S1, deja pendiente del 1% al 2% para el desalojo del agua y respeta las juntas de dilatación cada 16 m². Los perfiles de acero inoxidable rematan escalones y bordes con durabilidad.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>¿Estás diseñando tu terraza o alberca? <a href="/contacto/">Cotiza con nosotros</a> y recibe una propuesta completa de piso, mosaico y accesorios.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Antiderrapancia R11, resistencia al sol y baja absorción: qué buscar en un piso para terraza, jardín y alberca que sea seguro y luzca por años.]]></excerpt:encoded>
+		<wp:post_id>1032</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-13 16:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-13 16:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pisos-para-exterior-y-alberca]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="blog"><![CDATA[Blog]]></category>
+		<category domain="post_tag" nicename="exteriores"><![CDATA[exteriores]]></category>
+		<category domain="post_tag" nicename="alberca"><![CDATA[alberca]]></category>
+		<category domain="post_tag" nicename="porcelanato"><![CDATA[porcelanato]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[outdoor-and-pool-tile-guide]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-terraza]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Pisos para Exterior y Alberca Antiderrapantes | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Pisos para Exterior y Alberca Antiderrapantes | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Pisos para Exterior y Alberca Antiderrapantes | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Guía para elegir pisos para exterior y alberca: porcelánico antiderrapante R11, baja absorción, resistencia UV, mosaico de vidrio e instalación correcta.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Guía para elegir pisos para exterior y alberca: porcelánico antiderrapante R11, baja absorción, resistencia UV, mosaico de vidrio e instalación correcta.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Guía para elegir pisos para exterior y alberca: porcelánico antiderrapante R11, baja absorción, resistencia UV, mosaico de vidrio e instalación correcta.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[pisos para exterior]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[pisos para exterior]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Recubrimientos para hoteles y espacios comerciales: diseño que resiste]]></title>
+		<link>https://acabadoscontemporaneos.com/recubrimientos-para-hoteles-y-comercios/</link>
+		<pubDate>Tue, 20 Oct 2026 10:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?p=1033</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>En hotelería y comercio, el piso y los muros son parte de la marca. Un lobby impactante genera la primera impresión; un piso que se desgasta en dos años la arruina. Especificar <strong>recubrimientos para hoteles y espacios comerciales</strong> exige equilibrar diseño, resistencia y mantenimiento.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Alto tránsito sin desgaste</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Elige porcelanato de cuerpo completo o esmaltado de alta resistencia a la abrasión para lobbies, pasillos y áreas públicas. En restaurantes y cocinas, prioriza superficies antiderrapantes y boquillas epóxicas que resisten grasa y limpieza intensiva.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">El impacto del gran formato</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Un muro de <strong>ónix o mármol en gran formato</strong>, incluso retroiluminado, se convierte en el sello visual del espacio. Las placas porcelánicas logran ese efecto con una fracción del peso, el costo y el mantenimiento de la piedra natural.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_img slug="blog-gran-formato" caption="Lobby de hotel con muro tipo ónix en gran formato."]
+<!-- /wp:shortcode -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Continuidad de lote y logística</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>En proyectos grandes, la continuidad de tono y calibre entre entregas es crítica. Trabajamos con inventario y programación por etapas para que la habitación 1 y la 200 luzcan idénticas.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Checklist de especificación</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Resistencia a la abrasión acorde al tránsito</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Antiderrapancia en accesos, baños, cocinas y albercas</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Formatos que reduzcan juntas y tiempos de limpieza</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Sistema completo: adhesivo, boquilla, perfiles y juntas de dilatación</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Material de reposición para mantenimiento futuro (3% a 5%)</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Trabaja con un aliado</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Nuestro <a href="/profesionales/">programa para profesionales</a> acompaña a arquitectos, operadores hoteleros y constructoras con muestras, fichas técnicas, cuantificación y precios de proyecto. Más de 35 años nos respaldan.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Cómo especificar pisos y muros para hoteles, restaurantes y comercios que soportan alto tránsito sin perder presencia ni elegancia.]]></excerpt:encoded>
+		<wp:post_id>1033</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-20 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-20 16:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-20 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-20 16:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[recubrimientos-para-hoteles-y-comercios]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="blog"><![CDATA[Blog]]></category>
+		<category domain="post_tag" nicename="proyectos-comerciales"><![CDATA[proyectos comerciales]]></category>
+		<category domain="post_tag" nicename="hoteleria"><![CDATA[hotelería]]></category>
+		<category domain="post_tag" nicename="gran-formato"><![CDATA[gran formato]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tile-for-hotels-and-commercial-spaces]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[blog-gran-formato]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Recubrimientos para Hoteles y Comercios | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Recubrimientos para Hoteles y Comercios | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Recubrimientos para Hoteles y Comercios | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cómo elegir recubrimientos para hoteles, restaurantes y espacios comerciales: porcelanato de alto tránsito, gran formato, antiderrapancia y mantenimiento.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cómo elegir recubrimientos para hoteles, restaurantes y espacios comerciales: porcelanato de alto tránsito, gran formato, antiderrapancia y mantenimiento.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cómo elegir recubrimientos para hoteles, restaurantes y espacios comerciales: porcelanato de alto tránsito, gran formato, antiderrapancia y mantenimiento.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[recubrimientos para hoteles]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[recubrimientos para hoteles]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Ceramic vs. porcelain tile: how to choose the right floor for every space]]></title>
+		<link>https://acabadoscontemporaneos.com/ceramic-vs-porcelain-tile-how-to-choose/</link>
+		<pubDate>Tue, 08 Sep 2026 10:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?p=1034</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>It's the question we hear most in our showroom: <strong>which is better, ceramic or porcelain tile?</strong> The honest answer depends on the space, the use and the budget. They may look alike, but inside they are very different materials. Here are the differences that really matter.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What is ceramic tile?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Ceramic tile is made from clays pressed and fired at around 1,000 °C. Its body is more porous and is covered by a glaze that provides color and design. It is lighter, cuts easily and comes in a huge variety of colors, reliefs and formats.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What is porcelain tile?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Porcelain uses finer clays and feldspar, is pressed at higher pressure and fired above 1,200 °C. The result is a dense body with <strong>water absorption under 0.5%</strong>, far more resistant to bending, wear and temperature changes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Quick comparison</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table>
+<thead><tr><th>Feature</th><th>Ceramic</th><th>Porcelain</th></tr></thead>
+<tbody>
+<tr><td>Water absorption</td><td>3% to 10%+</td><td>Under 0.5%</td></tr>
+<tr><td>Wear resistance</td><td>Medium</td><td>High to very high</td></tr>
+<tr><td>Outdoor use</td><td>Not recommended</td><td>Yes (anti-slip versions)</td></tr>
+<tr><td>Formats</td><td>Small and medium</td><td>Up to large format</td></tr>
+<tr><td>Ease of cutting</td><td>High</td><td>Needs professional tools</td></tr>
+<tr><td>Investment</td><td>Lower</td><td>Higher, with longer life</td></tr>
+</tbody>
+</table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">When to choose ceramic</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Bathroom and kitchen walls:</strong> no foot traffic, so ceramic performs perfectly.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Backsplashes and feature walls:</strong> where you want color, shine and handcrafted texture.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Budget-conscious projects</strong> in light-traffic areas.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">When to choose porcelain</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>High-traffic floors:</strong> living rooms, hallways, retail, offices and restaurants.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Outdoors, terraces and pools:</strong> it withstands frost, sun and moisture.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Bathroom and shower floors</strong>, thanks to low absorption.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Large-format designs</strong> with minimal joints and marble or stone looks.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Our recommendation</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A formula that works in most homes: <strong>porcelain on every floor</strong> and <strong>ceramic on bathroom and kitchen walls</strong>. You get durability where it's needed most and design freedom where it shows most.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Questions about your project? <a href="/en/contact/">Request a quote</a> and choose with the help of more than 35 years of experience.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Absorption, strength, price and maintenance: the real differences between ceramic and porcelain tile, so you invest in the right surface.]]></excerpt:encoded>
+		<wp:post_id>1034</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-08 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-08 16:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-08 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-08 16:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[ceramic-vs-porcelain-tile-how-to-choose]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="blog-en"><![CDATA[Blog (EN)]]></category>
+		<category domain="post_tag" nicename="porcelain-tile"><![CDATA[porcelain tile]]></category>
+		<category domain="post_tag" nicename="ceramic-tile"><![CDATA[ceramic tile]]></category>
+		<category domain="post_tag" nicename="flooring"><![CDATA[flooring]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[ceramica-vs-porcelanato-como-elegir]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[blog-ceramica-vs-porcelanato]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Ceramic vs. Porcelain Tile: Which to Choose? 2026 Guide]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Ceramic vs. Porcelain Tile: Which to Choose? 2026 Guide]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Ceramic vs. Porcelain Tile: Which to Choose? 2026 Guide]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Ceramic or porcelain tile? We compare water absorption, durability, price and best uses so you choose the right floor for bathrooms, kitchens and outdoors.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Ceramic or porcelain tile? We compare water absorption, durability, price and best uses so you choose the right floor for bathrooms, kitchens and outdoors.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Ceramic or porcelain tile? We compare water absorption, durability, price and best uses so you choose the right floor for bathrooms, kitchens and outdoors.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[ceramic vs porcelain tile]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[ceramic vs porcelain tile]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Tile trends 2026: what you'll see in the most elegant spaces]]></title>
+		<link>https://acabadoscontemporaneos.com/tile-trends-2026/</link>
+		<pubDate>Tue, 22 Sep 2026 10:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?p=1035</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Interior design is moving away from cold and generic. <strong>Tile trends for 2026</strong> favor spaces that feel warm, authentic and serene, without sacrificing the technical performance daily life demands. These are the trends we see most in residential and commercial projects.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">1. Earth tones and warm palettes</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Terracotta, sand, ochre, olive and soft browns are replacing grey as the go-to neutral, creating welcoming spaces that pair beautifully with wood, linen and plants.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">2. Large formats and seamless surfaces</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Large-format porcelain slabs</strong> keep growing: one vein running across floor, wall, island and countertop. Fewer joints mean more visual space and clean architectural lines.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_img slug="blog-gran-formato" caption="Large-format onyx-look feature wall: the luxury of continuity."]
+<!-- /wp:shortcode -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">3. Natural textures: stone, travertine and limestone</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Matte, textured stone looks dominate spa bathrooms, facades and terraces. Travertine in particular is enjoying a renaissance thanks to its warmth and timeless character.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">4. Micro-cement look</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Micro-cement-look porcelain delivers the minimalist, continuous feel of polished concrete with better stain resistance and no cracking.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">5. Handcrafted ceramics with imperfections</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Glazes with tonal variation, irregular edges and zellige effects bring personality to backsplashes and bathrooms.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">6. Mosaics take center stage</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="/en/products/mosaic-tile/">Mosaics</a> leave the pool to become jewel-like walls: emerald greens, golds and iridescent pieces in powder rooms, bars and niches.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">7. Herringbone and chevron wood looks</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="/en/products/wood-look-tile/">Wood-look porcelain</a> in herringbone or chevron adds classic sophistication with zero maintenance.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">8. Indoor–outdoor continuity</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The same design in the living room and on the terrace, switching only to an anti-slip finish, makes spaces feel larger and connected to the garden.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Follow trends without dating your space</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Our rule: go timeless on floors and play with trends on walls, backsplashes and details, which are easier to refresh. Want to see these collections in person? <a href="/en/contact/">Book a showroom visit</a>.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Earth tones, large formats, natural textures and seamless surfaces: the floor and wall trends shaping interior design this year.]]></excerpt:encoded>
+		<wp:post_id>1035</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-22 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-22 16:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-22 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-22 16:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tile-trends-2026]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="blog-en"><![CDATA[Blog (EN)]]></category>
+		<category domain="post_tag" nicename="trends"><![CDATA[trends]]></category>
+		<category domain="post_tag" nicename="interior-design"><![CDATA[interior design]]></category>
+		<category domain="post_tag" nicename="porcelain-tile"><![CDATA[porcelain tile]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tendencias-recubrimientos-2026]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[blog-tendencias]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tile & Flooring Trends 2026 | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tile & Flooring Trends 2026 | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tile & Flooring Trends 2026 | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Discover 2026 tile trends: earth tones, large-format porcelain, natural stone textures, micro-cement looks, handcrafted ceramics and statement mosaics.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Discover 2026 tile trends: earth tones, large-format porcelain, natural stone textures, micro-cement looks, handcrafted ceramics and statement mosaics.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Discover 2026 tile trends: earth tones, large-format porcelain, natural stone textures, micro-cement looks, handcrafted ceramics and statement mosaics.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tile trends 2026]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tile trends 2026]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[How to install large-format porcelain tile without mistakes]]></title>
+		<link>https://acabadoscontemporaneos.com/large-format-porcelain-installation-guide/</link>
+		<pubDate>Tue, 06 Oct 2026 10:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?p=1036</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Large-format porcelain tile</strong> transforms any space, but it demands a precise installation. A 60×120 cm slab or larger won't forgive uneven substrates or the wrong adhesive. Here is what our team recommends on every project.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">1. Prepare a perfectly flat substrate</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The base must be clean, dry, solid and flat within 3 mm over 2 meters. Correct any unevenness with self-leveling mortar first. A poor substrate is the number-one cause of hollow tiles, lippage and cracks.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">2. Choose the right adhesive</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Use a high-performance polymer-modified cementitious <strong>porcelain tile adhesive</strong> (C2 or higher). Outdoors and on facades, choose a deformable adhesive (S1 or S2) to absorb thermal movement.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">3. Back-butter every slab</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Spread adhesive on the substrate with a 10–12 mm notched trowel and apply a thin coat on the back of the slab. The goal is over 90% coverage with no voids.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_img slug="blog-instalacion" caption="Back-buttering and a leveling system: the foundation of a perfect finish."]
+<!-- /wp:shortcode -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">4. Use a leveling system</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Leveling clips and wedges prevent lippage while the adhesive cures — essential for large and polished formats where any unevenness shows in the light.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">5. Respect the joints</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Tile joints:</strong> at least 1.5–2 mm for rectified porcelain.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Perimeter joints:</strong> 5–8 mm at walls and columns.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Movement joints:</strong> every 25–36 m² indoors and every 16 m² outdoors.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">6. Grout and clean</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Wait for the curing time specified by the manufacturer, use grout suited to the joint width and clean residue before it hardens. In wet or high-traffic areas, consider epoxy grout.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Need the full kit? Adhesive, leveling system, trowels, suction lifters, cutters, grout and <a href="/en/products/installation-accessories/">tile trims</a> — we calculate everything when we quote your tile.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Substrate, adhesive, back-buttering, leveling and joints: the steps that guarantee a perfect, long-lasting large-format porcelain installation.]]></excerpt:encoded>
+		<wp:post_id>1036</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-06 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-06 16:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-06 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-06 16:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[large-format-porcelain-installation-guide]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="blog-en"><![CDATA[Blog (EN)]]></category>
+		<category domain="post_tag" nicename="installation"><![CDATA[installation]]></category>
+		<category domain="post_tag" nicename="porcelain-tile"><![CDATA[porcelain tile]]></category>
+		<category domain="post_tag" nicename="accessories"><![CDATA[accessories]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[guia-instalacion-porcelanato-gran-formato]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[blog-instalacion]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How to Install Large-Format Porcelain Tile: Step by Step]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How to Install Large-Format Porcelain Tile: Step by Step]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How to Install Large-Format Porcelain Tile: Step by Step]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Learn how to install large-format porcelain tile: substrate prep, the right adhesive, back-buttering, leveling systems and joints. An expert guide.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Learn how to install large-format porcelain tile: substrate prep, the right adhesive, back-buttering, leveling systems and joints. An expert guide.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Learn how to install large-format porcelain tile: substrate prep, the right adhesive, back-buttering, leveling systems and joints. An expert guide.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[install large format porcelain tile]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[install large format porcelain tile]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Outdoor and pool tile: how to choose anti-slip porcelain pavers]]></title>
+		<link>https://acabadoscontemporaneos.com/outdoor-and-pool-tile-guide/</link>
+		<pubDate>Tue, 13 Oct 2026 10:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?p=1037</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Terraces, gardens, walkways and pools face intense sun, rain, chlorine and sharp temperature swings. Choosing the right <strong>outdoor tile</strong> is a safety decision as much as a design one.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Slip resistance comes first</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Look for porcelain rated <strong>R11 or higher</strong> for terraces and pool decks, and R12 for ramps or constantly wet areas. Avoid polished finishes outdoors: they become dangerously slippery when wet.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Low absorption and frost resistance</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Porcelain with under 0.5% absorption won't crack from water or frost and resists efflorescence — outperforming ceramic and many natural stones outdoors.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_img slug="hero-terraza" caption="Anti-slip limestone-look porcelain on a terrace and pool deck."]
+<!-- /wp:shortcode -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What goes inside the pool?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>For the pool shell, <a href="/en/products/mosaic-tile/">glass mosaic</a> is the standard: it absorbs no water, resists chemicals and reflects light beautifully. Porcelain certified for immersion is also available. Always use epoxy adhesive and grout.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Recommended styles</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Limestone or travertine look:</strong> Mediterranean elegance and a cooler surface.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Anti-slip wood look:</strong> deck warmth with no maintenance.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Concrete look:</strong> contemporary style for minimalist gardens.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>20 mm thickness:</strong> for installation over gravel, grass or pedestals.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Designing your terrace or pool? <a href="/en/contact/">Request a quote</a> for a complete floor, mosaic and accessories proposal.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[R11 slip resistance, UV stability and low absorption: what to look for in terrace, garden and pool tile that stays safe and beautiful for years.]]></excerpt:encoded>
+		<wp:post_id>1037</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-13 16:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-13 16:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[outdoor-and-pool-tile-guide]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="blog-en"><![CDATA[Blog (EN)]]></category>
+		<category domain="post_tag" nicename="outdoor"><![CDATA[outdoor]]></category>
+		<category domain="post_tag" nicename="pool"><![CDATA[pool]]></category>
+		<category domain="post_tag" nicename="porcelain-tile"><![CDATA[porcelain tile]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[pisos-para-exterior-y-alberca]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-terraza]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Anti-Slip Outdoor & Pool Tile Guide | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Anti-Slip Outdoor & Pool Tile Guide | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Anti-Slip Outdoor & Pool Tile Guide | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How to choose outdoor and pool tile: R11 anti-slip porcelain pavers, low absorption, UV resistance, glass pool mosaic and correct installation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How to choose outdoor and pool tile: R11 anti-slip porcelain pavers, low absorption, UV resistance, glass pool mosaic and correct installation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How to choose outdoor and pool tile: R11 anti-slip porcelain pavers, low absorption, UV resistance, glass pool mosaic and correct installation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[outdoor porcelain pavers]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[outdoor porcelain pavers]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Tile for hotels and commercial spaces: design that endures]]></title>
+		<link>https://acabadoscontemporaneos.com/tile-for-hotels-and-commercial-spaces/</link>
+		<pubDate>Tue, 20 Oct 2026 10:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?p=1038</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>In hospitality and retail, floors and walls are part of the brand. A striking lobby makes the first impression; a floor that wears out in two years ruins it. Specifying <strong>tile for hotels and commercial spaces</strong> means balancing design, durability and maintenance.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Heavy traffic without wear</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Choose full-body or high-abrasion glazed porcelain for lobbies, corridors and public areas. In restaurants and kitchens, prioritize anti-slip surfaces and epoxy grouts that resist grease and intensive cleaning.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The impact of large formats</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A <strong>large-format onyx or marble-look</strong> wall, even backlit, becomes the visual signature of the space — at a fraction of the weight, cost and upkeep of natural stone.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_img slug="blog-gran-formato" caption="Hotel lobby with a large-format onyx-look feature wall."]
+<!-- /wp:shortcode -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Specification checklist</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Abrasion resistance matched to traffic</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Slip resistance at entrances, restrooms, kitchens and pools</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Formats that reduce joints and cleaning time</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Complete system: adhesive, grout, trims and movement joints</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Spare stock for future maintenance (3% to 5%)</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Our <a href="/en/professionals/">professional program</a> supports architects, hotel operators and builders with samples, data sheets, takeoffs and project pricing — backed by more than 35 years of experience.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[How to specify floors and walls for hotels, restaurants and retail that handle heavy traffic without losing presence or elegance.]]></excerpt:encoded>
+		<wp:post_id>1038</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-20 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-20 16:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-20 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-20 16:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tile-for-hotels-and-commercial-spaces]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="blog-en"><![CDATA[Blog (EN)]]></category>
+		<category domain="post_tag" nicename="commercial-projects"><![CDATA[commercial projects]]></category>
+		<category domain="post_tag" nicename="hospitality"><![CDATA[hospitality]]></category>
+		<category domain="post_tag" nicename="large-format"><![CDATA[large format]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[recubrimientos-para-hoteles-y-comercios]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[blog-gran-formato]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Commercial & Hotel Tile Specification | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Commercial & Hotel Tile Specification | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Commercial & Hotel Tile Specification | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How to choose tile for hotels, restaurants and commercial spaces: high-traffic porcelain, large formats, slip resistance and low maintenance.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How to choose tile for hotels, restaurants and commercial spaces: high-traffic porcelain, large formats, slip resistance and low maintenance.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How to choose tile for hotels, restaurants and commercial spaces: high-traffic porcelain, large formats, slip resistance and low maintenance.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[commercial tile for hotels]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[commercial tile for hotels]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>
