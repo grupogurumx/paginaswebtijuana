@@ -55,6 +55,8 @@ Los originales en alta resolución (PNG de hasta 3168 px) están en tu cuenta de
 
 ## Ver el sitio en Vercel (demo navegable)
 
+**Demo publicada:** <https://acabados-contemporaneos.vercel.app/> (proyecto `acabados-contemporaneos` en la cuenta de Vercel de Grupo Gurú).
+
 La carpeta `vercel/` contiene una **versión estática de todo el sitio**: 38 páginas ES/EN, blog, 404 y sitemap, renderizadas con las plantillas reales del tema. Sirve para revisar el diseño antes de instalar WordPress. En Vercel las imágenes se descargan al compilar desde el ZIP público, y la demo tiene `noindex` para no competir con el dominio real.
 
 1. Entra a <https://vercel.com/new> e importa el repositorio `grupogurumx/paginaswebtijuana`.
