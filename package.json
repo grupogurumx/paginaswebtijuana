@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "npm run build && wrangler pages dev dist",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name=paginaswebtijuana",
     "test": "echo \"Error: no test specified\" && exit 1",
     "bot:install": "npm --prefix whatsapp-bot install",
     "bot": "npm --prefix whatsapp-bot start"
@@ -17,5 +20,8 @@
   "license": "ISC",
   "dependencies": {
     "hallmark": "^5.0.2"
+  },
+  "devDependencies": {
+    "wrangler": "^4.156.0"
   }
 }
