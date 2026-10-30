@@ -24,7 +24,7 @@ $ac_addr  = ac_address_line();
 	<div class="site-footer__grid container">
 		<div class="site-footer__brand">
 			<a class="brand brand--footer" href="<?php echo esc_url( ac_home_url() ); ?>">
-				<span class="brand__text"><strong>Acabados</strong><em>Contemporáneos</em></span>
+				<img class="brand__img" src="<?php echo esc_url( AC_URI . '/assets/brand/logo-white.png' ); ?>" alt="Acabados Contemporáneos" width="320" height="78" loading="lazy">
 			</a>
 			<p><?php ac_e( 'footer_claim' ); ?></p>
 			<?php $ac_socials = ac_socials(); ?>

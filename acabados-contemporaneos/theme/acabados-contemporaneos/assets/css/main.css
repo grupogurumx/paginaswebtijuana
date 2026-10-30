@@ -1,25 +1,29 @@
 /* ==========================================================================
    Acabados Contemporáneos — sistema visual
-   Paleta: carbón cálido, marfil, piedra y bronce champaña.
-   Tipografía: Cormorant Garamond (display) + Manrope (texto).
+   Identidad: azul marino y gris del logotipo, blanco corporativo.
+   Tipografía: Inter (misma familia que Porcelanite y Daltile).
+   Línea de diseño inspirada en Porcelanite, Daltile y Vitromex:
+   limpia, corporativa, orientada a colecciones y espacios.
    ========================================================================== */
 
 :root {
-	--ac-ink: #14120f;
-	--ac-ink-2: #1f1c18;
-	--ac-ink-3: #2b2721;
-	--ac-paper: #faf8f4;
-	--ac-ivory: #f2ede4;
-	--ac-sand: #e6dccb;
-	--ac-stone: #8a8378;
-	--ac-muted: #5f594f;
-	--ac-accent: #b08d57;
-	--ac-accent-2: #d6bf95;
-	--ac-line: rgba(20, 18, 15, .12);
+	--ac-ink: #0b0e2e;
+	--ac-ink-2: #141845;
+	--ac-ink-3: #1d2257;
+	--ac-paper: #ffffff;
+	--ac-ivory: #f3f4f8;
+	--ac-sand: #e2e5ee;
+	--ac-stone: #6b7084;
+	--ac-muted: #4a4f63;
+	--ac-accent: #020380;
+	--ac-accent-hover: #1b2bd1;
+	--ac-accent-2: #aeb7ea;
+	--ac-grey: #9a9ab0;
+	--ac-line: rgba(11, 14, 46, .12);
 	--ac-line-light: rgba(255, 255, 255, .18);
 
-	--ff-display: "Cormorant Garamond", "Times New Roman", serif;
-	--ff-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+	--ff-display: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+	--ff-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
 
 	--container: 1320px;
 	--gutter: clamp(16px, 4vw, 48px);
@@ -308,7 +312,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 /* ---------- Placeholders (mientras no se importan imágenes) ---------- */
 .ac-img-placeholder {
 	display: block; width: 100%; aspect-ratio: 4 / 5;
-	background: radial-gradient(120% 90% at 20% 10%, #4b4237 0%, #231f1a 55%, #14120f 100%);
+	background: radial-gradient(120% 90% at 20% 10%, #2a3170 0%, #141845 55%, #0b0e2e 100%);
 }
 
 /* ==========================================================================
@@ -408,7 +412,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 
 /* Profesionales */
 .pro { background: var(--ac-ink); color: #fff; overflow: hidden; }
-.pro::before { content: ""; position: absolute; right: -10%; top: -30%; width: 60vw; height: 60vw; border-radius: 50%; background: radial-gradient(circle, rgba(176, 141, 87, .22), transparent 60%); pointer-events: none; }
+.pro::before { content: ""; position: absolute; right: -10%; top: -30%; width: 60vw; height: 60vw; border-radius: 50%; background: radial-gradient(circle, rgba(27, 43, 209, .28), transparent 60%); pointer-events: none; }
 .pro__grid { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 7vw, 110px); align-items: center; }
 .pro__copy .lead { margin-bottom: 36px; }
 .steps { list-style: none; margin: 0; padding: 0; counter-reset: s; }
@@ -535,7 +539,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 /* ==========================================================================
    Pie de página
    ========================================================================== */
-.site-footer { background: #0e0d0b; color: rgba(255, 255, 255, .72); font-size: .95rem; }
+.site-footer { background: #070a33; color: rgba(255, 255, 255, .72); font-size: .95rem; }
 .site-footer a { text-decoration: none; }
 .site-footer a:hover { color: var(--ac-accent-2); }
 .site-footer__marquee { overflow: hidden; border-bottom: 1px solid var(--ac-line-light); padding: 34px 0; }
@@ -650,4 +654,112 @@ button { font: inherit; color: inherit; cursor: pointer; }
 @media (prefers-reduced-motion: reduce) {
 	*, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 	.js [data-reveal] { opacity: 1; transform: none; clip-path: none; }
+}
+
+/* ==========================================================================
+   Identidad corporativa (Inter + azul marino)
+   ========================================================================== */
+body { font-size: clamp(15.5px, 1vw, 17px); line-height: 1.65; letter-spacing: -.005em; }
+.display { font-weight: 700; font-size: clamp(2rem, 3.6vw, 3.4rem); line-height: 1.08; letter-spacing: -.03em; }
+.kicker { font-weight: 700; letter-spacing: .16em; }
+.kicker::before { width: 28px; height: 2px; }
+.lead { font-size: clamp(1rem, 1.15vw, 1.12rem); }
+
+/* Botones: sólidos, esquinas sutiles, mayúsculas con tracking corto. */
+:root { --radius: 4px; }
+.ac-btn { font-weight: 700; letter-spacing: .08em; border-radius: var(--radius); }
+.ac-btn::before { background: var(--ac-accent-hover); }
+.ac-btn--solid { --bg: var(--ac-accent); --bd: var(--ac-accent); }
+.ac-btn:hover { border-color: var(--ac-accent-hover); }
+.ac-link { font-weight: 700; letter-spacing: .1em; color: var(--ac-accent); }
+
+/* Encabezado: blanco corporativo con logotipo; transparente sobre el slider. */
+.site-header { background: #fff; backdrop-filter: none; box-shadow: 0 1px 0 var(--ac-line); border-bottom: 0; }
+.brand__img { display: block; height: 46px; width: auto; }
+.brand__img--white { display: none; }
+.is-home .site-header:not(.is-scrolled) .brand__img--color { display: none; }
+.is-home .site-header:not(.is-scrolled) .brand__img--white { display: block; }
+.is-home .site-header:not(.is-scrolled) { background: linear-gradient(180deg, rgba(5, 7, 30, .55), rgba(5, 7, 30, 0)); box-shadow: none; }
+.site-header.is-scrolled { height: 72px; }
+.site-header.is-scrolled .brand__img { height: 40px; }
+.primary-nav .menu a { font-weight: 600; letter-spacing: .06em; font-size: .78rem; }
+.primary-nav .menu > li > a::after { height: 2px; bottom: 2px; background: var(--ac-accent); }
+.is-home .site-header:not(.is-scrolled) .primary-nav .menu > li > a::after { background: #fff; }
+.primary-nav .sub-menu { background: #fff; color: var(--ac-ink); border-top: 3px solid var(--ac-accent); border-radius: 0 0 6px 6px; box-shadow: 0 24px 50px -20px rgba(11, 14, 46, .35); }
+.primary-nav .sub-menu a:hover { color: var(--ac-accent); }
+.lang-switch { border-radius: 4px; width: 42px; }
+
+/* Slider */
+.hero__title { font-weight: 800; font-size: clamp(2.6rem, 5.8vw, 5.8rem); line-height: 1.02; letter-spacing: -.035em; max-width: 14ch; }
+.hero__kicker { color: #fff; font-weight: 700; letter-spacing: .2em; }
+.hero__index { font-weight: 700; font-size: 1rem; }
+.hero__counter { font-weight: 600; }
+.hero__counter [data-hero-current] { font-weight: 800; letter-spacing: -.03em; }
+.hero__bar span { background: #fff; }
+.hero__arrow { border-radius: 4px; }
+.hero__arrow:hover { background: var(--ac-accent); border-color: var(--ac-accent); }
+.hero__shade {
+	background:
+		linear-gradient(90deg, rgba(5, 7, 30, .82) 0%, rgba(5, 7, 30, .45) 40%, rgba(5, 7, 30, 0) 72%),
+		linear-gradient(0deg, rgba(5, 7, 30, .7) 0%, rgba(5, 7, 30, 0) 40%),
+		linear-gradient(180deg, rgba(5, 7, 30, .45) 0%, rgba(5, 7, 30, 0) 25%);
+}
+
+/* Títulos y cifras */
+.intro__badge { background: var(--ac-accent); border-radius: 4px; }
+.intro__badge strong, .stat dt, .step__num { font-weight: 800; letter-spacing: -.04em; }
+.intro__badge strong { color: #fff; }
+.stat dt { color: var(--ac-accent); }
+.cat-card { border-radius: 6px; }
+.cat-card::after { background: linear-gradient(180deg, rgba(5, 7, 30, 0) 35%, rgba(5, 7, 30, .88) 100%); }
+.cat-card__num { font-weight: 700; color: #fff; opacity: .7; }
+.cat-card__title { font-weight: 700; font-size: clamp(1.4rem, 1.9vw, 1.85rem); letter-spacing: -.02em; }
+.band__quote p { font-style: normal; font-weight: 600; font-size: clamp(1.7rem, 3.4vw, 3rem); letter-spacing: -.025em; line-height: 1.2; }
+.band::after { background: radial-gradient(70% 70% at 50% 50%, rgba(5, 7, 30, .35), rgba(5, 7, 30, .88)); }
+.why-card h3, .step h3, .post-card__title, .faq-item summary { font-weight: 700; letter-spacing: -.02em; }
+.why-card h3 { font-size: 1.3rem; }
+.why-card__icon { border-radius: 6px; color: var(--ac-accent); }
+.why-card:hover .why-card__icon { background: var(--ac-accent); color: #fff; }
+.amb-card__media { border-radius: 6px; }
+.amb-card__label { font-weight: 700; font-size: 1.25rem; letter-spacing: -.02em; }
+.amb-card__label em { color: var(--ac-accent); font-weight: 600; }
+.pro { background: var(--ac-ink); }
+.step h3 { font-size: 1.2rem; }
+.step__num { font-size: 2rem; color: var(--ac-accent-2); }
+.post-card { border-radius: 6px; overflow: hidden; box-shadow: 0 0 0 1px var(--ac-line); }
+.post-card__title { font-size: 1.25rem; line-height: 1.25; }
+.faq-item summary { font-size: clamp(1.05rem, 1.3vw, 1.2rem); }
+.cta { background: var(--ac-accent); }
+.cta__bg { opacity: .25; mix-blend-mode: luminosity; }
+
+/* Páginas internas */
+.page-hero__title, .post-hero__title { font-weight: 800; letter-spacing: -.035em; line-height: 1.04; }
+.page-hero__title { font-size: clamp(2.3rem, 5vw, 4.6rem); }
+.post-hero__title { font-size: clamp(2rem, 4vw, 3.6rem); }
+.page-hero__shade { background: linear-gradient(0deg, rgba(5, 7, 30, .88), rgba(5, 7, 30, .25) 70%); }
+.entry-content h2, .entry-content h3 { font-weight: 700; letter-spacing: -.025em; }
+.entry-content h2 { font-size: clamp(1.6rem, 2.6vw, 2.3rem); }
+.entry-content h3 { font-size: clamp(1.2rem, 1.8vw, 1.5rem); }
+.entry-content blockquote { font-style: normal; font-weight: 600; font-size: 1.35rem; border-left: 4px solid var(--ac-accent); }
+.entry-content a { color: var(--ac-accent); }
+.entry-content th { color: var(--ac-accent); }
+.entry-content .wp-block-table thead, .entry-content thead { background: var(--ac-ivory); }
+.ac-features li::before { content: "■"; font-size: .7em; top: 22px; }
+.ac-note { border-left-width: 4px; border-radius: 0 6px 6px 0; }
+.ac-form { border-radius: 8px; }
+.notfound__code { font-weight: 800; }
+
+/* Pie de página */
+.marquee__track { font-weight: 800; letter-spacing: -.035em; font-size: clamp(1.8rem, 4vw, 3.6rem); color: rgba(255, 255, 255, .92); }
+.marquee__track i { color: var(--ac-grey); }
+.brand--footer .brand__img { height: 50px; }
+.socials a { border-radius: 6px; }
+
+@media (max-width: 1020px) {
+	.primary-nav { background: var(--ac-ink); }
+	.primary-nav .menu > li > a { font-weight: 700; letter-spacing: -.02em; font-size: clamp(1.6rem, 6vw, 2.4rem); }
+	.primary-nav .sub-menu { background: none; color: #fff; border: 0; box-shadow: none; }
+	.nav-open .brand__img--color { display: none; }
+	.nav-open .brand__img--white { display: block; }
+	.brand__img { height: 38px; }
 }

@@ -6,6 +6,7 @@ Sitio bilingüe (español / inglés) para **Acabados Contemporáneos**, empresa 
 - **Motion** en todo el sitio: revelado al hacer scroll, títulos por líneas, tarjetas con inclinación 3D y brillo, fondos con paralaje, contadores, carril de ambientes arrastrable, botones magnéticos y marquesina. Respeta `prefers-reduced-motion`.
 - **28 páginas y 10 artículos de blog** (14 páginas + 5 artículos por idioma) listos para importar en XML.
 - **SEO completo:** títulos y descripciones por URL (también para Yoast y Rank Math), hreflang, Open Graph y Schema.org de negocio local, migas de pan, artículo y FAQ.
+- **Identidad de marca:** logotipo oficial (versión a color y blanca), tipografía **Inter** y paleta azul marino `#020380` / gris del logotipo, con una línea de diseño corporativa inspirada en Porcelanite, Daltile y Vitromex.
 - **17 imágenes** fotorrealistas generadas con IA en Magnific (Freepik), optimizadas a WebP.
 
 ## Contenido de la carpeta

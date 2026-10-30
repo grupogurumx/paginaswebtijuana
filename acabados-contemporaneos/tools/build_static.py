@@ -94,6 +94,7 @@ def main():
 
     shutil.copytree(THEME / "assets" / "css", OUT / "assets" / "css")
     shutil.copytree(THEME / "assets" / "js", OUT / "assets" / "js")
+    shutil.copytree(THEME / "assets" / "brand", OUT / "assets" / "brand")
     (OUT / "img").mkdir()
     (OUT / "favicon.svg").write_text(
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" fill="#14120f"/>'

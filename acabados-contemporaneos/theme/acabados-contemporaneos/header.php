@@ -24,10 +24,8 @@ $ac_lang = ac_lang();
 			<?php if ( has_custom_logo() ) : ?>
 				<?php echo wp_get_attachment_image( get_theme_mod( 'custom_logo' ), 'full', false, array( 'class' => 'brand__logo', 'alt' => 'Acabados Contemporáneos' ) ); ?>
 			<?php else : ?>
-				<span class="brand__mark" aria-hidden="true">
-					<svg viewBox="0 0 40 40" width="38" height="38"><rect x="1" y="1" width="17" height="17" fill="currentColor" opacity=".9"/><rect x="22" y="1" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="1" y="22" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="22" y="22" width="17" height="17" fill="var(--ac-accent)"/></svg>
-				</span>
-				<span class="brand__text"><strong>Acabados</strong><em>Contemporáneos</em></span>
+				<img class="brand__img brand__img--color" src="<?php echo esc_url( AC_URI . '/assets/brand/logo.png' ); ?>" alt="Acabados Contemporáneos" width="320" height="78">
+				<img class="brand__img brand__img--white" src="<?php echo esc_url( AC_URI . '/assets/brand/logo-white.png' ); ?>" alt="" width="320" height="78" aria-hidden="true">
 			<?php endif; ?>
 		</a>
 

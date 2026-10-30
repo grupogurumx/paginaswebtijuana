@@ -68,7 +68,7 @@ add_action( 'after_setup_theme', 'ac_theme_setup' );
 function ac_enqueue_assets() {
 	wp_enqueue_style(
 		'ac-fonts',
-		'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap',
+		'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
 		array(),
 		null
 	);
@@ -103,6 +103,16 @@ function ac_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'ac_body_classes' );
+
+/**
+ * Favicon de marca mientras no se configure un ícono del sitio.
+ */
+function ac_brand_favicon() {
+	if ( ! has_site_icon() ) {
+		printf( '<link rel="icon" type="image/png" href="%s">' . "\n", esc_url( AC_URI . '/assets/brand/icon.png' ) );
+	}
+}
+add_action( 'wp_head', 'ac_brand_favicon', 3 );
 
 /**
  * Atributo lang del documento según el idioma del contenido.

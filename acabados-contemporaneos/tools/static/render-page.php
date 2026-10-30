@@ -117,6 +117,7 @@ function language_attributes() { echo ac_language_attributes( '' ); }
 function body_class() { echo 'class="' . esc_attr( implode( ' ', ac_body_classes( array( 'static' ) ) ) ) . '"'; }
 function wp_body_open() {}
 function has_custom_logo() { return false; }
+function has_site_icon() { return true; }
 function is_front_page() { return $GLOBALS['CUR'] && 'inicio' === $GLOBALS['CUR']['path']; }
 function is_home() { return false; }
 function is_page() { return $GLOBALS['CUR'] && 'page' === $GLOBALS['CUR']['type']; }
@@ -174,9 +175,9 @@ function get_footer() { include $GLOBALS['THEME'] . '/footer.php'; }
 function get_template_part( $s ) { include $GLOBALS['THEME'] . '/' . $s . '.php'; }
 function wp_head() {
 	echo '<title>' . esc_html( wp_get_document_title() ) . "</title>\n";
-	echo '<link rel="icon" href="/favicon.svg" type="image/svg+xml">' . "\n";
+	echo '<link rel="icon" href="/assets/brand/icon.png" type="image/png">' . "\n";
 	echo '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' . "\n";
-	echo '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap">' . "\n";
+	echo '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">' . "\n";
 	echo '<link rel="stylesheet" href="/assets/css/main.css">' . "\n";
 	ac_head_meta();
 	ac_schema_output();

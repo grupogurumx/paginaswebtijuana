@@ -73,6 +73,7 @@ function language_attributes() { echo ac_language_attributes( '' ); }
 function body_class() { echo 'class="' . esc_attr( implode( ' ', ac_body_classes( array( 'preview' ) ) ) ) . '"'; }
 function wp_body_open() {}
 function has_custom_logo() { return false; }
+function has_site_icon() { return true; }
 function is_front_page() { return 'home-es' === $GLOBALS['ac_view']; }
 function is_home() { return false; }
 function is_page() { return in_array( $GLOBALS['ac_view'], array( 'home-en', 'page-es' ), true ); }
@@ -110,7 +111,7 @@ function get_template_part( $s ) { include $GLOBALS['THEME'] . '/' . $s . '.php'
 function wp_head() {
 	echo '<title>' . esc_html( wp_get_document_title() ) . "</title>\n";
 	echo '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>';
-	echo '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap">' . "\n";
+	echo '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">' . "\n";
 	echo '<link rel="stylesheet" href="../theme/acabados-contemporaneos/assets/css/main.css">' . "\n";
 	ac_head_meta();
 	ac_schema_output();

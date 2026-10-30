@@ -132,7 +132,7 @@ function ac_head_meta() {
 	if ( $gsc ) {
 		printf( '<meta name="google-site-verification" content="%s">' . "\n", esc_attr( $gsc ) );
 	}
-	echo '<meta name="theme-color" content="#14120f">' . "\n";
+	echo '<meta name="theme-color" content="#020380">' . "\n";
 
 	// hreflang: siempre, porque los plugins SEO no conocen nuestro bilingüe ligero.
 	if ( ! function_exists( 'pll_current_language' ) && ! defined( 'ICL_LANGUAGE_CODE' ) && ( is_singular() || is_front_page() || is_category() ) ) {
