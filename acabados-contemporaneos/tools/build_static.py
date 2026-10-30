@@ -110,6 +110,12 @@ def main():
     )
     # Vista previa en Vercel: no indexar para no competir con el dominio real.
     (OUT / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
+    # Cloudflare Pages: cabeceras de caché y noindex (Vercel usa vercel.json).
+    (OUT / "_headers").write_text(
+        "/*\n  X-Robots-Tag: noindex\n\n/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n\n"
+        "/img/*\n  Cache-Control: public, max-age=31536000, immutable\n",
+        encoding="utf-8",
+    )
     print(f"{len(items)} páginas + 404 generadas en {OUT.relative_to(ROOT)}")
 
 

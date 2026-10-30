@@ -69,6 +69,15 @@ Para regenerar la demo después de cambiar el tema o los textos:
 python3 tools/build_static.py
 ```
 
+## Ver el sitio en Cloudflare Pages
+
+La misma carpeta `vercel/` funciona en Cloudflare Pages (incluye `_headers` con caché y `noindex`).
+
+1. En el panel de Cloudflare ve a **Workers & Pages → Create → Pages → Connect to Git** y elige `grupogurumx/paginaswebtijuana`.
+2. **Production branch:** `claude/peaceful-allen-p4muoh` (o `main` cuando se una).
+3. **Framework preset:** None · **Build command:** `npm install && npm run build` · **Build output directory:** `public` · **Root directory:** `acabados-contemporaneos/vercel`.
+4. Pulsa **Save and Deploy**. La dirección queda como `https://<proyecto>.pages.dev`.
+
 ## Bilingüe sin plugins
 
 - Las páginas en inglés cuelgan de la página `en` (`/en/about/`, `/en/products/…`). El blog en inglés usa la categoría `blog-en`.
