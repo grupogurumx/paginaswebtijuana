@@ -2,7 +2,7 @@ name: Deploy a Cloudflare Pages
 
 on:
   push:
-    branches: [main]
+    branches: [claude/hallmark-install-k82SX]
   pull_request:
   workflow_dispatch:
 

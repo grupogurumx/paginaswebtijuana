@@ -34,4 +34,4 @@ npm run deploy   # publica manualmente (requiere `npx wrangler login`)
 
 **Opción A – Conectar el repo en el panel de Cloudflare:** Workers & Pages → Create → Pages → Connect to Git → `paginaswebtijuana`. Build command: `npm run build`, Build output directory: `dist`.
 
-**Opción B – GitHub Actions:** agrega los secretos `CLOUDFLARE_API_TOKEN` (permiso *Cloudflare Pages: Edit*) y `CLOUDFLARE_ACCOUNT_ID` en el repo. El workflow `.github/workflows/cloudflare-pages.yml` despliega cada push a `main` y crea previews en los PRs.
+**Opción B – GitHub Actions:** agrega los secretos `CLOUDFLARE_API_TOKEN` (permiso *Cloudflare Pages: Edit*) y `CLOUDFLARE_ACCOUNT_ID` en el repo. El workflow `.github/workflows/cloudflare-pages.yml` despliega cada push a la rama principal (`claude/hallmark-install-k82SX`) y crea previews en los PRs.
