@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Equipo 9 · Diseño Digital</title>
+  <meta name="description" content="Landing page del Equipo 9, equipo de marketing de 9 integrantes de la clase de Diseño Digital con el maestro José Renuard García San Miguel.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --papel: #f4efe6;
+      --tinta: #16130f;
+      --gris: #6b645a;
+      --linea: #d9d0c1;
+      --koi: #e8622c;
+      --koi-suave: #f8dccd;
+      --serif: "Fraunces", Georgia, serif;
+      --sans: "IBM Plex Sans", system-ui, sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--papel);
+      color: var(--tinta);
+      font: 400 17px/1.6 var(--sans);
+      -webkit-font-smoothing: antialiased;
+    }
+    img { display: block; max-width: 100%; }
+    a { color: inherit; }
+    .envoltura { width: min(1120px, 100% - 32px); margin-inline: auto; }
+
+    /* Etiqueta HTML5 que nombra cada sección */
+    .etiqueta {
+      font: 500 13px/1 var(--mono);
+      color: var(--koi);
+      letter-spacing: .02em;
+      margin-bottom: 18px;
+      display: block;
+    }
+
+    /* ---------- header ---------- */
+    .barra {
+      border-bottom: 1px solid var(--linea);
+      position: sticky; top: 0; z-index: 10;
+      background: color-mix(in srgb, var(--papel) 92%, transparent);
+      backdrop-filter: blur(6px);
+    }
+    .barra .envoltura { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .marca { font: 800 22px/1 var(--serif); text-decoration: none; }
+    .marca span { color: var(--koi); }
+    .barra nav ul { list-style: none; display: flex; gap: 28px; }
+    .barra nav a { text-decoration: none; font-size: 15px; font-weight: 500; }
+    .barra nav a:hover { color: var(--koi); }
+
+    /* ---------- hero ---------- */
+    .hero { padding: 72px 0 56px; border-bottom: 1px solid var(--linea); }
+    .hero-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 48px; align-items: end; }
+    .hero h1 {
+      font: 800 clamp(56px, 11vw, 148px)/.88 var(--serif);
+      letter-spacing: -.035em;
+    }
+    .hero h1 em { font-style: normal; color: var(--koi); }
+    .hero-lead { font-size: 20px; max-width: 34ch; margin-top: 28px; }
+    .ficha { border-top: 3px solid var(--tinta); padding-top: 16px; }
+    .ficha dl { display: grid; grid-template-columns: auto 1fr; gap: 10px 18px; font-size: 15px; }
+    .ficha dt { font: 500 12px/1.9 var(--mono); color: var(--gris); text-transform: uppercase; }
+    .ficha dd { font-weight: 600; }
+    .boton {
+      display: inline-block; margin-top: 28px;
+      background: var(--tinta); color: var(--papel);
+      padding: 14px 22px; text-decoration: none; font-weight: 600;
+      transition: background .2s;
+    }
+    .boton:hover { background: var(--koi); }
+
+    /* ---------- equipo ---------- */
+    .seccion { padding: 88px 0; }
+    .seccion-titulo { font: 600 clamp(34px, 5vw, 56px)/1.05 var(--serif); letter-spacing: -.02em; max-width: 18ch; }
+    .seccion-intro { color: var(--gris); max-width: 52ch; margin-top: 14px; }
+    .equipo-grid {
+      list-style: none;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--tinta); border-left: 1px solid var(--linea);
+      margin-top: 48px;
+    }
+    .integrante {
+      border-right: 1px solid var(--linea); border-bottom: 1px solid var(--linea);
+      padding: 28px 24px;
+      display: grid; grid-template-columns: 88px 1fr; gap: 18px; align-items: center;
+      transition: background .2s;
+    }
+    .integrante:hover { background: #fff8ef; }
+    .foto {
+      width: 88px; height: 88px; border-radius: 50%; overflow: hidden;
+      background: var(--koi-suave);
+      display: grid; place-items: center;
+      font: 800 26px/1 var(--serif); color: var(--koi);
+    }
+    .foto img { width: 100%; height: 100%; object-fit: cover; }
+    .num { font: 500 12px/1 var(--mono); color: var(--gris); }
+    .integrante h3 { font: 600 20px/1.2 var(--serif); margin: 6px 0 4px; }
+    .integrante p { font-size: 14.5px; color: var(--gris); line-height: 1.45; }
+
+    /* ---------- maestro ---------- */
+    .maestro { background: var(--tinta); color: var(--papel); }
+    .maestro .etiqueta { color: #ff8a57; }
+    .maestro-grid { display: grid; grid-template-columns: 360px 1fr; gap: 64px; align-items: center; }
+    .maestro figure img { width: 100%; aspect-ratio: 1; object-fit: cover; filter: grayscale(.15); }
+    .maestro figcaption { font: 400 13px/1.4 var(--mono); color: #a59d90; margin-top: 10px; }
+    .maestro h2 { font: 600 clamp(36px, 5vw, 60px)/1.02 var(--serif); letter-spacing: -.02em; }
+    .maestro p { color: #d8d1c4; margin-top: 20px; max-width: 48ch; }
+    .maestro .clase {
+      display: inline-block; margin-top: 24px;
+      border: 1px solid #ff8a57; color: #ff8a57;
+      padding: 8px 14px; font: 500 14px/1 var(--mono);
+    }
+
+    /* ---------- html5 ---------- */
+    .html5-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 56px; margin-top: 48px; align-items: start; }
+    .lista-temas { list-style: none; counter-reset: tema; }
+    .lista-temas li {
+      counter-increment: tema;
+      border-top: 1px solid var(--linea); padding: 18px 0 18px 52px; position: relative;
+    }
+    .lista-temas li::before {
+      content: counter(tema, decimal-leading-zero);
+      position: absolute; left: 0; top: 20px;
+      font: 500 13px/1 var(--mono); color: var(--koi);
+    }
+    .lista-temas strong { display: block; font-weight: 600; }
+    .lista-temas span { color: var(--gris); font-size: 15px; }
+    pre {
+      background: #1f1b16; color: #e9e2d5;
+      padding: 28px; overflow-x: auto;
+      font: 400 14px/1.75 var(--mono);
+      border-left: 4px solid var(--koi);
+    }
+    pre .t { color: #ff8a57; }
+    pre .c { color: #8a8274; }
+
+    /* ---------- contacto / footer ---------- */
+    .contacto { border-top: 1px solid var(--tinta); }
+    .contacto-grid { display: flex; justify-content: space-between; align-items: end; gap: 32px; flex-wrap: wrap; }
+    .contacto h2 { font: 800 clamp(40px, 7vw, 88px)/.95 var(--serif); letter-spacing: -.03em; max-width: 12ch; }
+    .contacto h2 em { font-style: normal; color: var(--koi); }
+    footer { border-top: 1px solid var(--linea); padding: 24px 0 40px; font-size: 14px; color: var(--gris); }
+    footer .envoltura { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+    /* ---------- responsive ---------- */
+    @media (max-width: 900px) {
+      .hero-grid, .maestro-grid, .html5-grid { grid-template-columns: 1fr; }
+      .maestro figure { max-width: 320px; }
+      .equipo-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 600px) {
+      .barra nav { display: none; }
+      .hero { padding-top: 48px; }
+      .seccion { padding: 64px 0; }
+      .equipo-grid { grid-template-columns: 1fr; }
+      .integrante { padding: 20px 16px; }
+      pre { padding: 20px 16px; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="envoltura">
+      <a class="marca" href="#inicio">Equipo<span>9</span></a>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#maestro">Maestro</a></li>
+          <li><a href="#html5">HTML5</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="envoltura hero-grid">
+        <div>
+          <span class="etiqueta">&lt;section class="hero"&gt;</span>
+          <h1 id="titulo-principal">Nueve<br>personas,<br><em>una marca.</em></h1>
+          <p class="hero-lead">Somos el equipo de marketing de la clase de Diseño Digital. Hacemos estrategia, contenido, diseño y código para marcas de Tijuana.</p>
+        </div>
+        <aside class="ficha" aria-label="Datos de la clase">
+          <dl>
+            <dt>Clase</dt>   <dd>Diseño Digital</dd>
+            <dt>Enfoque</dt> <dd>Código HTML5 semántico</dd>
+            <dt>Maestro</dt> <dd>José Renuard García San Miguel</dd>
+            <dt>Equipo</dt>  <dd>9 integrantes</dd>
+            <dt>Ciudad</dt>  <dd>Tijuana, B.C.</dd>
+          </dl>
+          <a class="boton" href="#equipo">Conoce al equipo ↓</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="seccion" id="equipo" aria-labelledby="titulo-equipo">
+      <div class="envoltura">
+        <span class="etiqueta">&lt;section id="equipo"&gt;</span>
+        <h2 class="seccion-titulo" id="titulo-equipo">Quién hace qué</h2>
+        <p class="seccion-intro">Cada integrante lleva un área de la campaña, de la investigación del cliente a la página publicada.</p>
+
+        <ul class="equipo-grid">
+          <li class="integrante">
+            <div class="foto"><img src="img/integrante-01.jpg" alt="Foto de [Nombre integrante 01]" width="88" height="88" loading="lazy"></div>
+            <div><span class="num">01</span><h3>[Nombre integrante 01]</h3><p>Dirección creativa y estilo visual de marca</p></div>
+          </li>
+          <li class="integrante">
+            <div class="foto"><img src="img/integrante-02.jpg" alt="Foto de [Nombre integrante 02]" width="88" height="88" loading="lazy"></div>
+            <div><span class="num">02</span><h3>[Nombre integrante 02]</h3><p>Estrategia de marketing y cuentas</p></div>
+          </li>
+          <li class="integrante">
+            <div class="foto"><img src="img/integrante-03.jpg" alt="Foto de [Nombre integrante 03]" width="88" height="88" loading="lazy"></div>
+            <div><span class="num">03</span><h3>[Nombre integrante 03]</h3><p>Diseño gráfico e identidad</p></div>
+          </li>
+          <li class="integrante">
+            <div class="foto"><img src="img/integrante-04.jpg" alt="Foto de [Nombre integrante 04]" width="88" height="88" loading="lazy"></div>
+            <div><span class="num">04</span><h3>[Nombre integrante 04]</h3><p>Fotografía y video para redes</p></div>
+          </li>
+          <li class="integrante">
+            <div class="foto" aria-hidden="true">05</div>
+            <div><span class="num">05</span><h3>[Nombre integrante 05]</h3><p>Copywriting y guiones</p></div>
+          </li>
+          <li class="integrante">
+            <div class="foto" aria-hidden="true">06</div>
+            <div><span class="num">06</span><h3>[Nombre integrante 06]</h3><p>Redes sociales y calendario de contenido</p></div>
+          </li>
+          <li class="integrante">
+            <div class="foto" aria-hidden="true">07</div>
+            <div><span class="num">07</span><h3>[Nombre integrante 07]</h3><p>Desarrollo web en HTML5 y CSS</p></div>
+          </li>
+          <li class="integrante">
+            <div class="foto" aria-hidden="true">08</div>
+            <div><span class="num">08</span><h3>[Nombre integrante 08]</h3><p>SEO y anuncios en Meta y Google</p></div>
+          </li>
+          <li class="integrante">
+            <div class="foto" aria-hidden="true">09</div>
+            <div><span class="num">09</span><h3>[Nombre integrante 09]</h3><p>Analítica y reportes de resultados</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="seccion maestro" id="maestro" aria-labelledby="titulo-maestro">
+      <div class="envoltura maestro-grid">
+        <figure>
+          <img src="img/jose-renuard.jpg" alt="José Renuard García San Miguel, maestro de Diseño Digital" width="360" height="360" loading="lazy">
+          <figcaption>&lt;figure&gt; Maestro de la clase</figcaption>
+        </figure>
+        <div>
+          <span class="etiqueta">&lt;section id="maestro"&gt;</span>
+          <h2 id="titulo-maestro">José Renuard García San Miguel</h2>
+          <p>Imparte la clase de Diseño Digital. Con él aprendimos a construir páginas desde el código: estructura semántica en HTML5, estilos en CSS y diseño que se adapta a cualquier pantalla.</p>
+          <span class="clase">Diseño Digital · HTML5</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="html5" aria-labelledby="titulo-html5">
+      <div class="envoltura">
+        <span class="etiqueta">&lt;section id="html5"&gt;</span>
+        <h2 class="seccion-titulo" id="titulo-html5">Esta página es el ejercicio</h2>
+        <p class="seccion-intro">La escribimos a mano, sin plantillas ni frameworks. Las etiquetas naranjas que ves arriba de cada sección son las mismas que usa el código.</p>
+
+        <div class="html5-grid">
+          <ol class="lista-temas">
+            <li><strong>Etiquetas semánticas</strong><span>header, nav, main, section, aside, figure y footer en lugar de puro div.</span></li>
+            <li><strong>Accesibilidad</strong><span>Textos alternativos en cada foto, aria-label en la navegación y un solo h1.</span></li>
+            <li><strong>CSS Grid y Flexbox</strong><span>La cuadrícula del equipo pasa de 3 a 2 y a 1 columna según el ancho.</span></li>
+            <li><strong>Diseño responsivo</strong><span>Dos puntos de corte: 900 px para tableta y 600 px para celular.</span></li>
+          </ol>
+
+<pre aria-label="Estructura HTML5 de esta página"><code><span class="t">&lt;body&gt;</span>
+  <span class="t">&lt;header&gt;</span>
+    <span class="t">&lt;nav&gt;</span>…<span class="t">&lt;/nav&gt;</span>
+  <span class="t">&lt;/header&gt;</span>
+  <span class="t">&lt;main&gt;</span>
+    <span class="t">&lt;section</span> class="hero"<span class="t">&gt;</span>
+      <span class="t">&lt;h1&gt;</span>Nueve personas…<span class="t">&lt;/h1&gt;</span>
+      <span class="t">&lt;aside&gt;</span>…<span class="t">&lt;/aside&gt;</span>
+    <span class="t">&lt;/section&gt;</span>
+    <span class="t">&lt;section</span> id="equipo"<span class="t">&gt;</span>   <span class="c">&lt;!-- 9 integrantes --&gt;</span>
+    <span class="t">&lt;section</span> id="maestro"<span class="t">&gt;</span>
+      <span class="t">&lt;figure&gt;</span>…<span class="t">&lt;/figure&gt;</span>
+    <span class="t">&lt;section</span> id="html5"<span class="t">&gt;</span>
+    <span class="t">&lt;section</span> id="contacto"<span class="t">&gt;</span>
+  <span class="t">&lt;/main&gt;</span>
+  <span class="t">&lt;footer&gt;</span>…<span class="t">&lt;/footer&gt;</span>
+<span class="t">&lt;/body&gt;</span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion contacto" id="contacto" aria-labelledby="titulo-contacto">
+      <div class="envoltura">
+        <span class="etiqueta">&lt;section id="contacto"&gt;</span>
+        <div class="contacto-grid">
+          <h2 id="titulo-contacto">¿Tienes un proyecto? <em>Escríbenos.</em></h2>
+          <a class="boton" href="mailto:[correo-del-equipo]?subject=Proyecto%20para%20Equipo%209">Mandar correo al equipo</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="envoltura">
+      <span>© 2026 Equipo 9 · Clase de Diseño Digital</span>
+      <span>Maestro: José Renuard García San Miguel</span>
+    </div>
+  </footer>
+
+</body>
+</html>
