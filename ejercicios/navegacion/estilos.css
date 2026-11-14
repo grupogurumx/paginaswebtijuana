@@ -79,7 +79,7 @@ body {
 }
 
 #galeria .imagen {
-    aspect-ratio: 2 / 1;
+    aspect-ratio: 16 / 9;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -93,15 +93,15 @@ body {
 }
 
 #img1 {
-    background-image: url("img/planes-seo.jpg");
+    background-image: url("img/unid-estudia.jpg");
 }
 
 #img2 {
-    background-image: url("img/posicionamiento.jpg");
+    background-image: url("img/unid-enero-2027.jpg");
 }
 
 #img3 {
-    background-image: url("img/exito-internet.jpg");
+    background-image: url("img/unid-oportunidades.jpg");
 }
 
 /* ===== Tabletas ===== */
