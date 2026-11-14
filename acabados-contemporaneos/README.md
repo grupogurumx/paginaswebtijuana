@@ -7,7 +7,8 @@ Sitio bilingüe (español / inglés) para **Acabados Contemporáneos**, empresa 
 - **28 páginas y 10 artículos de blog** (14 páginas + 5 artículos por idioma) listos para importar en XML.
 - **SEO completo:** títulos y descripciones por URL (también para Yoast y Rank Math), hreflang, Open Graph y Schema.org de negocio local, migas de pan, artículo y FAQ.
 - **Identidad de marca:** logotipo oficial (versión a color y blanca), tipografía **Inter** y paleta azul marino `#020380` / gris del logotipo, con una línea de diseño corporativa inspirada en Porcelanite, Daltile y Vitromex.
-- **17 imágenes** fotorrealistas generadas con IA en Magnific (Freepik), optimizadas a WebP.
+- **Fotografías** de Porcelanite, Daltile, Vitromex y del sitio actual de Acabados Contemporáneos (29 imágenes WebP), incluidas las portadas de los catálogos.
+- **Catálogos** descargables (Porcelanite 2027, 2026, Porcelanato 2025, archivo histórico y CreaPrac), **15 sucursales** con filtro por ciudad y **marcas** que distribuimos.
 
 ## Contenido de la carpeta
 
@@ -43,7 +44,7 @@ acabados-contemporaneos/
 ### Paquete de imágenes
 
 ZIP con las 17 imágenes en WebP (3.1 MB), alojado en el almacenamiento de Higgsfield:
-<https://d2ol7oe51mr4n9.cloudfront.net/user_39X9oUM6mjMuWX1gzCztnOmmGzI/f080e1db-c8f3-47ba-aa12-875448352dd3.zip>
+<https://d2ol7oe51mr4n9.cloudfront.net/user_39X9oUM6mjMuWX1gzCztnOmmGzI/585a0a48-ca28-455a-8042-bda4fa1f00f0.zip>
 
 Los originales en alta resolución (PNG de hasta 3168 px) están en tu cuenta de Magnific, en el proyecto *Personal*. También puedes copiar los `.webp` a `theme/acabados-contemporaneos/assets/img/`: el tema los usa si no están en la Biblioteca de medios.
 

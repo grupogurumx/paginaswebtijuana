@@ -83,7 +83,7 @@ $ac_addr  = ac_address_line();
 				<?php if ( $ac_hours ) : ?>
 					<li><?php echo ac_icon( 'clock' ); // phpcs:ignore ?><span><?php echo esc_html( $ac_hours ); ?></span></li>
 				<?php endif; ?>
-				<li><?php echo ac_icon( 'spark' ); // phpcs:ignore ?><span><?php echo esc_html( 'en' === $ac_lang ? 'Showroom with expert advice' : 'Showroom con asesoría experta' ); ?></span></li>
+				<li><?php echo ac_icon( 'spark' ); // phpcs:ignore ?><span><a href="<?php echo esc_url( ac_page_url( 'sucursales', 'en/branches' ) ); ?>"><?php echo esc_html( implode( ' · ', array_keys( ac_branches() ) ) ); ?></a></span></li>
 			</ul>
 			<form class="footer-search" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<label class="screen-reader-text" for="footer-s"><?php ac_e( 'search' ); ?></label>

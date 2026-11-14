@@ -11,8 +11,10 @@ $ac_cats = array(
 	array( 2, 'cat-ceramica', ac_page_url( 'productos/ceramica', 'en/products/ceramic-tile' ) ),
 	array( 3, 'cat-recubrimientos', ac_page_url( 'productos/recubrimientos-de-muro', 'en/products/wall-cladding' ) ),
 	array( 4, 'cat-madera', ac_page_url( 'productos/porcelanato-tipo-madera', 'en/products/wood-look-tile' ) ),
-	array( 5, 'cat-mosaicos', ac_page_url( 'productos/mosaicos', 'en/products/mosaic-tile' ) ),
-	array( 6, 'cat-accesorios', ac_page_url( 'productos/accesorios-de-instalacion', 'en/products/installation-accessories' ) ),
+	array( 7, 'cat-sanitarios', ac_page_url( 'productos/sanitarios-y-lavabos', 'en/products/toilets-and-washbasins' ) ),
+	array( 8, 'cat-gabinetes', ac_page_url( 'productos/gabinetes-de-bano', 'en/products/bathroom-vanities' ) ),
+	array( 9, 'cat-tinas', ac_page_url( 'productos/tinas-y-regaderas', 'en/products/tubs-and-showers' ) ),
+	array( 5, 'cat-cenefas', ac_page_url( 'productos/mosaicos', 'en/products/mosaic-tile' ) ),
 );
 $ac_amb  = array(
 	array( 'amb1', 'hero-sala' ),
@@ -42,9 +44,9 @@ $ac_amb  = array(
 	<div class="container">
 		<dl class="stats" data-reveal>
 			<div class="stat"><dt><span data-count="<?php echo esc_attr( ac_opt( 'years', '35' ) ); ?>">0</span>+</dt><dd><?php ac_e( 'stat_years' ); ?></dd></div>
-			<div class="stat"><dt><span data-count="6">0</span></dt><dd><?php ac_e( 'stat_products' ); ?></dd></div>
-			<div class="stat"><dt><span data-count="24">0</span>h</dt><dd><?php ac_e( 'stat_projects' ); ?></dd></div>
-			<div class="stat"><dt><span data-count="1">0</span></dt><dd><?php ac_e( 'stat_brands' ); ?></dd></div>
+			<div class="stat"><dt><span data-count="<?php echo (int) ac_branch_count(); ?>">0</span></dt><dd><?php ac_e( 'stat_products' ); ?></dd></div>
+			<div class="stat"><dt><span data-count="<?php echo count( ac_branches() ); ?>">0</span></dt><dd><?php ac_e( 'stat_projects' ); ?></dd></div>
+			<div class="stat"><dt><span data-count="<?php echo count( ac_brands() ); ?>">0</span>+</dt><dd><?php ac_e( 'stat_brands' ); ?></dd></div>
 		</dl>
 	</div>
 </section>
@@ -71,6 +73,47 @@ $ac_amb  = array(
 				</a>
 			<?php endforeach; ?>
 		</div>
+	</div>
+</section>
+
+<section class="section catalogs-section">
+	<div class="container">
+		<header class="section-head section-head--split">
+			<div>
+				<p class="kicker" data-reveal><?php ac_e( 'catl_kicker' ); ?></p>
+				<h2 class="display" data-reveal data-split><?php ac_e( 'catl_title' ); ?></h2>
+				<p class="section-head__text" data-reveal><?php ac_e( 'catl_text' ); ?></p>
+			</div>
+			<a class="ac-btn ac-btn--solid" href="<?php echo esc_url( ac_page_url( 'catalogos', 'en/catalogs' ) ); ?>" data-reveal><?php ac_e( 'catl_all' ); ?> <?php echo ac_icon( 'arrow' ); // phpcs:ignore ?></a>
+		</header>
+		<?php get_template_part( 'template-parts/catalogs', null, array( 'limit' => 4 ) ); ?>
+	</div>
+</section>
+
+<section class="section branches-teaser">
+	<div class="container branches-teaser__grid">
+		<div>
+			<p class="kicker kicker--light" data-reveal><?php ac_e( 'br_kicker' ); ?></p>
+			<h2 class="display display--light" data-reveal data-split><?php ac_e( 'br_title' ); ?></h2>
+			<p class="lead lead--light" data-reveal><?php ac_e( 'br_text' ); ?></p>
+			<a class="ac-btn ac-btn--light" href="<?php echo esc_url( ac_page_url( 'sucursales', 'en/branches' ) ); ?>" data-reveal data-magnetic><?php ac_e( 'br_cta' ); ?> <?php echo ac_icon( 'arrow' ); // phpcs:ignore ?></a>
+		</div>
+		<ul class="city-list">
+			<?php foreach ( ac_branches() as $ac_city => $ac_data ) : ?>
+				<li data-reveal><a href="<?php echo esc_url( ac_page_url( 'sucursales', 'en/branches' ) . '#' . sanitize_title( $ac_city ) ); ?>"><span class="city-list__name"><?php echo esc_html( $ac_city ); ?></span><span class="city-list__state"><?php echo esc_html( $ac_data[0] ); ?></span><span class="city-list__count"><?php echo count( $ac_data[1] ); ?> <?php echo esc_html( 1 === count( $ac_data[1] ) ? ( 'en' === ac_lang() ? 'branch' : 'sucursal' ) : ac_t( 'br_count' ) ); ?></span></a></li>
+			<?php endforeach; ?>
+		</ul>
+	</div>
+</section>
+
+<section class="brands-strip" aria-label="<?php echo esc_attr( ac_t( 'brands_title' ) ); ?>">
+	<div class="container">
+		<p class="brands-strip__title"><?php ac_e( 'brands_title' ); ?></p>
+		<ul class="brands-strip__list">
+			<?php foreach ( ac_brands() as $ac_brand ) : ?>
+				<li><?php echo esc_html( $ac_brand ); ?></li>
+			<?php endforeach; ?>
+		</ul>
 	</div>
 </section>
 

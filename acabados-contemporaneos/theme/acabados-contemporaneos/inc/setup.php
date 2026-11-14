@@ -20,20 +20,20 @@ defined( 'ABSPATH' ) || exit;
 function ac_nav_structure( $lang ) {
 	if ( 'en' === $lang ) {
 		return array(
-			'en'               => array(),
 			'en/about'         => array(),
-			'en/products'      => array( 'en/products/porcelain-tile', 'en/products/ceramic-tile', 'en/products/wall-cladding', 'en/products/wood-look-tile', 'en/products/mosaic-tile', 'en/products/installation-accessories' ),
-			'en/spaces'        => array(),
+			'en/products'      => array( 'en/products/porcelain-tile', 'en/products/ceramic-tile', 'en/products/wall-cladding', 'en/products/wood-look-tile', 'en/products/mosaic-tile', 'en/products/toilets-and-washbasins', 'en/products/bathroom-vanities', 'en/products/tubs-and-showers', 'en/products/installation-accessories' ),
+			'en/catalogs'      => array(),
+			'en/branches'      => array(),
 			'en/professionals' => array(),
 			'en/blog'          => array(),
 			'en/contact'       => array(),
 		);
 	}
 	return array(
-		'inicio'        => array(),
 		'nosotros'      => array(),
-		'productos'     => array( 'productos/porcelanicos', 'productos/ceramica', 'productos/recubrimientos-de-muro', 'productos/porcelanato-tipo-madera', 'productos/mosaicos', 'productos/accesorios-de-instalacion' ),
-		'ambientes'     => array(),
+		'productos'     => array( 'productos/porcelanicos', 'productos/ceramica', 'productos/recubrimientos-de-muro', 'productos/porcelanato-tipo-madera', 'productos/mosaicos', 'productos/sanitarios-y-lavabos', 'productos/gabinetes-de-bano', 'productos/tinas-y-regaderas', 'productos/accesorios-de-instalacion' ),
+		'catalogos'     => array(),
+		'sucursales'    => array(),
 		'profesionales' => array(),
 		'blog'          => array(),
 		'contacto'      => array(),

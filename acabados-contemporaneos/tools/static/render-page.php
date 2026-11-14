@@ -172,7 +172,8 @@ function wp_get_attachment_image_url() { return ''; }
 function wp_nav_menu( $a ) { ac_fallback_menu( $a ); }
 function get_header() { include $GLOBALS['THEME'] . '/header.php'; }
 function get_footer() { include $GLOBALS['THEME'] . '/footer.php'; }
-function get_template_part( $s ) { include $GLOBALS['THEME'] . '/' . $s . '.php'; }
+function get_template_part( $s, $n = null, $args = array() ) { include $GLOBALS['THEME'] . '/' . $s . '.php'; }
+function sanitize_title( $s ) { $s = strtolower( strtr( $s, array( 'á' => 'a', 'é' => 'e', 'í' => 'i', 'ó' => 'o', 'ú' => 'u', 'ñ' => 'n' ) ) ); return trim( preg_replace( '/[^a-z0-9]+/', '-', $s ), '-' ); }
 function wp_head() {
 	echo '<title>' . esc_html( wp_get_document_title() ) . "</title>\n";
 	echo '<link rel="icon" href="/assets/brand/icon.png" type="image/png">' . "\n";
@@ -225,7 +226,7 @@ function the_archive_description() {}
 /** Shortcodes del tema dentro del contenido. */
 function ac_s_shortcodes( $html ) {
 	return preg_replace_callback(
-		'/\[(ac_img|ac_contacto|ac_cta)([^\]]*)\]/',
+		'/\[(ac_img|ac_contacto|ac_cta|ac_sucursales|ac_catalogos)([^\]]*)\]/',
 		function ( $m ) {
 			preg_match_all( '/(\w+)="([^"]*)"/', $m[2], $pairs, PREG_SET_ORDER );
 			$atts = array();
@@ -237,6 +238,12 @@ function ac_s_shortcodes( $html ) {
 			}
 			if ( 'ac_contacto' === $m[1] ) {
 				return ac_contact_form();
+			}
+			if ( 'ac_sucursales' === $m[1] ) {
+				return ac_shortcode_branches();
+			}
+			if ( 'ac_catalogos' === $m[1] ) {
+				return ac_shortcode_catalogs();
 			}
 			return ac_shortcode_cta();
 		},

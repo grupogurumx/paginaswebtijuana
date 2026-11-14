@@ -55,35 +55,35 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Porcelanato, Cerámica y Recubrimientos en México | Acabados]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Pisos y Azulejos en Tijuana, Mexicali y Ensenada | Acabados]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Porcelanato, Cerámica y Recubrimientos en México | Acabados]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Pisos y Azulejos en Tijuana, Mexicali y Ensenada | Acabados]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Porcelanato, Cerámica y Recubrimientos en México | Acabados]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Pisos y Azulejos en Tijuana, Mexicali y Ensenada | Acabados]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Porcelanato de gran formato, cerámica, recubrimientos para pisos y muros, mosaicos y accesorios. Más de 35 años de asesoría experta. ¡Cotiza tu proyecto!]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Pisos, azulejos, porcelánicos, sanitarios y muebles de baño. 35 años y 15 sucursales en Tijuana, Mexicali, Ensenada y más. Distribuidores de Daltile, Porcelanite y Vitromex.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Porcelanato de gran formato, cerámica, recubrimientos para pisos y muros, mosaicos y accesorios. Más de 35 años de asesoría experta. ¡Cotiza tu proyecto!]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Pisos, azulejos, porcelánicos, sanitarios y muebles de baño. 35 años y 15 sucursales en Tijuana, Mexicali, Ensenada y más. Distribuidores de Daltile, Porcelanite y Vitromex.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Porcelanato de gran formato, cerámica, recubrimientos para pisos y muros, mosaicos y accesorios. Más de 35 años de asesoría experta. ¡Cotiza tu proyecto!]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Pisos, azulejos, porcelánicos, sanitarios y muebles de baño. 35 años y 15 sucursales en Tijuana, Mexicali, Ensenada y más. Distribuidores de Daltile, Porcelanite y Vitromex.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
-			<wp:meta_value><![CDATA[recubrimientos para pisos y muros]]></wp:meta_value>
+			<wp:meta_value><![CDATA[pisos y azulejos Tijuana]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
-			<wp:meta_value><![CDATA[recubrimientos para pisos y muros]]></wp:meta_value>
+			<wp:meta_value><![CDATA[pisos y azulejos Tijuana]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -106,7 +106,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[ac_img slug="hero-showroom" class="is-wide" caption="Nuestro showroom: piezas en exhibición a escala real."]
+[ac_img slug="hero-showroom" class="is-wide"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -130,11 +130,27 @@
 <!-- /wp:list -->
 
 <!-- wp:heading -->
+<h2 class="wp-block-heading">Importación y marcas</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Nos especializamos en la <strong>importación de recubrimientos</strong> seleccionados de las mejores fábricas de <strong>Europa, Asia y Sudamérica</strong>, y en la distribución de las mejores marcas nacionales, ofreciendo lo más nuevo en cerámicas y porcelánicos. Somos distribuidores directos de <strong>Daltile, Porcelanite, Vitromex, American Standard, Cerpa Cerámica y CreaPrac</strong>, entre otras.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">15 sucursales en el noroeste de México</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Estamos en <strong>Tijuana, Mexicali, Ensenada, Tecate, San Luis Río Colorado, Culiacán y Ciudad Juárez</strong>. <a href="/sucursales/">Encuentra tu sucursal más cercana</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
 <h2 class="wp-block-heading">Misión</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Ofrecer recubrimientos y accesorios para la construcción de calidad, con asesoría especializada y atención cercana, para que cada cliente logre espacios bellos, funcionales y duraderos.</p>
+<p>Brindar el mejor servicio a todos nuestros clientes, ya sean familias, arquitectos, decoradores o constructoras que requieran productos de excelente calidad. Nuestro personal está capacitado para ayudarle a tomar la mejor decisión y que su espacio luzca mejor.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -142,7 +158,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Ser la referencia en México para quienes buscan diseño, calidad y confianza en pisos y muros, combinando la experiencia de más de 35 años con las tendencias más actuales del diseño de interiores y la arquitectura.</p>
+<p>Ser empresa líder en el mercado, ofreciendo una amplia variedad de pisos de alta calidad.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
@@ -155,9 +171,19 @@
 <h2 class="wp-block-heading">Valores</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p><strong>Confianza</strong>, porque nuestros clientes regresan y nos recomiendan. <strong>Calidad</strong>, porque cada colección pasa por nuestro criterio antes de llegar a tu obra. <strong>Servicio</strong>, porque una buena decisión empieza con una buena conversación. <strong>Innovación</strong>, porque el diseño evoluciona y nosotros con él.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
+<!-- wp:list {"className":"ac-features"} -->
+<ul class="wp-block-list ac-features"><!-- wp:list-item -->
+<li><strong>Confianza</strong></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Puntualidad</strong></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Responsabilidad</strong></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Calidad</strong></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Servicio</strong></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1002</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
@@ -249,7 +275,10 @@
 <tr><td><a href="/productos/ceramica/">Cerámica</a></td><td>Muros de baño y cocina, backsplash</td><td>Variedad de esmaltes y excelente costo</td></tr>
 <tr><td><a href="/productos/recubrimientos-de-muro/">Recubrimientos de muro</a></td><td>Fachadas, muros 3D, áreas protagonistas</td><td>Textura y profundidad arquitectónica</td></tr>
 <tr><td><a href="/productos/porcelanato-tipo-madera/">Porcelanato tipo madera</a></td><td>Recámaras, salas, comercios</td><td>Calidez de la madera sin mantenimiento</td></tr>
-<tr><td><a href="/productos/mosaicos/">Mosaicos</a></td><td>Albercas, regaderas, muros decorativos</td><td>Detalle, brillo y personalidad</td></tr>
+<tr><td><a href="/productos/mosaicos/">Mosaicos, cenefas y mallas</a></td><td>Albercas, regaderas, muros decorativos</td><td>Detalle, brillo y personalidad</td></tr>
+<tr><td><a href="/productos/sanitarios-y-lavabos/">Sanitarios y lavabos</a></td><td>Baños residenciales y comerciales</td><td>American Standard y más marcas</td></tr>
+<tr><td><a href="/productos/gabinetes-de-bano/">Gabinetes de baño</a></td><td>Baños principales y de visitas</td><td>Almacenamiento y diseño</td></tr>
+<tr><td><a href="/productos/tinas-y-regaderas/">Tinas y regaderas</a></td><td>Baños tipo spa</td><td>Tinas y módulos para regadera</td></tr>
 <tr><td><a href="/productos/accesorios-de-instalacion/">Accesorios de instalación</a></td><td>Toda obra</td><td>Instalación duradera y acabado perfecto</td></tr>
 </tbody>
 </table></figure>
@@ -299,7 +328,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_ac_subtitle]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Seis líneas especializadas para resolver pisos, muros, fachadas y detalles en cualquier proyecto.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Cerámicas, porcelánicos, azulejos, sanitarios, lavabos, gabinetes, tinas, regaderas, accesorios, cenefas y mallas decorativas.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
@@ -693,6 +722,10 @@
 <p class="lead">Estamos listos para ayudarte a elegir el recubrimiento ideal. Completa el formulario o escríbenos por WhatsApp: un asesor especializado te responderá muy pronto.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>Correo: <a href="mailto:info@acabadoscontemporaneos.com">info@acabadoscontemporaneos.com</a> · <a href="/sucursales/">Ver teléfonos de las 15 sucursales</a></p>
+<!-- /wp:paragraph -->
+
 <!-- wp:shortcode -->
 [ac_contacto]
 <!-- /wp:shortcode -->
@@ -784,11 +817,11 @@
 		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1008</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
-<div class="ac-note"><p><strong>Importante:</strong> este es un modelo de aviso de privacidad. Complétalo con la razón social, domicilio y datos de contacto reales de la empresa y valídalo con tu asesor legal antes de publicarlo.</p></div>
+<div class="ac-note"><p><strong>Importante:</strong> modelo de aviso de privacidad con los datos del sitio actual. Valídalo con tu asesor legal y completa la fecha antes de publicarlo.</p></div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>[RAZÓN SOCIAL], con nombre comercial Acabados Contemporáneos y domicilio en [DOMICILIO], es responsable del uso y protección de sus datos personales, conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.</p>
+<p>Mercado y Bodega de Azulejos y Baños, S.A. de C.V., con nombre comercial Acabados Contemporáneos y domicilio en Vía Juventud #1 Oriente, esq. Privada Monterrey, Col. Mineral de Santa Fe, Tijuana, Baja California, es responsable del uso y protección de sus datos personales, conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -804,7 +837,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Atender solicitudes de información y cotización, dar seguimiento comercial, programar entregas, emitir facturas y, de forma secundaria, enviar información sobre productos y promociones. Puede negarse a las finalidades secundarias escribiendo a [CORREO DE PRIVACIDAD].</p>
+<p>Atender solicitudes de información y cotización, dar seguimiento comercial, programar entregas, emitir facturas y, de forma secundaria, enviar información sobre productos y promociones. Puede negarse a las finalidades secundarias escribiendo a info@acabadoscontemporaneos.com.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -812,7 +845,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Usted puede acceder, rectificar, cancelar u oponerse al uso de sus datos personales enviando una solicitud a [CORREO DE PRIVACIDAD] con su nombre, medio de contacto y la descripción clara de su petición.</p>
+<p>Usted puede acceder, rectificar, cancelar u oponerse al uso de sus datos personales enviando una solicitud a info@acabadoscontemporaneos.com con su nombre, medio de contacto y la descripción clara de su petición.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -899,17 +932,185 @@
 		</wp:postmeta>
 	</item>
 	<item>
+		<title><![CDATA[Catálogos]]></title>
+		<link>https://acabadoscontemporaneos.com/catalogos/</link>
+		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1009</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
+<p class="lead">Encuentra la inspiración para tu proyecto en los <strong>catálogos de pisos, azulejos y porcelánicos</strong> de las marcas que distribuimos. Ábrelos en línea o descárgalos para compartirlos con tu arquitecto, diseñador o cliente.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_catalogos]
+<!-- /wp:shortcode -->
+
+<!-- wp:html -->
+<div class="ac-note"><p><strong>Disponibilidad:</strong> los modelos de los catálogos no siempre están en existencia. Visita tu <a href="/sucursales/">sucursal más cercana</a> para ver los modelos disponibles o pide una cotización.</p></div>
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1009</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[catalogos]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en/catalogs]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[catalogo-porcelanite-general-2026]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Consulta en línea o descarga los catálogos vigentes de las marcas que distribuimos.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Catálogos de Pisos y Azulejos para Descargar | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Catálogos de Pisos y Azulejos para Descargar | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Catálogos de Pisos y Azulejos para Descargar | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Descarga los catálogos de Porcelanite, CreaPrac y más: pisos, azulejos, porcelánicos y perfiles. Consulta disponibilidad en nuestras 15 sucursales.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Descarga los catálogos de Porcelanite, CreaPrac y más: pisos, azulejos, porcelánicos y perfiles. Consulta disponibilidad en nuestras 15 sucursales.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Descarga los catálogos de Porcelanite, CreaPrac y más: pisos, azulejos, porcelánicos y perfiles. Consulta disponibilidad en nuestras 15 sucursales.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[catálogo de pisos y azulejos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[catálogo de pisos y azulejos]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Sucursales]]></title>
+		<link>https://acabadoscontemporaneos.com/sucursales/</link>
+		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1010</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
+<p class="lead">Visítanos en cualquiera de nuestras <strong>15 sucursales</strong>: ve las piezas en exhibición, compara colecciones y recibe la asesoría de nuestro personal capacitado.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_sucursales]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1010</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[sucursales]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en/branches]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-showroom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[15 sucursales en Tijuana, Mexicali, Ensenada, Tecate, San Luis Río Colorado, Culiacán y Ciudad Juárez.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sucursales en Tijuana, Mexicali y Ensenada | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sucursales en Tijuana, Mexicali y Ensenada | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sucursales en Tijuana, Mexicali y Ensenada | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Encuentra tu sucursal más cercana de Acabados Contemporáneos: 15 tiendas de pisos y azulejos en Baja California, Sonora, Sinaloa y Chihuahua.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Encuentra tu sucursal más cercana de Acabados Contemporáneos: 15 tiendas de pisos y azulejos en Baja California, Sonora, Sinaloa y Chihuahua.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Encuentra tu sucursal más cercana de Acabados Contemporáneos: 15 tiendas de pisos y azulejos en Baja California, Sonora, Sinaloa y Chihuahua.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tienda de pisos y azulejos en Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tienda de pisos y azulejos en Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title><![CDATA[Home]]></title>
 		<link>https://acabadoscontemporaneos.com/en/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1009</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1011</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>The English home page is built automatically by the theme. Child pages live under /en/.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1009</wp:post_id>
+		<wp:post_id>1011</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -941,15 +1142,15 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Porcelain Tile, Ceramics & Wall Cladding in Mexico | Acabados]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Floor & Wall Tile in Tijuana, Mexicali & Ensenada | Acabados]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Porcelain Tile, Ceramics & Wall Cladding in Mexico | Acabados]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Floor & Wall Tile in Tijuana, Mexicali & Ensenada | Acabados]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Porcelain Tile, Ceramics & Wall Cladding in Mexico | Acabados]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Floor & Wall Tile in Tijuana, Mexicali & Ensenada | Acabados]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
@@ -977,7 +1178,7 @@
 		<link>https://acabadoscontemporaneos.com/productos/porcelanicos/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1010</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1012</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">El <strong>porcelanato</strong> es el recubrimiento más versátil y resistente para pisos y muros. Su cuerpo compacto, cocido a muy alta temperatura, logra una absorción de agua menor a 0.5%, lo que lo hace ideal para áreas de alto tránsito, baños, cocinas y <strong>pisos para exterior</strong>.</p>
@@ -1012,7 +1213,7 @@
 <!-- /wp:list -->
 
 <!-- wp:shortcode -->
-[ac_img slug="hero-sala" class="is-wide" caption="Porcelanato tipo mármol Calacatta en gran formato."]
+[ac_img slug="hero-sala" class="is-wide"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -1047,7 +1248,7 @@
 <div class="ac-note"><p><strong>¿Proyecto especial?</strong> Solicita muestras físicas y fichas técnicas sin costo para arquitectos y diseñadores.</p></div>
 <!-- /wp:html -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1010</wp:post_id>
+		<wp:post_id>1012</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -1119,7 +1320,7 @@
 		<link>https://acabadoscontemporaneos.com/productos/ceramica/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1011</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1013</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">La <strong>cerámica</strong> es la aliada perfecta para muros de baños, cocinas y espacios donde el color y la textura son protagonistas. Ligera, fácil de instalar y con una enorme variedad de diseños, ofrece una <strong>excelente relación calidad-precio</strong>.</p>
@@ -1142,7 +1343,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[ac_img slug="hero-cocina" class="is-wide" caption="Backsplash de cerámica artesanal verde con piso tipo madera."]
+[ac_img slug="hero-cocina" class="is-wide"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -1173,7 +1374,7 @@
 <p>Para muros interiores, la cerámica es ideal. Para pisos de tránsito medio o alto, exteriores o zonas de mucha humedad, te recomendamos <a href="/productos/porcelanicos/">porcelanato</a>. Lee nuestra guía completa en el blog: <a href="/ceramica-vs-porcelanato-como-elegir/">Cerámica vs. porcelanato</a>.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1011</wp:post_id>
+		<wp:post_id>1013</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -1245,7 +1446,7 @@
 		<link>https://acabadoscontemporaneos.com/productos/recubrimientos-de-muro/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1012</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1014</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">Un muro bien vestido cambia por completo la percepción de un espacio. Nuestros <strong>recubrimientos para muros y fachadas</strong> aportan textura, sombra y profundidad, desde un muro de televisión hasta la fachada completa de una residencia o un edificio comercial.</p>
@@ -1260,7 +1461,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[ac_img slug="hero-bano" class="is-wide" caption="Baño estilo spa con recubrimiento tipo travertino oscuro."]
+[ac_img slug="hero-bano" class="is-wide"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -1291,7 +1492,7 @@
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1012</wp:post_id>
+		<wp:post_id>1014</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -1363,7 +1564,7 @@
 		<link>https://acabadoscontemporaneos.com/productos/porcelanato-tipo-madera/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1013</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1015</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">El <strong>porcelanato tipo madera</strong> reproduce con realismo las vetas, nudos y tonos del roble, el nogal o el encino, pero sin los inconvenientes de la madera natural: no se raya fácilmente, no se hincha con la humedad y no necesita barniz ni pulido.</p>
@@ -1398,7 +1599,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[ac_img slug="cat-madera" caption="Porcelanato tipo madera nogal instalado en chevron."]
+[ac_img slug="cat-madera"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -1409,7 +1610,7 @@
 <p>Recámaras, salas, estudios, restaurantes, hoteles y oficinas. Con su versión antiderrapante, también en terrazas y alrededor de albercas para lograr una continuidad visual perfecta.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1013</wp:post_id>
+		<wp:post_id>1015</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -1477,11 +1678,11 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title><![CDATA[Mosaicos]]></title>
+		<title><![CDATA[Mosaicos y cenefas]]></title>
 		<link>https://acabadoscontemporaneos.com/productos/mosaicos/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1014</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1016</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">Los <strong>mosaicos</strong> son el detalle que convierte un baño en una joya o una alberca en un espejo de agua. Pequeñas piezas de vidrio, piedra o metal que juegan con la luz y aportan una personalidad única.</p>
@@ -1504,8 +1705,16 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[ac_img slug="cat-mosaicos" caption="Mosaico de vidrio esmeralda y oro en un tocador de lujo."]
+[ac_img slug="cat-mosaicos"]
 <!-- /wp:shortcode -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Cenefas y mallas decorativas</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Las <strong>cenefas</strong> y <strong>mallas decorativas</strong> enmarcan muros, separan materiales y dan un acabado de detalle en baños y cocinas. Disponibles en vidrio, piedra, metal y cerámica.</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Tipos de mosaico</h2>
@@ -1531,7 +1740,7 @@
 <p>Para su instalación recomendamos adhesivos y boquillas epóxicas en zonas sumergidas; los encuentras en <a href="/productos/accesorios-de-instalacion/">Accesorios de instalación</a>.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1014</wp:post_id>
+		<wp:post_id>1016</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -1603,7 +1812,7 @@
 		<link>https://acabadoscontemporaneos.com/productos/accesorios-de-instalacion/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1015</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1017</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">Un recubrimiento extraordinario merece una instalación a la altura. Por eso en Acabados Contemporáneos encuentras todos los <strong>accesorios para la construcción</strong> que tu obra necesita: del adhesivo correcto al perfil que da el remate perfecto.</p>
@@ -1634,7 +1843,7 @@
 <!-- /wp:list -->
 
 <!-- wp:shortcode -->
-[ac_img slug="blog-instalacion" class="is-wide" caption="Instalación profesional con adhesivo y sistema de nivelación."]
+[ac_img slug="blog-instalacion" class="is-wide"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -1657,7 +1866,7 @@
 <div class="ac-note"><p><strong>Te lo calculamos:</strong> al cotizar tu recubrimiento, incluimos la cantidad exacta de adhesivo, boquilla y perfiles.</p></div>
 <!-- /wp:html -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1015</wp:post_id>
+		<wp:post_id>1017</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -1725,11 +1934,317 @@
 		</wp:postmeta>
 	</item>
 	<item>
+		<title><![CDATA[Sanitarios y lavabos]]></title>
+		<link>https://acabadoscontemporaneos.com/productos/sanitarios-y-lavabos/</link>
+		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1018</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
+<p class="lead">Completa tu baño con <strong>sanitarios y lavabos</strong> de marcas reconocidas como <strong>American Standard</strong>. Te ayudamos a elegir el modelo correcto según el espacio, el consumo de agua y el estilo del recubrimiento.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Sanitarios</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"ac-features"} -->
+<ul class="wp-block-list ac-features"><!-- wp:list-item -->
+<li>Sanitarios de una y dos piezas</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Modelos ahorradores de agua</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Asientos de cierre lento</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Opciones para uso residencial y comercial</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Lavabos</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lavabos de sobreponer, de empotrar, de pedestal y para mueble, en cerámica blanca y acabados de diseño. Combínalos con un <a href="/productos/gabinetes-de-bano/">gabinete de baño</a> y un recubrimiento a juego.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_img slug="cat-sanitarios"]
+<!-- /wp:shortcode -->
+
+<!-- wp:html -->
+<div class="ac-note"><p>Los modelos en exhibición pueden variar por sucursal. Consulta disponibilidad en tu <a href="/sucursales/">sucursal más cercana</a>.</p></div>
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1018</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[sanitarios-y-lavabos]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1003</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en/products/toilets-and-washbasins]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cat-sanitarios]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sanitarios y lavabos de American Standard y otras marcas, para baños residenciales y comerciales.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sanitarios y Lavabos en Tijuana | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sanitarios y Lavabos en Tijuana | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sanitarios y Lavabos en Tijuana | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sanitarios, lavabos de sobreponer, de empotrar y de pedestal de American Standard y más marcas. Visita nuestras 15 sucursales en el noroeste de México.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sanitarios, lavabos de sobreponer, de empotrar y de pedestal de American Standard y más marcas. Visita nuestras 15 sucursales en el noroeste de México.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sanitarios, lavabos de sobreponer, de empotrar y de pedestal de American Standard y más marcas. Visita nuestras 15 sucursales en el noroeste de México.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sanitarios y lavabos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sanitarios y lavabos]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Gabinetes de baño]]></title>
+		<link>https://acabadoscontemporaneos.com/productos/gabinetes-de-bano/</link>
+		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1019</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
+<p class="lead">Un <strong>gabinete de baño</strong> bien elegido ordena el espacio y define el estilo. Encuentra muebles flotantes y de piso, con lavabo integrado o para lavabo de sobreponer.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"className":"ac-features"} -->
+<ul class="wp-block-list ac-features"><!-- wp:list-item -->
+<li>Gabinetes flotantes y de piso</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Con lavabo integrado o de sobreponer</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Acabados tipo madera, blancos y de color</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Materiales resistentes a la humedad</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:shortcode -->
+[ac_img slug="cat-gabinetes"]
+<!-- /wp:shortcode -->
+
+<!-- wp:paragraph -->
+<p>Combínalo con <a href="/productos/sanitarios-y-lavabos/">sanitarios y lavabos</a> y con recubrimientos de muro para lograr un baño coordinado de principio a fin.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1019</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gabinetes-de-bano]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1003</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en/products/bathroom-vanities]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cat-gabinetes]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Muebles y gabinetes de baño que combinan almacenamiento, diseño y resistencia a la humedad.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gabinetes y Muebles de Baño | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gabinetes y Muebles de Baño | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gabinetes y Muebles de Baño | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gabinetes y muebles de baño con lavabo integrado, de piso y flotantes. Diseños modernos resistentes a la humedad. Cotiza en nuestras sucursales.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gabinetes y muebles de baño con lavabo integrado, de piso y flotantes. Diseños modernos resistentes a la humedad. Cotiza en nuestras sucursales.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Gabinetes y muebles de baño con lavabo integrado, de piso y flotantes. Diseños modernos resistentes a la humedad. Cotiza en nuestras sucursales.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gabinetes de baño]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gabinetes de baño]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Tinas y regaderas]]></title>
+		<link>https://acabadoscontemporaneos.com/productos/tinas-y-regaderas/</link>
+		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1020</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
+<p class="lead">Convierte tu baño en un espacio de descanso con <strong>tinas</strong> y <strong>módulos para regadera</strong> que se integran con tus recubrimientos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Tinas</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Tinas exentas, de empotrar y de esquina en distintas medidas, para baños principales y de visitas.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Módulos para regadera</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Módulos y bases para regadera que facilitan la instalación y reducen filtraciones. Complétalos con piso <strong>antiderrapante</strong> y muro de porcelánico o cerámica.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_img slug="cat-tinas"]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1020</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tinas-y-regaderas]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1003</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[es]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en/products/tubs-and-showers]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cat-tinas]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tinas y módulos para regadera para crear un baño de descanso.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tinas y Módulos para Regadera | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tinas y Módulos para Regadera | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tinas y Módulos para Regadera | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tinas exentas y de empotrar, y módulos para regadera. Complementa tu baño con piso antiderrapante y recubrimientos. Visita nuestras sucursales.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tinas exentas y de empotrar, y módulos para regadera. Complementa tu baño con piso antiderrapante y recubrimientos. Visita nuestras sucursales.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tinas exentas y de empotrar, y módulos para regadera. Complementa tu baño con piso antiderrapante y recubrimientos. Visita nuestras sucursales.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tinas y regaderas]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tinas y regaderas]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title><![CDATA[About us]]></title>
 		<link>https://acabadoscontemporaneos.com/en/about/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1016</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1021</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">Acabados Contemporáneos is a <strong>Mexican tile supplier</strong> with more than 35 years of experience in <strong>ceramic tile, porcelain tile, floor and wall coverings and construction accessories</strong>. We were founded on a simple belief: the right finish turns a built space into a place people enjoy for decades.</p>
@@ -1744,7 +2259,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[ac_img slug="hero-showroom" class="is-wide" caption="Our showroom: full-scale displays."]
+[ac_img slug="hero-showroom" class="is-wide"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -1768,11 +2283,27 @@
 <!-- /wp:list -->
 
 <!-- wp:heading -->
+<h2 class="wp-block-heading">Imports and brands</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We specialize in <strong>importing tile</strong> selected from the best factories in <strong>Europe, Asia and South America</strong> and in distributing the best national brands. We are direct distributors of <strong>Daltile, Porcelanite, Vitromex, American Standard, Cerpa Cerámica and CreaPrac</strong>, among others.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">15 branches in northwest Mexico</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Find us in <strong>Tijuana, Mexicali, Ensenada, Tecate, San Luis Río Colorado, Culiacán and Ciudad Juárez</strong>. <a href="/en/branches/">Find your nearest branch</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
 <h2 class="wp-block-heading">Mission</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>To provide quality tiles and construction accessories, backed by specialized advice and personal service, so every client achieves beautiful, functional and lasting spaces.</p>
+<p>To provide the best service to all our clients — families, architects, decorators and builders who need excellent-quality products. Our trained staff helps you make the best decision so your space looks its best.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -1780,8 +2311,26 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>To be Mexico's reference for anyone seeking design, quality and trust in floors and walls, combining more than 35 years of experience with the latest trends in interior design and architecture.</p>
+<p>To be the market leader, offering a wide variety of high-quality flooring.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Values</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"ac-features"} -->
+<ul class="wp-block-list ac-features"><!-- wp:list-item -->
+<li><strong>Trust</strong></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Punctuality</strong></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Responsibility</strong></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Quality</strong></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Service</strong></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
 
 <!-- wp:quote -->
 <blockquote class="wp-block-quote"><!-- wp:paragraph -->
@@ -1789,7 +2338,7 @@
 <!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1016</wp:post_id>
+		<wp:post_id>1021</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -1798,7 +2347,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[about]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1009</wp:post_parent>
+		<wp:post_parent>1011</wp:post_parent>
 		<wp:menu_order>2</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -1861,7 +2410,7 @@
 		<link>https://acabadoscontemporaneos.com/en/products/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1017</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1022</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">From a private residence to a hotel lobby, Acabados Contemporáneos offers <strong>porcelain tile, ceramic tile, wall cladding, mosaics and installation accessories</strong> selected for quality, design and technical performance.</p>
@@ -1880,6 +2429,9 @@
 <tr><td><a href="/en/products/wall-cladding/">Wall cladding</a></td><td>Facades, 3D walls, feature areas</td><td>Architectural texture and depth</td></tr>
 <tr><td><a href="/en/products/wood-look-tile/">Wood-look tile</a></td><td>Bedrooms, living rooms, retail</td><td>Warmth of wood, zero maintenance</td></tr>
 <tr><td><a href="/en/products/mosaic-tile/">Mosaic tile</a></td><td>Pools, showers, decorative walls</td><td>Detail, shine and personality</td></tr>
+<tr><td><a href="/en/products/toilets-and-washbasins/">Toilets & washbasins</a></td><td>Residential and commercial bathrooms</td><td>American Standard and more</td></tr>
+<tr><td><a href="/en/products/bathroom-vanities/">Bathroom vanities</a></td><td>Master and guest bathrooms</td><td>Storage and design</td></tr>
+<tr><td><a href="/en/products/tubs-and-showers/">Tubs & showers</a></td><td>Spa bathrooms</td><td>Tubs and shower modules</td></tr>
 <tr><td><a href="/en/products/installation-accessories/">Installation accessories</a></td><td>Every project</td><td>Lasting installation, perfect finish</td></tr>
 </tbody>
 </table></figure>
@@ -1897,7 +2449,7 @@
 <div class="ac-note"><p><strong>Expert tip:</strong> buy all your tile from the same batch and add 5% to 10% extra for cuts and future replacements.</p></div>
 <!-- /wp:html -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1017</wp:post_id>
+		<wp:post_id>1022</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -1906,7 +2458,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[products]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1009</wp:post_parent>
+		<wp:post_parent>1011</wp:post_parent>
 		<wp:menu_order>3</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -1969,7 +2521,7 @@
 		<link>https://acabadoscontemporaneos.com/en/spaces/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1018</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1023</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">Every space has technical needs and an emotion to convey. These are combinations we recommend for beautiful, functional <strong>floors and walls</strong>.</p>
@@ -2035,7 +2587,7 @@
 [ac_img slug="blog-gran-formato" class="is-wide"]
 <!-- /wp:shortcode -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1018</wp:post_id>
+		<wp:post_id>1023</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -2044,7 +2596,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[spaces]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1009</wp:post_parent>
+		<wp:post_parent>1011</wp:post_parent>
 		<wp:menu_order>4</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -2107,7 +2659,7 @@
 		<link>https://acabadoscontemporaneos.com/en/professionals/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1019</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1024</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">We are the <strong>tile supplier</strong> that works as part of your team. From specification to site delivery, we help you meet design, budget and schedule.</p>
@@ -2161,7 +2713,7 @@
 [ac_contacto]
 <!-- /wp:shortcode -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1019</wp:post_id>
+		<wp:post_id>1024</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -2170,7 +2722,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[professionals]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1009</wp:post_parent>
+		<wp:post_parent>1011</wp:post_parent>
 		<wp:menu_order>5</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -2233,11 +2785,11 @@
 		<link>https://acabadoscontemporaneos.com/en/blog/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1020</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1025</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1020</wp:post_id>
+		<wp:post_id>1025</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -2246,7 +2798,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[blog]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1009</wp:post_parent>
+		<wp:post_parent>1011</wp:post_parent>
 		<wp:menu_order>6</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -2309,10 +2861,14 @@
 		<link>https://acabadoscontemporaneos.com/en/contact/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1021</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1026</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">We're ready to help you choose the perfect tile. Fill out the form or message us on WhatsApp — a specialized advisor will reply shortly.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Email: <a href="mailto:info@acabadoscontemporaneos.com">info@acabadoscontemporaneos.com</a> · <a href="/en/branches/">See phone numbers for all 15 branches</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
@@ -2327,7 +2883,7 @@
 <p>See, touch and compare collections in person. Bring measurements, photos or drawings for more precise advice.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1021</wp:post_id>
+		<wp:post_id>1026</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -2336,7 +2892,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[contact]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1009</wp:post_parent>
+		<wp:post_parent>1011</wp:post_parent>
 		<wp:menu_order>7</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -2403,14 +2959,14 @@
 		<link>https://acabadoscontemporaneos.com/en/privacy-notice/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1022</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1027</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
-<div class="ac-note"><p><strong>Important:</strong> this is a template. Complete it with the company's legal name, address and contact details and have it reviewed by your legal advisor before publishing.</p></div>
+<div class="ac-note"><p><strong>Important:</strong> this template uses the details from the current site. Have it reviewed by your legal advisor before publishing.</p></div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>[LEGAL NAME], doing business as Acabados Contemporáneos, located at [ADDRESS], is responsible for the use and protection of your personal data under Mexico's Federal Law on the Protection of Personal Data Held by Private Parties.</p>
+<p>Mercado y Bodega de Azulejos y Baños, S.A. de C.V., doing business as Acabados Contemporáneos, located at Vía Juventud #1 Oriente, esq. Privada Monterrey, Col. Mineral de Santa Fe, Tijuana, Baja California, is responsible for the use and protection of your personal data under Mexico's Federal Law on the Protection of Personal Data Held by Private Parties.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -2426,7 +2982,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>To answer information and quote requests, provide commercial follow-up, schedule deliveries, issue invoices and, secondarily, send product and promotional information. You may opt out of secondary purposes by writing to [PRIVACY EMAIL].</p>
+<p>To answer information and quote requests, provide commercial follow-up, schedule deliveries, issue invoices and, secondarily, send product and promotional information. You may opt out of secondary purposes by writing to info@acabadoscontemporaneos.com.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -2434,10 +2990,10 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>You may access, rectify, cancel or oppose the use of your personal data by sending a request to [PRIVACY EMAIL].</p>
+<p>You may access, rectify, cancel or oppose the use of your personal data by sending a request to info@acabadoscontemporaneos.com.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1022</wp:post_id>
+		<wp:post_id>1027</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -2446,7 +3002,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[privacy-notice]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1009</wp:post_parent>
+		<wp:post_parent>1011</wp:post_parent>
 		<wp:menu_order>9</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -2505,11 +3061,179 @@
 		</wp:postmeta>
 	</item>
 	<item>
+		<title><![CDATA[Catalogs]]></title>
+		<link>https://acabadoscontemporaneos.com/en/catalogs/</link>
+		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1028</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
+<p class="lead">Find inspiration in the <strong>floor tile, wall tile and porcelain catalogs</strong> of the brands we distribute. Open them online or download them to share with your architect, designer or client.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_catalogos]
+<!-- /wp:shortcode -->
+
+<!-- wp:html -->
+<div class="ac-note"><p><strong>Availability:</strong> catalog models are not always in stock. Visit your <a href="/en/branches/">nearest branch</a> or request a quote.</p></div>
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1028</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[catalogs]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1011</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[catalogos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[catalogo-porcelanite-general-2026]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Browse online or download the current catalogs of the brands we distribute.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tile & Flooring Catalogs to Download | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tile & Flooring Catalogs to Download | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tile & Flooring Catalogs to Download | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Download Porcelanite, CreaPrac and other catalogs: floor tile, wall tile, porcelain and trims. Check availability at our 15 branches.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Download Porcelanite, CreaPrac and other catalogs: floor tile, wall tile, porcelain and trims. Check availability at our 15 branches.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Download Porcelanite, CreaPrac and other catalogs: floor tile, wall tile, porcelain and trims. Check availability at our 15 branches.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tile catalog]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tile catalog]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Branches]]></title>
+		<link>https://acabadoscontemporaneos.com/en/branches/</link>
+		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1029</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
+<p class="lead">Visit any of our <strong>15 branches</strong> to see the displays, compare collections and get advice from our trained staff.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_sucursales]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1029</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[branches]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1011</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sucursales]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-showroom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[15 branches in Tijuana, Mexicali, Ensenada, Tecate, San Luis Río Colorado, Culiacán and Ciudad Juárez.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tile Stores in Tijuana, Mexicali & Ensenada | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tile Stores in Tijuana, Mexicali & Ensenada | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Tile Stores in Tijuana, Mexicali & Ensenada | Acabados]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Find your nearest Acabados Contemporáneos branch: 15 tile stores across Baja California, Sonora, Sinaloa and Chihuahua.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Find your nearest Acabados Contemporáneos branch: 15 tile stores across Baja California, Sonora, Sinaloa and Chihuahua.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Find your nearest Acabados Contemporáneos branch: 15 tile stores across Baja California, Sonora, Sinaloa and Chihuahua.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tile store Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tile store Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title><![CDATA[Porcelain tile]]></title>
 		<link>https://acabadoscontemporaneos.com/en/products/porcelain-tile/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1023</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1030</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead"><strong>Porcelain tile</strong> is the most versatile and durable surface for floors and walls. Its dense body, fired at very high temperatures, absorbs less than 0.5% water, making it ideal for high-traffic areas, bathrooms, kitchens and <strong>outdoor flooring</strong>.</p>
@@ -2544,7 +3268,7 @@
 <!-- /wp:list -->
 
 <!-- wp:shortcode -->
-[ac_img slug="hero-sala" class="is-wide" caption="Large-format Calacatta marble-look porcelain."]
+[ac_img slug="hero-sala" class="is-wide"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -2575,7 +3299,7 @@
 <p>Large formats require high-performance cementitious adhesive, a leveling system and a perfectly flat substrate. We advise you on the complete installation system.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1023</wp:post_id>
+		<wp:post_id>1030</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -2584,7 +3308,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[porcelain-tile]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1017</wp:post_parent>
+		<wp:post_parent>1022</wp:post_parent>
 		<wp:menu_order>1</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -2647,7 +3371,7 @@
 		<link>https://acabadoscontemporaneos.com/en/products/ceramic-tile/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1024</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1031</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead"><strong>Ceramic tile</strong> is the perfect partner for bathroom walls, kitchens and spaces where color and texture take center stage. Lightweight, easy to install and available in endless designs, it offers <strong>outstanding value</strong>.</p>
@@ -2670,7 +3394,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[ac_img slug="hero-cocina" class="is-wide" caption="Handcrafted green ceramic backsplash with wood-look floor."]
+[ac_img slug="hero-cocina" class="is-wide"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -2681,7 +3405,7 @@
 <p>For interior walls, ceramic is ideal. For medium to high-traffic floors, outdoors or very wet areas, we recommend <a href="/en/products/porcelain-tile/">porcelain tile</a>. Read our full guide: <a href="/ceramic-vs-porcelain-tile-how-to-choose/">Ceramic vs. porcelain tile</a>.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1024</wp:post_id>
+		<wp:post_id>1031</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -2690,7 +3414,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[ceramic-tile]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1017</wp:post_parent>
+		<wp:post_parent>1022</wp:post_parent>
 		<wp:menu_order>2</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -2753,7 +3477,7 @@
 		<link>https://acabadoscontemporaneos.com/en/products/wall-cladding/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1025</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1032</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">A well-dressed wall completely changes how a space feels. Our <strong>wall cladding and facade tiles</strong> add texture, shadow and depth, from a TV feature wall to the full facade of a residence or commercial building.</p>
@@ -2768,7 +3492,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[ac_img slug="hero-bano" class="is-wide" caption="Spa bathroom with dark travertine-look cladding."]
+[ac_img slug="hero-bano" class="is-wide"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -2779,7 +3503,7 @@
 <p><strong>Facade cladding</strong> must withstand sun, rain and temperature swings. We specify the right system: flexible high-performance adhesives, mechanical anchors when height requires them and properly designed movement joints.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1025</wp:post_id>
+		<wp:post_id>1032</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -2788,7 +3512,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wall-cladding]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1017</wp:post_parent>
+		<wp:post_parent>1022</wp:post_parent>
 		<wp:menu_order>3</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -2851,7 +3575,7 @@
 		<link>https://acabadoscontemporaneos.com/en/products/wood-look-tile/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1026</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1033</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead"><strong>Wood-look porcelain tile</strong> faithfully reproduces the grain, knots and tones of oak, walnut or ash — without the drawbacks of real wood: it resists scratches, doesn't swell with moisture and never needs sanding or varnish.</p>
@@ -2878,7 +3602,7 @@
 <!-- /wp:list -->
 
 <!-- wp:shortcode -->
-[ac_img slug="cat-madera" caption="Walnut wood-look porcelain laid in chevron."]
+[ac_img slug="cat-madera"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -2889,7 +3613,7 @@
 <p>Staggered planks are a timeless classic; <strong>herringbone</strong> and <strong>chevron</strong> bring European sophistication to living rooms, lobbies and retail. We calculate the waste for each pattern, which can reach 15%.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1026</wp:post_id>
+		<wp:post_id>1033</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -2898,7 +3622,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wood-look-tile]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1017</wp:post_parent>
+		<wp:post_parent>1022</wp:post_parent>
 		<wp:menu_order>4</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -2957,11 +3681,11 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title><![CDATA[Mosaic tile]]></title>
+		<title><![CDATA[Mosaics & borders]]></title>
 		<link>https://acabadoscontemporaneos.com/en/products/mosaic-tile/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1027</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1034</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead"><strong>Mosaic tile</strong> is the detail that turns a bathroom into a jewel and a pool into a mirror of water. Small pieces of glass, stone or metal that play with light and add unique personality.</p>
@@ -2976,7 +3700,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[ac_img slug="cat-mosaicos" caption="Emerald and gold glass mosaic in a luxury powder room."]
+[ac_img slug="cat-mosaicos"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -2987,7 +3711,7 @@
 <p>In bathrooms, powder rooms, backsplashes and shower niches, stone, metallic or iridescent mosaics create an unforgettable focal point. For submerged areas we recommend epoxy adhesives and grouts, available in <a href="/en/products/installation-accessories/">Installation accessories</a>.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1027</wp:post_id>
+		<wp:post_id>1034</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -2996,7 +3720,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[mosaic-tile]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1017</wp:post_parent>
+		<wp:post_parent>1022</wp:post_parent>
 		<wp:menu_order>5</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -3059,7 +3783,7 @@
 		<link>https://acabadoscontemporaneos.com/en/products/installation-accessories/</link>
 		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
 		<dc:creator><![CDATA[acabados]]></dc:creator>
-		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1028</guid>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1035</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
 <p class="lead">Extraordinary tile deserves an installation to match. At Acabados Contemporáneos you will find every <strong>construction accessory</strong> your project needs, from the right adhesive to the trim that delivers the perfect edge.</p>
@@ -3090,7 +3814,7 @@
 <!-- /wp:list -->
 
 <!-- wp:shortcode -->
-[ac_img slug="blog-instalacion" class="is-wide" caption="Professional installation with adhesive and leveling system."]
+[ac_img slug="blog-instalacion" class="is-wide"]
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -3101,7 +3825,7 @@
 <p><strong>Tile trims</strong> in aluminum, stainless steel or brass protect edges and solve corners and transitions. Leveling clips and wedges, notched trowels, cutters, diamond blades and suction lifters complete the professional kit.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1028</wp:post_id>
+		<wp:post_id>1035</wp:post_id>
 		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
@@ -3110,7 +3834,7 @@
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[installation-accessories]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>1017</wp:post_parent>
+		<wp:post_parent>1022</wp:post_parent>
 		<wp:menu_order>6</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -3166,6 +3890,280 @@
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
 			<wp:meta_value><![CDATA[porcelain tile adhesive]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Toilets & washbasins]]></title>
+		<link>https://acabadoscontemporaneos.com/en/products/toilets-and-washbasins/</link>
+		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1036</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
+<p class="lead">Complete your bathroom with <strong>toilets and washbasins</strong> from trusted brands like <strong>American Standard</strong>. We help you choose the right model for your space, water use and tile style.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"className":"ac-features"} -->
+<ul class="wp-block-list ac-features"><!-- wp:list-item -->
+<li>One- and two-piece toilets</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Water-saving models</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Vessel, undermount and pedestal basins</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Residential and commercial options</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:shortcode -->
+[ac_img slug="cat-sanitarios"]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1036</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[toilets-and-washbasins]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1022</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[productos/sanitarios-y-lavabos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cat-sanitarios]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Toilets and washbasins from American Standard and other brands for residential and commercial bathrooms.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Toilets & Washbasins in Tijuana | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Toilets & Washbasins in Tijuana | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Toilets & Washbasins in Tijuana | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[One- and two-piece toilets, vessel, undermount and pedestal washbasins from American Standard and more. Visit our 15 branches in northwest Mexico.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[One- and two-piece toilets, vessel, undermount and pedestal washbasins from American Standard and more. Visit our 15 branches in northwest Mexico.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[One- and two-piece toilets, vessel, undermount and pedestal washbasins from American Standard and more. Visit our 15 branches in northwest Mexico.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[toilets and washbasins]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[toilets and washbasins]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Bathroom vanities]]></title>
+		<link>https://acabadoscontemporaneos.com/en/products/bathroom-vanities/</link>
+		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1037</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
+<p class="lead">The right <strong>bathroom vanity</strong> organizes the space and defines the style. Choose floating or freestanding units with integrated or vessel basins.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"className":"ac-features"} -->
+<ul class="wp-block-list ac-features"><!-- wp:list-item -->
+<li>Floating and freestanding vanities</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Integrated or vessel basins</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Wood-look, white and color finishes</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Moisture-resistant materials</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:shortcode -->
+[ac_img slug="cat-gabinetes"]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1037</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[bathroom-vanities]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1022</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[productos/gabinetes-de-bano]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cat-gabinetes]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bathroom vanities that combine storage, design and moisture resistance.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bathroom Vanities & Cabinets | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bathroom Vanities & Cabinets | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bathroom Vanities & Cabinets | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Floating and freestanding bathroom vanities with integrated or vessel basins. Modern, moisture-resistant designs. Get a quote at our branches.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Floating and freestanding bathroom vanities with integrated or vessel basins. Modern, moisture-resistant designs. Get a quote at our branches.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Floating and freestanding bathroom vanities with integrated or vessel basins. Modern, moisture-resistant designs. Get a quote at our branches.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bathroom vanities]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bathroom vanities]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Tubs & showers]]></title>
+		<link>https://acabadoscontemporaneos.com/en/products/tubs-and-showers/</link>
+		<pubDate>Tue, 27 Oct 2026 09:00:00 -0600</pubDate>
+		<dc:creator><![CDATA[acabados]]></dc:creator>
+		<guid isPermaLink="false">https://acabadoscontemporaneos.com/?page_id=1038</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"lead"} -->
+<p class="lead">Turn your bathroom into a place to unwind with <strong>bathtubs</strong> and <strong>shower modules</strong> that integrate with your tile.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Freestanding, built-in and corner tubs in several sizes, plus shower modules and bases that simplify installation and prevent leaks. Complete them with <strong>anti-slip</strong> flooring and porcelain or ceramic walls.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[ac_img slug="cat-tinas"]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1038</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-27 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-27 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-27 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tubs-and-showers]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1022</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_lang]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_translation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[productos/tinas-y-regaderas]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cat-tinas]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bathtubs and shower modules to create a restful bathroom.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bathtubs & Shower Modules | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bathtubs & Shower Modules | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bathtubs & Shower Modules | Acabados Contemporáneos]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_ac_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Freestanding and built-in bathtubs and shower modules. Pair them with anti-slip flooring and wall tile. Visit our branches.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Freestanding and built-in bathtubs and shower modules. Pair them with anti-slip flooring and wall tile. Visit our branches.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Freestanding and built-in bathtubs and shower modules. Pair them with anti-slip flooring and wall tile. Visit our branches.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bathtubs and showers]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bathtubs and showers]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>

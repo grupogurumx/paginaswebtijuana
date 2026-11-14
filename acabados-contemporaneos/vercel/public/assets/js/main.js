@@ -333,6 +333,25 @@
 	}
 
 	/* ------------------------------------------------------------------
+	 * Sucursales: filtro por ciudad
+	 * ------------------------------------------------------------------ */
+	$$('[data-branches]').forEach(function (root) {
+		var chips = $$('[data-city]', root);
+		var groups = $$('[data-city-group]', root);
+		function show(city) {
+			chips.forEach(function (c) {
+				var on = c.getAttribute('data-city') === city;
+				c.classList.toggle('is-active', on);
+				c.setAttribute('aria-selected', on ? 'true' : 'false');
+			});
+			groups.forEach(function (g) { g.hidden = city !== 'all' && g.getAttribute('data-city-group') !== city; });
+		}
+		chips.forEach(function (c) { c.addEventListener('click', function () { show(c.getAttribute('data-city')); }); });
+		var hash = decodeURIComponent(location.hash.replace('#', ''));
+		if (hash && $('[data-city="' + hash + '"]', root)) { show(hash); }
+	});
+
+	/* ------------------------------------------------------------------
 	 * Carril horizontal arrastrable (Ambientes)
 	 * ------------------------------------------------------------------ */
 	$$('[data-drag-rail]').forEach(function (rail) {

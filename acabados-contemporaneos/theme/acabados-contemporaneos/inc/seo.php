@@ -217,7 +217,7 @@ function ac_schema_business() {
 		'slogan'      => 'en' === ac_lang() ? 'Surfaces that tell the story of every space' : 'Superficies que cuentan la historia de cada espacio',
 		'image'       => ac_img_url( 'hero-showroom', 'ac-wide' ),
 		'priceRange'  => '$$',
-		'areaServed'  => array( '@type' => 'Country', 'name' => 'México' ),
+		'areaServed'  => array( 'Baja California', 'Sonora', 'Sinaloa', 'Chihuahua' ),
 		'knowsAbout'  => array( 'Porcelanato', 'Cerámica', 'Recubrimientos para pisos y muros', 'Mosaicos', 'Porcelánico de gran formato', 'Adhesivos y boquillas para cerámica', 'Perfiles para recubrimientos' ),
 		'currenciesAccepted' => 'MXN',
 		'hasOfferCatalog'    => array(
@@ -268,6 +268,25 @@ function ac_schema_business() {
 	if ( ac_opt( 'maps_url' ) ) {
 		$node['hasMap'] = ac_opt( 'maps_url' );
 	}
+	$depts = array();
+	foreach ( ac_branches() as $city => $data ) {
+		foreach ( $data[1] as $b ) {
+			$depts[] = array(
+				'@type'     => 'HomeAndConstructionBusiness',
+				'name'      => $b[0] . ' — ' . $city,
+				'telephone' => $b[3][0],
+				'address'   => array(
+					'@type'           => 'PostalAddress',
+					'streetAddress'   => $b[1] . ', ' . $b[2],
+					'addressLocality' => $city,
+					'addressRegion'   => $data[0],
+					'addressCountry'  => 'MX',
+				),
+			);
+		}
+	}
+	$node['department'] = $depts;
+	$node['legalName']  = 'Mercado y Bodega de Azulejos y Baños, S.A. de C.V.';
 	$socials = array_values( ac_socials() );
 	if ( $socials ) {
 		$node['sameAs'] = $socials;

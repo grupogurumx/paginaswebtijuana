@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { basename, join } from 'node:path';
 
 const ZIP_URL = process.env.AC_IMAGES_ZIP ||
-  'https://d2ol7oe51mr4n9.cloudfront.net/user_39X9oUM6mjMuWX1gzCztnOmmGzI/f080e1db-c8f3-47ba-aa12-875448352dd3.zip';
+  'https://d2ol7oe51mr4n9.cloudfront.net/user_39X9oUM6mjMuWX1gzCztnOmmGzI/585a0a48-ca28-455a-8042-bda4fa1f00f0.zip';
 const DEST = join(process.cwd(), 'public', 'img');
 
 mkdirSync(DEST, { recursive: true });

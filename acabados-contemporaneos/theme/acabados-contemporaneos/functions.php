@@ -13,13 +13,15 @@ define( 'AC_URI', get_template_directory_uri() );
 
 /*
  * URL pública del paquete de imágenes (generadas con Magnific / Freepik AI).
+ * Fotografías de Acabados Contemporáneos, Porcelanite, Daltile y Vitromex.
  * El importador del tema lo descarga en el servidor y registra cada imagen
  * en la Biblioteca de medios.
  */
-define( 'AC_IMAGES_ZIP', 'https://d2ol7oe51mr4n9.cloudfront.net/user_39X9oUM6mjMuWX1gzCztnOmmGzI/f080e1db-c8f3-47ba-aa12-875448352dd3.zip' );
+define( 'AC_IMAGES_ZIP', 'https://d2ol7oe51mr4n9.cloudfront.net/user_39X9oUM6mjMuWX1gzCztnOmmGzI/585a0a48-ca28-455a-8042-bda4fa1f00f0.zip' );
 
 require AC_DIR . '/inc/i18n.php';
 require AC_DIR . '/inc/helpers.php';
+require AC_DIR . '/inc/data.php';
 require AC_DIR . '/inc/customizer.php';
 require AC_DIR . '/inc/seo.php';
 require AC_DIR . '/inc/contact.php';

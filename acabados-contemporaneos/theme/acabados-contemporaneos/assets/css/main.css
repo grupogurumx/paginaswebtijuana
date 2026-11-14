@@ -763,3 +763,76 @@ body { font-size: clamp(15.5px, 1vw, 17px); line-height: 1.65; letter-spacing: -
 	.nav-open .brand__img--white { display: block; }
 	.brand__img { height: 38px; }
 }
+
+/* ==========================================================================
+   Catálogos, sucursales y marcas
+   ========================================================================== */
+.ac-btn--outline { --fg: var(--ac-accent); --bd: var(--ac-accent); }
+.ac-btn--outline:hover { color: #fff; }
+.catalogs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.catalog-card { display: flex; flex-direction: column; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 0 0 1px var(--ac-line); transition: box-shadow .5s var(--ease-out), transform .5s var(--ease-out); }
+.catalog-card:hover { box-shadow: 0 30px 60px -30px rgba(11, 14, 46, .45); transform: translateY(-4px); }
+.catalog-card__cover { display: block; aspect-ratio: 3 / 4; overflow: hidden; background: var(--ac-ivory); }
+.catalog-card__cover img, .catalog-card__cover .ac-img-placeholder { width: 100%; height: 100%; object-fit: cover; transition: transform 1.2s var(--ease-out); }
+.catalog-card:hover .catalog-card__cover img { transform: scale(1.05); }
+.catalog-card__body { padding: 20px 20px 22px; display: flex; flex-direction: column; flex: 1; }
+.catalog-card__meta { display: flex; justify-content: space-between; gap: 10px; margin: 0 0 8px; font-size: .68rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ac-stone); }
+.catalog-card__meta span:first-child { color: var(--ac-accent); }
+.catalog-card__title { font-size: 1.05rem; font-weight: 700; letter-spacing: -.01em; line-height: 1.3; margin: 0 0 18px; flex: 1; }
+.catalog-card__actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.catalogs-section { background: var(--ac-ivory); }
+
+.branches-teaser { background: var(--ac-ink); color: #fff; }
+.branches-teaser__grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(40px, 6vw, 90px); align-items: center; }
+.branches-teaser .lead { margin-bottom: 32px; }
+.city-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.city-list a { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 18px 20px; border: 1px solid var(--ac-line-light); border-radius: 8px; text-decoration: none; color: #fff; transition: background .4s, border-color .4s; }
+.city-list a:hover { background: var(--ac-accent); border-color: var(--ac-accent); color: #fff; }
+.city-list__name { font-weight: 700; font-size: 1.1rem; letter-spacing: -.01em; }
+.city-list__state { grid-column: 1; font-size: .78rem; color: rgba(255, 255, 255, .6); }
+.city-list__count { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ac-accent-2); }
+
+.brands-strip { border-bottom: 1px solid var(--ac-line); padding-block: 40px; }
+.brands-strip__title { text-align: center; font-size: .72rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--ac-stone); margin: 0 0 22px; }
+.brands-strip__list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 34px; }
+.brands-strip__list li { font-size: clamp(1rem, 1.5vw, 1.35rem); font-weight: 800; letter-spacing: -.02em; color: var(--ac-ink); opacity: .55; transition: opacity .3s, color .3s; }
+.brands-strip__list li:hover { opacity: 1; color: var(--ac-accent); }
+
+.branches__filter { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 36px; position: sticky; top: calc(var(--header-h) + 8px); z-index: 5; background: var(--ac-paper); padding-block: 10px; }
+.chip { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border: 1px solid var(--ac-line); border-radius: 999px; background: #fff; font-size: .82rem; font-weight: 600; transition: background .3s, color .3s, border-color .3s; }
+.chip span { font-size: .7rem; font-weight: 700; color: var(--ac-stone); }
+.chip:hover { border-color: var(--ac-accent); }
+.chip.is-active { background: var(--ac-accent); border-color: var(--ac-accent); color: #fff; }
+.chip.is-active span { color: var(--ac-accent-2); }
+.branches__city { margin-bottom: 44px; }
+.branches__title { font-size: clamp(1.4rem, 2.2vw, 1.9rem); font-weight: 800; letter-spacing: -.025em; margin: 0 0 18px; }
+.branches__title small { font-size: .8rem; font-weight: 600; color: var(--ac-stone); letter-spacing: 0; margin-left: 8px; }
+.branches__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.branch-card { padding: 22px; border-radius: 8px; background: #fff; box-shadow: 0 0 0 1px var(--ac-line); display: flex; flex-direction: column; gap: 10px; }
+.branch-card p { margin: 0; }
+.branch-card__name { font-weight: 700; font-size: 1.02rem; color: var(--ac-accent); }
+.branch-card__addr, .branch-card__tel { display: flex; gap: 10px; font-size: .9rem; color: var(--ac-muted); line-height: 1.5; }
+.branch-card .ac-icon { flex: 0 0 18px; margin-top: 2px; color: var(--ac-accent); }
+.branch-card .ac-link { margin-top: auto; padding-top: 6px; }
+.entry-content .branches, .entry-content .catalogs { margin-top: 2em; }
+.page-body .container--narrow:has(.branches), .page-body .container--narrow:has(.catalogs) { max-width: var(--container); }
+
+@media (max-width: 1020px) {
+	.catalogs { grid-template-columns: repeat(2, 1fr); }
+	.branches-teaser__grid { grid-template-columns: 1fr; }
+	.branches__grid { grid-template-columns: repeat(2, 1fr); }
+	.cats__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+	.catalogs, .branches__grid, .city-list { grid-template-columns: 1fr; }
+	.catalogs { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+	.catalog-card__body { padding: 14px; }
+	.cats__grid { grid-template-columns: 1fr; }
+}
+@media (min-width: 1021px) {
+	.cats__grid { grid-template-columns: repeat(4, 1fr); }
+	.cat-card:nth-child(3n+2) { margin-top: 0; }
+	.cat-card:nth-child(even) { margin-top: 40px; }
+	.cat-card__title { font-size: clamp(1.15rem, 1.5vw, 1.45rem); }
+	.cat-card__body { padding: 22px; }
+}

@@ -107,7 +107,8 @@ function wp_get_attachment_image_url() { return ''; }
 function wp_nav_menu( $a ) { ac_fallback_menu( $a ); }
 function get_header() { include $GLOBALS['THEME'] . '/header.php'; }
 function get_footer() { include $GLOBALS['THEME'] . '/footer.php'; }
-function get_template_part( $s ) { include $GLOBALS['THEME'] . '/' . $s . '.php'; }
+function get_template_part( $s, $n = null, $args = array() ) { include $GLOBALS['THEME'] . '/' . $s . '.php'; }
+function sanitize_title( $s ) { $s = strtolower( strtr( $s, array( 'á' => 'a', 'é' => 'e', 'í' => 'i', 'ó' => 'o', 'ú' => 'u', 'ñ' => 'n' ) ) ); return trim( preg_replace( '/[^a-z0-9]+/', '-', $s ), '-' ); }
 function wp_head() {
 	echo '<title>' . esc_html( wp_get_document_title() ) . "</title>\n";
 	echo '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>';
