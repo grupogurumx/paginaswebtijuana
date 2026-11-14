@@ -70,6 +70,47 @@ body {
     margin-bottom: 16px;
 }
 
+/* ===== Galería de imágenes ===== */
+#galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 0 24px 32px;
+}
+
+#galeria .imagen {
+    aspect-ratio: 2 / 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+}
+
+#galeria .imagen:hover {
+    transform: scale(1.03);
+}
+
+#img1 {
+    background-image: url("img/planes-seo.jpg");
+}
+
+#img2 {
+    background-image: url("img/posicionamiento.jpg");
+}
+
+#img3 {
+    background-image: url("img/exito-internet.jpg");
+}
+
+/* ===== Tabletas ===== */
+@media (max-width: 900px) {
+    #galeria {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* ===== Celulares ===== */
 @media (max-width: 600px) {
     #header {
@@ -87,6 +128,10 @@ body {
 
     #info {
         padding: 24px 16px;
+    }
+
+    #galeria {
+        padding: 0 16px 24px;
     }
 
     #info h1 {
