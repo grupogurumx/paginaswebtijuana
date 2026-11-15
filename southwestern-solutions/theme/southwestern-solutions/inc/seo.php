@@ -132,6 +132,19 @@ function sws_seo_head() {
 }
 add_action( 'wp_head', 'sws_seo_head', 2 );
 
+/** When this module handles SEO, drop core's duplicate canonical and robots tags. */
+add_action(
+	'wp',
+	function () {
+		if ( sws_seo_plugin_active() ) {
+			return;
+		}
+		remove_action( 'wp_head', 'rel_canonical' );
+		remove_action( 'wp_head', 'wp_robots', 1 );
+		remove_action( 'wp_head', 'wp_shortlink_wp_head', 10 );
+	}
+);
+
 /** JSON-LD structured data. */
 function sws_schema() {
 	$graph = array();

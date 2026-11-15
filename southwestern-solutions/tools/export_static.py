@@ -125,11 +125,38 @@ def main():
             f.write(body)
         print("asset", a)
 
+    fix_ids()
+
     with open(os.path.join(OUT, "robots.txt"), "w") as f:
         f.write("User-agent: *\nDisallow: /\n")
     with open(os.path.join(OUT, "vercel.json"), "w") as f:
         f.write('{\n  "trailingSlash": true,\n  "headers": [{ "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }]\n}\n')
     print("done ->", os.path.abspath(OUT))
+
+
+def fix_ids():
+    """Rewrite /?page_id=N and /?p=N links (plain permalinks) to the crawled pretty paths."""
+    idmap, files = {}, []
+    for root, _, names in os.walk(OUT):
+        for n in names:
+            if n.endswith(".html"):
+                fp = os.path.join(root, n)
+                files.append(fp)
+                rel = "/" + os.path.relpath(root, OUT).replace(os.sep, "/") + "/"
+                rel = "/" if rel == "/./" else rel
+                html = open(fp, encoding="utf-8").read()
+                m = re.search(r'<body[^>]*class="[^"]*\b(?:page-id|postid)-(\d+)', html)
+                if m and n == "index.html":
+                    idmap[m.group(1)] = rel
+    def sub(m):
+        return idmap.get(m.group(2), m.group(0) if m.group(2) not in idmap else "")
+    for fp in files:
+        html = open(fp, encoding="utf-8").read()
+        new = re.sub(r"/\?(page_id|p)=(\d+)", lambda m: idmap.get(m.group(2), m.group(0)), html)
+        new = new.replace(PROD + "//", PROD + "/")
+        if new != html:
+            open(fp, "w", encoding="utf-8").write(new)
+    print("id map:", idmap)
 
 
 if __name__ == "__main__":

@@ -15,6 +15,7 @@ Rediseño profesional de **southwesternsolutions.org** (capacitación de instruc
 | **Textos de alto impacto ES / EN (3 versiones por bloque)** + copys de anuncios | `docs/COPY-ES-EN.md` |
 | 8 imágenes generadas con IA (Magnific / Freepik), optimizadas WebP + JPG | `theme/southwestern-solutions/assets/img/` |
 | Capturas de la versión probada | `docs/preview/` |
+| Vista previa estática (Vercel) | `preview-static/` — https://southwestern-solutions-preview.vercel.app |
 | Generador del XML (por si editas textos) | `tools/build_wxr.py` |
 
 ## ✨ Diseño y efectos
@@ -37,7 +38,8 @@ Rediseño profesional de **southwesternsolutions.org** (capacitación de instruc
    - Enlaces permanentes `/%postname%/` (si no estaban configurados)
 5. **Apariencia → Personalizar → Business Info**: confirma teléfono, correo, horario y redes sociales.
 6. (Opcional) Instala **Rank Math** o **Yoast SEO**. Todos los títulos, descripciones y palabras clave ya vienen cargados en sus campos.
-7. Instala un plugin SMTP (WP Mail SMTP / FluentSMTP) para que el formulario de reservas llegue a `info@southwesternsolutions.org`.
+7. Borra la entrada de ejemplo **"Hello world!"** y la página **"Sample Page"** que WordPress crea por defecto.
+8. Instala un plugin SMTP (WP Mail SMTP / FluentSMTP) para que el formulario de reservas llegue a `info@southwesternsolutions.org`.
 
 > ⚠️ Si el sitio actual usa WooCommerce, el tema redirige con **301** las URLs antiguas (`/product/...`, `/shop/`, `/home-it-service/`) a las nuevas páginas para conservar el posicionamiento.
 
