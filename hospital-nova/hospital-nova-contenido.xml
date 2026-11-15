@@ -1,0 +1,2367 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Hospital Nova — contenido para importar en WordPress (Herramientas > Importar > WordPress). -->
+<!-- Generado por hospital-nova/scripts/build-wxr.js — no editar a mano; edita hospital-nova/contenido/*.js -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+	<title>Hospital Nova</title>
+	<link>https://hospitalnova.com</link>
+	<description>¡Servicios Médicos de Confianza!</description>
+	<language>es-MX</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://hospitalnova.com</wp:base_site_url>
+	<wp:base_blog_url>https://hospitalnova.com</wp:base_blog_url>
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[info@hospitalnova.com]]></wp:author_email><wp:author_display_name><![CDATA[Equipo médico Hospital Nova]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:category>
+		<wp:term_id>501</wp:term_id>
+		<wp:category_nicename><![CDATA[maternidad]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Maternidad]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>502</wp:term_id>
+		<wp:category_nicename><![CDATA[maternity]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Maternity]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>503</wp:term_id>
+		<wp:category_nicename><![CDATA[especialidades]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Especialidades]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>504</wp:term_id>
+		<wp:category_nicename><![CDATA[specialties]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Specialties]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>505</wp:term_id>
+		<wp:category_nicename><![CDATA[prevencion]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Prevención]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>506</wp:term_id>
+		<wp:category_nicename><![CDATA[prevention]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Prevention]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>507</wp:term_id>
+		<wp:category_nicename><![CDATA[urgencias]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Urgencias]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>508</wp:term_id>
+		<wp:category_nicename><![CDATA[emergency]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Emergency]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>509</wp:term_id>
+		<wp:category_nicename><![CDATA[pacientes-internacionales]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Pacientes internacionales]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>510</wp:term_id>
+		<wp:category_nicename><![CDATA[international-patients]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[International Patients]]></wp:cat_name>
+	</wp:category>
+	<wp:tag>
+		<wp:term_id>511</wp:term_id>
+		<wp:tag_slug><![CDATA[parto]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[parto]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>512</wp:term_id>
+		<wp:tag_slug><![CDATA[cesarea]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[cesárea]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>513</wp:term_id>
+		<wp:tag_slug><![CDATA[embarazo]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[embarazo]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>514</wp:term_id>
+		<wp:tag_slug><![CDATA[maternidad-tijuana]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[maternidad Tijuana]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>515</wp:term_id>
+		<wp:tag_slug><![CDATA[birth]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[birth]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>516</wp:term_id>
+		<wp:tag_slug><![CDATA[c-section]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[c-section]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>517</wp:term_id>
+		<wp:tag_slug><![CDATA[pregnancy]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[pregnancy]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>518</wp:term_id>
+		<wp:tag_slug><![CDATA[medicina-interna]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[medicina interna]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>519</wp:term_id>
+		<wp:tag_slug><![CDATA[internista]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[internista]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>520</wp:term_id>
+		<wp:tag_slug><![CDATA[enfermedades-cronicas]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[enfermedades crónicas]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>521</wp:term_id>
+		<wp:tag_slug><![CDATA[internal-medicine]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[internal medicine]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>522</wp:term_id>
+		<wp:tag_slug><![CDATA[internist]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[internist]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>523</wp:term_id>
+		<wp:tag_slug><![CDATA[chronic-disease]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[chronic disease]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>524</wp:term_id>
+		<wp:tag_slug><![CDATA[neurologia]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[neurología]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>525</wp:term_id>
+		<wp:tag_slug><![CDATA[migrana]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[migraña]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>526</wp:term_id>
+		<wp:tag_slug><![CDATA[dolor-de-cabeza]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[dolor de cabeza]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>527</wp:term_id>
+		<wp:tag_slug><![CDATA[neurology]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[neurology]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>528</wp:term_id>
+		<wp:tag_slug><![CDATA[migraine]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[migraine]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>529</wp:term_id>
+		<wp:tag_slug><![CDATA[headache]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[headache]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>530</wp:term_id>
+		<wp:tag_slug><![CDATA[diabetes]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[diabetes]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>531</wp:term_id>
+		<wp:tag_slug><![CDATA[glucosa]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[glucosa]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>532</wp:term_id>
+		<wp:tag_slug><![CDATA[blood-sugar]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[blood sugar]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>533</wp:term_id>
+		<wp:tag_slug><![CDATA[hipertension]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[hipertensión]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>534</wp:term_id>
+		<wp:tag_slug><![CDATA[presion-arterial]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[presión arterial]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>535</wp:term_id>
+		<wp:tag_slug><![CDATA[corazon]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[corazón]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>536</wp:term_id>
+		<wp:tag_slug><![CDATA[hypertension]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[hypertension]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>537</wp:term_id>
+		<wp:tag_slug><![CDATA[blood-pressure]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[blood pressure]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>538</wp:term_id>
+		<wp:tag_slug><![CDATA[heart]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[heart]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>539</wp:term_id>
+		<wp:tag_slug><![CDATA[cirugia-oncologica]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[cirugía oncológica]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>540</wp:term_id>
+		<wp:tag_slug><![CDATA[cancer]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[cancer]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>541</wp:term_id>
+		<wp:tag_slug><![CDATA[oncologia]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[oncología]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>542</wp:term_id>
+		<wp:tag_slug><![CDATA[surgical-oncology]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[surgical oncology]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>543</wp:term_id>
+		<wp:tag_slug><![CDATA[urgencias]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[urgencias]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>544</wp:term_id>
+		<wp:tag_slug><![CDATA[emergencias]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[emergencias]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>545</wp:term_id>
+		<wp:tag_slug><![CDATA[hospital-24-horas]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[hospital 24 horas]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>546</wp:term_id>
+		<wp:tag_slug><![CDATA[emergency-room]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[emergency room]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>547</wp:term_id>
+		<wp:tag_slug><![CDATA[24-hour-hospital]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[24 hour hospital]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>548</wp:term_id>
+		<wp:tag_slug><![CDATA[laboratorio]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[laboratorio]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>549</wp:term_id>
+		<wp:tag_slug><![CDATA[chequeo-medico]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[chequeo médico]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>550</wp:term_id>
+		<wp:tag_slug><![CDATA[prevencion]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[prevención]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>551</wp:term_id>
+		<wp:tag_slug><![CDATA[lab]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[lab]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>552</wp:term_id>
+		<wp:tag_slug><![CDATA[check-up]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[check-up]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>553</wp:term_id>
+		<wp:tag_slug><![CDATA[prevention]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[prevention]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>554</wp:term_id>
+		<wp:tag_slug><![CDATA[vertigo]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[vertigo]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>555</wp:term_id>
+		<wp:tag_slug><![CDATA[mareos]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[mareos]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>556</wp:term_id>
+		<wp:tag_slug><![CDATA[dizziness]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[dizziness]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>557</wp:term_id>
+		<wp:tag_slug><![CDATA[turismo-medico]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[turismo médico]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>558</wp:term_id>
+		<wp:tag_slug><![CDATA[san-diego]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[San Diego]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>559</wp:term_id>
+		<wp:tag_slug><![CDATA[pacientes-internacionales]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[pacientes internacionales]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>560</wp:term_id>
+		<wp:tag_slug><![CDATA[medical-tourism]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[medical tourism]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>561</wp:term_id>
+		<wp:tag_slug><![CDATA[international-patients]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[international patients]]></wp:tag_name>
+	</wp:tag>
+	<wp:term>
+		<wp:term_id>562</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_home]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_home]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9101;s:2:"en";i:9108;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>563</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_specialties]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_specialties]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9102;s:2:"en";i:9109;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>564</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_services]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_services]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9103;s:2:"en";i:9110;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>565</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_doctors]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_doctors]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9104;s:2:"en";i:9111;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>566</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_contact]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_contact]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9105;s:2:"en";i:9112;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>567</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_blog]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_blog]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9106;s:2:"en";i:9113;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>568</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_privacy]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_privacy]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9107;s:2:"en";i:9114;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>569</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_post0]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_post0]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9115;s:2:"en";i:9116;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>570</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_post1]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_post1]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9117;s:2:"en";i:9118;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>571</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_post2]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_post2]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9119;s:2:"en";i:9120;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>572</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_post3]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_post3]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9121;s:2:"en";i:9122;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>573</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_post4]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_post4]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9123;s:2:"en";i:9124;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>574</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_post5]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_post5]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9125;s:2:"en";i:9126;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>575</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_post6]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_post6]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9127;s:2:"en";i:9128;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>576</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_post7]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_post7]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9129;s:2:"en";i:9130;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>577</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_post8]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_post8]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9131;s:2:"en";i:9132;}]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>578</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_translations]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[pll_post9]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[pll_post9]]></wp:term_name>
+		<wp:term_description><![CDATA[a:2:{s:2:"es";i:9133;s:2:"en";i:9134;}]]></wp:term_description>
+	</wp:term>
+	<item>
+		<title><![CDATA[Inicio]]></title>
+		<link>https://hospitalnova.com/inicio/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9101</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9101</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[inicio]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_home"><![CDATA[pll_home]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova en Tijuana: urgencias 24/7, especialistas en medicina interna, neurología, cirugía oncológica y maternidad. Laboratorio, rayos X y banco de sangre.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova en Tijuana: urgencias 24/7, especialistas en medicina interna, neurología, cirugía oncológica y maternidad. Laboratorio, rayos X y banco de sangre.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova en Tijuana: urgencias 24/7, especialistas en medicina interna, neurología, cirugía oncológica y maternidad. Laboratorio, rayos X y banco de sangre.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Especialidades médicas en Tijuana]]></title>
+		<link>https://hospitalnova.com/especialidades/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9102</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->
+[nova_specialties]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_partners]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_contact]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Medicina interna, neurología, cirugía oncológica, maternidad, urgencias y hospitalización en un solo hospital.]]></excerpt:encoded>
+		<wp:post_id>9102</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[especialidades]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_specialties"><![CDATA[pll_specialties]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Especialidades médicas en Tijuana: medicina interna, neurología, cirugía oncológica, ginecología y urgencias 24/7. Agenda tu valoración en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Especialidades médicas en Tijuana: medicina interna, neurología, cirugía oncológica, ginecología y urgencias 24/7. Agenda tu valoración en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Especialidades médicas en Tijuana: medicina interna, neurología, cirugía oncológica, ginecología y urgencias 24/7. Agenda tu valoración en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Servicios 24/7: urgencias, quirófano y hospitalización]]></title>
+		<link>https://hospitalnova.com/servicios/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9103</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->
+[nova_stats]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_partners]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_maternity]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_faq]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Siempre abierto. Consulta médica, quirófano, hospitalización y diagnóstico 24/7 en Tijuana.]]></excerpt:encoded>
+		<wp:post_id>9103</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[servicios]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_services"><![CDATA[pll_services]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital 24 horas en Tijuana: urgencias, quirófano, hospitalización, laboratorio, rayos X y banco de sangre. Siempre abierto en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital 24 horas en Tijuana: urgencias, quirófano, hospitalización, laboratorio, rayos X y banco de sangre. Siempre abierto en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital 24 horas en Tijuana: urgencias, quirófano, hospitalización, laboratorio, rayos X y banco de sangre. Siempre abierto en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Médicos especialistas]]></title>
+		<link>https://hospitalnova.com/medicos/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9104</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->
+[nova_doctors]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_contact]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Conoce a los especialistas que consultan en Hospital Nova y agenda directo por WhatsApp.]]></excerpt:encoded>
+		<wp:post_id>9104</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[medicos]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_doctors"><![CDATA[pll_doctors]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Directorio de médicos especialistas en Tijuana: internista, neurólogo y cirujanos oncólogos. Agenda tu cita en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Directorio de médicos especialistas en Tijuana: internista, neurólogo y cirujanos oncólogos. Agenda tu cita en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Directorio de médicos especialistas en Tijuana: internista, neurólogo y cirujanos oncólogos. Agenda tu cita en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Contacto y citas]]></title>
+		<link>https://hospitalnova.com/contacto/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9105</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->
+[nova_contact]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_faq]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Agenda tu cita por teléfono, WhatsApp o con el formulario. Atención 24/7.]]></excerpt:encoded>
+		<wp:post_id>9105</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contacto]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_contact"><![CDATA[pll_contact]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contacta a Hospital Nova en Tijuana: agenda tu cita por teléfono, WhatsApp o formulario. Urgencias abiertas 24 horas.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contacta a Hospital Nova en Tijuana: agenda tu cita por teléfono, WhatsApp o formulario. Urgencias abiertas 24 horas.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contacta a Hospital Nova en Tijuana: agenda tu cita por teléfono, WhatsApp o formulario. Urgencias abiertas 24 horas.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Blog de salud]]></title>
+		<link>https://hospitalnova.com/blog/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9106</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9106</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_blog"><![CDATA[pll_blog]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Blog de salud de Hospital Nova Tijuana: artículos de medicina interna, neurología, maternidad, prevención y urgencias.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Blog de salud de Hospital Nova Tijuana: artículos de medicina interna, neurología, maternidad, prevención y urgencias.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Blog de salud de Hospital Nova Tijuana: artículos de medicina interna, neurología, maternidad, prevención y urgencias.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Aviso de privacidad]]></title>
+		<link>https://hospitalnova.com/aviso-de-privacidad/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9107</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Plantilla — revisar con el área legal del hospital antes de publicar.</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Hospital Nova, con domicilio en Tijuana, Baja California, es responsable del tratamiento de los datos personales que nos proporcione a través de este sitio web, conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Los datos que recabamos mediante el formulario (nombre, teléfono, correo y motivo de consulta) se utilizan exclusivamente para contactarle, agendar su cita y dar seguimiento a su solicitud.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Para ejercer sus derechos ARCO escriba a <a href="mailto:info@hospitalnova.com">info@hospitalnova.com</a>.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9107</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[aviso-de-privacidad]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_privacy"><![CDATA[pll_privacy]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Aviso de privacidad de Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Aviso de privacidad de Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Aviso de privacidad de Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Home]]></title>
+		<link>https://hospitalnova.com/home/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9108</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9108</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_home"><![CDATA[pll_home]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova in Tijuana: 24/7 ER, specialists in internal medicine, neurology, surgical oncology and maternity. On-site lab, X-ray and blood bank.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova in Tijuana: 24/7 ER, specialists in internal medicine, neurology, surgical oncology and maternity. On-site lab, X-ray and blood bank.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova in Tijuana: 24/7 ER, specialists in internal medicine, neurology, surgical oncology and maternity. On-site lab, X-ray and blood bank.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Medical Specialties in Tijuana]]></title>
+		<link>https://hospitalnova.com/specialties/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9109</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->
+[nova_specialties]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_partners]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_contact]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Internal medicine, neurology, surgical oncology, maternity, emergency and inpatient care in one hospital.]]></excerpt:encoded>
+		<wp:post_id>9109</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[specialties]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_specialties"><![CDATA[pll_specialties]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Medical specialties in Tijuana: internal medicine, neurology, surgical oncology, OB-GYN and 24/7 ER. Book your evaluation at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Medical specialties in Tijuana: internal medicine, neurology, surgical oncology, OB-GYN and 24/7 ER. Book your evaluation at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Medical specialties in Tijuana: internal medicine, neurology, surgical oncology, OB-GYN and 24/7 ER. Book your evaluation at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[24/7 Services: ER, Surgery & Inpatient Care]]></title>
+		<link>https://hospitalnova.com/services/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9110</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->
+[nova_stats]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_partners]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_maternity]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_faq]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Always open. Consultations, operating rooms, inpatient care and 24/7 diagnostics in Tijuana.]]></excerpt:encoded>
+		<wp:post_id>9110</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[services]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_services"><![CDATA[pll_services]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[24-hour hospital in Tijuana: ER, operating rooms, inpatient care, lab, X-ray and blood bank. Always open at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[24-hour hospital in Tijuana: ER, operating rooms, inpatient care, lab, X-ray and blood bank. Always open at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[24-hour hospital in Tijuana: ER, operating rooms, inpatient care, lab, X-ray and blood bank. Always open at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Specialist Doctors]]></title>
+		<link>https://hospitalnova.com/doctors/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9111</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->
+[nova_doctors]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_contact]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Meet the specialists who practice at Hospital Nova and book directly on WhatsApp.]]></excerpt:encoded>
+		<wp:post_id>9111</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[doctors]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>10</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_doctors"><![CDATA[pll_doctors]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Specialist doctors in Tijuana: internist, neurologist and surgical oncologists. Book your appointment at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Specialist doctors in Tijuana: internist, neurologist and surgical oncologists. Book your appointment at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Specialist doctors in Tijuana: internist, neurologist and surgical oncologists. Book your appointment at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Contact & Appointments]]></title>
+		<link>https://hospitalnova.com/contact/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9112</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->
+[nova_contact]
+<!-- /wp:shortcode -->
+
+<!-- wp:shortcode -->
+[nova_faq]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Book by phone, WhatsApp or the form. 24/7 care.]]></excerpt:encoded>
+		<wp:post_id>9112</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>11</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_contact"><![CDATA[pll_contact]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Hospital Nova in Tijuana: book by phone, WhatsApp or online form. ER open 24 hours.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Hospital Nova in Tijuana: book by phone, WhatsApp or online form. ER open 24 hours.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Hospital Nova in Tijuana: book by phone, WhatsApp or online form. ER open 24 hours.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Health Blog]]></title>
+		<link>https://hospitalnova.com/blog-en/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9113</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9113</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog-en]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>12</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_blog"><![CDATA[pll_blog]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova Tijuana health blog: internal medicine, neurology, maternity, prevention and emergency care.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova Tijuana health blog: internal medicine, neurology, maternity, prevention and emergency care.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova Tijuana health blog: internal medicine, neurology, maternity, prevention and emergency care.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Privacy Notice]]></title>
+		<link>https://hospitalnova.com/privacy-notice/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9114</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Template — review with the hospital’s legal team before publishing.</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Hospital Nova, located in Tijuana, Baja California, is responsible for the personal data you provide through this website, in accordance with Mexico’s Federal Law on Protection of Personal Data Held by Private Parties.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Data collected via the form (name, phone, email and reason for visit) is used solely to contact you, schedule your appointment and follow up on your request.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>To exercise your ARCO rights, write to <a href="mailto:info@hospitalnova.com">info@hospitalnova.com</a>.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9114</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[privacy-notice]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>13</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_privacy"><![CDATA[pll_privacy]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova privacy notice.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova privacy notice.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hospital Nova privacy notice.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[¿Parto o cesárea? Guía completa para elegir con tu ginecólogo en Tijuana]]></title>
+		<link>https://hospitalnova.com/parto-o-cesarea-tijuana/</link>
+		<pubDate>Mon, 07 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9115</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Una de las dudas más comunes durante el embarazo es si el bebé nacerá por <strong>parto vaginal o por cesárea</strong>. La decisión no es de preferencia solamente: depende de tu salud, la del bebé y la evolución del embarazo. En esta guía te explicamos lo esencial para que llegues informada a tu consulta.</p>
+<h2>¿Qué es un parto vaginal?</h2>
+<p>Es el nacimiento a través del canal vaginal. Cuando el embarazo es de bajo riesgo, suele ser la vía recomendada porque la recuperación es más rápida, la estancia hospitalaria es más corta y el riesgo de complicaciones quirúrgicas es menor.</p>
+<h2>¿Qué es una cesárea?</h2>
+<p>Es una cirugía en la que el bebé nace a través de una incisión en el abdomen y el útero. Se realiza en quirófano, con anestesia y un equipo médico completo.</p>
+<h3>Situaciones en las que el ginecólogo puede indicar cesárea</h3>
+<ul>
+<li>Bebé en posición podálica (sentado) o transversa.</li>
+<li>Placenta previa u otras alteraciones de la placenta.</li>
+<li>Sufrimiento fetal o trabajo de parto que no avanza.</li>
+<li>Embarazo múltiple en ciertas condiciones.</li>
+<li>Cesáreas previas o cirugías uterinas, según valoración.</li>
+<li>Condiciones de la madre como preeclampsia grave.</li>
+</ul>
+<h2>Recuperación: lo que debes saber</h2>
+<p>Tras un parto vaginal, muchas mamás caminan en pocas horas. Tras una cesárea, la recuperación suele tomar más tiempo y requiere cuidados de la herida, control del dolor y movilización temprana supervisada.</p>
+<h2>Preguntas para hacer al hospital antes del nacimiento</h2>
+<ol>
+<li>¿Cuál es el <strong>presupuesto hospitalario</strong> para parto y para cesárea?</li>
+<li>¿Qué <strong>requisitos de ingreso</strong> y documentos necesito?</li>
+<li>¿Cómo se tramita el <strong>certificado de nacimiento</strong>?</li>
+<li>¿Aceptan mi póliza de <strong>gastos médicos mayores</strong>?</li>
+<li>¿Hay banco de sangre y laboratorio disponibles 24 horas?</li>
+</ol>
+<blockquote>En Hospital Nova te damos esta información completa y, si aún no tienes médico, te recomendamos ginecólogo/a.</blockquote>
+<h2>Conclusión</h2>
+<p>La mejor vía de nacimiento es la que tu ginecólogo indique con base en tu caso. Lo importante es elegir un hospital con quirófano, laboratorio y banco de sangre disponibles las 24 horas para cualquier imprevisto.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Diferencias entre parto natural y cesárea, cuándo se recomienda cada uno, recuperación y qué preguntar al hospital antes del nacimiento de tu bebé.]]></excerpt:encoded>
+		<wp:post_id>9115</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-07 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-07 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[parto-o-cesarea-tijuana]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_post0"><![CDATA[pll_post0]]></category>
+		<category domain="category" nicename="maternidad"><![CDATA[Maternidad]]></category>
+		<category domain="post_tag" nicename="parto"><![CDATA[parto]]></category>
+		<category domain="post_tag" nicename="cesarea"><![CDATA[cesárea]]></category>
+		<category domain="post_tag" nicename="embarazo"><![CDATA[embarazo]]></category>
+		<category domain="post_tag" nicename="maternidad-tijuana"><![CDATA[maternidad Tijuana]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Parto o cesárea en Tijuana? Conoce diferencias, indicaciones, recuperación y requisitos de ingreso. Pide tu presupuesto de maternidad en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Parto o cesárea en Tijuana? Conoce diferencias, indicaciones, recuperación y requisitos de ingreso. Pide tu presupuesto de maternidad en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Parto o cesárea en Tijuana? Conoce diferencias, indicaciones, recuperación y requisitos de ingreso. Pide tu presupuesto de maternidad en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[parto o cesárea Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[parto o cesárea Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[parto-cesarea-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Vaginal Birth or C-Section? A Guide for Expecting Mothers in Tijuana]]></title>
+		<link>https://hospitalnova.com/vaginal-birth-or-c-section-tijuana/</link>
+		<pubDate>Mon, 07 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9116</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>One of the most common questions during pregnancy is whether the baby will be born <strong>vaginally or by C-section</strong>. It is a medical decision based on your health, your baby’s health and how the pregnancy evolves.</p>
+<h2>Vaginal birth</h2>
+<p>In low-risk pregnancies it is usually the recommended route: faster recovery, shorter hospital stay and lower surgical risk.</p>
+<h2>C-section</h2>
+<p>A surgery performed in an operating room, with anesthesia and a full medical team. Your OB-GYN may recommend it for breech position, placenta previa, fetal distress, labor that does not progress, some multiple pregnancies, prior uterine surgery or severe preeclampsia.</p>
+<h2>Questions to ask the hospital</h2>
+<ol>
+<li>What is the <strong>hospital quote</strong> for vaginal birth and for C-section?</li>
+<li>What are the <strong>admission requirements</strong>?</li>
+<li>How is the <strong>birth certificate</strong> processed?</li>
+<li>Do you accept my <strong>major medical insurance</strong>?</li>
+<li>Are a blood bank and lab available 24/7?</li>
+</ol>
+<blockquote>At Hospital Nova we provide all of this information and can refer you to an OB-GYN.</blockquote>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Differences between vaginal birth and C-section, when each is recommended, recovery, and what to ask the hospital before your baby arrives.]]></excerpt:encoded>
+		<wp:post_id>9116</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-07 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-07 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[vaginal-birth-or-c-section-tijuana]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_post0"><![CDATA[pll_post0]]></category>
+		<category domain="category" nicename="maternity"><![CDATA[Maternity]]></category>
+		<category domain="post_tag" nicename="birth"><![CDATA[birth]]></category>
+		<category domain="post_tag" nicename="c-section"><![CDATA[c-section]]></category>
+		<category domain="post_tag" nicename="pregnancy"><![CDATA[pregnancy]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Vaginal birth or C-section in Tijuana? Learn the differences, indications, recovery and admission requirements. Get a maternity quote at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Vaginal birth or C-section in Tijuana? Learn the differences, indications, recovery and admission requirements. Get a maternity quote at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Vaginal birth or C-section in Tijuana? Learn the differences, indications, recovery and admission requirements. Get a maternity quote at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[C-section Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[C-section Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[parto-cesarea-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Medicina interna: qué es y cuándo acudir a un internista en Tijuana]]></title>
+		<link>https://hospitalnova.com/que-es-medicina-interna-cuando-acudir-internista/</link>
+		<pubDate>Sun, 13 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9117</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>La <strong>medicina interna</strong> es la especialidad médica que se centra en la atención integral del adulto para la prevención, diagnóstico y tratamiento de enfermedades complejas, <strong>sin necesidad de cirugía</strong>.</p>
+<h2>¿Qué hace un médico internista?</h2>
+<p>El internista aborda padecimientos que afectan a múltiples órganos y sistemas, coordinando tratamientos y, cuando es necesario, el trabajo con otros especialistas. Es como el “director de orquesta” de tu salud.</p>
+<h2>Padecimientos que atiende</h2>
+<ul>
+<li><strong>Enfermedades crónicas:</strong> diabetes, hipertensión, colesterol alto.</li>
+<li><strong>Enfermedades infecciosas:</strong> neumonías, infecciones urinarias complicadas, fiebre de origen no claro.</li>
+<li><strong>Enfermedades autoinmunes:</strong> como lupus o artritis reumatoide (en coordinación con reumatología).</li>
+<li><strong>Enfermedades del sistema circulatorio.</strong></li>
+<li>Pacientes con varios diagnósticos y múltiples medicamentos.</li>
+</ul>
+<h2>¿Cuándo acudir a medicina interna?</h2>
+<ul>
+<li>Tienes síntomas que no encajan en una sola especialidad.</li>
+<li>Vives con dos o más enfermedades crónicas.</li>
+<li>Tomas muchos medicamentos y quieres revisar interacciones.</li>
+<li>Necesitas un chequeo general completo como adulto.</li>
+<li>Requieres valoración antes de una cirugía.</li>
+</ul>
+<h2>Medicina interna en Hospital Nova</h2>
+<p>En Hospital Nova contamos con médico internista en consultorio, además de laboratorio clínico, rayos X y hospitalización disponibles las 24 horas, lo que permite completar estudios y decidir tratamientos con rapidez.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[El internista es el especialista del adulto que coordina el diagnóstico y tratamiento de enfermedades complejas que afectan a varios órganos.]]></excerpt:encoded>
+		<wp:post_id>9117</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[que-es-medicina-interna-cuando-acudir-internista]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_post1"><![CDATA[pll_post1]]></category>
+		<category domain="category" nicename="especialidades"><![CDATA[Especialidades]]></category>
+		<category domain="post_tag" nicename="medicina-interna"><![CDATA[medicina interna]]></category>
+		<category domain="post_tag" nicename="internista"><![CDATA[internista]]></category>
+		<category domain="post_tag" nicename="enfermedades-cronicas"><![CDATA[enfermedades crónicas]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Qué hace un médico internista? Descubre cuándo acudir a medicina interna en Tijuana: diabetes, hipertensión, infecciones y más. Agenda en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Qué hace un médico internista? Descubre cuándo acudir a medicina interna en Tijuana: diabetes, hipertensión, infecciones y más. Agenda en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Qué hace un médico internista? Descubre cuándo acudir a medicina interna en Tijuana: diabetes, hipertensión, infecciones y más. Agenda en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[médico internista Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[médico internista Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[medicina-interna-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Internal Medicine: What It Is and When to See an Internist in Tijuana]]></title>
+		<link>https://hospitalnova.com/what-is-internal-medicine-internist-tijuana/</link>
+		<pubDate>Sun, 13 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9118</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p><strong>Internal medicine</strong> focuses on comprehensive adult care: prevention, diagnosis and treatment of complex diseases <strong>without surgery</strong>.</p>
+<h2>What internists treat</h2>
+<ul><li>Chronic diseases: diabetes, hypertension, high cholesterol</li><li>Infectious diseases</li><li>Autoimmune diseases</li><li>Circulatory system diseases</li><li>Patients with multiple conditions and medications</li></ul>
+<h2>When to see an internist</h2>
+<ul><li>Symptoms that do not fit a single specialty</li><li>Two or more chronic conditions</li><li>Many medications to review</li><li>A complete adult check-up</li><li>Pre-surgical evaluation</li></ul>
+<p>Hospital Nova offers internal medicine plus a 24/7 lab, X-ray and inpatient care in one place.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[An internist is the adult-care specialist who coordinates diagnosis and treatment of complex conditions affecting several organs.]]></excerpt:encoded>
+		<wp:post_id>9118</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[what-is-internal-medicine-internist-tijuana]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_post1"><![CDATA[pll_post1]]></category>
+		<category domain="category" nicename="specialties"><![CDATA[Specialties]]></category>
+		<category domain="post_tag" nicename="internal-medicine"><![CDATA[internal medicine]]></category>
+		<category domain="post_tag" nicename="internist"><![CDATA[internist]]></category>
+		<category domain="post_tag" nicename="chronic-disease"><![CDATA[chronic disease]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[What does an internist do? Learn when to see internal medicine in Tijuana for diabetes, hypertension, infections and more. Book at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[What does an internist do? Learn when to see internal medicine in Tijuana for diabetes, hypertension, infections and more. Book at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[What does an internist do? Learn when to see internal medicine in Tijuana for diabetes, hypertension, infections and more. Book at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[internist Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[internist Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[medicina-interna-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Migraña o dolor de cabeza: 7 señales de alarma para ver a un neurólogo]]></title>
+		<link>https://hospitalnova.com/migrana-dolor-de-cabeza-senales-de-alarma/</link>
+		<pubDate>Sat, 19 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9119</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>El dolor de cabeza es uno de los motivos de consulta más frecuentes. La <strong>neurología clínica</strong> es la especialidad dedicada al diagnóstico y tratamiento no quirúrgico de las enfermedades del sistema nervioso, incluida la migraña.</p>
+<h2>Migraña vs. cefalea tensional</h2>
+<p>La <strong>migraña</strong> suele ser pulsátil, de un lado de la cabeza, empeora con la actividad y puede acompañarse de náusea, sensibilidad a la luz o al ruido, e incluso “aura” visual. La <strong>cefalea tensional</strong> se siente como presión o banda alrededor de la cabeza y suele relacionarse con estrés o mala postura.</p>
+<h2>7 señales de alarma</h2>
+<ol>
+<li>Dolor de cabeza súbito y muy intenso, “el peor de tu vida”.</li>
+<li>Dolor acompañado de fiebre y rigidez de cuello.</li>
+<li>Debilidad, adormecimiento o dificultad para hablar.</li>
+<li>Alteraciones de la visión o confusión.</li>
+<li>Dolor tras un golpe en la cabeza.</li>
+<li>Dolor nuevo después de los 50 años.</li>
+<li>Cambio en el patrón habitual de tus dolores.</li>
+</ol>
+<blockquote>Si presentas las señales 1 a 5, acude a urgencias de inmediato. Hospital Nova está abierto 24/7.</blockquote>
+<h2>Otros padecimientos que atiende el neurólogo</h2>
+<ul><li>Mareos y vértigo</li><li>Problemas de memoria</li><li>Epilepsia</li><li>Trastornos del sueño</li><li>Ansiedad con síntomas neurológicos</li></ul>
+<h2>Tratamiento</h2>
+<p>El tratamiento de la migraña combina medicamentos para la crisis, medicamentos preventivos cuando las crisis son frecuentes y cambios de hábitos: sueño regular, hidratación y un diario de detonantes. Tu neurólogo definirá el plan adecuado.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[La mayoría de los dolores de cabeza no son graves, pero hay señales que requieren valoración neurológica inmediata. Aprende a reconocerlas.]]></excerpt:encoded>
+		<wp:post_id>9119</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-19 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-19 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[migrana-dolor-de-cabeza-senales-de-alarma]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_post2"><![CDATA[pll_post2]]></category>
+		<category domain="category" nicename="especialidades"><![CDATA[Especialidades]]></category>
+		<category domain="post_tag" nicename="neurologia"><![CDATA[neurología]]></category>
+		<category domain="post_tag" nicename="migrana"><![CDATA[migraña]]></category>
+		<category domain="post_tag" nicename="dolor-de-cabeza"><![CDATA[dolor de cabeza]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Migraña y dolor de cabeza: conoce las 7 señales de alarma para acudir al neurólogo en Tijuana. Valoración neurológica en Hospital Nova 24/7.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Migraña y dolor de cabeza: conoce las 7 señales de alarma para acudir al neurólogo en Tijuana. Valoración neurológica en Hospital Nova 24/7.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Migraña y dolor de cabeza: conoce las 7 señales de alarma para acudir al neurólogo en Tijuana. Valoración neurológica en Hospital Nova 24/7.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[neurólogo en Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[neurólogo en Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[neurologia-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Migraine or Headache? 7 Warning Signs to See a Neurologist]]></title>
+		<link>https://hospitalnova.com/migraine-headache-warning-signs/</link>
+		<pubDate>Sat, 19 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9120</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p><strong>Clinical neurology</strong> diagnoses and treats nervous system diseases without surgery, including migraine.</p>
+<h2>7 warning signs</h2>
+<ol><li>Sudden, severe “worst ever” headache</li><li>Headache with fever and stiff neck</li><li>Weakness, numbness or trouble speaking</li><li>Vision changes or confusion</li><li>Headache after a head injury</li><li>New headache after age 50</li><li>A change in your usual pattern</li></ol>
+<blockquote>For signs 1–5, go to the ER right away. Hospital Nova is open 24/7.</blockquote>
+<p>Neurologists also treat dizziness and vertigo, memory problems, epilepsy, sleep disorders and anxiety with neurological symptoms.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Most headaches are not serious, but some signs need immediate neurological evaluation. Learn to recognize them.]]></excerpt:encoded>
+		<wp:post_id>9120</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-19 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-19 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[migraine-headache-warning-signs]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_post2"><![CDATA[pll_post2]]></category>
+		<category domain="category" nicename="specialties"><![CDATA[Specialties]]></category>
+		<category domain="post_tag" nicename="neurology"><![CDATA[neurology]]></category>
+		<category domain="post_tag" nicename="migraine"><![CDATA[migraine]]></category>
+		<category domain="post_tag" nicename="headache"><![CDATA[headache]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Migraine and headache: 7 warning signs to see a neurologist in Tijuana. 24/7 neurological evaluation at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Migraine and headache: 7 warning signs to see a neurologist in Tijuana. 24/7 neurological evaluation at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Migraine and headache: 7 warning signs to see a neurologist in Tijuana. 24/7 neurological evaluation at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[neurologist Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[neurologist Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[neurologia-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Diabetes tipo 2: cómo controlarla y prevenir complicaciones]]></title>
+		<link>https://hospitalnova.com/diabetes-tipo-2-control-prevencion/</link>
+		<pubDate>Fri, 25 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9121</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>La <strong>diabetes tipo 2</strong> es una de las enfermedades crónicas más frecuentes en México. La buena noticia es que con diagnóstico oportuno y seguimiento médico se puede vivir muchos años con buena calidad de vida.</p>
+<h2>Síntomas que no debes ignorar</h2>
+<ul><li>Sed y hambre excesivas</li><li>Orinar con frecuencia</li><li>Cansancio</li><li>Visión borrosa</li><li>Heridas que tardan en sanar</li><li>Hormigueo en pies o manos</li></ul>
+<p>Muchas personas no tienen síntomas al inicio; por eso los estudios de rutina son clave.</p>
+<h2>Estudios de laboratorio recomendados</h2>
+<ul>
+<li><strong>Glucosa en ayuno</strong>.</li>
+<li><strong>Hemoglobina glucosilada (HbA1c)</strong>: refleja el promedio de glucosa de los últimos 3 meses.</li>
+<li>Perfil de lípidos, función renal y examen general de orina.</li>
+</ul>
+<h2>Complicaciones que se pueden prevenir</h2>
+<p>Un mal control sostenido puede dañar riñones, ojos, nervios, corazón y vasos sanguíneos. Revisiones periódicas permiten detectar cambios a tiempo.</p>
+<h2>5 hábitos que ayudan al control</h2>
+<ol>
+<li>Tomar tus medicamentos tal como te los indicaron.</li>
+<li>Comer porciones moderadas, priorizando verduras, proteína y fibra.</li>
+<li>Caminar o hacer actividad física la mayoría de los días.</li>
+<li>Revisar tus pies diariamente.</li>
+<li>Acudir a tus citas de seguimiento con medicina interna.</li>
+</ol>
+<p>En Hospital Nova puedes realizar tus estudios en el laboratorio NovaLab y consultar a medicina interna en el mismo lugar.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[La diabetes tipo 2 se puede controlar. Conoce las metas de glucosa, los estudios de seguimiento y los hábitos que protegen tu salud.]]></excerpt:encoded>
+		<wp:post_id>9121</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-25 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-25 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[diabetes-tipo-2-control-prevencion]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_post3"><![CDATA[pll_post3]]></category>
+		<category domain="category" nicename="prevencion"><![CDATA[Prevención]]></category>
+		<category domain="post_tag" nicename="diabetes"><![CDATA[diabetes]]></category>
+		<category domain="post_tag" nicename="glucosa"><![CDATA[glucosa]]></category>
+		<category domain="post_tag" nicename="enfermedades-cronicas"><![CDATA[enfermedades crónicas]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Diabetes tipo 2 en Tijuana: síntomas, estudios de laboratorio, metas de control y prevención de complicaciones. Consulta con medicina interna en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Diabetes tipo 2 en Tijuana: síntomas, estudios de laboratorio, metas de control y prevención de complicaciones. Consulta con medicina interna en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Diabetes tipo 2 en Tijuana: síntomas, estudios de laboratorio, metas de control y prevención de complicaciones. Consulta con medicina interna en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[control de diabetes Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[control de diabetes Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[medicina-interna-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Type 2 Diabetes: How to Control It and Prevent Complications]]></title>
+		<link>https://hospitalnova.com/type-2-diabetes-control-prevention/</link>
+		<pubDate>Fri, 25 Sep 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9122</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p><strong>Type 2 diabetes</strong> is very common, and with early diagnosis and follow-up you can live well for many years.</p>
+<h2>Symptoms</h2>
+<ul><li>Excessive thirst and hunger</li><li>Frequent urination</li><li>Fatigue and blurred vision</li><li>Slow-healing wounds</li><li>Tingling in hands or feet</li></ul>
+<h2>Recommended lab tests</h2>
+<ul><li>Fasting glucose</li><li>HbA1c (3-month average)</li><li>Lipids, kidney function and urinalysis</li></ul>
+<h2>Helpful habits</h2>
+<ol><li>Take medication as prescribed</li><li>Moderate portions rich in vegetables and fiber</li><li>Daily physical activity</li><li>Check your feet every day</li><li>Keep your follow-up visits</li></ol>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Type 2 diabetes can be controlled. Learn about lab tests, follow-up and habits that protect your health.]]></excerpt:encoded>
+		<wp:post_id>9122</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-25 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-25 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[type-2-diabetes-control-prevention]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_post3"><![CDATA[pll_post3]]></category>
+		<category domain="category" nicename="prevention"><![CDATA[Prevention]]></category>
+		<category domain="post_tag" nicename="diabetes"><![CDATA[diabetes]]></category>
+		<category domain="post_tag" nicename="blood-sugar"><![CDATA[blood sugar]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Type 2 diabetes in Tijuana: symptoms, lab tests, control goals and complication prevention. See internal medicine at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Type 2 diabetes in Tijuana: symptoms, lab tests, control goals and complication prevention. See internal medicine at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Type 2 diabetes in Tijuana: symptoms, lab tests, control goals and complication prevention. See internal medicine at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[diabetes care Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[diabetes care Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[medicina-interna-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Hipertensión arterial: el enemigo silencioso y cómo detectarlo a tiempo]]></title>
+		<link>https://hospitalnova.com/hipertension-arterial-enemigo-silencioso/</link>
+		<pubDate>Thu, 01 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9123</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>La <strong>hipertensión arterial</strong> se conoce como el “enemigo silencioso” porque puede pasar años sin dar síntomas mientras daña corazón, cerebro y riñones.</p>
+<h2>¿Cómo medir bien la presión?</h2>
+<ul>
+<li>Siéntate 5 minutos en reposo, con la espalda apoyada y los pies en el piso.</li>
+<li>Coloca el brazalete a la altura del corazón.</li>
+<li>Evita café, tabaco y ejercicio 30 minutos antes.</li>
+<li>Toma dos mediciones y anota los resultados.</li>
+</ul>
+<h2>Factores de riesgo</h2>
+<ul><li>Antecedentes familiares</li><li>Sobrepeso y sedentarismo</li><li>Consumo alto de sal y alcohol</li><li>Diabetes</li><li>Estrés crónico</li></ul>
+<h2>Cuándo ir a urgencias</h2>
+<p>Acude de inmediato si tu presión está muy elevada y además presentas:</p>
+<ul><li>Dolor en el pecho</li><li>Falta de aire</li><li>Dolor de cabeza intenso o confusión</li><li>Debilidad de un lado del cuerpo o dificultad para hablar</li><li>Visión borrosa repentina</li></ul>
+<blockquote>Hospital Nova cuenta con urgencias 24/7 para valorar crisis hipertensivas.</blockquote>
+<h2>Tratamiento y seguimiento</h2>
+<p>El control combina cambios en el estilo de vida y, cuando es necesario, medicamentos indicados por tu médico. No suspendas tu tratamiento aunque te sientas bien: la presión controlada es la meta.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[La presión alta muchas veces no da síntomas. Aprende cómo medirla correctamente, qué cifras son de riesgo y cuándo acudir a urgencias.]]></excerpt:encoded>
+		<wp:post_id>9123</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[hipertension-arterial-enemigo-silencioso]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_post4"><![CDATA[pll_post4]]></category>
+		<category domain="category" nicename="prevencion"><![CDATA[Prevención]]></category>
+		<category domain="post_tag" nicename="hipertension"><![CDATA[hipertensión]]></category>
+		<category domain="post_tag" nicename="presion-arterial"><![CDATA[presión arterial]]></category>
+		<category domain="post_tag" nicename="corazon"><![CDATA[corazón]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hipertensión arterial: síntomas, cifras de riesgo, cómo medir tu presión y cuándo ir a urgencias en Tijuana. Atención 24/7 en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hipertensión arterial: síntomas, cifras de riesgo, cómo medir tu presión y cuándo ir a urgencias en Tijuana. Atención 24/7 en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hipertensión arterial: síntomas, cifras de riesgo, cómo medir tu presión y cuándo ir a urgencias en Tijuana. Atención 24/7 en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hipertensión arterial]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hipertensión arterial]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hospital-24-horas-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[High Blood Pressure: The Silent Enemy and How to Catch It Early]]></title>
+		<link>https://hospitalnova.com/high-blood-pressure-silent-killer/</link>
+		<pubDate>Thu, 01 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9124</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p><strong>Hypertension</strong> can go unnoticed for years while damaging the heart, brain and kidneys.</p>
+<h2>Measure it correctly</h2>
+<ul><li>Rest 5 minutes, back supported, feet flat</li><li>Cuff at heart level</li><li>No coffee, tobacco or exercise 30 minutes before</li><li>Take two readings and write them down</li></ul>
+<h2>Go to the ER if very high pressure comes with</h2>
+<ul><li>Chest pain or shortness of breath</li><li>Severe headache or confusion</li><li>One-sided weakness or trouble speaking</li><li>Sudden blurred vision</li></ul>
+<blockquote>Hospital Nova’s ER is open 24/7.</blockquote>]]></content:encoded>
+		<excerpt:encoded><![CDATA[High blood pressure often has no symptoms. Learn how to measure it correctly and when to go to the ER.]]></excerpt:encoded>
+		<wp:post_id>9124</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-01 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[high-blood-pressure-silent-killer]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_post4"><![CDATA[pll_post4]]></category>
+		<category domain="category" nicename="prevention"><![CDATA[Prevention]]></category>
+		<category domain="post_tag" nicename="hypertension"><![CDATA[hypertension]]></category>
+		<category domain="post_tag" nicename="blood-pressure"><![CDATA[blood pressure]]></category>
+		<category domain="post_tag" nicename="heart"><![CDATA[heart]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[High blood pressure: symptoms, risk levels, how to measure it and when to go to the ER in Tijuana. 24/7 care at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[High blood pressure: symptoms, risk levels, how to measure it and when to go to the ER in Tijuana. 24/7 care at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[High blood pressure: symptoms, risk levels, how to measure it and when to go to the ER in Tijuana. 24/7 care at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[high blood pressure]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[high blood pressure]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hospital-24-horas-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Cirugía oncológica: qué es, cuándo se indica y cómo prepararte]]></title>
+		<link>https://hospitalnova.com/cirugia-oncologica-que-es-como-prepararse/</link>
+		<pubDate>Wed, 07 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9125</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>La <strong>cirugía oncológica</strong> es la rama de la cirugía dedicada al diagnóstico y tratamiento quirúrgico del cáncer. Es realizada por un <strong>cirujano oncólogo</strong>, especialista entrenado para extirpar tumores con márgenes de seguridad y evaluar los ganglios linfáticos.</p>
+<h2>Objetivos de la cirugía oncológica</h2>
+<ul>
+<li><strong>Diagnóstica:</strong> obtener una biopsia para confirmar el tipo de cáncer.</li>
+<li><strong>Curativa:</strong> extirpar el tumor por completo.</li>
+<li><strong>Etapificación:</strong> conocer la extensión de la enfermedad.</li>
+<li><strong>Paliativa:</strong> aliviar síntomas y mejorar la calidad de vida.</li>
+</ul>
+<h2>Trabajo en equipo</h2>
+<p>Con frecuencia la cirugía se combina con quimioterapia, radioterapia u otros tratamientos. El cirujano oncólogo coordina el plan con otros especialistas.</p>
+<h2>Cómo prepararte</h2>
+<ol>
+<li>Lleva todos tus estudios previos: biopsias, imágenes y laboratorios.</li>
+<li>Informa todos tus medicamentos, especialmente anticoagulantes.</li>
+<li>Realiza la valoración preoperatoria indicada.</li>
+<li>Respeta el ayuno indicado.</li>
+<li>Prepara a un acompañante para tu estancia y alta.</li>
+</ol>
+<h2>Cirugía oncológica en Hospital Nova</h2>
+<p>Nuestros cirujanos oncólogos atienden con citas vía WhatsApp y cuentan con el respaldo de quirófano, hospitalización, laboratorio y banco de sangre disponibles 24 horas.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[La cirugía oncológica es uno de los pilares del tratamiento del cáncer. Te explicamos sus objetivos y cómo prepararte para el procedimiento.]]></excerpt:encoded>
+		<wp:post_id>9125</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-07 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-07 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cirugia-oncologica-que-es-como-prepararse]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_post5"><![CDATA[pll_post5]]></category>
+		<category domain="category" nicename="especialidades"><![CDATA[Especialidades]]></category>
+		<category domain="post_tag" nicename="cirugia-oncologica"><![CDATA[cirugía oncológica]]></category>
+		<category domain="post_tag" nicename="cancer"><![CDATA[cáncer]]></category>
+		<category domain="post_tag" nicename="oncologia"><![CDATA[oncología]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cirugía oncológica en Tijuana: qué es, cuándo se recomienda y cómo prepararte. Cirujanos oncólogos con quirófano 24 horas en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cirugía oncológica en Tijuana: qué es, cuándo se recomienda y cómo prepararte. Cirujanos oncólogos con quirófano 24 horas en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cirugía oncológica en Tijuana: qué es, cuándo se recomienda y cómo prepararte. Cirujanos oncólogos con quirófano 24 horas en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirujano oncólogo Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirujano oncólogo Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirugia-oncologica-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Surgical Oncology: What It Is, When It Is Needed and How to Prepare]]></title>
+		<link>https://hospitalnova.com/surgical-oncology-what-to-expect/</link>
+		<pubDate>Wed, 07 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9126</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p><strong>Surgical oncology</strong> is performed by a surgical oncologist trained to remove tumors with safety margins and evaluate lymph nodes.</p>
+<h2>Goals</h2>
+<ul><li>Diagnostic (biopsy)</li><li>Curative</li><li>Staging</li><li>Palliative</li></ul>
+<h2>How to prepare</h2>
+<ol><li>Bring all prior biopsies, imaging and labs</li><li>Report all medications, especially blood thinners</li><li>Complete your pre-op evaluation</li><li>Follow fasting instructions</li><li>Plan a companion for your stay</li></ol>
+<p>Our surgical oncologists take appointments via WhatsApp and are backed by a 24-hour OR, inpatient care, lab and blood bank.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Surgery is one of the pillars of cancer treatment. Learn its goals and how to prepare for the procedure.]]></excerpt:encoded>
+		<wp:post_id>9126</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-07 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-07 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[surgical-oncology-what-to-expect]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_post5"><![CDATA[pll_post5]]></category>
+		<category domain="category" nicename="specialties"><![CDATA[Specialties]]></category>
+		<category domain="post_tag" nicename="surgical-oncology"><![CDATA[surgical oncology]]></category>
+		<category domain="post_tag" nicename="cancer"><![CDATA[cancer]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Surgical oncology in Tijuana: what it is, when it is recommended and how to prepare. Surgical oncologists with a 24-hour OR at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Surgical oncology in Tijuana: what it is, when it is recommended and how to prepare. Surgical oncologists with a 24-hour OR at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Surgical oncology in Tijuana: what it is, when it is recommended and how to prepare. Surgical oncologists with a 24-hour OR at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[surgical oncologist Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[surgical oncologist Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirugia-oncologica-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[¿Urgencias o consulta? Cómo saber a dónde ir y no perder tiempo]]></title>
+		<link>https://hospitalnova.com/cuando-ir-a-urgencias-vs-consulta/</link>
+		<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9127</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Ante un síntoma inesperado es normal dudar: ¿voy a urgencias o espero a una consulta? Esta guía te ayuda a decidir. <strong>Ante la duda, acude a urgencias.</strong></p>
+<h2>Acude a urgencias de inmediato si hay:</h2>
+<ul>
+<li>Dolor en el pecho o falta de aire.</li>
+<li>Debilidad súbita, cara desviada o dificultad para hablar.</li>
+<li>Sangrado abundante que no se detiene.</li>
+<li>Dolor abdominal intenso y persistente.</li>
+<li>Golpe en la cabeza con pérdida de conciencia, vómito o confusión.</li>
+<li>Fiebre alta con rigidez de cuello o convulsiones.</li>
+<li>Reacción alérgica con hinchazón de cara o dificultad para respirar.</li>
+<li>En el embarazo: sangrado, pérdida de líquido, contracciones antes de tiempo o disminución de movimientos del bebé.</li>
+</ul>
+<h2>Puede esperar a consulta:</h2>
+<ul>
+<li>Resfriado leve sin dificultad para respirar.</li>
+<li>Seguimiento de enfermedades crónicas estables.</li>
+<li>Resultados de laboratorio de rutina.</li>
+<li>Molestias leves que llevan días sin empeorar.</li>
+</ul>
+<h2>Qué llevar a urgencias</h2>
+<ol><li>Identificación</li><li>Lista de medicamentos y alergias</li><li>Estudios recientes</li><li>Póliza de seguro, si cuentas con una</li></ol>
+<blockquote>Hospital Nova está siempre abierto: urgencias, quirófano, hospitalización, laboratorio, rayos X y banco de sangre 24/7.</blockquote>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Saber distinguir una urgencia de un padecimiento que puede esperar a consulta salva vidas. Usa esta guía práctica.]]></excerpt:encoded>
+		<wp:post_id>9127</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-13 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-13 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cuando-ir-a-urgencias-vs-consulta]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_post6"><![CDATA[pll_post6]]></category>
+		<category domain="category" nicename="urgencias"><![CDATA[Urgencias]]></category>
+		<category domain="post_tag" nicename="urgencias"><![CDATA[urgencias]]></category>
+		<category domain="post_tag" nicename="emergencias"><![CDATA[emergencias]]></category>
+		<category domain="post_tag" nicename="hospital-24-horas"><![CDATA[hospital 24 horas]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Cuándo ir a urgencias en Tijuana? Guía para distinguir una emergencia de una consulta. Hospital Nova: urgencias 24 horas, siempre abierto.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Cuándo ir a urgencias en Tijuana? Guía para distinguir una emergencia de una consulta. Hospital Nova: urgencias 24 horas, siempre abierto.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[¿Cuándo ir a urgencias en Tijuana? Guía para distinguir una emergencia de una consulta. Hospital Nova: urgencias 24 horas, siempre abierto.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[urgencias 24 horas Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[urgencias 24 horas Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hospital-24-horas-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[ER or Doctor Visit? How to Know Where to Go]]></title>
+		<link>https://hospitalnova.com/when-to-go-to-the-er-vs-doctor-visit/</link>
+		<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9128</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>When in doubt, <strong>go to the ER</strong>.</p>
+<h2>Go to the ER right away for</h2>
+<ul><li>Chest pain or shortness of breath</li><li>Sudden weakness, facial droop or trouble speaking</li><li>Heavy bleeding</li><li>Severe abdominal pain</li><li>Head injury with fainting, vomiting or confusion</li><li>High fever with stiff neck or seizures</li><li>Allergic reaction with facial swelling</li><li>Pregnancy bleeding, fluid loss, early contractions or less baby movement</li></ul>
+<h2>A regular visit is fine for</h2>
+<ul><li>Mild colds</li><li>Stable chronic disease follow-up</li><li>Routine lab results</li></ul>
+<blockquote>Hospital Nova is always open: ER, OR, inpatient care, lab, X-ray and blood bank 24/7.</blockquote>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Knowing whether you need the ER or a regular visit saves lives. Use this practical guide.]]></excerpt:encoded>
+		<wp:post_id>9128</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-13 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-13 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[when-to-go-to-the-er-vs-doctor-visit]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_post6"><![CDATA[pll_post6]]></category>
+		<category domain="category" nicename="emergency"><![CDATA[Emergency]]></category>
+		<category domain="post_tag" nicename="emergency-room"><![CDATA[emergency room]]></category>
+		<category domain="post_tag" nicename="24-hour-hospital"><![CDATA[24 hour hospital]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[When should you go to the ER in Tijuana? A guide to tell an emergency from a regular visit. Hospital Nova: 24-hour ER, always open.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[When should you go to the ER in Tijuana? A guide to tell an emergency from a regular visit. Hospital Nova: 24-hour ER, always open.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[When should you go to the ER in Tijuana? A guide to tell an emergency from a regular visit. Hospital Nova: 24-hour ER, always open.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[24 hour ER Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[24 hour ER Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hospital-24-horas-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Chequeo médico anual: estudios de laboratorio que deberías hacerte]]></title>
+		<link>https://hospitalnova.com/chequeo-medico-anual-estudios-laboratorio/</link>
+		<pubDate>Mon, 19 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9129</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Prevenir siempre es mejor que tratar. Un <strong>chequeo médico anual</strong> permite detectar diabetes, colesterol alto, anemia o problemas renales antes de que provoquen síntomas.</p>
+<h2>Estudios básicos para adultos</h2>
+<ul>
+<li><strong>Biometría hemática:</strong> detecta anemia e infecciones.</li>
+<li><strong>Química sanguínea:</strong> glucosa, urea, creatinina y ácido úrico.</li>
+<li><strong>Perfil de lípidos:</strong> colesterol y triglicéridos.</li>
+<li><strong>Examen general de orina.</strong></li>
+<li><strong>Pruebas de función hepática</strong>, según tu historial.</li>
+</ul>
+<h2>Según tu edad y sexo</h2>
+<ul>
+<li><strong>Mujeres:</strong> papanicolaou y estudios de mama según indicación médica.</li>
+<li><strong>Hombres mayores de 45–50:</strong> valoración de próstata según indicación médica.</li>
+<li><strong>Mayores de 45:</strong> hemoglobina glucosilada y electrocardiograma.</li>
+</ul>
+<h2>Cómo prepararte</h2>
+<ol>
+<li>Ayuno de 8 a 12 horas (agua sí está permitida).</li>
+<li>Evita alcohol y ejercicio intenso el día anterior.</li>
+<li>Informa tus medicamentos.</li>
+</ol>
+<h2>Interpreta tus resultados con un médico</h2>
+<p>Un valor fuera de rango no siempre significa enfermedad. Lleva tus resultados a medicina interna para una interpretación completa. En Hospital Nova, el laboratorio NovaLab funciona 24/7.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Un chequeo anual detecta enfermedades antes de que den síntomas. Estos son los estudios básicos según tu edad.]]></excerpt:encoded>
+		<wp:post_id>9129</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-19 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-19 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[chequeo-medico-anual-estudios-laboratorio]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_post7"><![CDATA[pll_post7]]></category>
+		<category domain="category" nicename="prevencion"><![CDATA[Prevención]]></category>
+		<category domain="post_tag" nicename="laboratorio"><![CDATA[laboratorio]]></category>
+		<category domain="post_tag" nicename="chequeo-medico"><![CDATA[chequeo médico]]></category>
+		<category domain="post_tag" nicename="prevencion"><![CDATA[prevención]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chequeo médico anual en Tijuana: estudios de laboratorio básicos por edad, cómo prepararte y dónde hacerlos. Laboratorio NovaLab 24/7 en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chequeo médico anual en Tijuana: estudios de laboratorio básicos por edad, cómo prepararte y dónde hacerlos. Laboratorio NovaLab 24/7 en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chequeo médico anual en Tijuana: estudios de laboratorio básicos por edad, cómo prepararte y dónde hacerlos. Laboratorio NovaLab 24/7 en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[laboratorio clínico Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[laboratorio clínico Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hospital-24-horas-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Annual Check-Up: Lab Tests You Should Get]]></title>
+		<link>https://hospitalnova.com/annual-checkup-lab-tests/</link>
+		<pubDate>Mon, 19 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9130</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>Basic adult tests</h2>
+<ul><li>Complete blood count</li><li>Blood chemistry: glucose, urea, creatinine, uric acid</li><li>Lipid panel</li><li>Urinalysis</li><li>Liver function tests as indicated</li></ul>
+<h2>How to prepare</h2>
+<ol><li>Fast 8–12 hours (water is allowed)</li><li>Avoid alcohol and intense exercise the day before</li><li>Report your medications</li></ol>
+<p>Review your results with internal medicine. NovaLab at Hospital Nova runs 24/7.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[An annual check-up catches disease before symptoms appear. These are the basic tests by age.]]></excerpt:encoded>
+		<wp:post_id>9130</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-19 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-19 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[annual-checkup-lab-tests]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_post7"><![CDATA[pll_post7]]></category>
+		<category domain="category" nicename="prevention"><![CDATA[Prevention]]></category>
+		<category domain="post_tag" nicename="lab"><![CDATA[lab]]></category>
+		<category domain="post_tag" nicename="check-up"><![CDATA[check-up]]></category>
+		<category domain="post_tag" nicename="prevention"><![CDATA[prevention]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Annual check-up in Tijuana: basic lab tests by age, how to prepare and where to get them. NovaLab 24/7 at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Annual check-up in Tijuana: basic lab tests by age, how to prepare and where to get them. NovaLab 24/7 at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Annual check-up in Tijuana: basic lab tests by age, how to prepare and where to get them. NovaLab 24/7 at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[lab tests Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[lab tests Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hospital-24-horas-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Vértigo y mareos: causas comunes y cuándo preocuparse]]></title>
+		<link>https://hospitalnova.com/vertigo-y-mareos-causas/</link>
+		<pubDate>Sun, 25 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9131</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Aunque solemos usarlos como sinónimos, <strong>mareo</strong> y <strong>vértigo</strong> son distintos. El vértigo es la sensación de que todo gira; el mareo puede describirse como inestabilidad, debilidad o sensación de desmayo.</p>
+<h2>Causas frecuentes de vértigo</h2>
+<ul>
+<li><strong>Vértigo posicional paroxístico benigno (VPPB):</strong> episodios breves al mover la cabeza.</li>
+<li><strong>Neuritis vestibular:</strong> inflamación del nervio del equilibrio, a menudo tras una infección viral.</li>
+<li><strong>Enfermedad de Ménière:</strong> vértigo con zumbido y pérdida auditiva.</li>
+<li><strong>Migraña vestibular.</strong></li>
+</ul>
+<h2>Causas frecuentes de mareo</h2>
+<ul><li>Presión baja o deshidratación</li><li>Anemia</li><li>Efectos de medicamentos</li><li>Glucosa baja</li><li>Ansiedad</li></ul>
+<h2>Señales de alarma: acude a urgencias</h2>
+<ul>
+<li>Vértigo con dificultad para hablar, visión doble o debilidad.</li>
+<li>Dolor de cabeza súbito e intenso.</li>
+<li>Pérdida del estado de alerta.</li>
+<li>Dolor en el pecho o palpitaciones.</li>
+</ul>
+<h2>Diagnóstico y tratamiento</h2>
+<p>El neurólogo realiza una exploración del equilibrio y, si es necesario, solicita estudios de laboratorio o imagen. Muchos casos de VPPB mejoran con maniobras de reposicionamiento realizadas en consultorio.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Mareo y vértigo no son lo mismo. Conoce sus causas, cómo se diagnostican y qué síntomas requieren atención urgente.]]></excerpt:encoded>
+		<wp:post_id>9131</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-25 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-25 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[vertigo-y-mareos-causas]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_post8"><![CDATA[pll_post8]]></category>
+		<category domain="category" nicename="especialidades"><![CDATA[Especialidades]]></category>
+		<category domain="post_tag" nicename="vertigo"><![CDATA[vértigo]]></category>
+		<category domain="post_tag" nicename="mareos"><![CDATA[mareos]]></category>
+		<category domain="post_tag" nicename="neurologia"><![CDATA[neurología]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Vértigo y mareos: causas, diagnóstico y tratamiento en Tijuana. Conoce las señales de alarma y agenda valoración con neurología en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Vértigo y mareos: causas, diagnóstico y tratamiento en Tijuana. Conoce las señales de alarma y agenda valoración con neurología en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Vértigo y mareos: causas, diagnóstico y tratamiento en Tijuana. Conoce las señales de alarma y agenda valoración con neurología en Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[vértigo tratamiento Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[vértigo tratamiento Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[neurologia-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Vertigo and Dizziness: Common Causes and When to Worry]]></title>
+		<link>https://hospitalnova.com/vertigo-and-dizziness-causes/</link>
+		<pubDate>Sun, 25 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9132</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p><strong>Vertigo</strong> is the feeling that everything spins; <strong>dizziness</strong> is more like unsteadiness or feeling faint.</p>
+<h2>Common causes of vertigo</h2>
+<ul><li>BPPV</li><li>Vestibular neuritis</li><li>Ménière’s disease</li><li>Vestibular migraine</li></ul>
+<h2>Warning signs: go to the ER</h2>
+<ul><li>Vertigo with trouble speaking, double vision or weakness</li><li>Sudden severe headache</li><li>Loss of consciousness</li><li>Chest pain or palpitations</li></ul>
+<p>Many BPPV cases improve with repositioning maneuvers performed in the office.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Dizziness and vertigo are not the same. Learn the causes and which symptoms need urgent care.]]></excerpt:encoded>
+		<wp:post_id>9132</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-25 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-25 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[vertigo-and-dizziness-causes]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_post8"><![CDATA[pll_post8]]></category>
+		<category domain="category" nicename="specialties"><![CDATA[Specialties]]></category>
+		<category domain="post_tag" nicename="vertigo"><![CDATA[vertigo]]></category>
+		<category domain="post_tag" nicename="dizziness"><![CDATA[dizziness]]></category>
+		<category domain="post_tag" nicename="neurology"><![CDATA[neurology]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Vertigo and dizziness: causes, diagnosis and treatment in Tijuana. Know the warning signs and book a neurology visit at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Vertigo and dizziness: causes, diagnosis and treatment in Tijuana. Know the warning signs and book a neurology visit at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Vertigo and dizziness: causes, diagnosis and treatment in Tijuana. Know the warning signs and book a neurology visit at Hospital Nova.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[vertigo treatment Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[vertigo treatment Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[neurologia-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Turismo médico en Tijuana: guía para pacientes de Estados Unidos]]></title>
+		<link>https://hospitalnova.com/turismo-medico-tijuana-guia-pacientes/</link>
+		<pubDate>Sat, 31 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9133</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Tijuana es uno de los destinos de <strong>turismo médico</strong> más importantes del continente por su cercanía con San Diego, la calidad de sus especialistas y costos accesibles.</p>
+<h2>Cómo elegir un hospital</h2>
+<ul>
+<li>Que cuente con <strong>urgencias, quirófano y hospitalización 24/7</strong>.</li>
+<li>Laboratorio, rayos X y banco de sangre en sitio.</li>
+<li>Médicos especialistas con cédula profesional verificable.</li>
+<li>Atención en tu idioma.</li>
+<li>Presupuesto claro por escrito antes del procedimiento.</li>
+</ul>
+<h2>Documentos para cruzar</h2>
+<ol>
+<li>Pasaporte o tarjeta pasaporte vigente.</li>
+<li>Estudios médicos previos y lista de medicamentos.</li>
+<li>Datos de contacto del hospital y del médico.</li>
+<li>Información de tu seguro, si aplica.</li>
+</ol>
+<h2>Planea tu regreso</h2>
+<p>Considera los tiempos de cruce fronterizo, ten un acompañante y pide a tu médico indicaciones por escrito para tu recuperación y seguimiento.</p>
+<h2>Atención bilingüe en Hospital Nova</h2>
+<p>En Hospital Nova recibimos pacientes del sur de California con atención en español e inglés. Escríbenos por WhatsApp para coordinar tu valoración.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Miles de pacientes cruzan desde San Diego para recibir atención médica en Tijuana. Esto es lo que necesitas saber para planear tu visita.]]></excerpt:encoded>
+		<wp:post_id>9133</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-31 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-31 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[turismo-medico-tijuana-guia-pacientes]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="es"><![CDATA[Español]]></category>
+		<category domain="post_translations" nicename="pll_post9"><![CDATA[pll_post9]]></category>
+		<category domain="category" nicename="pacientes-internacionales"><![CDATA[Pacientes internacionales]]></category>
+		<category domain="post_tag" nicename="turismo-medico"><![CDATA[turismo médico]]></category>
+		<category domain="post_tag" nicename="san-diego"><![CDATA[San Diego]]></category>
+		<category domain="post_tag" nicename="pacientes-internacionales"><![CDATA[pacientes internacionales]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Turismo médico en Tijuana: cómo planear tu atención desde San Diego, qué documentos llevar y cómo elegir hospital. Hospital Nova atiende en inglés 24/7.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Turismo médico en Tijuana: cómo planear tu atención desde San Diego, qué documentos llevar y cómo elegir hospital. Hospital Nova atiende en inglés 24/7.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Turismo médico en Tijuana: cómo planear tu atención desde San Diego, qué documentos llevar y cómo elegir hospital. Hospital Nova atiende en inglés 24/7.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[turismo médico Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[turismo médico Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirugia-oncologica-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Medical Tourism in Tijuana: A Guide for U.S. Patients]]></title>
+		<link>https://hospitalnova.com/medical-tourism-tijuana-guide/</link>
+		<pubDate>Sat, 31 Oct 2026 09:00:00 GMT</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://hospitalnova.com/?p=9134</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Tijuana is one of the leading <strong>medical tourism</strong> destinations thanks to its proximity to San Diego, skilled specialists and accessible costs.</p>
+<h2>How to choose a hospital</h2>
+<ul><li>24/7 ER, OR and inpatient care</li><li>On-site lab, X-ray and blood bank</li><li>Specialists with verifiable licenses</li><li>Care in your language</li><li>A clear written quote before the procedure</li></ul>
+<h2>Documents to bring</h2>
+<ol><li>Valid passport or passport card</li><li>Prior medical records and medication list</li><li>Hospital and doctor contact details</li><li>Insurance information, if applicable</li></ol>
+<p>Hospital Nova welcomes Southern California patients in English and Spanish. Message us on WhatsApp to coordinate your visit.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Thousands of patients cross from San Diego for medical care in Tijuana. Here is what you need to plan your visit.]]></excerpt:encoded>
+		<wp:post_id>9134</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-31 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-31 09:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[medical-tourism-tijuana-guide]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="language" nicename="en"><![CDATA[English]]></category>
+		<category domain="post_translations" nicename="pll_post9"><![CDATA[pll_post9]]></category>
+		<category domain="category" nicename="international-patients"><![CDATA[International Patients]]></category>
+		<category domain="post_tag" nicename="medical-tourism"><![CDATA[medical tourism]]></category>
+		<category domain="post_tag" nicename="san-diego"><![CDATA[San Diego]]></category>
+		<category domain="post_tag" nicename="international-patients"><![CDATA[international patients]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_meta_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Medical tourism in Tijuana: plan your care from San Diego, what documents to bring and how to choose a hospital. Hospital Nova offers 24/7 English-speaking care.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Medical tourism in Tijuana: plan your care from San Diego, what documents to bring and how to choose a hospital. Hospital Nova offers 24/7 English-speaking care.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Medical tourism in Tijuana: plan your care from San Diego, what documents to bring and how to choose a hospital. Hospital Nova offers 24/7 English-speaking care.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[medical tourism Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[medical tourism Tijuana]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_nova_fallback_img]]></wp:meta_key>
+			<wp:meta_value><![CDATA[cirugia-oncologica-tijuana.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>

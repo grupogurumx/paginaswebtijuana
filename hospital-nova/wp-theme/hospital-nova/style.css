@@ -1,0 +1,16 @@
+/*
+Theme Name: Hospital Nova 2026
+Theme URI: https://hospitalnova.com/
+Author: Grupo Gurú
+Description: Tema a medida para Hospital Nova (Tijuana). Diseño médico moderno 2026 con slider panorámico 3D, animaciones motion, formulario de captación de pacientes (envía a info@hospitalnova.com), SEO técnico (Schema Hospital, FAQ, Article, Open Graph, hreflang) y soporte bilingüe español/inglés con Polylang.
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 6.8
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hospital-nova
+Tags: medical, hospital, one-column, custom-logo, custom-menu, translation-ready, featured-images
+*/
+
+/* Los estilos viven en assets/css/main.css (tokens de color en :root). */
