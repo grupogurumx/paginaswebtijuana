@@ -116,6 +116,11 @@ function sws_breadcrumb_items() {
 		$blog = (int) get_option( 'page_for_posts' );
 		$items[] = array( 'name' => $blog ? get_the_title( $blog ) : 'Blog', 'url' => $blog ? get_permalink( $blog ) : home_url( '/blog/' ) );
 		$items[] = array( 'name' => get_the_title(), 'url' => get_permalink() );
+	} elseif ( is_singular( 'product' ) ) {
+		$items[] = array( 'name' => 'Courses', 'url' => home_url( '/courses/' ) );
+		$items[] = array( 'name' => get_the_title(), 'url' => get_permalink() );
+	} elseif ( function_exists( 'is_shop' ) && is_shop() ) {
+		$items[] = array( 'name' => 'Register', 'url' => get_permalink( wc_get_page_id( 'shop' ) ) );
 	} elseif ( is_page() ) {
 		foreach ( array_reverse( get_post_ancestors( get_the_ID() ) ) as $anc ) {
 			$items[] = array( 'name' => get_the_title( $anc ), 'url' => get_permalink( $anc ) );

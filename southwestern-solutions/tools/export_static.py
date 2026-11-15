@@ -29,9 +29,9 @@ def get(url):
         return r.status, r.geturl(), r.read()
 
 
-SKIP = re.compile(r"/(wp-admin|wp-login|wp-json|feed|xmlrpc|comments|wp-content|wp-includes)|\?|#|\.(xml|php|jpg|png|webp|css|js)$")
+SKIP = re.compile(r"/(wp-admin|wp-login|wp-json|feed|xmlrpc|comments|wp-content|wp-includes|cart|checkout|my-account)\b|\?|#|\.(xml|php|jpg|png|webp|css|js)$")
 
-FORM_JS = """<script>document.querySelectorAll('form.form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();var n=document.createElement('div');n.className='notice notice--ok';n.setAttribute('role','status');n.textContent='Preview mode: the seat-request form is fully functional once installed on WordPress. For now, email info@southwesternsolutions.org or call +1 (928) 614-0964.';f.parentNode.insertBefore(n,f);});});</script>"""
+FORM_JS = """<script>document.querySelectorAll('form.form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();var n=document.createElement('div');n.className='notice notice--ok';n.setAttribute('role','status');n.textContent='Preview mode: the seat-request form is fully functional once installed on WordPress. For now, email info@southwesternsolutions.org or call +1 (928) 614-0964.';f.parentNode.insertBefore(n,f);});});document.querySelectorAll('form.cart').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();if(f.querySelector('.notice'))return;var n=document.createElement('div');n.className='notice notice--ok';n.setAttribute('role','status');n.textContent='Preview mode: on the live WordPress site this adds the seats to the cart and continues to checkout (Agency Invoice / Purchase Order or card).';f.appendChild(n);});});document.querySelectorAll('a.add_to_cart_button').forEach(function(a){a.classList.remove('ajax_add_to_cart');a.href=a.closest('li.product').querySelector('a.woocommerce-LoopProduct-link').href;});</script>"""
 
 
 def clean(html):
@@ -73,7 +73,7 @@ def main():
         shutil.rmtree(OUT)
     os.makedirs(OUT)
     get(ORIGIN + "/")  # pick up playground session cookie
-    queue, seen, assets = ["/"], set(), set()
+    queue, seen, assets = ["/", "/shop/"], set(), set()
     while queue:
         path = queue.pop(0)
         if path in seen:
@@ -89,7 +89,7 @@ def main():
             p = urllib.parse.urlparse(href).path or "/"
             if not SKIP.search(href.replace(ORIGIN, "")) and p not in seen:
                 queue.append(p)
-        for a in re.findall(re.escape(ORIGIN) + r'(/wp-includes/[^"\'\s)?]+)', html):
+        for a in re.findall(re.escape(ORIGIN) + r'(/wp-(?:includes|content/plugins)/[^"\'\s)?]+)', html):
             assets.add(a)
         dest = out_path(path)
         os.makedirs(os.path.dirname(dest), exist_ok=True)

@@ -225,3 +225,20 @@
 | Top-10 rankings | "chemical agent instructor course", "less lethal instructor course", "AB 48 compliance training" |
 | Seat-request form submissions | 8–15 / month |
 | Core Web Vitals | Green on mobile |
+
+---
+
+## 8. Course Products (WooCommerce): same legacy URLs
+
+| URL | SEO title | Focus keyword | Schema |
+|---|---|---|---|
+| /product/chemical-agent-instructor-course/ | Chemical Agent Instructor Course San Diego, CA \| 40-Hr POST Certified \| Register | chemical agent instructor course san diego | Product + Offer (WooCommerce) + **Course with CourseInstance startDate/endDate** + FAQPage |
+| /product/less-lethal-instructor-course/ | Less Lethal Instructor Course San Diego, CA \| 30-Hr POST Certified \| Register | less lethal instructor course san diego | same |
+| /product/less-lethal-instructor-course-san-jose-ca/ | Less Lethal Instructor Course San Jose, CA \| 30-Hr POST Certified \| Register | less lethal instructor course san jose | same |
+| /product/chemical-agent-instructor-course-san-jose-ca/ | Chemical Agent Instructor Course San Jose, CA \| 40-Hr POST Certified \| Register | chemical agent instructor course san jose | same |
+| /product/chemical-agent-instructor-course-san-jose/ | Chemical Agent Instructor Course San Jose, CA \| 40-Hr POST Certified \| Register | chemical agent instructor course san jose | same |
+
+- Every product keeps its legacy slug, so there's no ranking loss and no redirects are needed.
+- Past or undated sessions stay indexed and show "Registration closed" with links to the schedule and contact page. Don't delete them; update the dates instead.
+- Each product page links back to its course pillar page and the AB 48 page through the description and breadcrumb.
+- Two San Jose chemical-agent URLs target the same keyword. Once the next San Jose date is confirmed, keep one live and 301-redirect the other to it, so they don't compete for the same search.

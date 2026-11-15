@@ -230,6 +230,18 @@ function sws_schema() {
 					'location'       => array( '@type' => 'Place', 'name' => isset( $course['location'] ) ? $course['location'] : 'San Diego, CA', 'address' => array( '@type' => 'PostalAddress', 'addressLocality' => 'San Diego', 'addressRegion' => 'CA', 'addressCountry' => 'US' ) ),
 				),
 			);
+			if ( ! empty( $course['start'] ) ) {
+				$c['hasCourseInstance']['startDate'] = $course['start'];
+			}
+			if ( ! empty( $course['end'] ) ) {
+				$c['hasCourseInstance']['endDate'] = $course['end'];
+			}
+			if ( ! empty( $course['address'] ) ) {
+				$c['hasCourseInstance']['location']['address']['streetAddress'] = $course['address'];
+			}
+			if ( ! empty( $course['city'] ) ) {
+				$c['hasCourseInstance']['location']['address']['addressLocality'] = $course['city'];
+			}
 			if ( ! empty( $course['price'] ) ) {
 				$c['offers'] = array( '@type' => 'Offer', 'category' => 'Paid', 'price' => (string) $course['price'], 'priceCurrency' => 'USD', 'url' => get_permalink( $id ) );
 			}

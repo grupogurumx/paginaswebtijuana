@@ -19,6 +19,7 @@ require SWS_DIR . '/inc/shortcodes.php';
 require SWS_DIR . '/inc/contact.php';
 require SWS_DIR . '/inc/redirects.php';
 require SWS_DIR . '/inc/customizer.php';
+require SWS_DIR . '/inc/woocommerce.php';
 
 /**
  * Theme supports & menus.
@@ -115,6 +116,42 @@ function sws_auto_setup() {
 	update_option( 'sws_setup_done', 1 );
 }
 add_action( 'admin_init', 'sws_auto_setup' );
+
+/**
+ * One-time WooCommerce store setup for course registrations: USD, California,
+ * no shipping/taxes, and classic (shortcode) cart + checkout so the theme's
+ * "Agency / Department" and attendee fields apply.
+ */
+function sws_wc_auto_setup() {
+	if ( get_option( 'sws_wc_setup_done' ) || ! class_exists( 'WooCommerce' ) || ! current_user_can( 'manage_options' ) ) {
+		return;
+	}
+	update_option( 'woocommerce_currency', 'USD' );
+	update_option( 'woocommerce_default_country', 'US:CA' );
+	update_option( 'woocommerce_calc_taxes', 'no' );
+	update_option( 'woocommerce_ship_to_countries', 'disabled' );
+	update_option( 'woocommerce_enable_guest_checkout', 'yes' );
+	// Agencies usually pay by PO / invoice: enable the offline "cheque" gateway, relabelled.
+	// Add card payments (WooPayments, Stripe or PayPal) with the client's own account.
+	update_option(
+		'woocommerce_cheque_settings',
+		array(
+			'enabled'      => 'yes',
+			'title'        => 'Agency Invoice / Purchase Order',
+			'description'  => 'Reserve your seats now. We will email an invoice payable by agency check, purchase order or card. POST Plan IV paperwork included.',
+			'instructions' => 'Your seats are reserved. An invoice and POST Plan IV paperwork will be emailed within one business day.',
+		)
+	);
+	foreach ( array( 'cart' => '[woocommerce_cart]', 'checkout' => '[woocommerce_checkout]' ) as $key => $sc ) {
+		$pid = function_exists( 'wc_get_page_id' ) ? wc_get_page_id( $key ) : 0;
+		if ( $pid > 0 ) {
+			wp_update_post( array( 'ID' => $pid, 'post_content' => "<!-- wp:shortcode -->\n{$sc}\n<!-- /wp:shortcode -->" ) );
+			update_post_meta( $pid, '_sws_hero', 'hero-2.webp' );
+		}
+	}
+	update_option( 'sws_wc_setup_done', 1 );
+}
+add_action( 'admin_init', 'sws_wc_auto_setup', 20 );
 
 /** Menu fallback when no menu is assigned yet. */
 function sws_menu_fallback() {

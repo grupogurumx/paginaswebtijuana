@@ -199,7 +199,7 @@ chem_content = "\n\n".join([
         "Scenario exercises — including AB 48 / PC 13652 requirements",
     ]) + """
 <p class="price">$1,881 <small>tuition per student · POST Plan IV reimbursable</small></p>
-<div class="btn-row"><a class="btn" href="/contact/?course=Chemical">Reserve a Seat <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">View Dates</a></div>
+<div class="btn-row"><a class="btn" href="/product/chemical-agent-instructor-course/">Register Online <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">View Dates</a></div>
 [/sws_split][/sws_section]"""),
     HTML('[sws_section class="section--steel" eyebrow="Learning Outcomes" title="What Your Instructors Will Master"][sws_features items="scale|Legal Framework|Use-of-force standards, agency policy review and AB 48 / Penal Code 13652 restrictions on crowd-control deployment.;;mask|Protective Equipment|Mask fitting, inspection, clearing and confidence exercises that build trust in the equipment.;;target|Deployment Methods|Delivery systems, munition characteristics, wind and terrain considerations and team coordination.;;shield|Decontamination|Officer and subject decontamination, medical considerations and aftercare protocols.;;book|Teaching Methodology|Building lesson plans, running safe exposures and evaluating student proficiency.;;users|Scenarios|Realistic practical exercises that integrate warnings, dispersal time and documentation."][/sws_section]'),
     HTML("""[sws_section eyebrow="At a Glance" title="Course Details"]<div class="table-scroll"><table class="schedule"><tbody>
@@ -235,7 +235,7 @@ ll_content = "\n\n".join([
         "Documentation, reporting and instructor methodology",
     ]) + """
 <p class="price">$1,200 <small>tuition per student · POST Plan IV reimbursable</small></p>
-<div class="btn-row"><a class="btn" href="/contact/?course=Less">Reserve a Seat <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">View Dates</a></div>
+<div class="btn-row"><a class="btn" href="/product/less-lethal-instructor-course/">Register Online <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">View Dates</a></div>
 [/sws_split][/sws_section]"""),
     HTML('[sws_section class="section--steel" eyebrow="Learning Outcomes" title="Build a Defensible Less-Lethal Program"][sws_features items="scale|Law & Policy|How Penal Code 13652 limits kinetic energy projectiles in crowd situations and what that means for your policy.;;target|Precision & Targeting|Shot placement, distance considerations and the prohibition on targeting the head, neck and vital organs.;;shield|Safe Range Operations|Range safety plans, malfunction clearance and qualification standards your agency can adopt.;;users|Teaching Skills|Structuring courses, coaching shooters and evaluating proficiency fairly and consistently.;;book|Documentation|Report writing, deployment documentation and the data agencies must track for public reporting.;;badge|Certification Pathway|Graduate ready to certify and maintain officers’ less-lethal proficiency in-house."][/sws_section]'),
     HTML("""[sws_section eyebrow="At a Glance" title="Course Details"]<div class="table-scroll"><table class="schedule"><tbody>
@@ -295,7 +295,7 @@ page(slug="ab-48-compliance", title="AB 48 Compliance Training", menu_order=5, c
 sched = "\n\n".join([
     HTML("""[sws_section eyebrow="Upcoming Sessions" title="Training Schedule" lead="Sessions fill quickly. Contact us to reserve seats or to be notified when new dates are published."]<div class="table-scroll"><table class="schedule">
 <thead><tr><th>Course</th><th>Dates</th><th>Location</th><th>Hours</th><th>Tuition</th><th></th></tr></thead><tbody>
-<tr><td>Chemical Agent Instructor</td><td>Dec 14 – 18, 2026</td><td>Miramar (San Diego), CA</td><td>40</td><td>$1,881</td><td><a class="btn" href="/contact/?course=Chemical">Reserve</a></td></tr>
+<tr><td>Chemical Agent Instructor</td><td>Dec 14 – 18, 2026</td><td>Miramar (San Diego), CA</td><td>40</td><td>$1,881</td><td><a class="btn" href="/product/chemical-agent-instructor-course/">Register</a></td></tr>
 <tr><td>Less Lethal Instructor</td><td>2027 dates coming soon</td><td>San Diego, CA</td><td>30</td><td>$1,200</td><td><a class="btn btn--ghost" href="/contact/?course=Less">Notify Me</a></td></tr>
 <tr><td>Chemical Agent Instructor</td><td>2027 dates coming soon</td><td>Northern California host agency</td><td>40</td><td>$1,881</td><td><a class="btn btn--ghost" href="/contact/?course=Chemical">Notify Me</a></td></tr>
 </tbody></table></div>

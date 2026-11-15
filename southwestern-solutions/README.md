@@ -80,3 +80,34 @@ Higgsfield no tenía créditos disponibles (saldo 0), así que todas las imágen
 ```bash
 python3 tools/build_wxr.py
 ```
+
+## 🛒 Tienda en línea: 5 cursos a la venta (WooCommerce)
+
+Los 5 productos conservan **exactamente las mismas URLs** que el sitio anterior, así que no se pierde posicionamiento ni enlaces:
+
+| URL | Curso | Fechas | Sede | Precio | Estado |
+|---|---|---|---|---|---|
+| `/product/chemical-agent-instructor-course/` | Chemical Agent Instructor (40 h) | Dec 14 – 18, 2026 | Miramar, San Diego | $1,881 | ✅ A la venta |
+| `/product/less-lethal-instructor-course/` | Less Lethal Instructor (30 h) | Feb 18 – 20, 2026 | San Diego | $1,200 | ⛔ Fecha pasada |
+| `/product/less-lethal-instructor-course-san-jose-ca/` | Less Lethal Instructor (30 h) | Sep 14 – 16, 2025 | 9600 Malech Rd, San Jose | $1,200 | ⛔ Fecha pasada |
+| `/product/chemical-agent-instructor-course-san-jose-ca/` | Chemical Agent Instructor (40 h) | Sep 8 – 12, 2025 | 9600 Malech Rd, San Jose | $1,881 | ⛔ Fecha pasada |
+| `/product/chemical-agent-instructor-course-san-jose/` | Chemical Agent Instructor (40 h) | Por anunciar | 9600 Malech Rd, San Jose | $1,881 | ⛔ Sin fecha |
+
+**Protección automática:** un curso solo se puede comprar si su fecha final (`_sws_end_date`) está en el futuro. Las fechas pasadas o sin fecha muestran "Registration closed" y la página sigue publicada, sin perder el SEO.
+
+### Instalación de la tienda
+1. Instala y activa **WooCommerce** antes de importar los productos.
+2. **Herramientas → Importar → WordPress** → sube `import/southwestern-solutions-products.WordPress.xml`. Es la opción recomendada porque conserva las URLs exactas.
+   - Alternativa: **Productos → Importar** → `import/southwestern-solutions-products.csv`. Ojo: el CSV no conserva el slug del 5.º producto.
+3. Entra al panel una vez. El tema configura solo: USD, California, sin envíos ni impuestos, checkout clásico con el campo **Agency / Department** obligatorio, nombres y POST ID de asistentes, y el método de pago **Agency Invoice / Purchase Order**.
+4. **Pagos con tarjeta:** instala WooPayments, Stripe o PayPal con la cuenta del cliente.
+
+### Abrir una nueva fecha
+**Productos → editar curso → Campos personalizados**:
+- `_sws_dates`: texto visible, por ejemplo `March 9 – 13, 2027`
+- `_sws_end_date`: último día en formato `2027-03-13`
+- Opcional: `_sws_location` y `_sws_address`
+
+Si no ves los Campos personalizados, actívalos en *Opciones de pantalla* del editor.
+
+> Verificado en un WordPress 6.5.5 de prueba con WooCommerce 9.3.3 y el importador oficial: importación completa, compra de 2 asientos ($3,762), campos de agencia y asistentes, pedido creado en "En espera" con método Invoice/PO y página de confirmación.

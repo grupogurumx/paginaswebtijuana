@@ -14,7 +14,8 @@ while ( have_posts() ) :
 	if ( 'sections' === get_post_meta( get_the_ID(), '_sws_layout', true ) ) {
 		the_content();
 	} else {
-		echo '<div class="entry"><div class="wrap"><div class="entry-content">';
+		$sws_wide = function_exists( 'is_cart' ) && ( is_cart() || is_checkout() || is_account_page() );
+		echo '<div class="entry"><div class="wrap"><div class="entry-content' . ( $sws_wide ? ' wide wc-page' : '' ) . '">';
 		the_content();
 		echo '</div></div></div>';
 	}
