@@ -1,0 +1,2625 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- WordPress eXtended RSS export — Southwestern Solutions redesign -->
+<!-- Import: Tools → Import → WordPress → upload this file. Activate the "Southwestern Solutions" theme first. -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+	<title>Southwestern Solutions</title>
+	<link>https://southwesternsolutions.org</link>
+	<description>POST-Certified Law Enforcement Instructor Training in San Diego</description>
+	<pubDate>Sun, 15 Nov 2026 08:00:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://southwesternsolutions.org</wp:base_site_url>
+	<wp:base_blog_url>https://southwesternsolutions.org</wp:base_blog_url>
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[info@southwesternsolutions.org]]></wp:author_email><wp:author_display_name><![CDATA[Southwestern Solutions]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:category>
+		<wp:term_id>11</wp:term_id>
+		<wp:category_nicename><![CDATA[agency-resources]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Agency Resources]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>12</wp:term_id>
+		<wp:category_nicename><![CDATA[best-practices]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Best Practices]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>13</wp:term_id>
+		<wp:category_nicename><![CDATA[instructor-development]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Instructor Development]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>14</wp:term_id>
+		<wp:category_nicename><![CDATA[legal-compliance]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Legal & Compliance]]></wp:cat_name>
+	</wp:category>
+	<wp:tag>
+		<wp:term_id>15</wp:term_id>
+		<wp:tag_slug><![CDATA[ab-48]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[AB 48]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>16</wp:term_id>
+		<wp:tag_slug><![CDATA[agency-training]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Agency Training]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>17</wp:term_id>
+		<wp:tag_slug><![CDATA[chemical-agents]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Chemical Agents]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>18</wp:term_id>
+		<wp:tag_slug><![CDATA[crowd-management]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Crowd Management]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>19</wp:term_id>
+		<wp:tag_slug><![CDATA[decontamination]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Decontamination]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>20</wp:term_id>
+		<wp:tag_slug><![CDATA[instructor-certification]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Instructor Certification]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>21</wp:term_id>
+		<wp:tag_slug><![CDATA[kinetic-energy-projectiles]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Kinetic Energy Projectiles]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>22</wp:term_id>
+		<wp:tag_slug><![CDATA[less-lethal]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Less Lethal]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>23</wp:term_id>
+		<wp:tag_slug><![CDATA[officer-safety]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Officer Safety]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>24</wp:term_id>
+		<wp:tag_slug><![CDATA[post]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[POST]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>25</wp:term_id>
+		<wp:tag_slug><![CDATA[penal-code-13652]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Penal Code 13652]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>26</wp:term_id>
+		<wp:tag_slug><![CDATA[plan-iv]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Plan IV]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>27</wp:term_id>
+		<wp:tag_slug><![CDATA[train-the-trainer]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Train the Trainer]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>28</wp:term_id>
+		<wp:tag_slug><![CDATA[training-budget]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Training Budget]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>29</wp:term_id>
+		<wp:tag_slug><![CDATA[use-of-force]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Use of Force]]></wp:tag_name>
+	</wp:tag>
+	<wp:term>
+		<wp:term_id>30</wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[main-menu]]></wp:term_slug>
+		<wp:term_name><![CDATA[Main Menu]]></wp:term_name>
+	</wp:term>
+	<generator>https://wordpress.org/?v=6.7</generator>
+	<item>
+		<title><![CDATA[Home]]></title>
+		<link>https://southwesternsolutions.org/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=101</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+[sws_slider interval="7000"]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_trustbar]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section][sws_split img="instructors" alt="Veteran tactical training instructors at Southwestern Solutions, San Diego" badge="Tactical Operators" badge_num="Real-World"]
+<span class="eyebrow">Who We Are</span>
+<h2>Instructor Training Forged in the <span class="text-amber">Field</span></h2>
+<p class="lead">Southwestern Solutions delivers POST-certified law enforcement instructor training from San Diego, California. Our cadre is made up of instructors who were — and in many cases still are — tactical operators, so every lesson reflects what actually happens on the line.</p>
+<ul class="checklist"><li>Chemical Agent Instructor and Less Lethal Instructor certification</li><li>Curriculum aligned with AB 48 and California Penal Code 13652</li><li>POST Plan IV reimbursable tuition for eligible agencies</li><li>Classroom, range and scenario-based evaluation</li></ul>
+<div class="btn-row"><a class="btn" href="/about-us/">Meet Southwestern <span class="arrow">→</span></a></div>
+[/sws_split][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel" eyebrow="Instructor Courses" title="Certify the Instructors Your Agency Depends On" lead="Two focused, POST-certified programs that turn experienced officers into confident, compliant instructors." center="1"][sws_courses][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--tight"][sws_stats][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section eyebrow="Why Southwestern" title="Built by Operators.<br>Proven in the Field." lead="Training that respects your officers’ time, your agency’s budget and California law."][sws_features][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel"][sws_split img="compliance" alt="AB 48 Penal Code 13652 compliance documents for California law enforcement training" reverse="1"]
+<span class="eyebrow">AB 48 · PC 13652</span>
+<h2>Compliance Isn’t a Module. <span class="text-amber">It’s the Foundation.</span></h2>
+<p class="lead">AB 48 changed how California agencies may use kinetic energy projectiles and chemical agents during assemblies, protests and demonstrations. Our courses integrate those standards into every lesson plan, drill and report — so compliance becomes muscle memory.</p>
+<div class="btn-row"><a class="btn" href="/ab-48-compliance/">Understand AB 48 <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">See Upcoming Classes</a></div>
+[/sws_split][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section eyebrow="How It Works" title="From Registration to Certified Instructor" center="1"][sws_process][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel" eyebrow="Training Insights" title="Latest From the Blog"][sws_latest_posts count="3"][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section][sws_cta ][/sws_section]
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Law Enforcement Instructor Training San Diego | POST Certified | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST-certified Chemical Agent & Less Lethal Instructor courses in San Diego, CA. AB 48 compliant training taught by tactical operators. Plan IV reimbursable. Reserve a seat.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[law enforcement instructor training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Law Enforcement Instructor Training San Diego | POST Certified | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST-certified Chemical Agent & Less Lethal Instructor courses in San Diego, CA. AB 48 compliant training taught by tactical operators. Plan IV reimbursable. Reserve a seat.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[law enforcement instructor training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Law Enforcement Instructor Training San Diego | POST Certified | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST-certified Chemical Agent & Less Lethal Instructor courses in San Diego, CA. AB 48 compliant training taught by tactical operators. Plan IV reimbursable. Reserve a seat.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[law enforcement instructor training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-1.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[About Southwestern Solutions]]></title>
+		<link>https://southwesternsolutions.org/about-us/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=102</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+[sws_section][sws_split img="instructors" alt="Southwestern Solutions instructor team, former and active tactical operators"]
+<span class="eyebrow">Our Mission</span>
+<h2>Prepare the Instructors Who Prepare Everyone Else</h2>
+<p>Southwestern Solutions is a San Diego–based provider of California POST-certified law enforcement instructor training. We focus on the disciplines where training quality has the greatest impact on public safety, officer safety and agency liability: chemical agents and less-lethal munitions.</p>
+<p>Our instructors were — and in many cases still are — law enforcement tactical operators. That operational background shapes everything we teach: realistic expectations, clear legal standards and techniques that hold up under stress.</p>
+<div class="btn-row"><a class="btn" href="/courses/">Explore Courses <span class="arrow">→</span></a></div>
+[/sws_split][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel" eyebrow="What We Stand For" title="Our Standards" center="1"][sws_features items="shield|Integrity First|We teach the law as it is written and the tactics as they are practiced — no shortcuts, no exaggeration.;;scale|Accountability|Every technique is paired with the policy, documentation and use-of-force review that make it defensible.;;users|Instructor Development|We don’t just certify skills. We build teachers who can transfer them to an entire agency.;;target|Realism|Scenario-driven practical work that mirrors the conditions officers will actually face.;;book|Current Curriculum|Lesson plans updated for AB 48, Penal Code 13652 and evolving California POST guidance.;;badge|Respect for Your Budget|POST Plan IV reimbursable courses designed to deliver maximum value per training hour."][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--tight"][sws_stats][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section][sws_cta title="Train With Operators Who’ve Been There" text="Talk with our team about seats, hosting a course or Plan IV eligibility." button="Contact Our Team" url="/contact/"][/sws_section]
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about-us]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[About Southwestern Solutions | Tactical Instructor Training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Meet Southwestern Solutions: San Diego law enforcement trainers and tactical operators delivering POST-certified chemical agent and less-lethal instructor courses.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tactical instructor training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[About Southwestern Solutions | Tactical Instructor Training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Meet Southwestern Solutions: San Diego law enforcement trainers and tactical operators delivering POST-certified chemical agent and less-lethal instructor courses.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tactical instructor training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[About Southwestern Solutions | Tactical Instructor Training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Meet Southwestern Solutions: San Diego law enforcement trainers and tactical operators delivering POST-certified chemical agent and less-lethal instructor courses.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[tactical instructor training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[instructors.webp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
+			<wp:meta_value><![CDATA[About Us]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Instructor-level law enforcement training from San Diego, built by tactical operators for California agencies.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sections]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Law Enforcement Instructor Courses]]></title>
+		<link>https://southwesternsolutions.org/courses/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=103</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+[sws_section eyebrow="POST-Certified Programs" title="Instructor Courses" lead="Each program is built to certify instructors who can teach, evaluate and document proficiency inside their own agency — fully aligned with AB 48 and Penal Code 13652." center="1"][sws_courses][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel" eyebrow="Included In Every Course" title="What Sets Our Training Apart"][sws_features cols="4" items="badge|POST Certified|California POST-certified instructor-level courses.;;dollar|Plan IV Reimbursable|Tuition eligible for POST Plan IV reimbursement.;;scale|AB 48 Coverage|PC 13652 standards taught, drilled and documented.;;target|Practical Evaluation|Hands-on drills and scenarios, not just lecture."][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section eyebrow="Process" title="How to Enroll" center="1"][sws_process][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section][sws_cta title="Secure Seats for Your Officers" text="Classes are capped to protect instructor-to-student ratios. Reserve early." button="Request Seats" url="/contact/"][/sws_section]
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[courses]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST Certified Instructor Courses California | Chemical Agent & Less Lethal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Compare Southwestern Solutions' POST-certified Chemical Agent Instructor (40 hr) and Less Lethal Instructor (30 hr) courses. AB 48 compliant, Plan IV reimbursable.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST certified instructor courses California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST Certified Instructor Courses California | Chemical Agent & Less Lethal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Compare Southwestern Solutions' POST-certified Chemical Agent Instructor (40 hr) and Less Lethal Instructor (30 hr) courses. AB 48 compliant, Plan IV reimbursable.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST certified instructor courses California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST Certified Instructor Courses California | Chemical Agent & Less Lethal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Compare Southwestern Solutions' POST-certified Chemical Agent Instructor (40 hr) and Less Lethal Instructor (30 hr) courses. AB 48 compliant, Plan IV reimbursable.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST certified instructor courses California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-2.webp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Courses]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chemical Agent Instructor and Less Lethal Instructor certification for California law enforcement.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sections]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Chemical Agent Instructor Course]]></title>
+		<link>https://southwesternsolutions.org/chemical-agent-instructor-course/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=104</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+[sws_section][sws_split img="chemical-agent" alt="Protective mask and gloves used in the Chemical Agent Instructor Course" badge="Hour Course" badge_num="40"]
+<span class="eyebrow">Course Overview</span>
+<h2>Chemical Agent Instructor Course</h2>
+<p class="lead">A 40-hour, California POST-certified instructor course that prepares officers to teach, deploy and document chemical agents safely, lawfully and effectively.</p>
+<ul class="checklist"><li>Review of use of force and related agency policies</li><li>Deployment techniques and munition selection</li><li>Use of the protective mask</li><li>Use of chemical agent munitions</li><li>Decontamination and aftercare</li><li>Instruction techniques and lesson-plan development</li><li>Scenario exercises — including AB 48 / PC 13652 requirements</li></ul>
+<p class="price">$1,881 <small>tuition per student · POST Plan IV reimbursable</small></p>
+<div class="btn-row"><a class="btn" href="/contact/?course=Chemical">Reserve a Seat <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">View Dates</a></div>
+[/sws_split][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel" eyebrow="Learning Outcomes" title="What Your Instructors Will Master"][sws_features items="scale|Legal Framework|Use-of-force standards, agency policy review and AB 48 / Penal Code 13652 restrictions on crowd-control deployment.;;mask|Protective Equipment|Mask fitting, inspection, clearing and confidence exercises that build trust in the equipment.;;target|Deployment Methods|Delivery systems, munition characteristics, wind and terrain considerations and team coordination.;;shield|Decontamination|Officer and subject decontamination, medical considerations and aftercare protocols.;;book|Teaching Methodology|Building lesson plans, running safe exposures and evaluating student proficiency.;;users|Scenarios|Realistic practical exercises that integrate warnings, dispersal time and documentation."][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section eyebrow="At a Glance" title="Course Details"]<div class="table-scroll"><table class="schedule"><tbody>
+<tr><th>Duration</th><td>40 hours (instructor level)</td></tr>
+<tr><th>Certification</th><td>California POST certified</td></tr>
+<tr><th>Reimbursement</th><td>POST Plan IV (tuition)</td></tr>
+<tr><th>Tuition</th><td>$1,881 per student</td></tr>
+<tr><th>Compliance</th><td>AB 48 / Penal Code 13652 taught in course</td></tr>
+<tr><th>Location</th><td>San Diego County (Miramar) and select California host agencies</td></tr>
+</tbody></table></div>[/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel" eyebrow="FAQ" title="Chemical Agent Course Questions"]<div class="faq"><details><summary>How long is the Chemical Agent Instructor Course?</summary><p>It is a 40-hour, instructor-level course combining classroom instruction, practical deployment work and scenario exercises.</p></details><details><summary>Is the course POST certified and reimbursable?</summary><p>Yes. The course is California POST certified and listed as Plan IV reimbursable, which covers tuition. Travel and per diem are not reimbursed under Plan IV — confirm eligibility with your agency training manager.</p></details><details><summary>Does the course cover AB 48 and Penal Code 13652?</summary><p>Yes. AB 48 / PC 13652 requirements are taught inside the course so your instructors can carry compliant lesson plans and documentation back to the agency.</p></details><details><summary>What should students bring?</summary><p>Students receive a detailed equipment list after registration. Plan for a serviceable protective mask, duty or training gear and clothing suitable for outdoor practical exercises.</p></details></div>[/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section][sws_cta title="Certify Your Next Chemical Agent Instructor" text="Seats are limited. Reserve now or ask us about hosting this course at your agency." button="Reserve a Seat" url="/contact/?course=Chemical"][/sws_section]
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>104</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[chemical-agent-instructor-course]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chemical Agent Instructor Course San Diego | 40-Hr POST Certified | AB 48]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[40-hour POST-certified Chemical Agent Instructor Course in San Diego. Use of force, deployment, protective masks, decontamination and AB 48 / PC 13652. Plan IV.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[chemical agent instructor course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chemical Agent Instructor Course San Diego | 40-Hr POST Certified | AB 48]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[40-hour POST-certified Chemical Agent Instructor Course in San Diego. Use of force, deployment, protective masks, decontamination and AB 48 / PC 13652. Plan IV.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[chemical agent instructor course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chemical Agent Instructor Course San Diego | 40-Hr POST Certified | AB 48]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[40-hour POST-certified Chemical Agent Instructor Course in San Diego. Use of force, deployment, protective masks, decontamination and AB 48 / PC 13652. Plan IV.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[chemical agent instructor course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-1.webp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
+			<wp:meta_value><![CDATA[40-Hour · POST Certified · AB 48]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Teach chemical agent deployment, protective masks and decontamination with confidence — and full AB 48 compliance.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sections]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_faq_schema]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_course]]></wp:meta_key>
+			<wp:meta_value><![CDATA[{"name": "Chemical Agent Instructor Course", "description": "40-hour California POST-certified instructor course covering use of force, chemical agent deployment, protective masks, munitions, decontamination, instruction techniques and AB 48 / Penal Code 13652 requirements.", "workload": "PT40H", "price": "1881", "credential": "Chemical Agent Instructor certificate (POST certified course)", "location": "San Diego County, CA"}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Less Lethal Instructor Course]]></title>
+		<link>https://southwesternsolutions.org/less-lethal-instructor-course/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=105</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+[sws_section][sws_split img="less-lethal" alt="Instructor coaching an officer on a less-lethal 40mm launcher" badge="Hour Course" badge_num="30"]
+<span class="eyebrow">Course Overview</span>
+<h2>Less Lethal Instructor Course</h2>
+<p class="lead">A 30-hour, California POST-certified instructor course that builds officers into instructors capable of running safe, defensible kinetic energy projectile programs — with AB 48 requirements and compliance covered in depth.</p>
+<ul class="checklist"><li>Legal standards, use-of-force policy and AB 48 / PC 13652</li><li>Less-lethal platforms, munitions and their characteristics</li><li>Target areas, distances and prohibited targeting</li><li>Marksmanship, malfunctions and safe range operations</li><li>Medical considerations and post-deployment procedures</li><li>Documentation, reporting and instructor methodology</li></ul>
+<p class="price">$1,200 <small>tuition per student · POST Plan IV reimbursable</small></p>
+<div class="btn-row"><a class="btn" href="/contact/?course=Less">Reserve a Seat <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">View Dates</a></div>
+[/sws_split][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel" eyebrow="Learning Outcomes" title="Build a Defensible Less-Lethal Program"][sws_features items="scale|Law & Policy|How Penal Code 13652 limits kinetic energy projectiles in crowd situations and what that means for your policy.;;target|Precision & Targeting|Shot placement, distance considerations and the prohibition on targeting the head, neck and vital organs.;;shield|Safe Range Operations|Range safety plans, malfunction clearance and qualification standards your agency can adopt.;;users|Teaching Skills|Structuring courses, coaching shooters and evaluating proficiency fairly and consistently.;;book|Documentation|Report writing, deployment documentation and the data agencies must track for public reporting.;;badge|Certification Pathway|Graduate ready to certify and maintain officers’ less-lethal proficiency in-house."][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section eyebrow="At a Glance" title="Course Details"]<div class="table-scroll"><table class="schedule"><tbody>
+<tr><th>Duration</th><td>30 hours (instructor level)</td></tr>
+<tr><th>Certification</th><td>California POST certified</td></tr>
+<tr><th>Reimbursement</th><td>POST Plan IV (tuition)</td></tr>
+<tr><th>Tuition</th><td>$1,200 per student</td></tr>
+<tr><th>Compliance</th><td>AB 48 requirements and compliance covered</td></tr>
+<tr><th>Location</th><td>San Diego and select California host agencies</td></tr>
+</tbody></table></div>[/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel" eyebrow="FAQ" title="Less Lethal Course Questions"]<div class="faq"><details><summary>How long is the Less Lethal Instructor Course?</summary><p>It is a 30-hour, instructor-level course that blends legal standards, platform operation, practical drills and teaching methodology.</p></details><details><summary>Is it AB 48 compliant?</summary><p>Yes. The course covers AB 48 requirements and compliance for kinetic energy projectiles used in crowd-control situations, including targeting restrictions and documentation.</p></details><details><summary>Is the course POST certified?</summary><p>Yes. It is California POST certified and listed as Plan IV reimbursable (tuition). Confirm specific session eligibility in the POST catalog or with our team.</p></details><details><summary>Who should attend?</summary><p>Sworn officers and deputies who will instruct, certify or maintain less-lethal proficiency within their agency — typically range staff, SWAT/SRT operators and training-unit personnel.</p></details></div>[/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section][sws_cta title="Lead Your Agency’s Less-Lethal Program" text="Reserve a seat or bring the course to your training facility." button="Reserve a Seat" url="/contact/?course=Less"][/sws_section]
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>105</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[less-lethal-instructor-course]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Less Lethal Instructor Course California | 30-Hr POST | AB 48 Compliant]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[30-hour POST-certified Less Lethal Instructor Course in San Diego. Kinetic energy projectiles, targeting, range safety, documentation and AB 48 compliance. Plan IV.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[less lethal instructor course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Less Lethal Instructor Course California | 30-Hr POST | AB 48 Compliant]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[30-hour POST-certified Less Lethal Instructor Course in San Diego. Kinetic energy projectiles, targeting, range safety, documentation and AB 48 compliance. Plan IV.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[less lethal instructor course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Less Lethal Instructor Course California | 30-Hr POST | AB 48 Compliant]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[30-hour POST-certified Less Lethal Instructor Course in San Diego. Kinetic energy projectiles, targeting, range safety, documentation and AB 48 compliance. Plan IV.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[less lethal instructor course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-3.webp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
+			<wp:meta_value><![CDATA[30-Hour · POST Certified · AB 48]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Certify instructors to train, qualify and document kinetic energy projectile use the right way.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sections]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_faq_schema]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_course]]></wp:meta_key>
+			<wp:meta_value><![CDATA[{"name": "Less Lethal Instructor Course", "description": "30-hour California POST-certified instructor course covering kinetic energy projectile platforms, targeting standards, range safety, documentation, teaching methodology and AB 48 compliance.", "workload": "PT30H", "price": "1200", "credential": "Less Lethal Instructor certificate (POST certified course)", "location": "San Diego, CA"}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[AB 48 Compliance Training]]></title>
+		<link>https://southwesternsolutions.org/ab-48-compliance/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=106</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:heading -->
+<h2 class="wp-block-heading">What Is AB 48?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Assembly Bill 48 (2021) added <strong>Section 13652 to the California Penal Code</strong>, effective January 1, 2022. It restricts how law enforcement agencies may use kinetic energy projectiles and chemical agents to disperse an assembly, protest or demonstration — and it ties lawful use directly to training.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>Under PC 13652, only officers who have received POST-standard training in crowd-control use may deploy these tools in those situations.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The Core Requirements</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Under PC 13652, kinetic energy projectiles and chemical agents may be used in crowd situations only when objectively reasonable to defend against a threat to life or serious bodily injury, or to bring an objectively dangerous and unlawful situation safely and effectively under control — and only in accordance with conditions that include:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Attempting de-escalation and other reasonable alternatives when objectively reasonable.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Repeated, audible announcements of the intent to use these tools and the type to be used, in a manner and languages likely to be understood, when objectively reasonable.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Reasonable efforts to distinguish individuals engaged in violent acts from those who are not, and targeting only those engaged in violent acts.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Providing an objectively reasonable opportunity to disperse and leave the scene.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Never aiming kinetic energy projectiles at the head, neck or other vital organs.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Not deploying solely because of a curfew violation, a verbal threat or noncompliance with a directive.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Ensuring medical aid is available or summoned after deployment.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Reporting Obligations</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>AB 48 also requires agencies to publish on their websites a summary of each incident in which these tools were used to disperse a crowd (Penal Code 13652.1). Accurate documentation starts in training.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How Southwestern Solutions Helps</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Our <strong>Chemical Agent Instructor Course</strong> teaches AB 48 / PC 13652 directly inside its 40-hour curriculum.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Our <strong>Less Lethal Instructor Course</strong> covers AB 48 requirements and compliance throughout its 30 hours.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Graduates return with lesson plans, drills and documentation practices that support your agency's policy and reporting.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:html -->
+[sws_cta title="Make AB 48 Compliance Second Nature" text="Certify instructors who can teach the law, the tactics and the documentation as one system." button="View Courses" url="/courses/"]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<p class="disclaimer">This summary is for training and educational purposes only and is not legal advice. Refer to the full text of California Penal Code sections 13652 and 13652.1, current POST guidelines and your agency's legal counsel.</p>
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>106</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[ab-48-compliance]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 Compliance Training | Penal Code 13652 Explained | California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Understand AB 48 and California Penal Code 13652 rules for kinetic energy projectiles and chemical agents, and how POST-certified instructor training supports compliance.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 compliance training]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 Compliance Training | Penal Code 13652 Explained | California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Understand AB 48 and California Penal Code 13652 rules for kinetic energy projectiles and chemical agents, and how POST-certified instructor training supports compliance.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 compliance training]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 Compliance Training | Penal Code 13652 Explained | California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Understand AB 48 and California Penal Code 13652 rules for kinetic energy projectiles and chemical agents, and how POST-certified instructor training supports compliance.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 compliance training]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[compliance.webp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Penal Code 13652]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[What California’s AB 48 requires — and how instructor training keeps your agency compliant.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Training Schedule]]></title>
+		<link>https://southwesternsolutions.org/training-schedule/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=107</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+[sws_section eyebrow="Upcoming Sessions" title="Training Schedule" lead="Sessions fill quickly. Contact us to reserve seats or to be notified when new dates are published."]<div class="table-scroll"><table class="schedule">
+<thead><tr><th>Course</th><th>Dates</th><th>Location</th><th>Hours</th><th>Tuition</th><th></th></tr></thead><tbody>
+<tr><td>Chemical Agent Instructor</td><td>Dec 14 – 18, 2026</td><td>Miramar (San Diego), CA</td><td>40</td><td>$1,881</td><td><a class="btn" href="/contact/?course=Chemical">Reserve</a></td></tr>
+<tr><td>Less Lethal Instructor</td><td>2027 dates coming soon</td><td>San Diego, CA</td><td>30</td><td>$1,200</td><td><a class="btn btn--ghost" href="/contact/?course=Less">Notify Me</a></td></tr>
+<tr><td>Chemical Agent Instructor</td><td>2027 dates coming soon</td><td>Northern California host agency</td><td>40</td><td>$1,881</td><td><a class="btn btn--ghost" href="/contact/?course=Chemical">Notify Me</a></td></tr>
+</tbody></table></div>
+<p class="disclaimer" style="margin-top:20px">Dates and locations are subject to change. Verify current sessions in the California POST course catalog or with our team before booking travel.</p>[/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel" eyebrow="Can’t Make These Dates?" title="Bring the Course to Your Agency"][sws_split img="hero-2" alt="Police instructor teaching a law enforcement class" reverse="1"]<h3>Host a Course</h3><p>Have a classroom and a suitable outdoor training area? Host a session and train more of your own officers locally while opening remaining seats to neighboring agencies.</p><div class="btn-row"><a class="btn" href="/host-a-course/">Learn About Hosting <span class="arrow">→</span></a></div>[/sws_split][/sws_section]
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>107</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[training-schedule]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Law Enforcement Training Schedule 2026–2027 | San Diego | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Upcoming POST-certified Chemical Agent Instructor and Less Lethal Instructor course dates in San Diego and California. Reserve seats for your agency today.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[law enforcement training schedule San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Law Enforcement Training Schedule 2026–2027 | San Diego | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Upcoming POST-certified Chemical Agent Instructor and Less Lethal Instructor course dates in San Diego and California. Reserve seats for your agency today.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[law enforcement training schedule San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Law Enforcement Training Schedule 2026–2027 | San Diego | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Upcoming POST-certified Chemical Agent Instructor and Less Lethal Instructor course dates in San Diego and California. Reserve seats for your agency today.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[law enforcement training schedule San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-3.webp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Calendar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Upcoming Chemical Agent and Less Lethal Instructor sessions in California.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sections]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Host a Course at Your Agency]]></title>
+		<link>https://southwesternsolutions.org/host-a-course/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=108</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+[sws_section][sws_split img="hero-2" alt="Officers attending an instructor course hosted by a California agency"]
+<span class="eyebrow">Agency Partnerships</span>
+<h2>Train Your Team Without the Travel</h2>
+<p class="lead">Hosting a Southwestern Solutions course brings POST-certified instructor training to your own facility — reducing travel time for your officers and giving neighboring agencies access to quality training in your region.</p>
+<ul class="checklist"><li>Train multiple officers locally on your schedule</li><li>Reduce travel and overtime costs for your agency</li><li>Strengthen regional partnerships by opening seats to nearby agencies</li><li>Course content aligned with AB 48 and your agency policies</li></ul>
+<div class="btn-row"><a class="btn" href="/contact/?course=Host">Start the Conversation <span class="arrow">→</span></a></div>
+[/sws_split][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel" eyebrow="What You Provide" title="Hosting Requirements" center="1"][sws_features items="book|Classroom|A classroom with projector and seating for the class.;;target|Training Area|An outdoor area suitable for practical exercises and deployments (requirements vary by course).;;users|Point of Contact|A coordinator to help with logistics, access and scheduling."][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section][sws_cta title="Ready to Host?" text="Tell us your preferred dates, location and expected class size." button="Request Hosting Info" url="/contact/?course=Host"][/sws_section]
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>108</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[host-a-course]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Host a Law Enforcement Training Course | On-Site Agency Training California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Host a POST-certified Chemical Agent or Less Lethal Instructor course at your agency. Train officers locally, cut travel costs and stay AB 48 compliant.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[host law enforcement training course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Host a Law Enforcement Training Course | On-Site Agency Training California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Host a POST-certified Chemical Agent or Less Lethal Instructor course at your agency. Train officers locally, cut travel costs and stay AB 48 compliant.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[host law enforcement training course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Host a Law Enforcement Training Course | On-Site Agency Training California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Host a POST-certified Chemical Agent or Less Lethal Instructor course at your agency. Train officers locally, cut travel costs and stay AB 48 compliant.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[host law enforcement training course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-2.webp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
+			<wp:meta_value><![CDATA[For Agencies]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bring POST-certified instructor training to your own facility.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sections]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Frequently Asked Questions]]></title>
+		<link>https://southwesternsolutions.org/faq/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=109</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+[sws_section eyebrow="Answers" title="Common Questions"]<div class="faq"><details><summary>How long is the Chemical Agent Instructor Course?</summary><p>It is a 40-hour, instructor-level course combining classroom instruction, practical deployment work and scenario exercises.</p></details><details><summary>Is the course POST certified and reimbursable?</summary><p>Yes. The course is California POST certified and listed as Plan IV reimbursable, which covers tuition. Travel and per diem are not reimbursed under Plan IV — confirm eligibility with your agency training manager.</p></details><details><summary>How long is the Less Lethal Instructor Course?</summary><p>It is a 30-hour, instructor-level course that blends legal standards, platform operation, practical drills and teaching methodology.</p></details><details><summary>Is it AB 48 compliant?</summary><p>Yes. The course covers AB 48 requirements and compliance for kinetic energy projectiles used in crowd-control situations, including targeting restrictions and documentation.</p></details><details><summary>What does POST Plan IV reimbursement cover?</summary><p>Plan IV reimburses tuition for eligible POST-certified courses. It does not cover travel or per diem. Your agency training manager can confirm eligibility and submit the request.</p></details><details><summary>How do I register?</summary><p>Use the contact form or call +1 (928) 614-0964. Our team confirms seat availability, sends registration details and answers Plan IV questions.</p></details><details><summary>Can we host a course at our agency?</summary><p>Yes. Agencies with a classroom and a suitable outdoor training area can host a session. Visit our Host a Course page or contact us to discuss dates.</p></details><details><summary>Where are you located?</summary><p>Southwestern Solutions is based in San Diego, California, and delivers courses in San Diego County and at host agencies across California.</p></details></div>[/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section][sws_cta ][/sws_section]
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>109</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[faq]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[FAQ | Chemical Agent & Less Lethal Instructor Courses | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Answers about POST Plan IV reimbursement, AB 48 compliance, course length, registration and hosting for Southwestern Solutions instructor courses.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[less lethal instructor course FAQ]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[FAQ | Chemical Agent & Less Lethal Instructor Courses | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Answers about POST Plan IV reimbursement, AB 48 compliance, course length, registration and hosting for Southwestern Solutions instructor courses.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[less lethal instructor course FAQ]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[FAQ | Chemical Agent & Less Lethal Instructor Courses | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Answers about POST Plan IV reimbursement, AB 48 compliance, course length, registration and hosting for Southwestern Solutions instructor courses.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[less lethal instructor course FAQ]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-1.webp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
+			<wp:meta_value><![CDATA[FAQ]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Answers about our courses, POST reimbursement, AB 48 and registration.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sections]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_faq_schema]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Contact Southwestern Solutions]]></title>
+		<link>https://southwesternsolutions.org/contact/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=110</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+[sws_section]<div class="split" id="contact-form"><div data-reveal="left"><span class="eyebrow">Get in Touch</span><h2>Reserve Seats or Ask a Question</h2><p class="lead">Tell us about your agency and the training you need. We reply within one business day.</p>[sws_contact_info]</div><div class="card" data-reveal="right">[sws_contact_form]</div></div>[/sws_section]
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>110</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Southwestern Solutions | Reserve Instructor Course Seats | San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Southwestern Solutions in San Diego to reserve seats in POST-certified Chemical Agent or Less Lethal Instructor courses. Call +1 (928) 614-0964.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[contact law enforcement training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Southwestern Solutions | Reserve Instructor Course Seats | San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Southwestern Solutions in San Diego to reserve seats in POST-certified Chemical Agent or Less Lethal Instructor courses. Call +1 (928) 614-0964.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[contact law enforcement training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Southwestern Solutions | Reserve Instructor Course Seats | San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Southwestern Solutions in San Diego to reserve seats in POST-certified Chemical Agent or Less Lethal Instructor courses. Call +1 (928) 614-0964.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[contact law enforcement training San Diego]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[san-diego.webp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Reserve seats, request hosting information or ask about Plan IV reimbursement.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sections]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Training Insights]]></title>
+		<link>https://southwesternsolutions.org/blog/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=111</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>111</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>10</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Law Enforcement Training Blog | AB 48, Less Lethal & Chemical Agents]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Expert insights on AB 48, Penal Code 13652, less-lethal and chemical agent instruction, POST reimbursement and instructor development for California agencies.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[law enforcement training blog]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Law Enforcement Training Blog | AB 48, Less Lethal & Chemical Agents]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Expert insights on AB 48, Penal Code 13652, less-lethal and chemical agent instruction, POST reimbursement and instructor development for California agencies.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[law enforcement training blog]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Law Enforcement Training Blog | AB 48, Less Lethal & Chemical Agents]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Expert insights on AB 48, Penal Code 13652, less-lethal and chemical agent instruction, POST reimbursement and instructor development for California agencies.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[law enforcement training blog]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-2.webp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Legal updates, instructor development and best practices for California law enforcement trainers.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Privacy Policy]]></title>
+		<link>https://southwesternsolutions.org/privacy-policy/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=112</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:heading -->
+<h2 class="wp-block-heading">Information We Collect</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>When you submit our contact or registration request form we collect the details you provide: name, agency, email, phone, course of interest and message. Our website may also collect standard technical data such as IP address and browser type through server logs and analytics.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How We Use It</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We use your information only to respond to your inquiry, manage course registration, send course-related communications and improve our website. We do not sell your personal information.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Cookies & Analytics</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We may use cookies and analytics tools to understand how visitors use the site. You can disable cookies in your browser settings.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Your Rights</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>California residents may request access to or deletion of their personal information under the CCPA/CPRA. Contact us at info@southwesternsolutions.org.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Contact</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Southwestern Solutions · San Diego, California · info@southwesternsolutions.org · +1 (928) 614-0964</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>112</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[privacy-policy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>11</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Privacy Policy | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How Southwestern Solutions collects, uses and protects the information you share through our website and course registration forms.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[privacy policy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Privacy Policy | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How Southwestern Solutions collects, uses and protects the information you share through our website and course registration forms.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[privacy policy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Privacy Policy | Southwestern Solutions]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How Southwestern Solutions collects, uses and protects the information you share through our website and course registration forms.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[privacy policy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-2.webp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_robots]]></wp:meta_key>
+			<wp:meta_value><![CDATA[noindex, follow]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_meta-robots-noindex]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_robots]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:7:"noindex";i:1;s:6:"follow";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[AB 48 Explained: What Penal Code 13652 Means for Crowd-Control Training]]></title>
+		<link>https://southwesternsolutions.org/ab-48-penal-code-13652-explained/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=301</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Since January 1, 2022, California Penal Code 13652 — added by Assembly Bill 48 — has governed how law enforcement may use kinetic energy projectiles (KEPs) and chemical agents to disperse an assembly, protest or demonstration. For instructors, the law is more than a policy update: it makes <strong>training itself a legal prerequisite</strong> for deployment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">1. Training Comes First</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>PC 13652 limits crowd-control use of these tools to officers who have received POST-standard training on their proper use for crowd control. If your agency's instructor pipeline is thin, your pool of officers who may lawfully deploy is thin too.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">2. The Threshold for Use</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Deployment must be objectively reasonable to defend against a threat to life or serious bodily injury to any person — including officers — or to bring an objectively dangerous and unlawful situation safely and effectively under control.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">3. Conditions That Must Be Trained</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>De-escalation and reasonable alternatives attempted when objectively reasonable.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Repeated, audible announcements of intent and the type of tool, in languages likely understood.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Reasonable effort to distinguish people engaged in violence from those who are not.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>An objectively reasonable opportunity to disperse.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>No KEP targeting of the head, neck or other vital organs.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>No deployment solely for a curfew violation, verbal threat or noncompliance with a directive.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Medical aid available or summoned after use.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">4. Documentation and Public Reporting</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>PC 13652.1 requires agencies to publish a summary of each incident in which these tools are used to disperse a crowd. Good reports start in the classroom: instructors should drill documentation alongside tactics.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What This Means for Your Instructors</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Instructors must teach the law, the technique and the paperwork as one integrated system. Scenario exercises should include warnings, dispersal time and target discrimination — not just accuracy.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Southwestern Solutions builds AB 48 / PC 13652 directly into our <a href="/chemical-agent-instructor-course/">Chemical Agent Instructor Course</a> and <a href="/less-lethal-instructor-course/">Less Lethal Instructor Course</a>. Read our full <a href="/ab-48-compliance/">AB 48 compliance overview</a> or <a href="/contact/">reserve seats</a> for your agency.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[AB 48 rewrote the rules for kinetic energy projectiles and chemical agents in California crowd situations. Here is what trainers need to know.]]></excerpt:encoded>
+		<wp:post_id>301</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-08 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-08 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-08 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-08 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[ab-48-penal-code-13652-explained]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="legal-compliance"><![CDATA[Legal & Compliance]]></category>
+		<category domain="post_tag" nicename="ab-48"><![CDATA[AB 48]]></category>
+		<category domain="post_tag" nicename="penal-code-13652"><![CDATA[Penal Code 13652]]></category>
+		<category domain="post_tag" nicename="crowd-management"><![CDATA[Crowd Management]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 Explained: Penal Code 13652 & Crowd-Control Training in California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[A trainer’s guide to AB 48 and California Penal Code 13652: who may deploy kinetic energy projectiles and chemical agents, required warnings, targeting limits and reporting.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 Penal Code 13652]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 Explained: Penal Code 13652 & Crowd-Control Training in California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[A trainer’s guide to AB 48 and California Penal Code 13652: who may deploy kinetic energy projectiles and chemical agents, required warnings, targeting limits and reporting.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 Penal Code 13652]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 Explained: Penal Code 13652 & Crowd-Control Training in California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[A trainer’s guide to AB 48 and California Penal Code 13652: who may deploy kinetic energy projectiles and chemical agents, required warnings, targeting limits and reporting.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AB 48 Penal Code 13652]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[compliance.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Chemical Agent Instructor Certification: What a 40-Hour POST Course Covers]]></title>
+		<link>https://southwesternsolutions.org/chemical-agent-instructor-certification-guide/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=302</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>A chemical agent instructor carries a heavy responsibility: they shape how an entire agency selects, deploys and documents chemical munitions. That is why an instructor-level course looks very different from an end-user class.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Use of Force and Policy Review</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Every deployment decision begins with law and policy. A strong course reviews use-of-force standards, your agency's policy language and the specific AB 48 / Penal Code 13652 limits on crowd-control use.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Protective Mask Proficiency</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Confidence in the mask is the foundation of everything else. Instructors learn fitting, inspection, clearing and how to run safe confidence exercises for their own students.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Munitions and Deployment Techniques</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Students study delivery systems, munition characteristics and environmental factors such as wind, terrain and enclosed spaces — then put that knowledge to work in practical deployments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Decontamination and Aftercare</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Responsible deployment ends with decontamination and medical considerations for both officers and subjects. Instructors learn to teach these procedures as a non-negotiable part of every evolution.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Instruction Techniques</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The difference between an operator and an instructor is the ability to transfer skill. Lesson-plan design, safety plans, student evaluation and remediation are core instructor outcomes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Scenario Exercises</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Scenarios tie it all together: warnings, dispersal time, target discrimination, deployment and documentation under realistic pressure.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>An instructor course should leave graduates able to teach, evaluate and defend — not just deploy.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Southwestern Solutions' <a href="/chemical-agent-instructor-course/">Chemical Agent Instructor Course</a> is a 40-hour, POST-certified, Plan IV reimbursable program. See the <a href="/training-schedule/">training schedule</a> for upcoming dates.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[From protective masks to decontamination and AB 48 scenarios — a look inside a 40-hour POST-certified chemical agent instructor course.]]></excerpt:encoded>
+		<wp:post_id>302</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-22 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-22 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-22 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-22 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[chemical-agent-instructor-certification-guide]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="instructor-development"><![CDATA[Instructor Development]]></category>
+		<category domain="post_tag" nicename="chemical-agents"><![CDATA[Chemical Agents]]></category>
+		<category domain="post_tag" nicename="instructor-certification"><![CDATA[Instructor Certification]]></category>
+		<category domain="post_tag" nicename="post"><![CDATA[POST]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chemical Agent Instructor Certification | Inside a 40-Hour POST Course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[What does a 40-hour POST-certified chemical agent instructor course cover? Use of force, masks, munitions, decontamination, teaching methods and AB 48 scenarios.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[chemical agent instructor certification]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chemical Agent Instructor Certification | Inside a 40-Hour POST Course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[What does a 40-hour POST-certified chemical agent instructor course cover? Use of force, masks, munitions, decontamination, teaching methods and AB 48 scenarios.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[chemical agent instructor certification]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chemical Agent Instructor Certification | Inside a 40-Hour POST Course]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[What does a 40-hour POST-certified chemical agent instructor course cover? Use of force, masks, munitions, decontamination, teaching methods and AB 48 scenarios.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[chemical agent instructor certification]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[chemical-agent.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Less Lethal Instructor Training: Building a Defensible KEP Program]]></title>
+		<link>https://southwesternsolutions.org/less-lethal-instructor-training-kinetic-energy-projectiles/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=303</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Kinetic energy projectiles (KEPs) give officers a valuable option between verbal commands and higher levels of force. But in California, their use — especially in crowd situations — is closely regulated. A defensible program starts with well-trained instructors.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Pillar 1: Legal Standards</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Instructors must be fluent in use-of-force law, agency policy and AB 48 / Penal Code 13652, including the prohibition on aiming KEPs at the head, neck or other vital organs in crowd-control situations.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Pillar 2: Platform and Munition Knowledge</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Every launcher and munition has distinct characteristics. Instructors should understand ranges, accuracy, malfunctions and maintenance so they can teach officers to operate safely.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Pillar 3: Precision Under Pressure</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Target areas and distance matter. Drills should progress from fundamentals to movement, stress and decision-making — always reinforcing target discrimination.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Pillar 4: Medical and Post-Deployment Procedures</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Training should include medical considerations, summoning aid and the steps that follow a deployment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Pillar 5: Documentation</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Thorough, accurate reports protect the public, the officer and the agency — and support the public reporting PC 13652.1 requires for crowd-dispersal incidents.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Why Train Instructors In-House?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Certified in-house instructors let your agency qualify officers on your schedule, keep training consistent with your policy and respond quickly when laws or equipment change.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Explore our 30-hour, POST-certified <a href="/less-lethal-instructor-course/">Less Lethal Instructor Course</a> or <a href="/contact/">contact us</a> to reserve seats.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Kinetic energy projectiles are only as defensible as the training behind them. Here is how instructor certification strengthens your program.]]></excerpt:encoded>
+		<wp:post_id>303</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-06 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-06 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-06 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-06 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[less-lethal-instructor-training-kinetic-energy-projectiles]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="instructor-development"><![CDATA[Instructor Development]]></category>
+		<category domain="post_tag" nicename="less-lethal"><![CDATA[Less Lethal]]></category>
+		<category domain="post_tag" nicename="kinetic-energy-projectiles"><![CDATA[Kinetic Energy Projectiles]]></category>
+		<category domain="post_tag" nicename="use-of-force"><![CDATA[Use of Force]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Less Lethal Instructor Training | Build a Defensible KEP Program]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How less lethal instructor training builds a defensible kinetic energy projectile program: legal standards, targeting, range safety, documentation and AB 48.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[less lethal instructor training]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Less Lethal Instructor Training | Build a Defensible KEP Program]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How less lethal instructor training builds a defensible kinetic energy projectile program: legal standards, targeting, range safety, documentation and AB 48.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[less lethal instructor training]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Less Lethal Instructor Training | Build a Defensible KEP Program]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How less lethal instructor training builds a defensible kinetic energy projectile program: legal standards, targeting, range safety, documentation and AB 48.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[less lethal instructor training]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[less-lethal.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[POST Plan IV Reimbursement: How Agencies Fund Instructor Courses]]></title>
+		<link>https://southwesternsolutions.org/post-plan-iv-reimbursement-instructor-courses/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=304</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Training budgets are always under pressure. For California agencies, the POST reimbursement plans can make a significant difference — and Plan IV is one of the most commonly used for specialized instructor courses.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What Plan IV Covers</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Plan IV reimburses <strong>tuition</strong> for eligible POST-certified courses. It does <strong>not</strong> reimburse travel or per diem, so agencies should plan those costs separately.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How to Confirm Eligibility</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Find the course and presenter in the California POST course catalog.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Confirm the specific session is listed as Plan IV reimbursable.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>Work with your agency training manager to submit the required requests on time.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Ways to Stretch Your Budget</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Train instructors, not just users.</strong> One certified instructor can train many officers in-house.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Host a course.</strong> Hosting reduces travel for your own officers. See our <a href="/host-a-course/">Host a Course</a> page.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Plan ahead.</strong> Instructor courses fill quickly — reserving early protects your training calendar.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Southwestern Solutions Courses</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Our <a href="/chemical-agent-instructor-course/">Chemical Agent Instructor Course</a> and <a href="/less-lethal-instructor-course/">Less Lethal Instructor Course</a> are POST certified and listed as Plan IV reimbursable. Questions? <a href="/contact/">Contact our team</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<p class="disclaimer">Reimbursement rules are set by California POST and may change. Always confirm current policies with POST and your agency.</p>
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Plan IV can offset tuition for eligible POST-certified courses. Here is how training managers can make the most of it.]]></excerpt:encoded>
+		<wp:post_id>304</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-20 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-20 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-20 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-20 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[post-plan-iv-reimbursement-instructor-courses]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="agency-resources"><![CDATA[Agency Resources]]></category>
+		<category domain="post_tag" nicename="post"><![CDATA[POST]]></category>
+		<category domain="post_tag" nicename="plan-iv"><![CDATA[Plan IV]]></category>
+		<category domain="post_tag" nicename="training-budget"><![CDATA[Training Budget]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST Plan IV Reimbursement Explained | Fund Instructor Training in California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How California agencies use POST Plan IV reimbursement to fund tuition for certified instructor courses — what it covers, what it doesn’t and how to plan.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST Plan IV reimbursement]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST Plan IV Reimbursement Explained | Fund Instructor Training in California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How California agencies use POST Plan IV reimbursement to fund tuition for certified instructor courses — what it covers, what it doesn’t and how to plan.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST Plan IV reimbursement]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST Plan IV Reimbursement Explained | Fund Instructor Training in California]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[How California agencies use POST Plan IV reimbursement to fund tuition for certified instructor courses — what it covers, what it doesn’t and how to plan.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[POST Plan IV reimbursement]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-2.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Decontamination and Aftercare After Chemical Agent Deployment]]></title>
+		<link>https://southwesternsolutions.org/chemical-agent-decontamination-best-practices/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=305</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Chemical agents are effective precisely because they are uncomfortable. That makes decontamination and aftercare a core part of responsible use — for subjects, bystanders and officers alike.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Make Aftercare Part of the Plan</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Deployment plans should identify how and where decontamination will occur and how medical aid will be summoned, before any munition is used. California's PC 13652 also emphasizes the availability of medical aid after crowd-control deployments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Officer Decontamination</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Officers and instructors are exposed repeatedly during training. Lesson plans should include clear procedures for clearing masks, removing contaminated equipment and caring for exposed skin and eyes according to agency and manufacturer guidance.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Subject Care</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Follow your agency's policy and medical guidance for exposed subjects, monitor for medical distress and summon medical personnel when indicated.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Equipment and Facility Considerations</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Contaminated gear, vehicles and indoor spaces require attention. Instructors should teach how to handle and clean equipment and how to ventilate affected areas according to manufacturer guidance.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Document Everything</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Record the decontamination steps taken, medical aid provided and any complaints of injury. Complete documentation supports transparency and required public reporting.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>Teach decontamination with the same seriousness as deployment — because the public judges both.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Our <a href="/chemical-agent-instructor-course/">Chemical Agent Instructor Course</a> includes decontamination and aftercare as a dedicated block of instruction.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Responsible deployment does not end when the munition lands. Decontamination and aftercare belong in every lesson plan.]]></excerpt:encoded>
+		<wp:post_id>305</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-03 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-03 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[chemical-agent-decontamination-best-practices]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="best-practices"><![CDATA[Best Practices]]></category>
+		<category domain="post_tag" nicename="decontamination"><![CDATA[Decontamination]]></category>
+		<category domain="post_tag" nicename="chemical-agents"><![CDATA[Chemical Agents]]></category>
+		<category domain="post_tag" nicename="officer-safety"><![CDATA[Officer Safety]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chemical Agent Decontamination & Aftercare | Best Practices for Agencies]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Why decontamination and aftercare belong in every chemical agent lesson plan: officer and subject care, medical considerations, documentation and training tips.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[chemical agent decontamination]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chemical Agent Decontamination & Aftercare | Best Practices for Agencies]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Why decontamination and aftercare belong in every chemical agent lesson plan: officer and subject care, medical considerations, documentation and training tips.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[chemical agent decontamination]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chemical Agent Decontamination & Aftercare | Best Practices for Agencies]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Why decontamination and aftercare belong in every chemical agent lesson plan: officer and subject care, medical considerations, documentation and training tips.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[chemical agent decontamination]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-1.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Train-the-Trainer: Why In-House Instructors Strengthen Accountability]]></title>
+		<link>https://southwesternsolutions.org/train-the-trainer-in-house-instructors/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=306</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Every agency faces the same challenge: keep officers proficient, compliant and confident while budgets and schedules stay tight. A train-the-trainer model solves much of that problem.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Consistency</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>In-house instructors teach to your policy, your equipment and your community. That consistency makes training records easier to defend and performance easier to evaluate.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Speed</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>When laws like AB 48 change, certified instructors can update lesson plans and retrain officers quickly — without waiting for outside course availability.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Cost Control</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>One instructor seat can translate into training for an entire shift, unit or department. Combined with POST Plan IV tuition reimbursement, the return on investment is substantial.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Culture and Credibility</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Officers respond to instructors they know and respect. Peer instructors with real operational experience build buy-in that outside lectures rarely achieve.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Documentation</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Certified instructors understand what must be recorded — attendance, objectives, proficiency and remediation — creating a training record that supports accountability.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ready to build your instructor bench? Explore our <a href="/courses/">instructor courses</a> or <a href="/contact/">contact Southwestern Solutions</a>.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Certified in-house instructors keep training consistent, current and defensible. Here is why the model works.]]></excerpt:encoded>
+		<wp:post_id>306</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-12 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-12 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-12 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-12 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[train-the-trainer-in-house-instructors]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="instructor-development"><![CDATA[Instructor Development]]></category>
+		<category domain="post_tag" nicename="train-the-trainer"><![CDATA[Train the Trainer]]></category>
+		<category domain="post_tag" nicename="agency-training"><![CDATA[Agency Training]]></category>
+		<category domain="post_tag" nicename="instructor-certification"><![CDATA[Instructor Certification]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Train-the-Trainer for Law Enforcement | Why In-House Instructors Matter]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Why a train-the-trainer model strengthens law enforcement accountability: consistent training, faster policy updates, lower costs and better documentation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[train the trainer law enforcement]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Train-the-Trainer for Law Enforcement | Why In-House Instructors Matter]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Why a train-the-trainer model strengthens law enforcement accountability: consistent training, faster policy updates, lower costs and better documentation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[train the trainer law enforcement]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Train-the-Trainer for Law Enforcement | Why In-House Instructors Matter]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Why a train-the-trainer model strengthens law enforcement accountability: consistent training, faster policy updates, lower costs and better documentation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
+			<wp:meta_value><![CDATA[train the trainer law enforcement]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hero-3.webp]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Home]]></title>
+		<link>https://southwesternsolutions.org/menu-item-501/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=501</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>501</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menu-item-501]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[101]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[About]]></title>
+		<link>https://southwesternsolutions.org/menu-item-502/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=502</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>502</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menu-item-502]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[102]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Courses]]></title>
+		<link>https://southwesternsolutions.org/menu-item-503/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=503</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>503</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menu-item-503]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[103]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Chemical Agent Instructor]]></title>
+		<link>https://southwesternsolutions.org/menu-item-504/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=504</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>504</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menu-item-504]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[503]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[104]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Less Lethal Instructor]]></title>
+		<link>https://southwesternsolutions.org/menu-item-505/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=505</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>505</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menu-item-505]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[503]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[105]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Host a Course]]></title>
+		<link>https://southwesternsolutions.org/menu-item-506/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=506</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>506</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menu-item-506]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[503]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[108]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[AB 48]]></title>
+		<link>https://southwesternsolutions.org/menu-item-507/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=507</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>507</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menu-item-507]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[106]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Schedule]]></title>
+		<link>https://southwesternsolutions.org/menu-item-508/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=508</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>508</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menu-item-508]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[107]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Insights]]></title>
+		<link>https://southwesternsolutions.org/menu-item-509/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=509</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>509</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menu-item-509]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[111]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Contact]]></title>
+		<link>https://southwesternsolutions.org/menu-item-510/</link>
+		<pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://southwesternsolutions.org/?p=510</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>510</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-15 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-11-15 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-15 08:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menu-item-510]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>10</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[110]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>
