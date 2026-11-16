@@ -135,7 +135,7 @@ home_content = "\n\n".join([
     HTML('[sws_section class="section--steel" eyebrow="Instructor Courses" title="Certify the Instructors Your Agency Depends On" lead="Two focused, POST-certified programs that turn experienced officers into confident, compliant instructors." center="1"][sws_courses][/sws_section]'),
     HTML('[sws_section class="section--tight"][sws_stats][/sws_section]'),
     HTML('[sws_section eyebrow="Why Southwestern" title="Built by Operators.<br>Proven in the Field."][sws_features][/sws_section]'),
-    HTML("""[sws_section class="section--steel"][sws_split img="compliance" alt="AB 48 Penal Code 13652 compliance documents for law enforcement training" reverse="1"]
+    HTML("""[sws_section class="section--steel"][sws_split img="compliance" alt="Instructor leading an AB 48 briefing with tactical helmet and night vision gear on the table" reverse="1"]
 <span class="eyebrow">AB 48 · PC 13652</span>
 <h2>Compliance Isn’t a Module. <span class="text-amber">It’s the Foundation.</span></h2>
 <p class="lead">AB 48 changed how agencies may use kinetic energy projectiles and chemical agents during assemblies, protests and demonstrations. Our courses integrate those standards into every lesson plan, drill and report — so compliance becomes muscle memory.</p>

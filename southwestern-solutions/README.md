@@ -126,3 +126,4 @@ Si no ves los Campos personalizados, actívalos en *Opciones de pantalla* del ed
 - Cita "Under PC 13652, only officers who have received POST-standard training…" en la página AB 48.
 - Lista de especialidades (Critical response tactics… High Risk Warrant Planning) también del texto de About.
 - Productos antiguos de **San Jose** (3): eliminados; sus URLs redirigen 301 al curso vigente de San Diego.
+- Imagen de AB 48 / compliance (escritorio generado con IA) reemplazada por la foto real del cliente (instructor en pizarrón con casco y visión nocturna).
