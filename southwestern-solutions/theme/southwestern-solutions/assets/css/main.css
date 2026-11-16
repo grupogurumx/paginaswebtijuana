@@ -547,3 +547,39 @@ body { overflow-x: clip; }
   form.checkout #customer_details { grid-column: 1; grid-row: 1 / span 3; }
   form.checkout #order_review_heading, form.checkout #order_review { grid-column: 2; }
 }
+
+/* ==========================================================================
+   Compass brand logo
+   ========================================================================== */
+.brand-logo { display: block; flex: none; width: 46px; height: 48px; }
+.brand-logo img { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 6px 14px rgba(224,164,58,.35)); transition: transform 1.2s var(--ease); }
+.brand:hover .brand-logo img { transform: rotate(45deg); }
+@media (max-width: 560px) { .brand-logo { width: 36px; height: 38px; } }
+
+/* ==========================================================================
+   Experience section (SWAT cutout + rotating compass)
+   ========================================================================== */
+.xp { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(30px, 5vw, 70px); align-items: center; }
+.xp > * { min-width: 0; }
+.xp__list { list-style: none; padding: 0; margin: 10px 0 34px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.xp__list li { display: flex; gap: 14px; align-items: center; padding: 16px 18px; border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(160deg, var(--steel), var(--ink-2)); font-weight: 600; line-height: 1.35; transition: border-color .4s, transform .5s var(--ease); }
+.xp__list li:hover { border-color: rgba(224,164,58,.5); transform: translateX(4px); }
+.xp__list li span { flex: none; font: 700 1.3rem/1 var(--font-head); color: var(--amber); }
+.xp__media { position: relative; min-height: 560px; display: grid; place-items: center; }
+.xp__ring { position: absolute; width: min(480px, 92%); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(224,164,58,.28), rgba(224,164,58,.06) 55%, transparent 70%); animation: pulse 7s ease-in-out infinite; }
+.xp__compass { position: absolute; width: min(520px, 96%); aspect-ratio: 1; background: url("../img/logo-compass-gold.png") center / contain no-repeat; opacity: .14; animation: spin 90s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.xp__cutout { position: relative; z-index: 2; width: min(440px, 88%); transform: translate3d(0, var(--py, 0px), 0); transition: transform .2s linear; }
+.xp__cutout img { width: 100%; height: auto; filter: drop-shadow(0 40px 50px rgba(0,0,0,.65)) drop-shadow(0 0 30px rgba(224,164,58,.12)); animation: bob 6s ease-in-out infinite; }
+@media (max-width: 900px) { .xp { grid-template-columns: 1fr; } .xp__media { min-height: 420px; order: -1; } .xp__list { grid-template-columns: 1fr; } }
+
+/* Legal notice (AB 48 de-certification) */
+.legal-notice { display: flex; gap: 18px; align-items: flex-start; padding: 22px 24px; border-radius: 16px; border: 1px solid rgba(210,85,45,.5); background: linear-gradient(120deg, rgba(210,85,45,.16), rgba(13,18,24,.9)); margin: 26px 0; }
+.legal-notice .icon { flex: none; width: 46px; height: 46px; border-radius: 12px; display: grid; place-items: center; background: rgba(210,85,45,.2); color: #ff9a76; }
+.legal-notice .icon svg { width: 22px; height: 22px; }
+.legal-notice > div > strong { display: block; font: 700 1.15rem/1.2 var(--font-head); letter-spacing: .06em; text-transform: uppercase; color: #ffb59a; margin-bottom: 4px; }
+.legal-notice p { margin: 0; color: var(--text); }
+.xp__cutout img { -webkit-mask-image: linear-gradient(180deg, #000 78%, transparent 99%); mask-image: linear-gradient(180deg, #000 78%, transparent 99%); }
+
+.legal-notice p strong { color: #ffb59a; }
+@media (max-width: 900px) { .xp__cutout { transform: none !important; } .xp__media { min-height: 380px; overflow: hidden; } .xp__cutout { width: min(320px, 80%); } }

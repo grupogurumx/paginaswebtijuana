@@ -140,10 +140,10 @@
 <!-- /wp:html -->
 
 <!-- wp:html -->
-[sws_section][sws_split img="instructors" alt="Veteran tactical training instructors at Southwestern Solutions, San Diego" badge="Tactical Operators" badge_num="Real-World"]
+[sws_section][sws_split img="instructor-scope" alt="Southwestern Solutions instructor observing a tactical operator on the range" badge="Years of Experience" badge_num="50+"]
 <span class="eyebrow">Who We Are</span>
 <h2>Instructor Training Forged in the <span class="text-amber">Field</span></h2>
-<p class="lead">Southwestern Solutions delivers POST-certified law enforcement instructor training from San Diego, California. Our cadre is made up of instructors who were — and in many cases still are — tactical operators, so every lesson reflects what actually happens on the line.</p>
+<p class="lead">Southwestern Solutions delivers POST-certified law enforcement instructor training from San Diego, California. Our instructors are former and current Law Enforcement Tactical Operators with over 50 years of experience, and we bring that experience to every class — so each lesson reflects what actually happens on the line.</p>
 <ul class="checklist"><li>Chemical Agent Instructor and Less Lethal Instructor certification</li><li>Curriculum aligned with AB 48 and California Penal Code 13652</li><li>POST Plan IV reimbursable tuition for eligible agencies</li><li>Classroom, range and scenario-based evaluation</li></ul>
 <div class="btn-row"><a class="btn" href="/about-us/">Meet Southwestern <span class="arrow">→</span></a></div>
 [/sws_split][/sws_section]
@@ -158,6 +158,10 @@
 <!-- /wp:html -->
 
 <!-- wp:html -->
+[sws_section class="section--steel"][sws_experience][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
 [sws_section eyebrow="Why Southwestern" title="Built by Operators.<br>Proven in the Field." lead="Training that respects your officers’ time, your agency’s budget and California law."][sws_features][/sws_section]
 <!-- /wp:html -->
 
@@ -166,6 +170,7 @@
 <span class="eyebrow">AB 48 · PC 13652</span>
 <h2>Compliance Isn’t a Module. <span class="text-amber">It’s the Foundation.</span></h2>
 <p class="lead">AB 48 changed how California agencies may use kinetic energy projectiles and chemical agents during assemblies, protests and demonstrations. Our courses integrate those standards into every lesson plan, drill and report — so compliance becomes muscle memory.</p>
+[sws_notice title="AB 48 — Certifications Prior to January 2022"]California Assembly Bill 48 states that any kinetic energy projectiles and chemical agents shall only be deployed by a peace officer that has received training on their proper use by the Commission on Peace Officer Standards and Training (POST), starting January 2022. <strong>All previous certifications prior to January 2022 have been de-certified.</strong> Southwestern Solutions Chemical Agent and Less Lethal Instructor Courses meet AB 48 requirements and are POST certified.[/sws_notice]
 <div class="btn-row"><a class="btn" href="/ab-48-compliance/">Understand AB 48 <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">See Upcoming Classes</a></div>
 [/sws_split][/sws_section]
 <!-- /wp:html -->
@@ -234,7 +239,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
-			<wp:meta_value><![CDATA[hero-1.webp]]></wp:meta_value>
+			<wp:meta_value><![CDATA[training-launcher.webp]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -245,11 +250,11 @@
 		<guid isPermaLink="false">https://southwesternsolutions.org/?p=102</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
-[sws_section][sws_split img="instructors" alt="Southwestern Solutions instructor team, former and active tactical operators"]
+[sws_section][sws_split img="instructor-scope" alt="Southwestern Solutions instructor observing a tactical operator during training" badge="Years of Experience" badge_num="50+"]
 <span class="eyebrow">Our Mission</span>
 <h2>Prepare the Instructors Who Prepare Everyone Else</h2>
 <p>Southwestern Solutions is a San Diego–based provider of California POST-certified law enforcement instructor training. We focus on the disciplines where training quality has the greatest impact on public safety, officer safety and agency liability: chemical agents and less-lethal munitions.</p>
-<p>Our instructors were — and in many cases still are — law enforcement tactical operators. That operational background shapes everything we teach: realistic expectations, clear legal standards and techniques that hold up under stress.</p>
+<p>Our instructors are former and current Law Enforcement Tactical Operators with over 50 years of experience. We bring that experience to every class: critical response tactics, Mobile Field Force, basic to advanced Chemical Agent deployments, Long Rifle utilization in urban and rural environments, Close Quarter Techniques and High Risk Warrant Planning.</p>
 <div class="btn-row"><a class="btn" href="/courses/">Explore Courses <span class="arrow">→</span></a></div>
 [/sws_split][/sws_section]
 <!-- /wp:html -->
@@ -260,6 +265,10 @@
 
 <!-- wp:html -->
 [sws_section class="section--tight"][sws_stats][/sws_section]
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[sws_section class="section--steel"][sws_experience][/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
@@ -318,7 +327,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
-			<wp:meta_value><![CDATA[instructors.webp]]></wp:meta_value>
+			<wp:meta_value><![CDATA[night-ops.webp]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
@@ -408,7 +417,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
-			<wp:meta_value><![CDATA[hero-2.webp]]></wp:meta_value>
+			<wp:meta_value><![CDATA[night-ops.webp]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
@@ -547,7 +556,7 @@
 		<guid isPermaLink="false">https://southwesternsolutions.org/?p=105</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
-[sws_section][sws_split img="less-lethal" alt="Instructor coaching an officer on a less-lethal 40mm launcher" badge="Hour Course" badge_num="30"]
+[sws_section][sws_split img="training-launcher" alt="Officer deploying a less-lethal launcher during a Southwestern Solutions instructor course" badge="Hour Course" badge_num="30"]
 <span class="eyebrow">Course Overview</span>
 <h2>Less Lethal Instructor Course</h2>
 <p class="lead">A 30-hour, California POST-certified instructor course that builds officers into instructors capable of running safe, defensible kinetic energy projectile programs — with AB 48 requirements and compliance covered in depth.</p>
@@ -632,7 +641,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
-			<wp:meta_value><![CDATA[hero-3.webp]]></wp:meta_value>
+			<wp:meta_value><![CDATA[training-launcher.webp]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_eyebrow]]></wp:meta_key>
@@ -675,6 +684,10 @@
 <p>Under PC 13652, only officers who have received POST-standard training in crowd-control use may deploy these tools in those situations.</p>
 <!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->
+
+<!-- wp:html -->
+[sws_notice title="AB 48 — Certifications Prior to January 2022"]California Assembly Bill 48 states that any kinetic energy projectiles and chemical agents shall only be deployed by a peace officer that has received training on their proper use by the Commission on Peace Officer Standards and Training (POST), starting January 2022. <strong>All previous certifications prior to January 2022 have been de-certified.</strong> Southwestern Solutions Chemical Agent and Less Lethal Instructor Courses meet AB 48 requirements and are POST certified.[/sws_notice]
+<!-- /wp:html -->
 
 <!-- wp:heading -->
 <h2 class="wp-block-heading">The Core Requirements</h2>
@@ -891,7 +904,7 @@
 		<guid isPermaLink="false">https://southwesternsolutions.org/?p=108</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
-[sws_section][sws_split img="hero-2" alt="Officers attending an instructor course hosted by a California agency"]
+[sws_section][sws_split img="training-launcher" alt="Officers training during an instructor course hosted by a California agency"]
 <span class="eyebrow">Agency Partnerships</span>
 <h2>Train Your Team Without the Travel</h2>
 <p class="lead">Hosting a Southwestern Solutions course brings POST-certified instructor training to your own facility — reducing travel time for your officers and giving neighboring agencies access to quality training in your region.</p>
@@ -1696,7 +1709,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
-			<wp:meta_value><![CDATA[less-lethal.webp]]></wp:meta_value>
+			<wp:meta_value><![CDATA[training-launcher.webp]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -2048,7 +2061,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
-			<wp:meta_value><![CDATA[hero-3.webp]]></wp:meta_value>
+			<wp:meta_value><![CDATA[instructor-scope.webp]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>

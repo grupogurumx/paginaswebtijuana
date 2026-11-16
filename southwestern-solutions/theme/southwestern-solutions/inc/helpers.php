@@ -40,6 +40,7 @@ function sws_opt( $key ) {
 		'phone'    => '+1 (928) 614-0964',
 		'email'    => 'info@southwesternsolutions.org',
 		'city'     => 'San Diego',
+		'zip'      => '92106',
 		'region'   => 'CA',
 		'country'  => 'US',
 		'hours'    => 'Monday – Friday, 8:00 AM – 5:00 PM (PT)',
@@ -63,12 +64,12 @@ function sws_hero_url( $post_id = null ) {
 		return get_the_post_thumbnail_url( $post_id, 'sws-hero' );
 	}
 	$meta = $post_id ? get_post_meta( $post_id, '_sws_hero', true ) : '';
-	return sws_img( $meta ? $meta : 'hero-1.webp' );
+	return sws_img( $meta ? $meta : 'training-launcher.webp' );
 }
 
-/** Inline SVG brand mark (shield + chevrons). */
+/** Brand mark: Southwestern Solutions compass rose (gold version for the dark theme). */
 function sws_logo_mark() {
-	return '<svg viewBox="0 0 42 48" aria-hidden="true" focusable="false"><defs><linearGradient id="swsg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5c96e"/><stop offset="1" stop-color="#c9862a"/></linearGradient></defs><path d="M21 1 40 8v15c0 12-8.2 20.6-19 24C10.2 43.6 2 35 2 23V8z" fill="none" stroke="url(#swsg)" stroke-width="2.4"/><path d="M11 19l10 7 10-7M11 27l10 7 10-7" fill="none" stroke="url(#swsg)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="21" cy="12" r="2.4" fill="#f5c96e"/></svg>';
+	return '<picture class="brand-logo"><source srcset="' . esc_url( sws_img( 'logo-compass-gold-sm.webp' ) ) . '" type="image/webp"><img src="' . esc_url( sws_img( 'logo-compass-gold-sm.png' ) ) . '" alt="" width="48" height="50" decoding="async"></picture>';
 }
 
 /** Small inline icon set. */

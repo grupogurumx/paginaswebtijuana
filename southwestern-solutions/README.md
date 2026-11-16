@@ -57,7 +57,7 @@ Estos datos se tomaron de los resultados de búsqueda del sitio actual y del cat
 - Fecha publicada: **14–18 de diciembre de 2026, Miramar**. Las demás aparecen como "2027 dates coming soon".
 - Teléfono **+1 (928) 614-0964** y correo **info@southwesternsolutions.org**. El horario (L–V 8–5 PT) es un supuesto razonable.
 - La página **Host a Course** describe un servicio que hay que confirmar con el cliente.
-- **Imagen del equipo (`instructors.jpg`)**: está generada con IA y es solo un marcador. Reemplázala por fotos reales del equipo antes de publicar, porque presentar personas ficticias como instructores reales afectaría la confianza y el E-E-A-T.
+- **Fotos reales del cliente** (entrenamiento con lanzador, instructor con telescopio, operación nocturna, recorte SWAT) y el **logo de la rosa de los vientos** ya están integrados. Las imágenes de IA restantes (aula, línea de escudos, máscara, documentos, San Diego) pueden reemplazarse por fotos reales cuando estén disponibles.
 - Los textos sobre AB 48 son educativos. Conviene que un abogado de la agencia o del cliente los revise.
 
 ## 🖼️ Imágenes generadas (Magnific / Freepik AI)
@@ -68,8 +68,6 @@ Estos datos se tomaron de los resultados de búsqueda del sitio actual y del cat
 | hero-2 | Slide 2, cursos | Instructor dando clase a oficiales, luz azul y ámbar |
 | hero-3 | Slide 3, curso menos letal | Línea de oficiales con escudos y máscaras, humo y luces rojo/azul |
 | chemical-agent | Tarjeta del curso | Máscara de gas y guantes sobre mesa de acero |
-| less-lethal | Tarjeta del curso | Instructor guiando a una oficial con lanzador 40 mm naranja |
-| instructors | Quiénes somos (**marcador**) | Equipo de cuatro instructores frente a instalaciones de entrenamiento |
 | compliance | AB 48 | Carpeta de políticas, laptop y documentos en oficina policial |
 | san-diego | Contacto | Vista aérea de la costa y el centro de San Diego al anochecer |
 
@@ -111,3 +109,15 @@ Los 5 productos conservan **exactamente las mismas URLs** que el sitio anterior,
 Si no ves los Campos personalizados, actívalos en *Opciones de pantalla* del editor.
 
 > Verificado en un WordPress 6.5.5 de prueba con WooCommerce 9.3.3 y el importador oficial: importación completa, compra de 2 asientos ($3,762), campos de agencia y asistentes, pedido creado en "En espera" con método Invoice/PO y página de confirmación.
+
+## 📸 Fotos y logo del cliente (integrados)
+
+| Archivo | Uso |
+|---|---|
+| `logo-compass-gold*.png/webp` | Logo (rosa de los vientos) en encabezado, pie de página y datos estructurados. Versión dorada para el fondo oscuro; la original café está en `logo-compass.png`. |
+| `training-launcher` | Slide 1 del hero, curso Less Lethal, productos Less Lethal, "Host a Course", imagen social por defecto |
+| `night-ops` | Slide 2 del hero, encabezados de About y Courses, producto Chemical Agent San Jose |
+| `instructor-scope` | Sección "Who We Are" (inicio y About), artículo Train-the-Trainer, carrito/checkout |
+| `swat-cutout` | Nueva sección **"Over 50 Years on the Line"**: recorte con parallax y rosa de los vientos girando |
+
+**Información del sitio actual que se conservó:** instructores tácticos activos y retirados con más de 50 años de experiencia; especialidades (Critical response tactics, Mobile Field Force, Chemical Agent deployments, Long Rifle, Close Quarter Techniques, High Risk Warrant Planning); aviso AB 48 de que **las certificaciones anteriores a enero de 2022 quedaron sin validez**; dirección San Diego, CA 92106; teléfono y correo.

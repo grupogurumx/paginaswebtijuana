@@ -91,7 +91,7 @@ function sws_seo_head() {
 	$desc  = sws_meta_description();
 	$canon = sws_canonical();
 	$title = wp_get_document_title();
-	$img   = is_singular() ? sws_hero_url( get_queried_object_id() ) : sws_img( 'hero-1.jpg' );
+	$img   = is_singular() ? sws_hero_url( get_queried_object_id() ) : sws_img( 'training-launcher.jpg' );
 	$img   = preg_replace( '/\.webp$/', '.jpg', $img );
 	$robots = sws_seo_field( 'robots' );
 	if ( is_search() || is_404() ) {
@@ -158,13 +158,14 @@ function sws_schema() {
 			'name'        => 'Southwestern Solutions',
 			'url'         => home_url( '/' ),
 			'logo'        => sws_img( 'logo.png' ),
-			'image'       => sws_img( 'hero-1.jpg' ),
-			'description' => 'POST-certified law enforcement instructor training in San Diego, California: Chemical Agent Instructor and Less Lethal Instructor courses that meet AB 48 (Penal Code 13652) requirements.',
+			'image'       => sws_img( 'training-launcher.jpg' ),
+			'description' => 'POST-certified law enforcement instructor training in San Diego, California, taught by former and current tactical operators with over 50 years of experience: Chemical Agent Instructor and Less Lethal Instructor courses that meet AB 48 (Penal Code 13652) requirements.',
 			'email'       => sws_opt( 'email' ),
 			'telephone'   => sws_opt( 'phone' ),
 			'address'     => array(
 				'@type'           => 'PostalAddress',
 				'addressLocality' => sws_opt( 'city' ),
+				'postalCode'      => sws_opt( 'zip' ),
 				'addressRegion'   => sws_opt( 'region' ),
 				'addressCountry'  => sws_opt( 'country' ),
 			),

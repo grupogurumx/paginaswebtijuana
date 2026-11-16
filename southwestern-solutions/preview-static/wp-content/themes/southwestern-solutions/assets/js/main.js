@@ -107,6 +107,22 @@
     restart();
   });
 
+  /* ---------- Scroll parallax for [data-depth] elements ---------- */
+  var depthEls = document.querySelectorAll('[data-depth]');
+  if (depthEls.length && !reduce && window.matchMedia('(min-width: 901px)').matches) {
+    var ticking = false;
+    var updateDepth = function () {
+      depthEls.forEach(function (el) {
+        var r = el.getBoundingClientRect();
+        var offset = (r.top + r.height / 2 - window.innerHeight / 2) * -(parseFloat(el.getAttribute('data-depth')) || 0.1);
+        el.style.setProperty('--py', offset.toFixed(1) + 'px');
+      });
+      ticking = false;
+    };
+    window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(updateDepth); } }, { passive: true });
+    updateDepth();
+  }
+
   /* ---------- Reveal on scroll ---------- */
   var revealEls = document.querySelectorAll('[data-reveal]');
   if ('IntersectionObserver' in window && !reduce) {

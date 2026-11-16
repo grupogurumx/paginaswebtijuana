@@ -17,6 +17,7 @@ add_action(
 			'phone'     => 'Phone',
 			'email'     => 'Email',
 			'city'      => 'City',
+			'zip'       => 'ZIP code',
 			'region'    => 'State (2 letters)',
 			'hours'     => 'Office hours',
 			'facebook'  => 'Facebook URL',

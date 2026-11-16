@@ -20,15 +20,15 @@ function sws_sc_slider( $atts ) {
 		'sws_slides',
 		array(
 			array(
-				'img'     => 'hero-1',
+				'img'     => 'training-launcher',
 				'eyebrow' => array( 'POST-Certified · AB 48 Compliant', 'Certificación POST · Cumple AB 48' ),
 				'title'   => array( 'Train the <em>Trainers</em><br>Who Hold the Line', 'Formamos a los <em>Instructores</em><br>que Sostienen la Línea' ),
-				'text'    => array( 'Elite Chemical Agent and Less Lethal Instructor courses taught by active and veteran tactical operators — built for California agencies in San Diego and beyond.', 'Cursos de Instructor en Agentes Químicos y Armas Menos Letales impartidos por operadores tácticos activos y veteranos, diseñados para agencias de California.' ),
+				'text'    => array( 'Elite Chemical Agent and Less Lethal Instructor courses taught by former and current tactical operators with over 50 years of experience — built for California agencies.', 'Cursos de Instructor en Agentes Químicos y Armas Menos Letales impartidos por operadores tácticos activos y retirados con más de 50 años de experiencia, diseñados para agencias de California.' ),
 				'cta'     => array( 'Explore Courses', 'Ver Cursos', '/courses/' ),
 				'cta2'    => array( 'Request a Seat', 'Reservar Lugar', '/contact/' ),
 			),
 			array(
-				'img'     => 'hero-2',
+				'img'     => 'night-ops',
 				'eyebrow' => array( 'Instructor Certification', 'Certificación de Instructores' ),
 				'title'   => array( 'Policy. Practice.<br><em>Proficiency.</em>', 'Política. Práctica.<br><em>Dominio.</em>' ),
 				'text'    => array( 'Classroom precision meets range-day realism. Graduates return to their agency ready to teach, document and defend every deployment decision.', 'La precisión del aula se une al realismo del campo. Tus instructores regresan listos para enseñar, documentar y justificar cada despliegue.' ),
@@ -113,7 +113,7 @@ add_shortcode( 'sws_trustbar', 'sws_sc_trustbar' );
 
 /** [sws_stats] — four animated stat tiles. Format: "value|suffix|label" separated by ;; */
 function sws_sc_stats( $atts ) {
-	$a = shortcode_atts( array( 'items' => '40|HR|Chemical Agent Instructor course;;30|HR|Less Lethal Instructor course;;100|%|POST-certified curriculum;;2|+|Instructor certifications offered' ), $atts );
+	$a = shortcode_atts( array( 'items' => '50|+|Years of combined tactical experience;;40|HR|Chemical Agent Instructor course;;30|HR|Less Lethal Instructor course;;100|%|POST-certified curriculum' ), $atts );
 	$out = '<div class="stats" data-reveal>';
 	foreach ( explode( ';;', $a['items'] ) as $row ) {
 		$p = array_map( 'trim', explode( '|', $row ) );
@@ -139,7 +139,7 @@ function sws_sc_courses() {
 			'url'   => '/chemical-agent-instructor-course/',
 		),
 		array(
-			'img'   => 'less-lethal',
+			'img'   => 'training-launcher',
 			'badge' => 'AB 48 Compliant',
 			'title' => 'Less Lethal Instructor Course',
 			'text'  => 'Kinetic energy projectile platforms, target areas, documentation and teaching methodology that prepares your instructors to certify officers in-house.',
@@ -175,7 +175,7 @@ function sws_sc_features( $atts ) {
 	$a = shortcode_atts(
 		array(
 			'cols'  => 3,
-			'items' => 'mask|Operators, Not Lecturers|Our instructors were — and in many cases still are — law enforcement tactical operators. Every lesson is grounded in real deployments.;;scale|AB 48 Built In|Curriculum aligned with Penal Code 13652 so your agency can train, deploy and document with confidence.;;badge|POST Certified|California POST-certified instructor courses, eligible for Plan IV tuition reimbursement.;;target|Scenario-Driven|Range time, live scenarios and practical evaluations — not just slides.;;users|Train-the-Trainer|Graduates leave ready to teach, certify and maintain proficiency inside their own agency.;;shield|Defensible Decisions|Policy, report writing and use-of-force review that hold up to scrutiny.',
+			'items' => 'mask|Operators, Not Lecturers|Our instructors are former and current law enforcement tactical operators with over 50 years of experience. Every lesson is grounded in real deployments.;;scale|AB 48 Built In|Curriculum aligned with Penal Code 13652 so your agency can train, deploy and document with confidence.;;badge|POST Certified|California POST-certified instructor courses, eligible for Plan IV tuition reimbursement.;;target|Scenario-Driven|Range time, live scenarios and practical evaluations — not just slides.;;users|Train-the-Trainer|Graduates leave ready to teach, certify and maintain proficiency inside their own agency.;;shield|Defensible Decisions|Policy, report writing and use-of-force review that hold up to scrutiny.',
 		),
 		$atts
 	);
@@ -203,9 +203,9 @@ function sws_sc_process( $atts ) {
 }
 add_shortcode( 'sws_process', 'sws_sc_process' );
 
-/** [sws_split img="instructors" alt="" reverse="0" badge="" badge_num=""]content[/sws_split] */
+/** [sws_split img="instructor-scope" alt="" reverse="0" badge="" badge_num=""]content[/sws_split] */
 function sws_sc_split( $atts, $content = '' ) {
-	$a = shortcode_atts( array( 'img' => 'instructors', 'alt' => '', 'reverse' => '0', 'badge' => '', 'badge_num' => '' ), $atts );
+	$a = shortcode_atts( array( 'img' => 'instructor-scope', 'alt' => '', 'reverse' => '0', 'badge' => '', 'badge_num' => '' ), $atts );
 	$float = $a['badge'] ? '<div class="floating"><b>' . esc_html( $a['badge_num'] ) . '</b>' . esc_html( $a['badge'] ) . '</div>' : '';
 	return sprintf(
 		'<div class="split%1$s"><div class="frame-wrap" data-reveal="%5$s"><div class="frame" data-tilt="6">%2$s</div>%3$s</div><div data-reveal="%6$s">%4$s</div></div>',
@@ -254,7 +254,7 @@ function sws_sc_contact_info() {
 	$rows = array(
 		array( 'phone', 'Call', '<a href="' . esc_attr( sws_tel( sws_opt( 'phone' ) ) ) . '">' . esc_html( sws_opt( 'phone' ) ) . '</a>' ),
 		array( 'mail', 'Email', '<a href="mailto:' . esc_attr( sws_opt( 'email' ) ) . '">' . esc_html( sws_opt( 'email' ) ) . '</a>' ),
-		array( 'pin', 'Based in', esc_html( sws_opt( 'city' ) . ', California' ) ),
+		array( 'pin', 'Based in', esc_html( sws_opt( 'city' ) . ', CA ' . sws_opt( 'zip' ) ) ),
 		array( 'clock', 'Office Hours', esc_html( sws_opt( 'hours' ) ) ),
 	);
 	$out = '<ul class="contact-list">';
@@ -299,3 +299,42 @@ function sws_sc_section( $atts, $content = '' ) {
 	return '<section class="section ' . esc_attr( $a['class'] ) . '"><div class="wrap">' . $head . do_shortcode( shortcode_unautop( trim( $content ) ) ) . '</div></section>';
 }
 add_shortcode( 'sws_section', 'sws_sc_section' );
+
+
+/**
+ * [sws_experience] — real-world experience section with the SWAT cutout (parallax + float).
+ * items="Label;;Label;;..." (defaults to the specialties listed on the original site).
+ */
+function sws_sc_experience( $atts ) {
+	$a = shortcode_atts(
+		array(
+			'eyebrow' => 'Real-World Experience',
+			'title'   => 'Over 50 Years<br>on the <span class="text-amber">Line</span>',
+			'lead'    => 'Our instructors are former and current Law Enforcement Tactical Operators with over 50 years of experience. We bring that experience to every class we teach.',
+			'items'   => 'Critical response tactics;;Mobile Field Force;;Basic to advanced Chemical Agent deployments;;Long Rifle utilization in urban and rural environments;;Close Quarter Techniques;;High Risk Warrant Planning',
+		),
+		$atts
+	);
+	$list = '';
+	foreach ( explode( ';;', $a['items'] ) as $i => $it ) {
+		$list .= sprintf( '<li data-reveal style="--d:%2$ss"><span>%3$s</span>%1$s</li>', esc_html( trim( $it ) ), esc_attr( 0.08 * $i ), esc_html( sprintf( '%02d', $i + 1 ) ) );
+	}
+	return sprintf(
+		'<div class="xp"><div class="xp__text"><span class="eyebrow" data-reveal>%1$s</span><h2 data-reveal>%2$s</h2><p class="lead" data-reveal>%3$s</p><ul class="xp__list">%4$s</ul><div class="btn-row" data-reveal><a class="btn" href="%5$s">Meet Southwestern <span class="arrow">→</span></a></div></div><div class="xp__media" aria-hidden="true"><div class="xp__ring"></div><div class="xp__compass"></div><picture class="xp__cutout" data-depth="0.12"><source srcset="%6$s" type="image/webp"><img src="%7$s" alt="" width="570" height="777" loading="lazy" decoding="async"></picture></div></div>',
+		esc_html( $a['eyebrow'] ),
+		wp_kses( $a['title'], array( 'br' => array(), 'span' => array( 'class' => array() ) ) ),
+		esc_html( $a['lead'] ),
+		$list,
+		esc_url( home_url( '/about-us/' ) ),
+		esc_url( sws_img( 'swat-cutout.webp' ) ),
+		esc_url( sws_img( 'swat-cutout.png' ) )
+	);
+}
+add_shortcode( 'sws_experience', 'sws_sc_experience' );
+
+/** [sws_notice title="" ]text[/sws_notice] — highlighted legal/important notice. */
+function sws_sc_notice( $atts, $content = '' ) {
+	$a = shortcode_atts( array( 'title' => 'Important' ), $atts );
+	return '<div class="legal-notice" data-reveal><span class="icon">' . sws_icon( 'scale' ) . '</span><div><strong>' . esc_html( $a['title'] ) . '</strong><p>' . wp_kses_post( $content ) . '</p></div></div>';
+}
+add_shortcode( 'sws_notice', 'sws_sc_notice' );

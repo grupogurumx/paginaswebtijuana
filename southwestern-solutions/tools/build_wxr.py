@@ -120,10 +120,10 @@ def page(**kw):
 home_content = "\n\n".join([
     HTML("[sws_slider interval=\"7000\"]"),
     HTML("[sws_trustbar]"),
-    HTML("""[sws_section][sws_split img="instructors" alt="Veteran tactical training instructors at Southwestern Solutions, San Diego" badge="Tactical Operators" badge_num="Real-World"]
+    HTML("""[sws_section][sws_split img="instructor-scope" alt="Southwestern Solutions instructor observing a tactical operator on the range" badge="Years of Experience" badge_num="50+"]
 <span class="eyebrow">Who We Are</span>
 <h2>Instructor Training Forged in the <span class="text-amber">Field</span></h2>
-<p class="lead">Southwestern Solutions delivers POST-certified law enforcement instructor training from San Diego, California. Our cadre is made up of instructors who were — and in many cases still are — tactical operators, so every lesson reflects what actually happens on the line.</p>
+<p class="lead">Southwestern Solutions delivers POST-certified law enforcement instructor training from San Diego, California. Our instructors are former and current Law Enforcement Tactical Operators with over 50 years of experience, and we bring that experience to every class — so each lesson reflects what actually happens on the line.</p>
 """ + checklist([
         "Chemical Agent Instructor and Less Lethal Instructor certification",
         "Curriculum aligned with AB 48 and California Penal Code 13652",
@@ -134,11 +134,13 @@ home_content = "\n\n".join([
 [/sws_split][/sws_section]"""),
     HTML('[sws_section class="section--steel" eyebrow="Instructor Courses" title="Certify the Instructors Your Agency Depends On" lead="Two focused, POST-certified programs that turn experienced officers into confident, compliant instructors." center="1"][sws_courses][/sws_section]'),
     HTML('[sws_section class="section--tight"][sws_stats][/sws_section]'),
+    HTML('[sws_section class="section--steel"][sws_experience][/sws_section]'),
     HTML('[sws_section eyebrow="Why Southwestern" title="Built by Operators.<br>Proven in the Field." lead="Training that respects your officers’ time, your agency’s budget and California law."][sws_features][/sws_section]'),
     HTML("""[sws_section class="section--steel"][sws_split img="compliance" alt="AB 48 Penal Code 13652 compliance documents for California law enforcement training" reverse="1"]
 <span class="eyebrow">AB 48 · PC 13652</span>
 <h2>Compliance Isn’t a Module. <span class="text-amber">It’s the Foundation.</span></h2>
 <p class="lead">AB 48 changed how California agencies may use kinetic energy projectiles and chemical agents during assemblies, protests and demonstrations. Our courses integrate those standards into every lesson plan, drill and report — so compliance becomes muscle memory.</p>
+[sws_notice title="AB 48 — Certifications Prior to January 2022"]California Assembly Bill 48 states that any kinetic energy projectiles and chemical agents shall only be deployed by a peace officer that has received training on their proper use by the Commission on Peace Officer Standards and Training (POST), starting January 2022. <strong>All previous certifications prior to January 2022 have been de-certified.</strong> Southwestern Solutions Chemical Agent and Less Lethal Instructor Courses meet AB 48 requirements and are POST certified.[/sws_notice]
 <div class="btn-row"><a class="btn" href="/ab-48-compliance/">Understand AB 48 <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">See Upcoming Classes</a></div>
 [/sws_split][/sws_section]"""),
     HTML('[sws_section eyebrow="How It Works" title="From Registration to Certified Instructor" center="1"][sws_process][/sws_section]'),
@@ -149,26 +151,27 @@ page(slug="home", title="Home", menu_order=0, content=home_content,
      seo_title="Law Enforcement Instructor Training San Diego | POST Certified | Southwestern Solutions",
      seo_desc="POST-certified Chemical Agent & Less Lethal Instructor courses in San Diego, CA. AB 48 compliant training taught by tactical operators. Plan IV reimbursable. Reserve a seat.",
      focus_kw="law enforcement instructor training San Diego",
-     hero="hero-1.webp")
+     hero="training-launcher.webp")
 
 # 2. ABOUT -----------------------------------------------------------------
 about_content = "\n\n".join([
-    HTML("""[sws_section][sws_split img="instructors" alt="Southwestern Solutions instructor team, former and active tactical operators"]
+    HTML("""[sws_section][sws_split img="instructor-scope" alt="Southwestern Solutions instructor observing a tactical operator during training" badge="Years of Experience" badge_num="50+"]
 <span class="eyebrow">Our Mission</span>
 <h2>Prepare the Instructors Who Prepare Everyone Else</h2>
 <p>Southwestern Solutions is a San Diego–based provider of California POST-certified law enforcement instructor training. We focus on the disciplines where training quality has the greatest impact on public safety, officer safety and agency liability: chemical agents and less-lethal munitions.</p>
-<p>Our instructors were — and in many cases still are — law enforcement tactical operators. That operational background shapes everything we teach: realistic expectations, clear legal standards and techniques that hold up under stress.</p>
+<p>Our instructors are former and current Law Enforcement Tactical Operators with over 50 years of experience. We bring that experience to every class: critical response tactics, Mobile Field Force, basic to advanced Chemical Agent deployments, Long Rifle utilization in urban and rural environments, Close Quarter Techniques and High Risk Warrant Planning.</p>
 <div class="btn-row"><a class="btn" href="/courses/">Explore Courses <span class="arrow">→</span></a></div>
 [/sws_split][/sws_section]"""),
     HTML('[sws_section class="section--steel" eyebrow="What We Stand For" title="Our Standards" center="1"][sws_features items="shield|Integrity First|We teach the law as it is written and the tactics as they are practiced — no shortcuts, no exaggeration.;;scale|Accountability|Every technique is paired with the policy, documentation and use-of-force review that make it defensible.;;users|Instructor Development|We don’t just certify skills. We build teachers who can transfer them to an entire agency.;;target|Realism|Scenario-driven practical work that mirrors the conditions officers will actually face.;;book|Current Curriculum|Lesson plans updated for AB 48, Penal Code 13652 and evolving California POST guidance.;;badge|Respect for Your Budget|POST Plan IV reimbursable courses designed to deliver maximum value per training hour."][/sws_section]'),
     HTML('[sws_section class="section--tight"][sws_stats][/sws_section]'),
+    HTML('[sws_section class="section--steel"][sws_experience][/sws_section]'),
     HTML(cta("Train With Operators Who’ve Been There", "Talk with our team about seats, hosting a course or Plan IV eligibility.", "Contact Our Team", "/contact/")),
 ])
 page(slug="about-us", title="About Southwestern Solutions", menu_order=1, layout="sections", content=about_content,
      eyebrow="About Us", subtitle="Instructor-level law enforcement training from San Diego, built by tactical operators for California agencies.",
      seo_title="About Southwestern Solutions | Tactical Instructor Training San Diego",
      seo_desc="Meet Southwestern Solutions: San Diego law enforcement trainers and tactical operators delivering POST-certified chemical agent and less-lethal instructor courses.",
-     focus_kw="tactical instructor training San Diego", hero="instructors.webp")
+     focus_kw="tactical instructor training San Diego", hero="night-ops.webp")
 
 # 3. COURSES -----------------------------------------------------------------
 courses_content = "\n\n".join([
@@ -181,7 +184,7 @@ page(slug="courses", title="Law Enforcement Instructor Courses", menu_order=2, l
      eyebrow="Courses", subtitle="Chemical Agent Instructor and Less Lethal Instructor certification for California law enforcement.",
      seo_title="POST Certified Instructor Courses California | Chemical Agent & Less Lethal",
      seo_desc="Compare Southwestern Solutions' POST-certified Chemical Agent Instructor (40 hr) and Less Lethal Instructor (30 hr) courses. AB 48 compliant, Plan IV reimbursable.",
-     focus_kw="POST certified instructor courses California", hero="hero-2.webp")
+     focus_kw="POST certified instructor courses California", hero="night-ops.webp")
 
 # 4. CHEMICAL AGENT ------------------------------------------------------------
 chem_content = "\n\n".join([
@@ -222,7 +225,7 @@ page(slug="chemical-agent-instructor-course", title="Chemical Agent Instructor C
 
 # 5. LESS LETHAL -----------------------------------------------------------------
 ll_content = "\n\n".join([
-    HTML("""[sws_section][sws_split img="less-lethal" alt="Instructor coaching an officer on a less-lethal 40mm launcher" badge="Hour Course" badge_num="30"]
+    HTML("""[sws_section][sws_split img="training-launcher" alt="Officer deploying a less-lethal launcher during a Southwestern Solutions instructor course" badge="Hour Course" badge_num="30"]
 <span class="eyebrow">Course Overview</span>
 <h2>Less Lethal Instructor Course</h2>
 <p class="lead">A 30-hour, California POST-certified instructor course that builds officers into instructors capable of running safe, defensible kinetic energy projectile programs — with AB 48 requirements and compliance covered in depth.</p>
@@ -253,7 +256,7 @@ page(slug="less-lethal-instructor-course", title="Less Lethal Instructor Course"
      eyebrow="30-Hour · POST Certified · AB 48", subtitle="Certify instructors to train, qualify and document kinetic energy projectile use the right way.",
      seo_title="Less Lethal Instructor Course California | 30-Hr POST | AB 48 Compliant",
      seo_desc="30-hour POST-certified Less Lethal Instructor Course in San Diego. Kinetic energy projectiles, targeting, range safety, documentation and AB 48 compliance. Plan IV.",
-     focus_kw="less lethal instructor course", hero="hero-3.webp", faq=True,
+     focus_kw="less lethal instructor course", hero="training-launcher.webp", faq=True,
      course={"name": "Less Lethal Instructor Course", "description": "30-hour California POST-certified instructor course covering kinetic energy projectile platforms, targeting standards, range safety, documentation, teaching methodology and AB 48 compliance.", "workload": "PT30H", "price": "1200", "credential": "Less Lethal Instructor certificate (POST certified course)", "location": "San Diego, CA"})
 
 # 6. AB 48 -----------------------------------------------------------------------
@@ -262,6 +265,8 @@ ab48 = prose("""
 Assembly Bill 48 (2021) added **Section 13652 to the California Penal Code**, effective January 1, 2022. It restricts how law enforcement agencies may use kinetic energy projectiles and chemical agents to disperse an assembly, protest or demonstration — and it ties lawful use directly to training.
 
 > Under PC 13652, only officers who have received POST-standard training in crowd-control use may deploy these tools in those situations.
+
+[sws_notice title="AB 48 — Certifications Prior to January 2022"]California Assembly Bill 48 states that any kinetic energy projectiles and chemical agents shall only be deployed by a peace officer that has received training on their proper use by the Commission on Peace Officer Standards and Training (POST), starting January 2022. <strong>All previous certifications prior to January 2022 have been de-certified.</strong> Southwestern Solutions Chemical Agent and Less Lethal Instructor Courses meet AB 48 requirements and are POST certified.[/sws_notice]
 
 ## The Core Requirements
 Under PC 13652, kinetic energy projectiles and chemical agents may be used in crowd situations only when objectively reasonable to defend against a threat to life or serious bodily injury, or to bring an objectively dangerous and unlawful situation safely and effectively under control — and only in accordance with conditions that include:
@@ -310,7 +315,7 @@ page(slug="training-schedule", title="Training Schedule", menu_order=6, layout="
 
 # 8. HOST A COURSE ---------------------------------------------------------------
 host = "\n\n".join([
-    HTML("""[sws_section][sws_split img="hero-2" alt="Officers attending an instructor course hosted by a California agency"]
+    HTML("""[sws_section][sws_split img="training-launcher" alt="Officers training during an instructor course hosted by a California agency"]
 <span class="eyebrow">Agency Partnerships</span>
 <h2>Train Your Team Without the Travel</h2>
 <p class="lead">Hosting a Southwestern Solutions course brings POST-certified instructor training to your own facility — reducing travel time for your officers and giving neighboring agencies access to quality training in your region.</p>
@@ -457,7 +462,7 @@ Southwestern Solutions' [Chemical Agent Instructor Course](/chemical-agent-instr
 post(slug="less-lethal-instructor-training-kinetic-energy-projectiles", date="2026-10-06 09:00:00", cat="Instructor Development", tags=["Less Lethal", "Kinetic Energy Projectiles", "Use of Force"],
      title="Less Lethal Instructor Training: Building a Defensible KEP Program",
      excerpt="Kinetic energy projectiles are only as defensible as the training behind them. Here is how instructor certification strengthens your program.",
-     hero="less-lethal.webp", focus_kw="less lethal instructor training",
+     hero="training-launcher.webp", focus_kw="less lethal instructor training",
      seo_title="Less Lethal Instructor Training | Build a Defensible KEP Program",
      seo_desc="How less lethal instructor training builds a defensible kinetic energy projectile program: legal standards, targeting, range safety, documentation and AB 48.",
      content=prose("""
@@ -544,7 +549,7 @@ Our [Chemical Agent Instructor Course](/chemical-agent-instructor-course/) inclu
 post(slug="train-the-trainer-in-house-instructors", date="2026-11-12 09:00:00", cat="Instructor Development", tags=["Train the Trainer", "Agency Training", "Instructor Certification"],
      title="Train-the-Trainer: Why In-House Instructors Strengthen Accountability",
      excerpt="Certified in-house instructors keep training consistent, current and defensible. Here is why the model works.",
-     hero="hero-3.webp", focus_kw="train the trainer law enforcement",
+     hero="instructor-scope.webp", focus_kw="train the trainer law enforcement",
      seo_title="Train-the-Trainer for Law Enforcement | Why In-House Instructors Matter",
      seo_desc="Why a train-the-trainer model strengthens law enforcement accountability: consistent training, faster policy updates, lower costs and better documentation.",
      content=prose("""

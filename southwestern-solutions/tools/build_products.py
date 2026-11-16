@@ -70,7 +70,7 @@ PRODUCTS = [
         title="Less Lethal Instructor Course",
         dates="February 18 – 20, 2026", start="2026-02-18", end="2026-02-20",
         city="San Diego", location="San Diego, CA", address="",
-        hours="30 Hours", price="1200", hero="less-lethal.webp", menu_order=2,
+        hours="30 Hours", price="1200", hero="training-launcher.webp", menu_order=2,
         source_note="Dates and price from the legacy product page (session has ended).",
     ),
     dict(
@@ -78,7 +78,7 @@ PRODUCTS = [
         title="Less Lethal Instructor Course San Jose CA",
         dates="September 14 – 16, 2025", start="2025-09-14", end="2025-09-16",
         city="San Jose", location="San Jose, CA", address=SANJOSE_ADDR,
-        hours="30 Hours", price="1200", hero="hero-3.webp", menu_order=3,
+        hours="30 Hours", price="1200", hero="training-launcher.webp", menu_order=3,
         source_note="Dates, address and price from the legacy product page (session has ended).",
     ),
     dict(
@@ -86,7 +86,7 @@ PRODUCTS = [
         title="Chemical Agent Instructor Course San Jose CA",
         dates="September 8 – 12, 2025", start="2025-09-08", end="2025-09-12",
         city="San Jose", location="San Jose, CA", address=SANJOSE_ADDR,
-        hours="40 Hours", price="1881", hero="hero-1.webp", menu_order=4,
+        hours="40 Hours", price="1881", hero="night-ops.webp", menu_order=4,
         source_note="Legacy listing: San Jose, September 2025, $1,881 (session has ended).",
     ),
     dict(
@@ -112,7 +112,7 @@ def description(p):
             + ("that prepares officers to teach, deploy and document chemical agents safely, lawfully and effectively."
                if chem else
                "that builds officers into instructors capable of running safe, defensible kinetic energy projectile programs.")
-            + " Taught by instructors who were — and in many cases still are — law enforcement tactical operators."
+            + " Taught by former and current Law Enforcement Tactical Operators with over 50 years of experience."
         ),
         P("Southwestern Solutions Chemical Agent and Less Lethal Instructor Courses <strong>meet AB 48 requirements</strong> and are <strong>POST certified</strong>. "
           + ("AB 48 / PC 13652 will be taught in this course." if chem else "This course also covers AB 48 requirements and compliance.")),

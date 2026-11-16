@@ -65,7 +65,7 @@ function sws_resource_hints() {
 	echo '<link rel="preconnect" href="https://fonts.googleapis.com">' . "\n";
 	echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' . "\n";
 	if ( is_front_page() ) {
-		echo '<link rel="preload" as="image" href="' . esc_url( sws_img( 'hero-1.webp' ) ) . '" type="image/webp" fetchpriority="high">' . "\n";
+		echo '<link rel="preload" as="image" href="' . esc_url( sws_img( 'training-launcher.webp' ) ) . '" type="image/webp" fetchpriority="high">' . "\n";
 	}
 }
 add_action( 'wp_head', 'sws_resource_hints', 1 );
@@ -146,7 +146,7 @@ function sws_wc_auto_setup() {
 		$pid = function_exists( 'wc_get_page_id' ) ? wc_get_page_id( $key ) : 0;
 		if ( $pid > 0 ) {
 			wp_update_post( array( 'ID' => $pid, 'post_content' => "<!-- wp:shortcode -->\n{$sc}\n<!-- /wp:shortcode -->" ) );
-			update_post_meta( $pid, '_sws_hero', 'hero-2.webp' );
+			update_post_meta( $pid, '_sws_hero', 'instructor-scope.webp' );
 		}
 	}
 	update_option( 'sws_wc_setup_done', 1 );
