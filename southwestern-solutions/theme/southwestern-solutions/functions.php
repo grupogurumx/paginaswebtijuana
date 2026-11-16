@@ -152,6 +152,65 @@ function sws_wc_auto_setup() {
 }
 add_action( 'admin_init', 'sws_wc_auto_setup', 20 );
 
+/**
+ * Self-healing store pages: if the WooCommerce Cart, Checkout, My Account or Shop page is
+ * missing, trashed or unpublished, recreate it (classic shortcodes so the agency checkout
+ * fields apply) and point WooCommerce at it. Runs on admin page loads; cheap when everything is fine.
+ */
+function sws_wc_repair_pages() {
+	if ( ! class_exists( 'WooCommerce' ) ) {
+		return;
+	}
+	$pages = array(
+		'cart'      => array( 'Cart', 'cart', '[woocommerce_cart]' ),
+		'checkout'  => array( 'Checkout', 'checkout', '[woocommerce_checkout]' ),
+		'myaccount' => array( 'My Account', 'my-account', '[woocommerce_my_account]' ),
+		'shop'      => array( 'Register', 'shop', '' ),
+	);
+	foreach ( $pages as $key => $def ) {
+		$id = (int) get_option( 'woocommerce_' . $key . '_page_id' );
+		if ( $id > 0 && 'publish' === get_post_status( $id ) ) {
+			continue;
+		}
+		// Reuse a published page that already has the expected slug.
+		$existing = get_page_by_path( $def[1] );
+		if ( $existing && 'publish' === $existing->post_status ) {
+			$id = $existing->ID;
+		} else {
+			$id = wp_insert_post(
+				array(
+					'post_type'    => 'page',
+					'post_status'  => 'publish',
+					'post_title'   => $def[0],
+					'post_name'    => $def[1],
+					'post_content' => $def[2] ? "<!-- wp:shortcode -->\n{$def[2]}\n<!-- /wp:shortcode -->" : '',
+					'comment_status' => 'closed',
+				)
+			);
+		}
+		if ( $id && ! is_wp_error( $id ) ) {
+			update_option( 'woocommerce_' . $key . '_page_id', $id );
+			update_post_meta( $id, '_sws_hero', 'instructor-scope.webp' );
+		}
+	}
+	// Make sure at least the Invoice / PO gateway is available so checkout can complete.
+	$cheque = get_option( 'woocommerce_cheque_settings', array() );
+	$gateways = WC()->payment_gateways() ? WC()->payment_gateways()->get_available_payment_gateways() : array();
+	if ( empty( $gateways ) && ( empty( $cheque['enabled'] ) || 'yes' !== $cheque['enabled'] ) ) {
+		update_option(
+			'woocommerce_cheque_settings',
+			array(
+				'enabled'      => 'yes',
+				'title'        => 'Agency Invoice / Purchase Order',
+				'description'  => 'Reserve your seats now. We will email an invoice payable by agency check, purchase order or card. POST Plan IV paperwork included.',
+				'instructions' => 'Your seats are reserved. An invoice and POST Plan IV paperwork will be emailed within one business day.',
+			)
+		);
+	}
+	flush_rewrite_rules( false );
+}
+add_action( 'admin_init', 'sws_wc_repair_pages', 30 );
+
 /** Menu fallback when no menu is assigned yet. */
 function sws_menu_fallback() {
 	$items = array(
