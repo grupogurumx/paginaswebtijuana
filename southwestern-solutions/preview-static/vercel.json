@@ -42,6 +42,21 @@
       "permanent": true
     },
     {
+      "source": "/product/chemical-agent-instructor-course-san-jose-ca/",
+      "destination": "/product/chemical-agent-instructor-course/",
+      "permanent": true
+    },
+    {
+      "source": "/product/chemical-agent-instructor-course-san-jose/",
+      "destination": "/product/chemical-agent-instructor-course/",
+      "permanent": true
+    },
+    {
+      "source": "/product/less-lethal-instructor-course-san-jose-ca/",
+      "destination": "/product/less-lethal-instructor-course/",
+      "permanent": true
+    },
+    {
       "source": "/tag/:slug*",
       "destination": "/",
       "permanent": true

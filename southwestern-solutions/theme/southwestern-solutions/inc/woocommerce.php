@@ -5,7 +5,7 @@
  * Course product meta (set by the products import):
  *   _sws_dates      Human-readable session dates, e.g. "December 14 – 18, 2026"
  *   _sws_end_date   Last day of the session (Y-m-d). After this day registration closes automatically.
- *   _sws_location   City / venue, e.g. "San Jose, CA"
+ *   _sws_location   City / venue, e.g. "San Diego, CA"
  *   _sws_address    Street address of the training site
  *   _sws_hours      Course length, e.g. "40 Hours"
  *   _sws_hero       Fallback image file from the theme (when the product has no featured image)

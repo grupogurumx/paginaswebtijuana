@@ -137,7 +137,7 @@ def main():
             ("/less-lethal-instructor-training-kinetic-energy-projectiles/", "/less-lethal-instructor-course/"),
             ("/post-plan-iv-reimbursement-instructor-courses/", "/faq/"),
             ("/chemical-agent-decontamination-best-practices/", "/chemical-agent-instructor-course/"),
-            ("/train-the-trainer-in-house-instructors/", "/courses/"), ("/privacy-policy/", "/"), ("/tag/:slug*", "/"), ("/category/:slug*", "/"),
+            ("/train-the-trainer-in-house-instructors/", "/courses/"), ("/privacy-policy/", "/"), ("/product/chemical-agent-instructor-course-san-jose-ca/", "/product/chemical-agent-instructor-course/"), ("/product/chemical-agent-instructor-course-san-jose/", "/product/chemical-agent-instructor-course/"), ("/product/less-lethal-instructor-course-san-jose-ca/", "/product/less-lethal-instructor-course/"), ("/tag/:slug*", "/"), ("/category/:slug*", "/"),
         ]
         f.write(_json.dumps({
             "trailingSlash": True,

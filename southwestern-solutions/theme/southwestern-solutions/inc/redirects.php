@@ -17,7 +17,9 @@ function sws_legacy_redirects() {
 		array(
 			'home-it-service'                                  => '/',
 			'product/chemical-agent-instructor-course'         => '/chemical-agent-instructor-course/',
-			'product/chemical-agent-instructor-course-san-jose-ca' => '/chemical-agent-instructor-course/',
+			'product/chemical-agent-instructor-course-san-jose-ca' => '/product/chemical-agent-instructor-course/',
+			'product/chemical-agent-instructor-course-san-jose'    => '/product/chemical-agent-instructor-course/',
+			'product/less-lethal-instructor-course-san-jose-ca'    => '/product/less-lethal-instructor-course/',
 			'product/less-lethal-instructor-course'            => '/less-lethal-instructor-course/',
 			'shop'                                             => '/courses/',
 			'cart'                                             => '/contact/',

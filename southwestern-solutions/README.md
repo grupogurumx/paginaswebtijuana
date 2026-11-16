@@ -80,15 +80,12 @@ python3 tools/build_wxr.py
 
 ## 🛒 Tienda en línea: 5 cursos a la venta (WooCommerce)
 
-Los 5 productos conservan **exactamente las mismas URLs** que el sitio anterior, así que no se pierde posicionamiento ni enlaces:
+Los productos conservan **exactamente las mismas URLs** que el sitio anterior, así que no se pierde posicionamiento ni enlaces:
 
 | URL | Curso | Fechas | Sede | Precio | Estado |
 |---|---|---|---|---|---|
 | `/product/chemical-agent-instructor-course/` | Chemical Agent Instructor (40 h) | Feb 8 – 12, 2027 | San Diego | $1,881 | ✅ A la venta |
 | `/product/less-lethal-instructor-course/` | Less Lethal Instructor (30 h) | Dec 9 – 11, 2026 | San Diego | $1,200 | ✅ A la venta |
-| `/product/less-lethal-instructor-course-san-jose-ca/` | Less Lethal Instructor (30 h) | Sep 14 – 16, 2025 | 9600 Malech Rd, San Jose | $1,200 | ⛔ Fecha pasada |
-| `/product/chemical-agent-instructor-course-san-jose-ca/` | Chemical Agent Instructor (40 h) | Sep 8 – 12, 2025 | 9600 Malech Rd, San Jose | $1,881 | ⛔ Fecha pasada |
-| `/product/chemical-agent-instructor-course-san-jose/` | Chemical Agent Instructor (40 h) | Por anunciar | 9600 Malech Rd, San Jose | $1,881 | ⛔ Sin fecha |
 
 **Protección automática:** un curso solo se puede comprar si su fecha final (`_sws_end_date`) está en el futuro. Las fechas pasadas o sin fecha muestran "Registration closed" y la página sigue publicada, sin perder el SEO.
 
@@ -128,3 +125,4 @@ Si no ves los Campos personalizados, actívalos en *Opciones de pantalla* del ed
 - Página **Privacy Policy** y su enlace en el footer (redirige 301 al inicio).
 - Cita "Under PC 13652, only officers who have received POST-standard training…" en la página AB 48.
 - Lista de especialidades (Critical response tactics… High Risk Warrant Planning) también del texto de About.
+- Productos antiguos de **San Jose** (3): eliminados; sus URLs redirigen 301 al curso vigente de San Diego.

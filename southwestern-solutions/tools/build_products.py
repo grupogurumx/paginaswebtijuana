@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """
-Builds the 5 WooCommerce course products (seat registrations) with the SAME slugs as the
+Builds the WooCommerce course products (seat registrations) with the SAME slugs as the
 legacy site, so existing Google rankings and links keep working:
 
   /product/chemical-agent-instructor-course/
   /product/less-lethal-instructor-course/
-  /product/less-lethal-instructor-course-san-jose-ca/
-  /product/chemical-agent-instructor-course-san-jose-ca/
-  /product/chemical-agent-instructor-course-san-jose/
+  (Legacy San Jose products were removed; their URLs 301-redirect to the current courses.)
 
 Outputs:
   import/southwestern-solutions-products.WordPress.xml   (Tools → Import → WordPress)   ← recommended, keeps slugs
@@ -29,7 +27,6 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT_XML = os.path.join(HERE, "..", "import", "southwestern-solutions-products.WordPress.xml")
 OUT_CSV = os.path.join(HERE, "..", "import", "southwestern-solutions-products.csv")
 
-SANJOSE_ADDR = "9600 Malech Road, San Jose, CA 95013"
 
 CHEM_TOPICS = [
     "Review of use of force and related agency policies",
@@ -72,30 +69,6 @@ PRODUCTS = [
         city="San Diego", location="San Diego, CA", address="",
         hours="30 Hours", price="1200", hero="training-launcher.webp", menu_order=2,
         source_note="Session confirmed by client (Nov 2026): December 9 – 11, 2026, San Diego, registration open.",
-    ),
-    dict(
-        slug="less-lethal-instructor-course-san-jose-ca", kind="ll", sku="SWS-LLI-SJ",
-        title="Less Lethal Instructor Course San Jose CA",
-        dates="September 14 – 16, 2025", start="2025-09-14", end="2025-09-16",
-        city="San Jose", location="San Jose, CA", address=SANJOSE_ADDR,
-        hours="30 Hours", price="1200", hero="training-launcher.webp", menu_order=3,
-        source_note="Dates, address and price from the legacy product page (session has ended).",
-    ),
-    dict(
-        slug="chemical-agent-instructor-course-san-jose-ca", kind="chem", sku="SWS-CAI-SJ",
-        title="Chemical Agent Instructor Course San Jose CA",
-        dates="September 8 – 12, 2025", start="2025-09-08", end="2025-09-12",
-        city="San Jose", location="San Jose, CA", address=SANJOSE_ADDR,
-        hours="40 Hours", price="1881", hero="night-ops.webp", menu_order=4,
-        source_note="Legacy listing: San Jose, September 2025, $1,881 (session has ended).",
-    ),
-    dict(
-        slug="chemical-agent-instructor-course-san-jose", kind="chem", sku="SWS-CAI-SJ2",
-        title="Chemical Agent Instructor Course San Jose, CA",
-        dates="Dates to be announced", start="", end="",
-        city="San Jose", location="San Jose, CA", address=SANJOSE_ADDR,
-        hours="40 Hours", price="1881", hero="chemical-agent.webp", menu_order=5,
-        source_note="Legacy listing without confirmed dates — set _sws_dates / _sws_end_date to open registration.",
     ),
 ]
 
