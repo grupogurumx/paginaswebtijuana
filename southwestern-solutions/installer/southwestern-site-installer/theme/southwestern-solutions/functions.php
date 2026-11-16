@@ -211,6 +211,12 @@ function sws_wc_repair_pages() {
 }
 add_action( 'admin_init', 'sws_wc_repair_pages', 30 );
 
+/**
+ * This site has no blog: never let a page (e.g. Contact) be used as the "Posts page",
+ * otherwise WordPress renders it as an empty blog archive instead of its content.
+ */
+add_filter( 'pre_option_page_for_posts', '__return_zero' );
+
 /** Menu fallback when no menu is assigned yet. */
 function sws_menu_fallback() {
 	$items = array(
