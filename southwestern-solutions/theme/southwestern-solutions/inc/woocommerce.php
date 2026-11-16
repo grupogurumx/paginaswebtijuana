@@ -122,6 +122,22 @@ add_action(
 	15
 );
 
+/** Structured data: closed sessions are not offered for sale. */
+add_filter(
+	'woocommerce_structured_data_product_offer',
+	function ( $offer, $product ) {
+		if ( sws_session_ended( $product->get_id() ) ) {
+			$offer['availability'] = 'https://schema.org/SoldOut';
+		}
+		return $offer;
+	},
+	10,
+	2
+);
+
+/** "Related products" → course wording. */
+add_filter( 'woocommerce_product_related_products_heading', function () { return 'Other Course Sessions'; } );
+
 /** Add-to-cart button copy. */
 add_filter( 'woocommerce_product_single_add_to_cart_text', function () { return 'Register Now'; } );
 add_filter(

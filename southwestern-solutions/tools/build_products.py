@@ -148,7 +148,7 @@ def description(p):
 
 def short(p):
     open_ = bool(p["end"])
-    return (f"<p><strong>{p['dates']}</strong> · {p['location']}<br>{p['hours']} · POST certified · AB 48 compliant · Plan IV reimbursable.</p>"
+    return (f"<p><strong>{p['dates']}</strong> · {p['location']} · {p['hours']} · POST certified · AB 48 compliant · Plan IV reimbursable.</p>"
             + ("" if open_ else ""))
 
 
