@@ -23,7 +23,7 @@ function sws_sc_slider( $atts ) {
 				'img'     => 'training-launcher',
 				'eyebrow' => array( 'POST-Certified · AB 48 Compliant', 'Certificación POST · Cumple AB 48' ),
 				'title'   => array( 'Train the <em>Trainers</em><br>Who Hold the Line', 'Formamos a los <em>Instructores</em><br>que Sostienen la Línea' ),
-				'text'    => array( 'Elite Chemical Agent and Less Lethal Instructor courses taught by former and current tactical operators with over 50 years of experience — built for California agencies.', 'Cursos de Instructor en Agentes Químicos y Armas Menos Letales impartidos por operadores tácticos activos y retirados con más de 50 años de experiencia, diseñados para agencias de California.' ),
+				'text'    => array( 'Elite Chemical Agent and Less Lethal Instructor courses taught by former and current tactical operators with over 50 years of experience — built for law enforcement agencies.', 'Cursos de Instructor en Agentes Químicos y Armas Menos Letales impartidos por operadores tácticos activos y retirados con más de 50 años de experiencia, diseñados para agencias de California.' ),
 				'cta'     => array( 'Explore Courses', 'Ver Cursos', '/courses/' ),
 				'cta2'    => array( 'Request a Seat', 'Reservar Lugar', '/contact/' ),
 			),
@@ -39,7 +39,7 @@ function sws_sc_slider( $atts ) {
 				'img'     => 'hero-3',
 				'eyebrow' => array( 'AB 48 · Penal Code 13652', 'AB 48 · Código Penal 13652' ),
 				'title'   => array( 'Compliance Built<br>Into Every <em>Rep</em>', 'El Cumplimiento en<br>Cada <em>Repetición</em>' ),
-				'text'    => array( 'Crowd-management instruction aligned with California law — so your instructors, your officers and your agency stand on solid legal ground.', 'Instrucción en control de multitudes alineada con la ley de California, para que tu agencia opere sobre una base legal sólida.' ),
+				'text'    => array( 'Crowd-management instruction aligned with AB 48 — so your instructors, your officers and your agency stand on solid legal ground.', 'Instrucción en control de multitudes alineada con la ley de California, para que tu agencia opere sobre una base legal sólida.' ),
 				'cta'     => array( 'AB 48 Compliance', 'Cumplimiento AB 48', '/ab-48-compliance/' ),
 				'cta2'    => array( 'Training Schedule', 'Calendario', '/training-schedule/' ),
 			),
@@ -100,7 +100,7 @@ add_shortcode( 'sws_slider', 'sws_sc_slider' );
 
 /** [sws_trustbar items="A|B|C"] — animated marquee. */
 function sws_sc_trustbar( $atts ) {
-	$a = shortcode_atts( array( 'items' => 'POST Certified|AB 48 Compliant|Plan IV Reimbursable|Chemical Agent Instructor|Less Lethal Instructor|San Diego, California|Taught by Tactical Operators' ), $atts );
+	$a = shortcode_atts( array( 'items' => 'POST Certified|AB 48 Compliant|Plan IV Reimbursable|Chemical Agent Instructor|Less Lethal Instructor|San Diego|Taught by Tactical Operators' ), $atts );
 	$items = array_map( 'trim', explode( '|', $a['items'] ) );
 	$row   = '';
 	foreach ( $items as $it ) {
@@ -132,7 +132,7 @@ function sws_sc_courses() {
 			'img'   => 'chemical-agent',
 			'badge' => 'POST Certified',
 			'title' => 'Chemical Agent Instructor Course',
-			'text'  => 'Use-of-force law, deployment techniques, protective masks, munitions, decontamination and instructor development — with full AB 48 / PC 13652 coverage.',
+			'text'  => 'Use-of-force law, deployment techniques, APR use, munitions, decontamination and instructor development — with full AB 48 / PC 13652 coverage.',
 			'meta'  => array( '40 Hours', 'Instructor Level', 'Plan IV' ),
 			'price' => '1,881',
 			'url'   => '/chemical-agent-instructor-course/',
@@ -141,7 +141,7 @@ function sws_sc_courses() {
 			'img'   => 'training-launcher',
 			'badge' => 'AB 48 Compliant',
 			'title' => 'Less Lethal Instructor Course',
-			'text'  => 'Kinetic energy projectile platforms, target areas, documentation and teaching methodology that prepares your instructors to certify officers in-house.',
+			'text'  => 'Kinetic energy projectile platforms, target areas, documentation and teaching methodology that prepares your instructors.',
 			'meta'  => array( '30 Hours', 'Instructor Level', 'Plan IV' ),
 			'price' => '1,200',
 			'url'   => '/less-lethal-instructor-course/',
@@ -174,7 +174,7 @@ function sws_sc_features( $atts ) {
 	$a = shortcode_atts(
 		array(
 			'cols'  => 3,
-			'items' => 'mask|Operators, Not Lecturers|Our instructors are former and current law enforcement tactical operators with over 50 years of experience. Every lesson is grounded in real deployments.;;scale|AB 48 Built In|Curriculum aligned with Penal Code 13652 so your agency can train, deploy and document with confidence.;;badge|POST Certified|California POST-certified instructor courses, eligible for Plan IV tuition reimbursement.;;target|Scenario-Driven|Range time, live scenarios and practical evaluations — not just slides.;;users|Train-the-Trainer|Graduates leave ready to teach, certify and maintain proficiency inside their own agency.;;shield|Defensible Decisions|Policy, report writing and use-of-force review that hold up to scrutiny.',
+			'items' => 'mask|Operators, Not Lecturers|Our instructors are former and current law enforcement tactical operators with over 50 years of experience. Every lesson is grounded in real deployments.;;scale|AB 48 Built In|Curriculum aligned with Penal Code 13652 so your agency can train, deploy and document with confidence.;;badge|POST Certified|POST-certified instructor courses, eligible for Plan IV tuition reimbursement.;;target|Scenario-Driven|Range time, live scenarios and practical evaluations — not just slides.;;users|Train-the-Trainer|Graduates leave ready to teach, certify and maintain proficiency within their own agency.;;shield|Defensible Decisions|Policy, report writing and use-of-force review that hold up to scrutiny.',
 		),
 		$atts
 	);
@@ -192,9 +192,10 @@ add_shortcode( 'sws_features', 'sws_sc_features' );
 
 /** [sws_process] — numbered steps. items="Title|Text;;..." */
 function sws_sc_process( $atts ) {
-	$a = shortcode_atts( array( 'items' => 'Choose Your Course|Select Chemical Agent or Less Lethal Instructor certification — or both.;;Reserve Seats|Contact us to secure seats for your officers and confirm Plan IV eligibility.;;Train & Certify|Classroom, range and scenario work with veteran tactical instructors.;;Lead Your Agency|Return as a certified instructor ready to train and document in-house.' ), $atts );
-	$out = '<div class="grid grid-4 steps">';
-	foreach ( explode( ';;', $a['items'] ) as $i => $row ) {
+	$a = shortcode_atts( array( 'items' => 'Choose Your Course|Select Chemical Agent or Less Lethal Instructor certification — or both.;;Reserve Seats|Contact us to secure seats for your officers and confirm Plan IV eligibility.;;Train & Certify|Classroom, range and scenario work with tactical instructors.' ), $atts );
+	$steps = explode( ';;', $a['items'] );
+	$out   = '<div class="grid grid-' . min( 4, max( 2, count( $steps ) ) ) . ' steps">';
+	foreach ( $steps as $i => $row ) {
 		$p = array_map( 'trim', explode( '|', $row ) );
 		$out .= sprintf( '<div class="card step" data-reveal style="--d:%3$ss"><span class="num"></span><h3>%1$s</h3><p>%2$s</p></div>', esc_html( $p[0] ), esc_html( isset( $p[1] ) ? $p[1] : '' ), esc_attr( $i * 0.12 ) );
 	}
@@ -249,13 +250,17 @@ function sws_sc_cta( $atts ) {
 add_shortcode( 'sws_cta', 'sws_sc_cta' );
 
 /** [sws_contact_info] */
-function sws_sc_contact_info() {
+function sws_sc_contact_info( $atts = array() ) {
+	$atts = (array) $atts;
 	$rows = array(
 		array( 'phone', 'Call', '<a href="' . esc_attr( sws_tel( sws_opt( 'phone' ) ) ) . '">' . esc_html( sws_opt( 'phone' ) ) . '</a>' ),
 		array( 'mail', 'Email', '<a href="mailto:' . esc_attr( sws_opt( 'email' ) ) . '">' . esc_html( sws_opt( 'email' ) ) . '</a>' ),
 		array( 'pin', 'Based in', esc_html( sws_opt( 'city' ) . ', CA ' . sws_opt( 'zip' ) ) ),
 		array( 'clock', 'Office Hours', esc_html( sws_opt( 'hours' ) ) ),
 	);
+	if ( isset( $atts['hours'] ) && '0' === (string) $atts['hours'] ) {
+		array_pop( $rows );
+	}
 	$out = '<ul class="contact-list">';
 	foreach ( $rows as $r ) {
 		$out .= '<li><span class="icon">' . sws_icon( $r[0] ) . '</span><div><small>' . esc_html( $r[1] ) . '</small>' . $r[2] . '</div></li>';

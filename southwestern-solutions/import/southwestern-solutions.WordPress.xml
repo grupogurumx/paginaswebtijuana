@@ -143,8 +143,8 @@
 [sws_section][sws_split img="instructor-scope" alt="Southwestern Solutions instructor observing a tactical operator on the range" badge="Years of Experience" badge_num="50+"]
 <span class="eyebrow">Who We Are</span>
 <h2>Instructor Training Forged in the <span class="text-amber">Field</span></h2>
-<p class="lead">Southwestern Solutions delivers POST-certified law enforcement instructor training from San Diego, California. Our instructors are former and current Law Enforcement Tactical Operators with over 50 years of experience, and we bring that experience to every class — so each lesson reflects what actually happens on the line.</p>
-<ul class="checklist"><li>Chemical Agent Instructor and Less Lethal Instructor certification</li><li>Curriculum aligned with AB 48 and California Penal Code 13652</li><li>POST Plan IV reimbursable tuition for eligible agencies</li><li>Classroom, range and scenario-based evaluation</li></ul>
+<p class="lead">Southwestern Solutions delivers POST-certified law enforcement instructor training from San Diego. Our instructors are former and current Law Enforcement Tactical Operators with over 50 years of experience, and we bring that experience to every class — so each lesson reflects what actually happens on the line.</p>
+<ul class="checklist"><li>Chemical Agent Instructor and Less Lethal Instructor certification</li><li>Curriculum aligned with AB 48 and Penal Code 13652</li><li>POST Plan IV reimbursable tuition for eligible agencies</li><li>Classroom, range and scenario-based evaluation</li></ul>
 <div class="btn-row"><a class="btn" href="/about-us/">Meet Southwestern <span class="arrow">→</span></a></div>
 [/sws_split][/sws_section]
 <!-- /wp:html -->
@@ -162,15 +162,15 @@
 <!-- /wp:html -->
 
 <!-- wp:html -->
-[sws_section eyebrow="Why Southwestern" title="Built by Operators.<br>Proven in the Field." lead="Training that respects your officers’ time, your agency’s budget and California law."][sws_features][/sws_section]
+[sws_section eyebrow="Why Southwestern" title="Built by Operators.<br>Proven in the Field." lead="Training that respects your officers’ time, your agency’s budget and the law."][sws_features][/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
-[sws_section class="section--steel"][sws_split img="compliance" alt="AB 48 Penal Code 13652 compliance documents for California law enforcement training" reverse="1"]
+[sws_section class="section--steel"][sws_split img="compliance" alt="AB 48 Penal Code 13652 compliance documents for law enforcement training" reverse="1"]
 <span class="eyebrow">AB 48 · PC 13652</span>
 <h2>Compliance Isn’t a Module. <span class="text-amber">It’s the Foundation.</span></h2>
-<p class="lead">AB 48 changed how California agencies may use kinetic energy projectiles and chemical agents during assemblies, protests and demonstrations. Our courses integrate those standards into every lesson plan, drill and report — so compliance becomes muscle memory.</p>
-[sws_notice title="AB 48 — Certifications Prior to January 2022"]California Assembly Bill 48 states that any kinetic energy projectiles and chemical agents shall only be deployed by a peace officer that has received training on their proper use by the Commission on Peace Officer Standards and Training (POST), starting January 2022. <strong>All previous certifications prior to January 2022 have been de-certified.</strong> Southwestern Solutions Chemical Agent and Less Lethal Instructor Courses meet AB 48 requirements and are POST certified.[/sws_notice]
+<p class="lead">AB 48 changed how agencies may use kinetic energy projectiles and chemical agents during assemblies, protests and demonstrations. Our courses integrate those standards into every lesson plan, drill and report — so compliance becomes muscle memory.</p>
+[sws_notice title="AB 48 — Certifications Prior to January 2022"]Assembly Bill 48 states that any kinetic energy projectiles and chemical agents shall only be deployed by a peace officer that has received training on their proper use by the Commission on Peace Officer Standards and Training (POST), starting January 2022. <strong>All previous certifications prior to January 2022 have been de-certified.</strong> Southwestern Solutions Chemical Agent and Less Lethal Instructor Courses meet AB 48 requirements and are POST certified.[/sws_notice]
 <div class="btn-row"><a class="btn" href="/ab-48-compliance/">Understand AB 48 <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">See Upcoming Classes</a></div>
 [/sws_split][/sws_section]
 <!-- /wp:html -->
@@ -440,18 +440,18 @@
 		<guid isPermaLink="false">https://southwesternsolutions.org/?p=104</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
-[sws_section][sws_split img="chemical-agent" alt="Protective mask and gloves used in the Chemical Agent Instructor Course" badge="Hour Course" badge_num="40"]
+[sws_section][sws_split img="chemical-agent" alt="APR and gloves used in the Chemical Agent Instructor Course" badge="Hour Course" badge_num="40"]
 <span class="eyebrow">Course Overview</span>
 <h2>Chemical Agent Instructor Course</h2>
 <p class="lead">A 40-hour, California POST-certified instructor course that prepares officers to teach, deploy and document chemical agents safely, lawfully and effectively.</p>
-<ul class="checklist"><li>Review of use of force and related agency policies</li><li>Deployment techniques and munition selection</li><li>Use of the protective mask</li><li>Use of chemical agent munitions</li><li>Decontamination and aftercare</li><li>Instruction techniques and lesson-plan development</li><li>Scenario exercises — including AB 48 / PC 13652 requirements</li></ul>
+<ul class="checklist"><li>Review of use of force and related agency policies</li><li>Deployment techniques and munition selection</li><li>APR use</li><li>Use of chemical agent munitions</li><li>Decontamination and aftercare</li><li>Instruction techniques and lesson-plan development</li><li>Scenario exercises — including AB 48 / PC 13652 requirements</li></ul>
 <p class="price">$1,881 <small>tuition per student · POST Plan IV reimbursable</small></p>
 <div class="btn-row"><a class="btn" href="/product/chemical-agent-instructor-course/">Register Online <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">View Dates</a></div>
 [/sws_split][/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
-[sws_section class="section--steel" eyebrow="Learning Outcomes" title="What Your Instructors Will Master"][sws_features items="scale|Legal Framework|Use-of-force standards, agency policy review and AB 48 / Penal Code 13652 restrictions on crowd-control deployment.;;mask|Protective Equipment|Mask fitting, inspection, clearing and confidence exercises that build trust in the equipment.;;target|Deployment Methods|Delivery systems, munition characteristics, wind and terrain considerations and team coordination.;;shield|Decontamination|Officer and subject decontamination, medical considerations and aftercare protocols.;;book|Teaching Methodology|Building lesson plans, running safe exposures and evaluating student proficiency.;;users|Scenarios|Realistic practical exercises that integrate warnings, dispersal time and documentation."][/sws_section]
+[sws_section class="section--steel" eyebrow="Learning Outcomes" title="What Your Instructors Will Master"][sws_features items="scale|Legal Framework|Use-of-force standards, agency policy review and AB 48 / Penal Code 13652 restrictions on crowd-control deployment.;;mask|APR Use|Air-purifying respirator fitting, inspection, clearing and confidence exercises that build trust in the equipment.;;target|Deployment Methods|Delivery systems, munition characteristics, wind and terrain considerations and team coordination.;;shield|Decontamination|Officer and subject decontamination, medical considerations and aftercare protocols.;;book|Teaching Methodology|Building lesson plans, running safe exposures and evaluating student proficiency.;;users|Scenarios|Realistic practical exercises that integrate warnings, dispersal time and documentation."][/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
@@ -466,7 +466,7 @@
 <!-- /wp:html -->
 
 <!-- wp:html -->
-[sws_section class="section--steel" eyebrow="FAQ" title="Chemical Agent Course Questions"]<div class="faq"><details><summary>How long is the Chemical Agent Instructor Course?</summary><p>It is a 40-hour, instructor-level course combining classroom instruction, practical deployment work and scenario exercises.</p></details><details><summary>Is the course POST certified and reimbursable?</summary><p>Yes. The course is California POST certified and listed as Plan IV reimbursable, which covers tuition. Travel and per diem are not reimbursed under Plan IV — confirm eligibility with your agency training manager.</p></details><details><summary>Does the course cover AB 48 and Penal Code 13652?</summary><p>Yes. AB 48 / PC 13652 requirements are taught inside the course so your instructors can carry compliant lesson plans and documentation back to the agency.</p></details><details><summary>What should students bring?</summary><p>Students receive a detailed equipment list after registration. Plan for a serviceable protective mask, duty or training gear and clothing suitable for outdoor practical exercises.</p></details></div>[/sws_section]
+[sws_section class="section--steel" eyebrow="FAQ" title="Chemical Agent Course Questions"]<div class="faq"><details><summary>How long is the Chemical Agent Instructor Course?</summary><p>It is a 40-hour, instructor-level course combining classroom instruction, practical deployment work and scenario exercises.</p></details><details><summary>Is the course POST certified and reimbursable?</summary><p>Yes. The course is California POST certified and listed as Plan IV reimbursable, which covers tuition. Travel and per diem are not reimbursed under Plan IV — confirm eligibility with your agency training manager.</p></details><details><summary>Does the course cover AB 48 and Penal Code 13652?</summary><p>Yes. AB 48 / PC 13652 requirements are taught inside the course so your instructors can carry compliant lesson plans and documentation back to the agency.</p></details><details><summary>What should students bring?</summary><p>Students receive a detailed equipment list after registration. Plan for a serviceable APR, duty or training gear and clothing suitable for outdoor practical exercises.</p></details></div>[/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
@@ -493,7 +493,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[40-hour POST-certified Chemical Agent Instructor Course in San Diego. Use of force, deployment, protective masks, decontamination and AB 48 / PC 13652. Plan IV.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[40-hour POST-certified Chemical Agent Instructor Course in San Diego. Use of force, deployment, APR use, decontamination and AB 48 / PC 13652. Plan IV.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
@@ -505,7 +505,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[40-hour POST-certified Chemical Agent Instructor Course in San Diego. Use of force, deployment, protective masks, decontamination and AB 48 / PC 13652. Plan IV.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[40-hour POST-certified Chemical Agent Instructor Course in San Diego. Use of force, deployment, APR use, decontamination and AB 48 / PC 13652. Plan IV.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
@@ -517,7 +517,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[40-hour POST-certified Chemical Agent Instructor Course in San Diego. Use of force, deployment, protective masks, decontamination and AB 48 / PC 13652. Plan IV.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[40-hour POST-certified Chemical Agent Instructor Course in San Diego. Use of force, deployment, APR use, decontamination and AB 48 / PC 13652. Plan IV.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
@@ -533,7 +533,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Teach chemical agent deployment, protective masks and decontamination with confidence — and full AB 48 compliance.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Teach chemical agent deployment, APR use and decontamination with confidence — and full AB 48 compliance.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
@@ -545,7 +545,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_course]]></wp:meta_key>
-			<wp:meta_value><![CDATA[{"name": "Chemical Agent Instructor Course", "description": "40-hour California POST-certified instructor course covering use of force, chemical agent deployment, protective masks, munitions, decontamination, instruction techniques and AB 48 / Penal Code 13652 requirements.", "workload": "PT40H", "price": "1881", "credential": "Chemical Agent Instructor certificate (POST certified course)", "location": "San Diego County, CA"}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[{"name": "Chemical Agent Instructor Course", "description": "40-hour California POST-certified instructor course covering use of force, chemical agent deployment, APR use, munitions, decontamination, instruction techniques and AB 48 / Penal Code 13652 requirements.", "workload": "PT40H", "price": "1881", "credential": "Chemical Agent Instructor certificate (POST certified course)", "location": "San Diego County, CA"}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -567,7 +567,7 @@
 <!-- /wp:html -->
 
 <!-- wp:html -->
-[sws_section class="section--steel" eyebrow="Learning Outcomes" title="Build a Defensible Less-Lethal Program"][sws_features items="scale|Law & Policy|How Penal Code 13652 limits kinetic energy projectiles in crowd situations and what that means for your policy.;;target|Precision & Targeting|Shot placement, distance considerations and the prohibition on targeting the head, neck and vital organs.;;shield|Safe Range Operations|Range safety plans, malfunction clearance and qualification standards your agency can adopt.;;users|Teaching Skills|Structuring courses, coaching shooters and evaluating proficiency fairly and consistently.;;book|Documentation|Report writing, deployment documentation and the data agencies must track for public reporting.;;badge|Certification Pathway|Graduate ready to certify and maintain officers’ less-lethal proficiency in-house."][/sws_section]
+[sws_section class="section--steel" eyebrow="Learning Outcomes" title="Build a Defensible Less-Lethal Program"][sws_features items="scale|Law & Policy|How Penal Code 13652 limits kinetic energy projectiles in crowd situations and what that means for your policy.;;target|Precision & Targeting|Shot placement, distance considerations and the prohibition on targeting the head, neck and vital organs.;;shield|Safe Range Operations|Range safety plans, malfunction clearance and qualification standards your agency can adopt.;;users|Teaching Skills|Structuring courses, coaching shooters and evaluating proficiency fairly and consistently.;;book|Documentation|Report writing, deployment documentation and the data agencies must track for public reporting.;;badge|Certification Pathway|Graduate ready to lead and maintain your agency’s less-lethal program."][/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
@@ -686,7 +686,7 @@
 <!-- /wp:quote -->
 
 <!-- wp:html -->
-[sws_notice title="AB 48 — Certifications Prior to January 2022"]California Assembly Bill 48 states that any kinetic energy projectiles and chemical agents shall only be deployed by a peace officer that has received training on their proper use by the Commission on Peace Officer Standards and Training (POST), starting January 2022. <strong>All previous certifications prior to January 2022 have been de-certified.</strong> Southwestern Solutions Chemical Agent and Less Lethal Instructor Courses meet AB 48 requirements and are POST certified.[/sws_notice]
+[sws_notice title="AB 48 — Certifications Prior to January 2022"]Assembly Bill 48 states that any kinetic energy projectiles and chemical agents shall only be deployed by a peace officer that has received training on their proper use by the Commission on Peace Officer Standards and Training (POST), starting January 2022. <strong>All previous certifications prior to January 2022 have been de-certified.</strong> Southwestern Solutions Chemical Agent and Less Lethal Instructor Courses meet AB 48 requirements and are POST certified.[/sws_notice]
 <!-- /wp:html -->
 
 <!-- wp:heading -->

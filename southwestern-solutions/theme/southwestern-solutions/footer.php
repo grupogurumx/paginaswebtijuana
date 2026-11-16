@@ -15,7 +15,7 @@
 					<?php echo sws_logo_mark(); // phpcs:ignore ?>
 					<span class="brand-text">Southwestern<small>Solutions · Training</small></span>
 				</a>
-				<p>POST-certified Chemical Agent and Less Lethal Instructor training for California law enforcement — taught by tactical operators, built around AB 48 compliance.</p>
+				<p>POST-certified Chemical Agent and Less Lethal Instructor training for law enforcement — taught by tactical operators, built around AB 48 compliance.</p>
 			</div>
 			<div>
 				<h4>Courses</h4>
@@ -43,11 +43,11 @@
 			</div>
 			<div>
 				<h4>Contact</h4>
-				<?php echo do_shortcode( '[sws_contact_info]' ); // phpcs:ignore ?>
+				<?php echo do_shortcode( '[sws_contact_info hours="0"]' ); // phpcs:ignore ?>
 			</div>
 		</div>
 		<div class="footer-bottom">
-			<span>© <?php echo esc_html( gmdate( 'Y' ) ); ?> Southwestern Solutions · San Diego, California. All rights reserved.</span>
+			<span>© <?php echo esc_html( gmdate( 'Y' ) ); ?> Southwestern Solutions · San Diego. All rights reserved.</span>
 			<span>Law Enforcement Instructor Training · POST Certified · AB 48</span>
 		</div>
 	</div>

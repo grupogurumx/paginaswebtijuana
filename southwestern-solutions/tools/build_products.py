@@ -34,7 +34,7 @@ SANJOSE_ADDR = "9600 Malech Road, San Jose, CA 95013"
 CHEM_TOPICS = [
     "Review of use of force and related agency policies",
     "Deployment techniques and munition selection",
-    "Use of the protective mask (fit, inspection, clearing, confidence exercises)",
+    "APR use (fit, inspection, clearing, confidence exercises)",
     "Use of chemical agent munitions and delivery systems",
     "Decontamination, medical considerations and aftercare",
     "Instruction techniques and lesson-plan development",
@@ -50,7 +50,7 @@ LL_TOPICS = [
 ]
 BRING = [
     "Department-issued ID and POST ID number",
-    "Serviceable protective (gas) mask",
+    "Serviceable APR (air-purifying respirator)",
     "Duty or training gear and clothing suitable for outdoor practical exercises",
     "Eye and ear protection",
     "Notebook and pen",
