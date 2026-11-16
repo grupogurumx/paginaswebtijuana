@@ -138,7 +138,11 @@
 
 ---
 
-## 3. Blog Posts (6 articles included in the XML)
+## 3. Blog Posts — REMOVED at client request (Nov 2026)
+
+> The blog, its 6 articles, categories and tags were removed. Old article URLs 301-redirect to the closest course/AB 48/FAQ page. The table below is kept only as a reference in case the blog is reinstated.
+
+### Former articles
 
 | # | URL | Focus keyword | SEO title | Links to |
 |---|---|---|---|---|

@@ -93,13 +93,12 @@ function sws_auto_setup() {
 		return;
 	}
 	$home = get_page_by_path( 'home' );
-	$blog = get_page_by_path( 'blog' );
-	if ( ! $home || ! $blog ) {
+	if ( ! $home ) {
 		return; // Import not run yet.
 	}
 	update_option( 'show_on_front', 'page' );
 	update_option( 'page_on_front', $home->ID );
-	update_option( 'page_for_posts', $blog->ID );
+	update_option( 'page_for_posts', 0 ); // No blog on this site.
 	update_option( 'blogdescription', 'POST-Certified Law Enforcement Instructor Training in San Diego' );
 	if ( ! get_option( 'permalink_structure' ) ) {
 		update_option( 'permalink_structure', '/%postname%/' );
@@ -161,7 +160,6 @@ function sws_menu_fallback() {
 		'/courses/'                        => 'Courses',
 		'/ab-48-compliance/'               => 'AB 48',
 		'/training-schedule/'              => 'Schedule',
-		'/blog/'                           => 'Insights',
 		'/contact/'                        => 'Contact',
 	);
 	echo '<ul>';

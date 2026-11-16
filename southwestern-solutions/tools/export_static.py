@@ -130,7 +130,20 @@ def main():
     with open(os.path.join(OUT, "robots.txt"), "w") as f:
         f.write("User-agent: *\nDisallow: /\n")
     with open(os.path.join(OUT, "vercel.json"), "w") as f:
-        f.write('{\n  "trailingSlash": true,\n  "headers": [{ "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }]\n}\n')
+        import json as _json
+        redirects = [
+            ("/blog/", "/"), ("/ab-48-penal-code-13652-explained/", "/ab-48-compliance/"),
+            ("/chemical-agent-instructor-certification-guide/", "/chemical-agent-instructor-course/"),
+            ("/less-lethal-instructor-training-kinetic-energy-projectiles/", "/less-lethal-instructor-course/"),
+            ("/post-plan-iv-reimbursement-instructor-courses/", "/faq/"),
+            ("/chemical-agent-decontamination-best-practices/", "/chemical-agent-instructor-course/"),
+            ("/train-the-trainer-in-house-instructors/", "/courses/"), ("/tag/:slug*", "/"), ("/category/:slug*", "/"),
+        ]
+        f.write(_json.dumps({
+            "trailingSlash": True,
+            "redirects": [{"source": a, "destination": b, "permanent": True} for a, b in redirects],
+            "headers": [{"source": "/(.*)", "headers": [{"key": "X-Robots-Tag", "value": "noindex, nofollow"}]}],
+        }, indent=2) + "\n")
     print("done ->", os.path.abspath(OUT))
 
 

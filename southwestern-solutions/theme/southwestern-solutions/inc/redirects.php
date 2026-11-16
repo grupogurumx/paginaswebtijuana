@@ -26,6 +26,14 @@ function sws_legacy_redirects() {
 			'contact-us'                                       => '/contact/',
 			'schedule'                                         => '/training-schedule/',
 			'ab48'                                             => '/ab-48-compliance/',
+			// Blog removed (Nov 2026): send any old article/blog URL to the closest page.
+			'blog'                                             => '/',
+			'ab-48-penal-code-13652-explained'                 => '/ab-48-compliance/',
+			'chemical-agent-instructor-certification-guide'    => '/chemical-agent-instructor-course/',
+			'less-lethal-instructor-training-kinetic-energy-projectiles' => '/less-lethal-instructor-course/',
+			'post-plan-iv-reimbursement-instructor-courses'    => '/faq/',
+			'chemical-agent-decontamination-best-practices'    => '/chemical-agent-instructor-course/',
+			'train-the-trainer-in-house-instructors'           => '/courses/',
 		)
 	);
 }

@@ -10,7 +10,7 @@ Rediseño profesional de **southwesternsolutions.org** (capacitación de instruc
 |---|---|
 | **Tema WordPress** listo para subir (ZIP) | `release/southwestern-solutions-theme.zip` |
 | Código fuente del tema | `theme/southwestern-solutions/` |
-| **XML de importación** (12 páginas, 6 artículos de blog, categorías, etiquetas, menú y SEO) | `import/southwestern-solutions.WordPress.xml` |
+| **XML de importación** (11 páginas, menú y SEO) | `import/southwestern-solutions.WordPress.xml` |
 | **SEO completo página por página (inglés)** | `docs/SEO-STRATEGY.md` |
 | **Textos de alto impacto ES / EN (3 versiones por bloque)** + copys de anuncios | `docs/COPY-ES-EN.md` |
 | 8 imágenes generadas con IA (Magnific / Freepik), optimizadas WebP + JPG | `theme/southwestern-solutions/assets/img/` |
@@ -32,7 +32,7 @@ Rediseño profesional de **southwesternsolutions.org** (capacitación de instruc
 2. **Apariencia → Temas → Añadir nuevo → Subir tema** → sube `release/southwestern-solutions-theme.zip` → **Activar**.
 3. **Herramientas → Importar → WordPress** (instala el importador si te lo pide) → sube `import/southwestern-solutions.WordPress.xml` → asigna el autor → **Enviar**.
 4. Entra a cualquier página del admin. El tema configura **automáticamente**:
-   - Página de inicio = *Home* y página de entradas = *Training Insights* (`/blog/`)
+   - Página de inicio = *Home* (el sitio no tiene blog)
    - Menú principal = *Main Menu*
    - Enlaces permanentes `/%postname%/` (si no estaban configurados)
 5. **Apariencia → Personalizar → Business Info**: confirma teléfono, correo, horario y redes sociales.
@@ -46,7 +46,7 @@ Rediseño profesional de **southwesternsolutions.org** (capacitación de instruc
 
 Puedes armar cualquier página nueva con un bloque *HTML personalizado* o *Shortcode*:
 
-`[sws_slider]` · `[sws_trustbar]` · `[sws_courses]` · `[sws_features]` · `[sws_stats]` · `[sws_process]` · `[sws_split img="hero-2"]…[/sws_split]` · `[sws_cta title="…" text="…" button="…" url="/contact/"]` · `[sws_contact_form]` · `[sws_contact_info]` · `[sws_latest_posts count="3"]` · `[sws_section eyebrow="…" title="…"]…[/sws_section]`
+`[sws_slider]` · `[sws_trustbar]` · `[sws_courses]` · `[sws_features]` · `[sws_stats]` · `[sws_process]` · `[sws_split img="hero-2"]…[/sws_split]` · `[sws_cta title="…" text="…" button="…" url="/contact/"]` · `[sws_contact_form]` · `[sws_contact_info]` · `[sws_section eyebrow="…" title="…"]…[/sws_section]`
 
 ## ✅ Antes de publicar: verificar con el cliente
 
@@ -120,3 +120,8 @@ Si no ves los Campos personalizados, actívalos en *Opciones de pantalla* del ed
 | `swat-cutout` | Nueva sección **"Over 50 Years on the Line"**: recorte con parallax y rosa de los vientos girando |
 
 **Información del sitio actual que se conservó:** instructores tácticos activos y retirados con más de 50 años de experiencia; especialidades (Critical response tactics, Mobile Field Force, Chemical Agent deployments, Long Rifle, Close Quarter Techniques, High Risk Warrant Planning); aviso AB 48 de que **las certificaciones anteriores a enero de 2022 quedaron sin validez**; dirección San Diego, CA 92106; teléfono y correo.
+
+## 🗑️ Eliminado a petición del cliente (nov 2026)
+- **Blog completo**: página Insights, sección "Latest From the Blog", los 6 artículos, categorías y etiquetas. Las URLs antiguas de los artículos redirigen con 301 a la página más cercana (en WordPress con `inc/redirects.php` y en Vercel con `vercel.json`).
+- Sección **"Over 50 Years on the Line"** (lista de especialidades con el recorte SWAT) en Home y About.
+- Frase "Training that respects your officers’ time, your agency’s budget and the law."

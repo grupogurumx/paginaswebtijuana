@@ -1,4 +1,61 @@
 {
   "trailingSlash": true,
-  "headers": [{ "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }]
+  "redirects": [
+    {
+      "source": "/blog/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ab-48-penal-code-13652-explained/",
+      "destination": "/ab-48-compliance/",
+      "permanent": true
+    },
+    {
+      "source": "/chemical-agent-instructor-certification-guide/",
+      "destination": "/chemical-agent-instructor-course/",
+      "permanent": true
+    },
+    {
+      "source": "/less-lethal-instructor-training-kinetic-energy-projectiles/",
+      "destination": "/less-lethal-instructor-course/",
+      "permanent": true
+    },
+    {
+      "source": "/post-plan-iv-reimbursement-instructor-courses/",
+      "destination": "/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/chemical-agent-decontamination-best-practices/",
+      "destination": "/chemical-agent-instructor-course/",
+      "permanent": true
+    },
+    {
+      "source": "/train-the-trainer-in-house-instructors/",
+      "destination": "/courses/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:slug*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/:slug*",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ]
 }

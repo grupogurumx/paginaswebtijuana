@@ -134,8 +134,7 @@ home_content = "\n\n".join([
 [/sws_split][/sws_section]"""),
     HTML('[sws_section class="section--steel" eyebrow="Instructor Courses" title="Certify the Instructors Your Agency Depends On" lead="Two focused, POST-certified programs that turn experienced officers into confident, compliant instructors." center="1"][sws_courses][/sws_section]'),
     HTML('[sws_section class="section--tight"][sws_stats][/sws_section]'),
-    HTML('[sws_section class="section--steel"][sws_experience][/sws_section]'),
-    HTML('[sws_section eyebrow="Why Southwestern" title="Built by Operators.<br>Proven in the Field." lead="Training that respects your officers’ time, your agency’s budget and the law."][sws_features][/sws_section]'),
+    HTML('[sws_section eyebrow="Why Southwestern" title="Built by Operators.<br>Proven in the Field."][sws_features][/sws_section]'),
     HTML("""[sws_section class="section--steel"][sws_split img="compliance" alt="AB 48 Penal Code 13652 compliance documents for law enforcement training" reverse="1"]
 <span class="eyebrow">AB 48 · PC 13652</span>
 <h2>Compliance Isn’t a Module. <span class="text-amber">It’s the Foundation.</span></h2>
@@ -144,7 +143,6 @@ home_content = "\n\n".join([
 <div class="btn-row"><a class="btn" href="/ab-48-compliance/">Understand AB 48 <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">See Upcoming Classes</a></div>
 [/sws_split][/sws_section]"""),
     HTML('[sws_section eyebrow="How It Works" title="From Registration to Certified Instructor" center="1"][sws_process][/sws_section]'),
-    HTML('[sws_section class="section--steel" eyebrow="Training Insights" title="Latest From the Blog"][sws_latest_posts count="3"][/sws_section]'),
     HTML(cta()),
 ])
 page(slug="home", title="Home", menu_order=0, content=home_content,
@@ -164,7 +162,6 @@ about_content = "\n\n".join([
 [/sws_split][/sws_section]"""),
     HTML('[sws_section class="section--steel" eyebrow="What We Stand For" title="Our Standards" center="1"][sws_features items="shield|Integrity First|We teach the law as it is written and the tactics as they are practiced — no shortcuts, no exaggeration.;;scale|Accountability|Every technique is paired with the policy, documentation and use-of-force review that make it defensible.;;users|Instructor Development|We don’t just certify skills. We build teachers who can transfer them to an entire agency.;;target|Realism|Scenario-driven practical work that mirrors the conditions officers will actually face.;;book|Current Curriculum|Lesson plans updated for AB 48, Penal Code 13652 and evolving POST guidance.;;badge|Respect for Your Budget|POST Plan IV reimbursable courses designed to deliver maximum value per training hour."][/sws_section]'),
     HTML('[sws_section class="section--tight"][sws_stats][/sws_section]'),
-    HTML('[sws_section class="section--steel"][sws_experience][/sws_section]'),
     HTML(cta("Train With Operators Who’ve Been There", "Talk with our team about seats, hosting a course or Plan IV eligibility.", "Contact Our Team", "/contact/")),
 ])
 page(slug="about-us", title="About Southwestern Solutions", menu_order=1, layout="sections", content=about_content,
@@ -357,13 +354,6 @@ page(slug="contact", title="Contact Southwestern Solutions", menu_order=9, layou
      seo_desc="Contact Southwestern Solutions in San Diego to reserve seats in POST-certified Chemical Agent or Less Lethal Instructor courses. Call +1 (928) 614-0964.",
      focus_kw="contact law enforcement training San Diego", hero="san-diego.webp")
 
-# 11. BLOG -------------------------------------------------------------------------
-page(slug="blog", title="Training Insights", menu_order=10, content="",
-     subtitle="Legal updates, instructor development and best practices for law enforcement trainers.",
-     seo_title="Law Enforcement Training Blog | AB 48, Less Lethal & Chemical Agents",
-     seo_desc="Expert insights on AB 48, Penal Code 13652, less-lethal and chemical agent instruction, POST reimbursement and instructor development for law enforcement agencies.",
-     focus_kw="law enforcement training blog", hero="hero-2.webp")
-
 # 12. PRIVACY -------------------------------------------------------------------------
 privacy = prose(f"""
 ## Information We Collect
@@ -394,184 +384,7 @@ POSTS = []
 def post(**kw):
     POSTS.append(kw)
 
-post(slug="ab-48-penal-code-13652-explained", date="2026-09-08 09:00:00", cat="Legal & Compliance", tags=["AB 48", "Penal Code 13652", "Crowd Management"],
-     title="AB 48 Explained: What Penal Code 13652 Means for Crowd-Control Training",
-     excerpt="AB 48 rewrote the rules for kinetic energy projectiles and chemical agents in crowd situations. Here is what trainers need to know.",
-     hero="compliance.webp", focus_kw="AB 48 Penal Code 13652",
-     seo_title="AB 48 Explained: Penal Code 13652 & Crowd-Control Training",
-     seo_desc="A trainer’s guide to AB 48 and Penal Code 13652: who may deploy kinetic energy projectiles and chemical agents, required warnings, targeting limits and reporting.",
-     content=prose("""
-Since January 1, 2022, Penal Code 13652 — added by Assembly Bill 48 — has governed how law enforcement may use kinetic energy projectiles (KEPs) and chemical agents to disperse an assembly, protest or demonstration. For instructors, the law is more than a policy update: it makes **training itself a legal prerequisite** for deployment.
-
-## 1. Training Comes First
-PC 13652 limits crowd-control use of these tools to officers who have received POST-standard training on their proper use for crowd control. If your agency's instructor pipeline is thin, your pool of officers who may lawfully deploy is thin too.
-
-## 2. The Threshold for Use
-Deployment must be objectively reasonable to defend against a threat to life or serious bodily injury to any person — including officers — or to bring an objectively dangerous and unlawful situation safely and effectively under control.
-
-## 3. Conditions That Must Be Trained
-- De-escalation and reasonable alternatives attempted when objectively reasonable.
-- Repeated, audible announcements of intent and the type of tool, in languages likely understood.
-- Reasonable effort to distinguish people engaged in violence from those who are not.
-- An objectively reasonable opportunity to disperse.
-- No KEP targeting of the head, neck or other vital organs.
-- No deployment solely for a curfew violation, verbal threat or noncompliance with a directive.
-- Medical aid available or summoned after use.
-
-## 4. Documentation and Public Reporting
-PC 13652.1 requires agencies to publish a summary of each incident in which these tools are used to disperse a crowd. Good reports start in the classroom: instructors should drill documentation alongside tactics.
-
-## What This Means for Your Instructors
-Instructors must teach the law, the technique and the paperwork as one integrated system. Scenario exercises should include warnings, dispersal time and target discrimination — not just accuracy.
-
-Southwestern Solutions builds AB 48 / PC 13652 directly into our [Chemical Agent Instructor Course](/chemical-agent-instructor-course/) and [Less Lethal Instructor Course](/less-lethal-instructor-course/). Read our full [AB 48 compliance overview](/ab-48-compliance/) or [reserve seats](/contact/) for your agency.
-"""))
-
-post(slug="chemical-agent-instructor-certification-guide", date="2026-09-22 09:00:00", cat="Instructor Development", tags=["Chemical Agents", "Instructor Certification", "POST"],
-     title="Chemical Agent Instructor Certification: What a 40-Hour POST Course Covers",
-     excerpt="From protective masks to decontamination and AB 48 scenarios — a look inside a 40-hour POST-certified chemical agent instructor course.",
-     hero="chemical-agent.webp", focus_kw="chemical agent instructor certification",
-     seo_title="Chemical Agent Instructor Certification | Inside a 40-Hour POST Course",
-     seo_desc="What does a 40-hour POST-certified chemical agent instructor course cover? Use of force, masks, munitions, decontamination, teaching methods and AB 48 scenarios.",
-     content=prose("""
-A chemical agent instructor carries a heavy responsibility: they shape how an entire agency selects, deploys and documents chemical munitions. That is why an instructor-level course looks very different from an end-user class.
-
-## Use of Force and Policy Review
-Every deployment decision begins with law and policy. A strong course reviews use-of-force standards, your agency's policy language and the specific AB 48 / Penal Code 13652 limits on crowd-control use.
-
-## Protective Mask Proficiency
-Confidence in the mask is the foundation of everything else. Instructors learn fitting, inspection, clearing and how to run safe confidence exercises for their own students.
-
-## Munitions and Deployment Techniques
-Students study delivery systems, munition characteristics and environmental factors such as wind, terrain and enclosed spaces — then put that knowledge to work in practical deployments.
-
-## Decontamination and Aftercare
-Responsible deployment ends with decontamination and medical considerations for both officers and subjects. Instructors learn to teach these procedures as a non-negotiable part of every evolution.
-
-## Instruction Techniques
-The difference between an operator and an instructor is the ability to transfer skill. Lesson-plan design, safety plans, student evaluation and remediation are core instructor outcomes.
-
-## Scenario Exercises
-Scenarios tie it all together: warnings, dispersal time, target discrimination, deployment and documentation under realistic pressure.
-
-> An instructor course should leave graduates able to teach, evaluate and defend — not just deploy.
-
-Southwestern Solutions' [Chemical Agent Instructor Course](/chemical-agent-instructor-course/) is a 40-hour, POST-certified, Plan IV reimbursable program. See the [training schedule](/training-schedule/) for upcoming dates.
-"""))
-
-post(slug="less-lethal-instructor-training-kinetic-energy-projectiles", date="2026-10-06 09:00:00", cat="Instructor Development", tags=["Less Lethal", "Kinetic Energy Projectiles", "Use of Force"],
-     title="Less Lethal Instructor Training: Building a Defensible KEP Program",
-     excerpt="Kinetic energy projectiles are only as defensible as the training behind them. Here is how instructor certification strengthens your program.",
-     hero="training-launcher.webp", focus_kw="less lethal instructor training",
-     seo_title="Less Lethal Instructor Training | Build a Defensible KEP Program",
-     seo_desc="How less lethal instructor training builds a defensible kinetic energy projectile program: legal standards, targeting, range safety, documentation and AB 48.",
-     content=prose("""
-Kinetic energy projectiles (KEPs) give officers a valuable option between verbal commands and higher levels of force. But their use — especially in crowd situations — is closely regulated. A defensible program starts with well-trained instructors.
-
-## Pillar 1: Legal Standards
-Instructors must be fluent in use-of-force law, agency policy and AB 48 / Penal Code 13652, including the prohibition on aiming KEPs at the head, neck or other vital organs in crowd-control situations.
-
-## Pillar 2: Platform and Munition Knowledge
-Every launcher and munition has distinct characteristics. Instructors should understand ranges, accuracy, malfunctions and maintenance so they can teach officers to operate safely.
-
-## Pillar 3: Precision Under Pressure
-Target areas and distance matter. Drills should progress from fundamentals to movement, stress and decision-making — always reinforcing target discrimination.
-
-## Pillar 4: Medical and Post-Deployment Procedures
-Training should include medical considerations, summoning aid and the steps that follow a deployment.
-
-## Pillar 5: Documentation
-Thorough, accurate reports protect the public, the officer and the agency — and support the public reporting PC 13652.1 requires for crowd-dispersal incidents.
-
-## Why Train Instructors In-House?
-Certified in-house instructors let your agency qualify officers on your schedule, keep training consistent with your policy and respond quickly when laws or equipment change.
-
-Explore our 30-hour, POST-certified [Less Lethal Instructor Course](/less-lethal-instructor-course/) or [contact us](/contact/) to reserve seats.
-"""))
-
-post(slug="post-plan-iv-reimbursement-instructor-courses", date="2026-10-20 09:00:00", cat="Agency Resources", tags=["POST", "Plan IV", "Training Budget"],
-     title="POST Plan IV Reimbursement: How Agencies Fund Instructor Courses",
-     excerpt="Plan IV can offset tuition for eligible POST-certified courses. Here is how training managers can make the most of it.",
-     hero="hero-2.webp", focus_kw="POST Plan IV reimbursement",
-     seo_title="POST Plan IV Reimbursement Explained | Fund Instructor Training",
-     seo_desc="How agencies use POST Plan IV reimbursement to fund tuition for certified instructor courses — what it covers, what it doesn’t and how to plan.",
-     content=prose("""
-Training budgets are always under pressure. For law enforcement agencies, the POST reimbursement plans can make a significant difference — and Plan IV is one of the most commonly used for specialized instructor courses.
-
-## What Plan IV Covers
-Plan IV reimburses **tuition** for eligible POST-certified courses. It does **not** reimburse travel or per diem, so agencies should plan those costs separately.
-
-## How to Confirm Eligibility
-- Find the course and presenter in the POST course catalog.
-- Confirm the specific session is listed as Plan IV reimbursable.
-- Work with your agency training manager to submit the required requests on time.
-
-## Ways to Stretch Your Budget
-- **Train instructors, not just users.** One certified instructor can train many officers in-house.
-- **Host a course.** Hosting reduces travel for your own officers. See our [Host a Course](/host-a-course/) page.
-- **Plan ahead.** Instructor courses fill quickly — reserving early protects your training calendar.
-
-## Southwestern Solutions Courses
-Our [Chemical Agent Instructor Course](/chemical-agent-instructor-course/) and [Less Lethal Instructor Course](/less-lethal-instructor-course/) are POST certified and listed as Plan IV reimbursable. Questions? [Contact our team](/contact/).
-
-<p class="disclaimer">Reimbursement rules are set by POST and may change. Always confirm current policies with POST and your agency.</p>
-"""))
-
-post(slug="chemical-agent-decontamination-best-practices", date="2026-11-03 09:00:00", cat="Best Practices", tags=["Decontamination", "Chemical Agents", "Officer Safety"],
-     title="Decontamination and Aftercare After Chemical Agent Deployment",
-     excerpt="Responsible deployment does not end when the munition lands. Decontamination and aftercare belong in every lesson plan.",
-     hero="hero-1.webp", focus_kw="chemical agent decontamination",
-     seo_title="Chemical Agent Decontamination & Aftercare | Best Practices for Agencies",
-     seo_desc="Why decontamination and aftercare belong in every chemical agent lesson plan: officer and subject care, medical considerations, documentation and training tips.",
-     content=prose("""
-Chemical agents are effective precisely because they are uncomfortable. That makes decontamination and aftercare a core part of responsible use — for subjects, bystanders and officers alike.
-
-## Make Aftercare Part of the Plan
-Deployment plans should identify how and where decontamination will occur and how medical aid will be summoned, before any munition is used. PC 13652 also emphasizes the availability of medical aid after crowd-control deployments.
-
-## Officer Decontamination
-Officers and instructors are exposed repeatedly during training. Lesson plans should include clear procedures for clearing masks, removing contaminated equipment and caring for exposed skin and eyes according to agency and manufacturer guidance.
-
-## Subject Care
-Follow your agency's policy and medical guidance for exposed subjects, monitor for medical distress and summon medical personnel when indicated.
-
-## Equipment and Facility Considerations
-Contaminated gear, vehicles and indoor spaces require attention. Instructors should teach how to handle and clean equipment and how to ventilate affected areas according to manufacturer guidance.
-
-## Document Everything
-Record the decontamination steps taken, medical aid provided and any complaints of injury. Complete documentation supports transparency and required public reporting.
-
-> Teach decontamination with the same seriousness as deployment — because the public judges both.
-
-Our [Chemical Agent Instructor Course](/chemical-agent-instructor-course/) includes decontamination and aftercare as a dedicated block of instruction.
-"""))
-
-post(slug="train-the-trainer-in-house-instructors", date="2026-11-12 09:00:00", cat="Instructor Development", tags=["Train the Trainer", "Agency Training", "Instructor Certification"],
-     title="Train-the-Trainer: Why In-House Instructors Strengthen Accountability",
-     excerpt="Certified in-house instructors keep training consistent, current and defensible. Here is why the model works.",
-     hero="instructor-scope.webp", focus_kw="train the trainer law enforcement",
-     seo_title="Train-the-Trainer for Law Enforcement | Why In-House Instructors Matter",
-     seo_desc="Why a train-the-trainer model strengthens law enforcement accountability: consistent training, faster policy updates, lower costs and better documentation.",
-     content=prose("""
-Every agency faces the same challenge: keep officers proficient, compliant and confident while budgets and schedules stay tight. A train-the-trainer model solves much of that problem.
-
-## Consistency
-In-house instructors teach to your policy, your equipment and your community. That consistency makes training records easier to defend and performance easier to evaluate.
-
-## Speed
-When laws like AB 48 change, certified instructors can update lesson plans and retrain officers quickly — without waiting for outside course availability.
-
-## Cost Control
-One instructor seat can translate into training for an entire shift, unit or department. Combined with POST Plan IV tuition reimbursement, the return on investment is substantial.
-
-## Culture and Credibility
-Officers respond to instructors they know and respect. Peer instructors with real operational experience build buy-in that outside lectures rarely achieve.
-
-## Documentation
-Certified instructors understand what must be recorded — attendance, objectives, proficiency and remediation — creating a training record that supports accountability.
-
-Ready to build your instructor bench? Explore our [instructor courses](/courses/) or [contact Southwestern Solutions](/contact/).
-"""))
+# Blog removed at client request (Nov 2026): no posts are imported.
 
 # ---------------------------------------------------------------------------
 # MENU
@@ -585,7 +398,6 @@ MENU = [
     ("host-a-course", "Host a Course", "courses"),
     ("ab-48-compliance", "AB 48", None),
     ("training-schedule", "Schedule", None),
-    ("blog", "Insights", None),
     ("contact", "Contact", None),
 ]
 
