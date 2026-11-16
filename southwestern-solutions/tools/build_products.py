@@ -60,18 +60,18 @@ PRODUCTS = [
     dict(
         slug="chemical-agent-instructor-course", kind="chem", sku="SWS-CAI-SD",
         title="Chemical Agent Instructor Course",
-        dates="December 14 – 18, 2026", start="2026-12-14", end="2026-12-18",
-        city="San Diego", location="Miramar, San Diego, CA", address="",
+        dates="February 8 – 12, 2027", start="2027-02-08", end="2027-02-12",
+        city="San Diego", location="San Diego, CA", address="",
         hours="40 Hours", price="1881", hero="chemical-agent.webp", menu_order=1,
-        source_note="Dates from the California POST course catalog (Southwestern Solutions, Miramar). The legacy page listed February 23 – 27, 2026, San Diego.",
+        source_note="Next open session per client (Nov 2026). The December 14 – 18, 2026 San Diego session is sold out."
     ),
     dict(
         slug="less-lethal-instructor-course", kind="ll", sku="SWS-LLI-SD",
         title="Less Lethal Instructor Course",
-        dates="February 18 – 20, 2026", start="2026-02-18", end="2026-02-20",
+        dates="December 9 – 11, 2026", start="2026-12-09", end="2026-12-11",
         city="San Diego", location="San Diego, CA", address="",
         hours="30 Hours", price="1200", hero="training-launcher.webp", menu_order=2,
-        source_note="Dates and price from the legacy product page (session has ended).",
+        source_note="Session confirmed by client (Nov 2026): December 9 – 11, 2026, San Diego, registration open.",
     ),
     dict(
         slug="less-lethal-instructor-course-san-jose-ca", kind="ll", sku="SWS-LLI-SJ",
@@ -108,7 +108,7 @@ def description(p):
     blocks = [
         H("Course Overview"),
         P(
-            f"The <strong>{name}</strong> is a {hours}-hour, California POST-certified instructor course "
+            f"The <strong>{name}</strong> is a {hours}-hour, POST-certified instructor course "
             + ("that prepares officers to teach, deploy and document chemical agents safely, lawfully and effectively."
                if chem else
                "that builds officers into instructors capable of running safe, defensible kinetic energy projectile programs.")
@@ -125,7 +125,7 @@ def description(p):
             f"<tr><th>Location</th><td>{where}</td></tr>"
             f"<tr><th>Length</th><td>{p['hours']} (instructor level)</td></tr>"
             f"<tr><th>Tuition</th><td>${int(p['price']):,} per seat</td></tr>"
-            "<tr><th>Certification</th><td>California POST certified</td></tr>"
+            "<tr><th>Certification</th><td>POST certified</td></tr>"
             "<tr><th>Reimbursement</th><td>POST Plan IV (tuition only — no travel or per diem)</td></tr>"
             "<tr><th>Compliance</th><td>AB 48 / Penal Code 13652</td></tr>"
             "</tbody></table></div>"
@@ -138,7 +138,7 @@ def description(p):
           "Agencies paying by purchase order or needing an invoice can <a href=\"/contact/\">contact us</a> or call +1 (928) 614-0964."),
         H("Frequently Asked Questions"),
         HTML(faq_html([
-            ("Is this course POST Plan IV reimbursable?", "Yes. The course is California POST certified and Plan IV reimbursable (tuition). Travel and per diem are not reimbursed under Plan IV."),
+            ("Is this course POST Plan IV reimbursable?", "Yes. The course is POST certified and Plan IV reimbursable (tuition). Travel and per diem are not reimbursed under Plan IV."),
             ("Does the course cover AB 48?", "Yes. AB 48 / Penal Code 13652 requirements are covered so your instructors can carry compliant lesson plans and documentation back to the agency."),
             ("Can I register several officers?", "Yes. Increase the number of seats before adding the course to your cart, then list every attendee at checkout."),
         ])),
@@ -170,7 +170,7 @@ def build():
     for p in PRODUCTS:
         pid += 1
         title, desc, kw = seo(p)
-        course = {"name": p["title"], "description": f"{p['hours']} California POST-certified instructor course. AB 48 compliant.",
+        course = {"name": p["title"], "description": f"{p['hours']} POST-certified instructor course. AB 48 compliant.",
                   "workload": "PT" + p["hours"].split()[0] + "H", "price": p["price"], "location": p["location"],
                   "city": p["city"], "address": p["address"], "start": p["start"], "end": p["end"],
                   "credential": ("Chemical Agent" if p["kind"] == "chem" else "Less Lethal") + " Instructor certificate (POST certified course)"}

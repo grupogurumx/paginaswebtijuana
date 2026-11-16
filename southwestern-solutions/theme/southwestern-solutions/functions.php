@@ -118,7 +118,7 @@ function sws_auto_setup() {
 add_action( 'admin_init', 'sws_auto_setup' );
 
 /**
- * One-time WooCommerce store setup for course registrations: USD, California,
+ * One-time WooCommerce store setup for course registrations: USD, CA base location,
  * no shipping/taxes, and classic (shortcode) cart + checkout so the theme's
  * "Agency / Department" and attendee fields apply.
  */

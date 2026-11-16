@@ -14,7 +14,7 @@ if ( is_singular( 'product' ) ) {
 		'hero',
 		array(
 			'title'    => get_the_title( $sws_id ),
-			'subtitle' => get_post_meta( $sws_id, '_sws_hours', true ) ? 'Instructor-level · ' . get_post_meta( $sws_id, '_sws_hours', true ) . ' · California POST certified · AB 48 compliant' : '',
+			'subtitle' => get_post_meta( $sws_id, '_sws_hours', true ) ? 'Instructor-level · ' . get_post_meta( $sws_id, '_sws_hours', true ) . ' · POST certified · AB 48 compliant' : '',
 			'bg'       => sws_hero_url( $sws_id ),
 			'eyebrow'  => $sws_eye,
 		)

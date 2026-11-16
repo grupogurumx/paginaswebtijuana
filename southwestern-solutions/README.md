@@ -53,7 +53,7 @@ Puedes armar cualquier página nueva con un bloque *HTML personalizado* o *Short
 Estos datos se tomaron de los resultados de búsqueda del sitio actual y del catálogo POST (no fue posible abrir el sitio ni web.archive.org desde este entorno):
 
 - Precios: **$1,881** (Chemical Agent, 40 h) y **$1,200** (Less Lethal, 30 h).
-- Fecha publicada: **14–18 de diciembre de 2026, Miramar**. Las demás aparecen como "2027 dates coming soon".
+- Calendario confirmado por el cliente: Chemical Agent 14–18 dic 2026 San Diego (**Sold Out**), Less Lethal 9–11 dic 2026 San Diego (inscripción abierta), Chemical Agent 8–12 feb 2027 San Diego (inscripción abierta).
 - Teléfono **+1 (928) 614-0964** y correo **info@southwesternsolutions.org**. El horario (L–V 8–5 PT) es un supuesto razonable.
 - La página **Host a Course** describe un servicio que hay que confirmar con el cliente.
 - **Fotos reales del cliente** (entrenamiento con lanzador, instructor con telescopio, operación nocturna, recorte SWAT) y el **logo de la rosa de los vientos** ya están integrados. Las imágenes de IA restantes (aula, línea de escudos, máscara, documentos, San Diego) pueden reemplazarse por fotos reales cuando estén disponibles.
@@ -84,8 +84,8 @@ Los 5 productos conservan **exactamente las mismas URLs** que el sitio anterior,
 
 | URL | Curso | Fechas | Sede | Precio | Estado |
 |---|---|---|---|---|---|
-| `/product/chemical-agent-instructor-course/` | Chemical Agent Instructor (40 h) | Dec 14 – 18, 2026 | Miramar, San Diego | $1,881 | ✅ A la venta |
-| `/product/less-lethal-instructor-course/` | Less Lethal Instructor (30 h) | Feb 18 – 20, 2026 | San Diego | $1,200 | ⛔ Fecha pasada |
+| `/product/chemical-agent-instructor-course/` | Chemical Agent Instructor (40 h) | Feb 8 – 12, 2027 | San Diego | $1,881 | ✅ A la venta |
+| `/product/less-lethal-instructor-course/` | Less Lethal Instructor (30 h) | Dec 9 – 11, 2026 | San Diego | $1,200 | ✅ A la venta |
 | `/product/less-lethal-instructor-course-san-jose-ca/` | Less Lethal Instructor (30 h) | Sep 14 – 16, 2025 | 9600 Malech Rd, San Jose | $1,200 | ⛔ Fecha pasada |
 | `/product/chemical-agent-instructor-course-san-jose-ca/` | Chemical Agent Instructor (40 h) | Sep 8 – 12, 2025 | 9600 Malech Rd, San Jose | $1,881 | ⛔ Fecha pasada |
 | `/product/chemical-agent-instructor-course-san-jose/` | Chemical Agent Instructor (40 h) | Por anunciar | 9600 Malech Rd, San Jose | $1,881 | ⛔ Sin fecha |

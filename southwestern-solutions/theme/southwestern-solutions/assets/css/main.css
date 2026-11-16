@@ -580,3 +580,11 @@ body { overflow-x: clip; }
 
 .legal-notice p strong { color: #ffb59a; }
 @media (max-width: 900px) { .xp__cutout { transform: none !important; } .xp__media { min-height: 380px; overflow: hidden; } .xp__cutout { width: min(320px, 80%); } }
+
+/* Schedule status pills */
+.status { display: inline-block; white-space: nowrap; padding: 7px 12px; border-radius: 999px; font: 700 .7rem/1 var(--font-body); letter-spacing: .12em; text-transform: uppercase; }
+.status--open { background: rgba(70,180,110,.15); color: #7fe0a2; border: 1px solid rgba(70,180,110,.45); }
+.status--soldout { background: rgba(210,85,45,.15); color: #ff9a76; border: 1px solid rgba(210,85,45,.5); }
+.schedule tr.is-soldout td:not(:nth-last-child(-n+2)) { opacity: .55; }
+.schedule td:nth-child(2), .schedule td:nth-child(3) { white-space: nowrap; }
+.schedule td .btn { white-space: nowrap; padding: 12px 20px; }

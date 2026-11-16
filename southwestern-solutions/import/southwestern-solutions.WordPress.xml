@@ -253,14 +253,14 @@
 [sws_section][sws_split img="instructor-scope" alt="Southwestern Solutions instructor observing a tactical operator during training" badge="Years of Experience" badge_num="50+"]
 <span class="eyebrow">Our Mission</span>
 <h2>Prepare the Instructors Who Prepare Everyone Else</h2>
-<p>Southwestern Solutions is a San Diego–based provider of California POST-certified law enforcement instructor training. We focus on the disciplines where training quality has the greatest impact on public safety, officer safety and agency liability: chemical agents and less-lethal munitions.</p>
+<p>Southwestern Solutions is a San Diego–based provider of POST-certified law enforcement instructor training. We focus on the disciplines where training quality has the greatest impact on public safety, officer safety and agency liability: chemical agents and less-lethal munitions.</p>
 <p>Our instructors are former and current Law Enforcement Tactical Operators with over 50 years of experience. We bring that experience to every class: critical response tactics, Mobile Field Force, basic to advanced Chemical Agent deployments, Long Rifle utilization in urban and rural environments, Close Quarter Techniques and High Risk Warrant Planning.</p>
 <div class="btn-row"><a class="btn" href="/courses/">Explore Courses <span class="arrow">→</span></a></div>
 [/sws_split][/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
-[sws_section class="section--steel" eyebrow="What We Stand For" title="Our Standards" center="1"][sws_features items="shield|Integrity First|We teach the law as it is written and the tactics as they are practiced — no shortcuts, no exaggeration.;;scale|Accountability|Every technique is paired with the policy, documentation and use-of-force review that make it defensible.;;users|Instructor Development|We don’t just certify skills. We build teachers who can transfer them to an entire agency.;;target|Realism|Scenario-driven practical work that mirrors the conditions officers will actually face.;;book|Current Curriculum|Lesson plans updated for AB 48, Penal Code 13652 and evolving California POST guidance.;;badge|Respect for Your Budget|POST Plan IV reimbursable courses designed to deliver maximum value per training hour."][/sws_section]
+[sws_section class="section--steel" eyebrow="What We Stand For" title="Our Standards" center="1"][sws_features items="shield|Integrity First|We teach the law as it is written and the tactics as they are practiced — no shortcuts, no exaggeration.;;scale|Accountability|Every technique is paired with the policy, documentation and use-of-force review that make it defensible.;;users|Instructor Development|We don’t just certify skills. We build teachers who can transfer them to an entire agency.;;target|Realism|Scenario-driven practical work that mirrors the conditions officers will actually face.;;book|Current Curriculum|Lesson plans updated for AB 48, Penal Code 13652 and evolving POST guidance.;;badge|Respect for Your Budget|POST Plan IV reimbursable courses designed to deliver maximum value per training hour."][/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
@@ -335,7 +335,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Instructor-level law enforcement training from San Diego, built by tactical operators for California agencies.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Instructor-level law enforcement training from San Diego, built by tactical operators for law enforcement agencies.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
@@ -354,7 +354,7 @@
 <!-- /wp:html -->
 
 <!-- wp:html -->
-[sws_section class="section--steel" eyebrow="Included In Every Course" title="What Sets Our Training Apart"][sws_features cols="4" items="badge|POST Certified|California POST-certified instructor-level courses.;;dollar|Plan IV Reimbursable|Tuition eligible for POST Plan IV reimbursement.;;scale|AB 48 Coverage|PC 13652 standards taught, drilled and documented.;;target|Practical Evaluation|Hands-on drills and scenarios, not just lecture."][/sws_section]
+[sws_section class="section--steel" eyebrow="Included In Every Course" title="What Sets Our Training Apart"][sws_features cols="4" items="badge|POST Certified|POST-certified instructor-level courses.;;dollar|Plan IV Reimbursable|Tuition eligible for POST Plan IV reimbursement.;;scale|AB 48 Coverage|PC 13652 standards taught, drilled and documented.;;target|Practical Evaluation|Hands-on drills and scenarios, not just lecture."][/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
@@ -381,7 +381,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[POST Certified Instructor Courses California | Chemical Agent & Less Lethal]]></wp:meta_value>
+			<wp:meta_value><![CDATA[POST Certified Instructor Courses | Chemical Agent & Less Lethal]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
@@ -389,11 +389,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
-			<wp:meta_value><![CDATA[POST certified instructor courses California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[POST certified instructor courses]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[POST Certified Instructor Courses California | Chemical Agent & Less Lethal]]></wp:meta_value>
+			<wp:meta_value><![CDATA[POST Certified Instructor Courses | Chemical Agent & Less Lethal]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
@@ -401,11 +401,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
-			<wp:meta_value><![CDATA[POST certified instructor courses California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[POST certified instructor courses]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[POST Certified Instructor Courses California | Chemical Agent & Less Lethal]]></wp:meta_value>
+			<wp:meta_value><![CDATA[POST Certified Instructor Courses | Chemical Agent & Less Lethal]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
@@ -413,7 +413,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
-			<wp:meta_value><![CDATA[POST certified instructor courses California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[POST certified instructor courses]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_hero]]></wp:meta_key>
@@ -425,7 +425,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Chemical Agent Instructor and Less Lethal Instructor certification for California law enforcement.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Chemical Agent Instructor and Less Lethal Instructor certification for law enforcement.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
@@ -443,7 +443,7 @@
 [sws_section][sws_split img="chemical-agent" alt="APR and gloves used in the Chemical Agent Instructor Course" badge="Hour Course" badge_num="40"]
 <span class="eyebrow">Course Overview</span>
 <h2>Chemical Agent Instructor Course</h2>
-<p class="lead">A 40-hour, California POST-certified instructor course that prepares officers to teach, deploy and document chemical agents safely, lawfully and effectively.</p>
+<p class="lead">A 40-hour, POST-certified instructor course that prepares officers to teach, deploy and document chemical agents safely, lawfully and effectively.</p>
 <ul class="checklist"><li>Review of use of force and related agency policies</li><li>Deployment techniques and munition selection</li><li>APR use</li><li>Use of chemical agent munitions</li><li>Decontamination and aftercare</li><li>Instruction techniques and lesson-plan development</li><li>Scenario exercises — including AB 48 / PC 13652 requirements</li></ul>
 <p class="price">$1,881 <small>tuition per student · POST Plan IV reimbursable</small></p>
 <div class="btn-row"><a class="btn" href="/product/chemical-agent-instructor-course/">Register Online <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">View Dates</a></div>
@@ -457,16 +457,16 @@
 <!-- wp:html -->
 [sws_section eyebrow="At a Glance" title="Course Details"]<div class="table-scroll"><table class="schedule"><tbody>
 <tr><th>Duration</th><td>40 hours (instructor level)</td></tr>
-<tr><th>Certification</th><td>California POST certified</td></tr>
+<tr><th>Certification</th><td>POST certified</td></tr>
 <tr><th>Reimbursement</th><td>POST Plan IV (tuition)</td></tr>
 <tr><th>Tuition</th><td>$1,881 per student</td></tr>
 <tr><th>Compliance</th><td>AB 48 / Penal Code 13652 taught in course</td></tr>
-<tr><th>Location</th><td>San Diego County (Miramar) and select California host agencies</td></tr>
+<tr><th>Location</th><td>San Diego and select host agencies</td></tr>
 </tbody></table></div>[/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
-[sws_section class="section--steel" eyebrow="FAQ" title="Chemical Agent Course Questions"]<div class="faq"><details><summary>How long is the Chemical Agent Instructor Course?</summary><p>It is a 40-hour, instructor-level course combining classroom instruction, practical deployment work and scenario exercises.</p></details><details><summary>Is the course POST certified and reimbursable?</summary><p>Yes. The course is California POST certified and listed as Plan IV reimbursable, which covers tuition. Travel and per diem are not reimbursed under Plan IV — confirm eligibility with your agency training manager.</p></details><details><summary>Does the course cover AB 48 and Penal Code 13652?</summary><p>Yes. AB 48 / PC 13652 requirements are taught inside the course so your instructors can carry compliant lesson plans and documentation back to the agency.</p></details><details><summary>What should students bring?</summary><p>Students receive a detailed equipment list after registration. Plan for a serviceable APR, duty or training gear and clothing suitable for outdoor practical exercises.</p></details></div>[/sws_section]
+[sws_section class="section--steel" eyebrow="FAQ" title="Chemical Agent Course Questions"]<div class="faq"><details><summary>How long is the Chemical Agent Instructor Course?</summary><p>It is a 40-hour, instructor-level course combining classroom instruction, practical deployment work and scenario exercises.</p></details><details><summary>Is the course POST certified and reimbursable?</summary><p>Yes. The course is POST certified and listed as Plan IV reimbursable, which covers tuition. Travel and per diem are not reimbursed under Plan IV — confirm eligibility with your agency training manager.</p></details><details><summary>Does the course cover AB 48 and Penal Code 13652?</summary><p>Yes. AB 48 / PC 13652 requirements are taught inside the course so your instructors can carry compliant lesson plans and documentation back to the agency.</p></details><details><summary>What should students bring?</summary><p>Students receive a detailed equipment list after registration. Plan for a serviceable APR, duty or training gear and clothing suitable for outdoor practical exercises.</p></details></div>[/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
@@ -545,7 +545,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_course]]></wp:meta_key>
-			<wp:meta_value><![CDATA[{"name": "Chemical Agent Instructor Course", "description": "40-hour California POST-certified instructor course covering use of force, chemical agent deployment, APR use, munitions, decontamination, instruction techniques and AB 48 / Penal Code 13652 requirements.", "workload": "PT40H", "price": "1881", "credential": "Chemical Agent Instructor certificate (POST certified course)", "location": "San Diego County, CA"}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[{"name": "Chemical Agent Instructor Course", "description": "40-hour POST-certified instructor course covering use of force, chemical agent deployment, APR use, munitions, decontamination, instruction techniques and AB 48 / Penal Code 13652 requirements.", "workload": "PT40H", "price": "1881", "credential": "Chemical Agent Instructor certificate (POST certified course)", "location": "San Diego County, CA"}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -559,7 +559,7 @@
 [sws_section][sws_split img="training-launcher" alt="Officer deploying a less-lethal launcher during a Southwestern Solutions instructor course" badge="Hour Course" badge_num="30"]
 <span class="eyebrow">Course Overview</span>
 <h2>Less Lethal Instructor Course</h2>
-<p class="lead">A 30-hour, California POST-certified instructor course that builds officers into instructors capable of running safe, defensible kinetic energy projectile programs — with AB 48 requirements and compliance covered in depth.</p>
+<p class="lead">A 30-hour, POST-certified instructor course that builds officers into instructors capable of running safe, defensible kinetic energy projectile programs — with AB 48 requirements and compliance covered in depth.</p>
 <ul class="checklist"><li>Legal standards, use-of-force policy and AB 48 / PC 13652</li><li>Less-lethal platforms, munitions and their characteristics</li><li>Target areas, distances and prohibited targeting</li><li>Marksmanship, malfunctions and safe range operations</li><li>Medical considerations and post-deployment procedures</li><li>Documentation, reporting and instructor methodology</li></ul>
 <p class="price">$1,200 <small>tuition per student · POST Plan IV reimbursable</small></p>
 <div class="btn-row"><a class="btn" href="/product/less-lethal-instructor-course/">Register Online <span class="arrow">→</span></a><a class="btn btn--ghost" href="/training-schedule/">View Dates</a></div>
@@ -573,16 +573,16 @@
 <!-- wp:html -->
 [sws_section eyebrow="At a Glance" title="Course Details"]<div class="table-scroll"><table class="schedule"><tbody>
 <tr><th>Duration</th><td>30 hours (instructor level)</td></tr>
-<tr><th>Certification</th><td>California POST certified</td></tr>
+<tr><th>Certification</th><td>POST certified</td></tr>
 <tr><th>Reimbursement</th><td>POST Plan IV (tuition)</td></tr>
 <tr><th>Tuition</th><td>$1,200 per student</td></tr>
 <tr><th>Compliance</th><td>AB 48 requirements and compliance covered</td></tr>
-<tr><th>Location</th><td>San Diego and select California host agencies</td></tr>
+<tr><th>Location</th><td>San Diego and select host agencies</td></tr>
 </tbody></table></div>[/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
-[sws_section class="section--steel" eyebrow="FAQ" title="Less Lethal Course Questions"]<div class="faq"><details><summary>How long is the Less Lethal Instructor Course?</summary><p>It is a 30-hour, instructor-level course that blends legal standards, platform operation, practical drills and teaching methodology.</p></details><details><summary>Is it AB 48 compliant?</summary><p>Yes. The course covers AB 48 requirements and compliance for kinetic energy projectiles used in crowd-control situations, including targeting restrictions and documentation.</p></details><details><summary>Is the course POST certified?</summary><p>Yes. It is California POST certified and listed as Plan IV reimbursable (tuition). Confirm specific session eligibility in the POST catalog or with our team.</p></details><details><summary>Who should attend?</summary><p>Sworn officers and deputies who will instruct, certify or maintain less-lethal proficiency within their agency — typically range staff, SWAT/SRT operators and training-unit personnel.</p></details></div>[/sws_section]
+[sws_section class="section--steel" eyebrow="FAQ" title="Less Lethal Course Questions"]<div class="faq"><details><summary>How long is the Less Lethal Instructor Course?</summary><p>It is a 30-hour, instructor-level course that blends legal standards, platform operation, practical drills and teaching methodology.</p></details><details><summary>Is it AB 48 compliant?</summary><p>Yes. The course covers AB 48 requirements and compliance for kinetic energy projectiles used in crowd-control situations, including targeting restrictions and documentation.</p></details><details><summary>Is the course POST certified?</summary><p>Yes. It is POST certified and listed as Plan IV reimbursable (tuition). Confirm specific session eligibility in the POST catalog or with our team.</p></details><details><summary>Who should attend?</summary><p>Sworn officers and deputies who will instruct, certify or maintain less-lethal proficiency within their agency — typically range staff, SWAT/SRT operators and training-unit personnel.</p></details></div>[/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
@@ -605,7 +605,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Less Lethal Instructor Course California | 30-Hr POST | AB 48 Compliant]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Less Lethal Instructor Course San Diego | 30-Hr POST | AB 48 Compliant]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
@@ -617,7 +617,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Less Lethal Instructor Course California | 30-Hr POST | AB 48 Compliant]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Less Lethal Instructor Course San Diego | 30-Hr POST | AB 48 Compliant]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
@@ -629,7 +629,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Less Lethal Instructor Course California | 30-Hr POST | AB 48 Compliant]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Less Lethal Instructor Course San Diego | 30-Hr POST | AB 48 Compliant]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
@@ -661,7 +661,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_course]]></wp:meta_key>
-			<wp:meta_value><![CDATA[{"name": "Less Lethal Instructor Course", "description": "30-hour California POST-certified instructor course covering kinetic energy projectile platforms, targeting standards, range safety, documentation, teaching methodology and AB 48 compliance.", "workload": "PT30H", "price": "1200", "credential": "Less Lethal Instructor certificate (POST certified course)", "location": "San Diego, CA"}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[{"name": "Less Lethal Instructor Course", "description": "30-hour POST-certified instructor course covering kinetic energy projectile platforms, targeting standards, range safety, documentation, teaching methodology and AB 48 compliance.", "workload": "PT30H", "price": "1200", "credential": "Less Lethal Instructor certificate (POST certified course)", "location": "San Diego, CA"}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -676,7 +676,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Assembly Bill 48 (2021) added <strong>Section 13652 to the California Penal Code</strong>, effective January 1, 2022. It restricts how law enforcement agencies may use kinetic energy projectiles and chemical agents to disperse an assembly, protest or demonstration — and it ties lawful use directly to training.</p>
+<p>Assembly Bill 48 (2021) added <strong>Section 13652 to the Penal Code</strong>, effective January 1, 2022. It restricts how law enforcement agencies may use kinetic energy projectiles and chemical agents to disperse an assembly, protest or demonstration — and it ties lawful use directly to training.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
@@ -742,7 +742,7 @@
 <!-- /wp:html -->
 
 <!-- wp:html -->
-<p class="disclaimer">This summary is for training and educational purposes only and is not legal advice. Refer to the full text of California Penal Code sections 13652 and 13652.1, current POST guidelines and your agency's legal counsel.</p>
+<p class="disclaimer">This summary is for training and educational purposes only and is not legal advice. Refer to the full text of Penal Code sections 13652 and 13652.1, current POST guidelines and your agency's legal counsel.</p>
 <!-- /wp:html -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>106</wp:post_id>
@@ -761,11 +761,11 @@
 		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[AB 48 Compliance Training | Penal Code 13652 Explained | California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[AB 48 Compliance Training | Penal Code 13652 Explained]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Understand AB 48 and California Penal Code 13652 rules for kinetic energy projectiles and chemical agents, and how POST-certified instructor training supports compliance.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Understand AB 48 and Penal Code 13652 rules for kinetic energy projectiles and chemical agents, and how POST-certified instructor training supports compliance.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
@@ -773,11 +773,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[AB 48 Compliance Training | Penal Code 13652 Explained | California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[AB 48 Compliance Training | Penal Code 13652 Explained]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Understand AB 48 and California Penal Code 13652 rules for kinetic energy projectiles and chemical agents, and how POST-certified instructor training supports compliance.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Understand AB 48 and Penal Code 13652 rules for kinetic energy projectiles and chemical agents, and how POST-certified instructor training supports compliance.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
@@ -785,11 +785,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[AB 48 Compliance Training | Penal Code 13652 Explained | California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[AB 48 Compliance Training | Penal Code 13652 Explained]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Understand AB 48 and California Penal Code 13652 rules for kinetic energy projectiles and chemical agents, and how POST-certified instructor training supports compliance.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Understand AB 48 and Penal Code 13652 rules for kinetic energy projectiles and chemical agents, and how POST-certified instructor training supports compliance.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
@@ -805,7 +805,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
-			<wp:meta_value><![CDATA[What California’s AB 48 requires — and how instructor training keeps your agency compliant.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[What AB 48 requires — and how instructor training keeps your agency compliant.]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -817,12 +817,12 @@
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
 [sws_section eyebrow="Upcoming Sessions" title="Training Schedule" lead="Sessions fill quickly. Contact us to reserve seats or to be notified when new dates are published."]<div class="table-scroll"><table class="schedule">
-<thead><tr><th>Course</th><th>Dates</th><th>Location</th><th>Hours</th><th>Tuition</th><th></th></tr></thead><tbody>
-<tr><td>Chemical Agent Instructor</td><td>Dec 14 – 18, 2026</td><td>Miramar (San Diego), CA</td><td>40</td><td>$1,881</td><td><a class="btn" href="/product/chemical-agent-instructor-course/">Register</a></td></tr>
-<tr><td>Less Lethal Instructor</td><td>2027 dates coming soon</td><td>San Diego, CA</td><td>30</td><td>$1,200</td><td><a class="btn btn--ghost" href="/contact/?course=Less">Notify Me</a></td></tr>
-<tr><td>Chemical Agent Instructor</td><td>2027 dates coming soon</td><td>Northern California host agency</td><td>40</td><td>$1,881</td><td><a class="btn btn--ghost" href="/contact/?course=Chemical">Notify Me</a></td></tr>
+<thead><tr><th>Course</th><th>Dates</th><th>Location</th><th>Hours</th><th>Tuition</th><th>Status</th><th></th></tr></thead><tbody>
+<tr class="is-soldout"><td>Chemical Agent Instructor Course</td><td>December 14 – 18, 2026</td><td>San Diego</td><td>40</td><td>$1,881</td><td><span class="status status--soldout">Sold Out</span></td><td><a class="btn btn--ghost" href="/contact/?course=Chemical">Join Waitlist</a></td></tr>
+<tr><td>Less Lethal Instructor Course</td><td>December 9 – 11, 2026</td><td>San Diego</td><td>30</td><td>$1,200</td><td><span class="status status--open">Registration Open</span></td><td><a class="btn" href="/product/less-lethal-instructor-course/">Register</a></td></tr>
+<tr><td>Chemical Agent Instructor Course</td><td>February 8 – 12, 2027</td><td>San Diego</td><td>40</td><td>$1,881</td><td><span class="status status--open">Registration Open</span></td><td><a class="btn" href="/product/chemical-agent-instructor-course/">Register</a></td></tr>
 </tbody></table></div>
-<p class="disclaimer" style="margin-top:20px">Dates and locations are subject to change. Verify current sessions in the California POST course catalog or with our team before booking travel.</p>[/sws_section]
+<p class="disclaimer" style="margin-top:20px">Dates and locations are subject to change. Verify current sessions in the POST course catalog or with our team before booking travel.</p>[/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
@@ -849,7 +849,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Upcoming POST-certified Chemical Agent Instructor and Less Lethal Instructor course dates in San Diego and California. Reserve seats for your agency today.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Upcoming POST-certified Chemical Agent Instructor and Less Lethal Instructor course dates in San Diego and at host agencies. Reserve seats for your agency today.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
@@ -861,7 +861,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Upcoming POST-certified Chemical Agent Instructor and Less Lethal Instructor course dates in San Diego and California. Reserve seats for your agency today.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Upcoming POST-certified Chemical Agent Instructor and Less Lethal Instructor course dates in San Diego and at host agencies. Reserve seats for your agency today.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
@@ -873,7 +873,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Upcoming POST-certified Chemical Agent Instructor and Less Lethal Instructor course dates in San Diego and California. Reserve seats for your agency today.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Upcoming POST-certified Chemical Agent Instructor and Less Lethal Instructor course dates in San Diego and at host agencies. Reserve seats for your agency today.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
@@ -889,7 +889,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Upcoming Chemical Agent and Less Lethal Instructor sessions in California.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Upcoming Chemical Agent and Less Lethal Instructor sessions.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_layout]]></wp:meta_key>
@@ -904,7 +904,7 @@
 		<guid isPermaLink="false">https://southwesternsolutions.org/?p=108</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
-[sws_section][sws_split img="training-launcher" alt="Officers training during an instructor course hosted by a California agency"]
+[sws_section][sws_split img="training-launcher" alt="Officers training during an instructor course hosted by an agency"]
 <span class="eyebrow">Agency Partnerships</span>
 <h2>Train Your Team Without the Travel</h2>
 <p class="lead">Hosting a Southwestern Solutions course brings POST-certified instructor training to your own facility — reducing travel time for your officers and giving neighboring agencies access to quality training in your region.</p>
@@ -937,7 +937,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Host a Law Enforcement Training Course | On-Site Agency Training California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Host a Law Enforcement Training Course | On-Site Agency Training]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
@@ -949,7 +949,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Host a Law Enforcement Training Course | On-Site Agency Training California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Host a Law Enforcement Training Course | On-Site Agency Training]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
@@ -961,7 +961,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Host a Law Enforcement Training Course | On-Site Agency Training California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Host a Law Enforcement Training Course | On-Site Agency Training]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
@@ -996,7 +996,7 @@
 		<guid isPermaLink="false">https://southwesternsolutions.org/?p=109</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
-[sws_section eyebrow="Answers" title="Common Questions"]<div class="faq"><details><summary>How long is the Chemical Agent Instructor Course?</summary><p>It is a 40-hour, instructor-level course combining classroom instruction, practical deployment work and scenario exercises.</p></details><details><summary>Is the course POST certified and reimbursable?</summary><p>Yes. The course is California POST certified and listed as Plan IV reimbursable, which covers tuition. Travel and per diem are not reimbursed under Plan IV — confirm eligibility with your agency training manager.</p></details><details><summary>How long is the Less Lethal Instructor Course?</summary><p>It is a 30-hour, instructor-level course that blends legal standards, platform operation, practical drills and teaching methodology.</p></details><details><summary>Is it AB 48 compliant?</summary><p>Yes. The course covers AB 48 requirements and compliance for kinetic energy projectiles used in crowd-control situations, including targeting restrictions and documentation.</p></details><details><summary>What does POST Plan IV reimbursement cover?</summary><p>Plan IV reimburses tuition for eligible POST-certified courses. It does not cover travel or per diem. Your agency training manager can confirm eligibility and submit the request.</p></details><details><summary>How do I register?</summary><p>Use the contact form or call +1 (928) 614-0964. Our team confirms seat availability, sends registration details and answers Plan IV questions.</p></details><details><summary>Can we host a course at our agency?</summary><p>Yes. Agencies with a classroom and a suitable outdoor training area can host a session. Visit our Host a Course page or contact us to discuss dates.</p></details><details><summary>Where are you located?</summary><p>Southwestern Solutions is based in San Diego, California, and delivers courses in San Diego County and at host agencies across California.</p></details></div>[/sws_section]
+[sws_section eyebrow="Answers" title="Common Questions"]<div class="faq"><details><summary>How long is the Chemical Agent Instructor Course?</summary><p>It is a 40-hour, instructor-level course combining classroom instruction, practical deployment work and scenario exercises.</p></details><details><summary>Is the course POST certified and reimbursable?</summary><p>Yes. The course is POST certified and listed as Plan IV reimbursable, which covers tuition. Travel and per diem are not reimbursed under Plan IV — confirm eligibility with your agency training manager.</p></details><details><summary>How long is the Less Lethal Instructor Course?</summary><p>It is a 30-hour, instructor-level course that blends legal standards, platform operation, practical drills and teaching methodology.</p></details><details><summary>Is it AB 48 compliant?</summary><p>Yes. The course covers AB 48 requirements and compliance for kinetic energy projectiles used in crowd-control situations, including targeting restrictions and documentation.</p></details><details><summary>What does POST Plan IV reimbursement cover?</summary><p>Plan IV reimburses tuition for eligible POST-certified courses. It does not cover travel or per diem. Your agency training manager can confirm eligibility and submit the request.</p></details><details><summary>How do I register?</summary><p>Use the contact form or call +1 (928) 614-0964. Our team confirms seat availability, sends registration details and answers Plan IV questions.</p></details><details><summary>Can we host a course at our agency?</summary><p>Yes. Agencies with a classroom and a suitable outdoor training area can host a session. Visit our Host a Course page or contact us to discuss dates.</p></details><details><summary>Where are you located?</summary><p>Southwestern Solutions is based in San Diego and delivers courses in San Diego County and at host agencies.</p></details></div>[/sws_section]
 <!-- /wp:html -->
 
 <!-- wp:html -->
@@ -1181,7 +1181,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Expert insights on AB 48, Penal Code 13652, less-lethal and chemical agent instruction, POST reimbursement and instructor development for California agencies.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Expert insights on AB 48, Penal Code 13652, less-lethal and chemical agent instruction, POST reimbursement and instructor development for law enforcement agencies.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
@@ -1193,7 +1193,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Expert insights on AB 48, Penal Code 13652, less-lethal and chemical agent instruction, POST reimbursement and instructor development for California agencies.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Expert insights on AB 48, Penal Code 13652, less-lethal and chemical agent instruction, POST reimbursement and instructor development for law enforcement agencies.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
@@ -1205,7 +1205,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Expert insights on AB 48, Penal Code 13652, less-lethal and chemical agent instruction, POST reimbursement and instructor development for California agencies.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Expert insights on AB 48, Penal Code 13652, less-lethal and chemical agent instruction, POST reimbursement and instructor development for law enforcement agencies.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
@@ -1217,7 +1217,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_subtitle]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Legal updates, instructor development and best practices for California law enforcement trainers.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Legal updates, instructor development and best practices for law enforcement trainers.]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1256,7 +1256,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>California residents may request access to or deletion of their personal information under the CCPA/CPRA. Contact us at info@southwesternsolutions.org.</p>
+<p>You may request access to or deletion of your personal information at any time. Contact us at info@southwesternsolutions.org.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -1264,7 +1264,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Southwestern Solutions · San Diego, California · info@southwesternsolutions.org · +1 (928) 614-0964</p>
+<p>Southwestern Solutions · San Diego · info@southwesternsolutions.org · +1 (928) 614-0964</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>112</wp:post_id>
@@ -1342,7 +1342,7 @@
 		<guid isPermaLink="false">https://southwesternsolutions.org/?p=301</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Since January 1, 2022, California Penal Code 13652 — added by Assembly Bill 48 — has governed how law enforcement may use kinetic energy projectiles (KEPs) and chemical agents to disperse an assembly, protest or demonstration. For instructors, the law is more than a policy update: it makes <strong>training itself a legal prerequisite</strong> for deployment.</p>
+<p>Since January 1, 2022, Penal Code 13652 — added by Assembly Bill 48 — has governed how law enforcement may use kinetic energy projectiles (KEPs) and chemical agents to disperse an assembly, protest or demonstration. For instructors, the law is more than a policy update: it makes <strong>training itself a legal prerequisite</strong> for deployment.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -1402,7 +1402,7 @@
 <!-- wp:paragraph -->
 <p>Southwestern Solutions builds AB 48 / PC 13652 directly into our <a href="/chemical-agent-instructor-course/">Chemical Agent Instructor Course</a> and <a href="/less-lethal-instructor-course/">Less Lethal Instructor Course</a>. Read our full <a href="/ab-48-compliance/">AB 48 compliance overview</a> or <a href="/contact/">reserve seats</a> for your agency.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[AB 48 rewrote the rules for kinetic energy projectiles and chemical agents in California crowd situations. Here is what trainers need to know.]]></excerpt:encoded>
+		<excerpt:encoded><![CDATA[AB 48 rewrote the rules for kinetic energy projectiles and chemical agents in crowd situations. Here is what trainers need to know.]]></excerpt:encoded>
 		<wp:post_id>301</wp:post_id>
 		<wp:post_date><![CDATA[2026-09-08 09:00:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-09-08 09:00:00]]></wp:post_date_gmt>
@@ -1423,11 +1423,11 @@
 		<category domain="post_tag" nicename="crowd-management"><![CDATA[Crowd Management]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[AB 48 Explained: Penal Code 13652 & Crowd-Control Training in California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[AB 48 Explained: Penal Code 13652 & Crowd-Control Training]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[A trainer’s guide to AB 48 and California Penal Code 13652: who may deploy kinetic energy projectiles and chemical agents, required warnings, targeting limits and reporting.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[A trainer’s guide to AB 48 and Penal Code 13652: who may deploy kinetic energy projectiles and chemical agents, required warnings, targeting limits and reporting.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
@@ -1435,11 +1435,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[AB 48 Explained: Penal Code 13652 & Crowd-Control Training in California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[AB 48 Explained: Penal Code 13652 & Crowd-Control Training]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[A trainer’s guide to AB 48 and California Penal Code 13652: who may deploy kinetic energy projectiles and chemical agents, required warnings, targeting limits and reporting.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[A trainer’s guide to AB 48 and Penal Code 13652: who may deploy kinetic energy projectiles and chemical agents, required warnings, targeting limits and reporting.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
@@ -1447,11 +1447,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[AB 48 Explained: Penal Code 13652 & Crowd-Control Training in California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[AB 48 Explained: Penal Code 13652 & Crowd-Control Training]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[A trainer’s guide to AB 48 and California Penal Code 13652: who may deploy kinetic energy projectiles and chemical agents, required warnings, targeting limits and reporting.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[A trainer’s guide to AB 48 and Penal Code 13652: who may deploy kinetic energy projectiles and chemical agents, required warnings, targeting limits and reporting.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
@@ -1598,7 +1598,7 @@
 		<guid isPermaLink="false">https://southwesternsolutions.org/?p=303</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Kinetic energy projectiles (KEPs) give officers a valuable option between verbal commands and higher levels of force. But in California, their use — especially in crowd situations — is closely regulated. A defensible program starts with well-trained instructors.</p>
+<p>Kinetic energy projectiles (KEPs) give officers a valuable option between verbal commands and higher levels of force. But their use — especially in crowd situations — is closely regulated. A defensible program starts with well-trained instructors.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -1720,7 +1720,7 @@
 		<guid isPermaLink="false">https://southwesternsolutions.org/?p=304</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Training budgets are always under pressure. For California agencies, the POST reimbursement plans can make a significant difference — and Plan IV is one of the most commonly used for specialized instructor courses.</p>
+<p>Training budgets are always under pressure. For law enforcement agencies, the POST reimbursement plans can make a significant difference — and Plan IV is one of the most commonly used for specialized instructor courses.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -1737,7 +1737,7 @@
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li>Find the course and presenter in the California POST course catalog.</li>
+<li>Find the course and presenter in the POST course catalog.</li>
 <!-- /wp:list-item --><!-- wp:list-item -->
 <li>Confirm the specific session is listed as Plan IV reimbursable.</li>
 <!-- /wp:list-item --><!-- wp:list-item -->
@@ -1768,7 +1768,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<p class="disclaimer">Reimbursement rules are set by California POST and may change. Always confirm current policies with POST and your agency.</p>
+<p class="disclaimer">Reimbursement rules are set by POST and may change. Always confirm current policies with POST and your agency.</p>
 <!-- /wp:html -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[Plan IV can offset tuition for eligible POST-certified courses. Here is how training managers can make the most of it.]]></excerpt:encoded>
 		<wp:post_id>304</wp:post_id>
@@ -1791,11 +1791,11 @@
 		<category domain="post_tag" nicename="training-budget"><![CDATA[Training Budget]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[POST Plan IV Reimbursement Explained | Fund Instructor Training in California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[POST Plan IV Reimbursement Explained | Fund Instructor Training]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_seo_desc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[How California agencies use POST Plan IV reimbursement to fund tuition for certified instructor courses — what it covers, what it doesn’t and how to plan.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[How agencies use POST Plan IV reimbursement to fund tuition for certified instructor courses — what it covers, what it doesn’t and how to plan.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_sws_focus_kw]]></wp:meta_key>
@@ -1803,11 +1803,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[POST Plan IV Reimbursement Explained | Fund Instructor Training in California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[POST Plan IV Reimbursement Explained | Fund Instructor Training]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
-			<wp:meta_value><![CDATA[How California agencies use POST Plan IV reimbursement to fund tuition for certified instructor courses — what it covers, what it doesn’t and how to plan.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[How agencies use POST Plan IV reimbursement to fund tuition for certified instructor courses — what it covers, what it doesn’t and how to plan.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
@@ -1815,11 +1815,11 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[POST Plan IV Reimbursement Explained | Fund Instructor Training in California]]></wp:meta_value>
+			<wp:meta_value><![CDATA[POST Plan IV Reimbursement Explained | Fund Instructor Training]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[How California agencies use POST Plan IV reimbursement to fund tuition for certified instructor courses — what it covers, what it doesn’t and how to plan.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[How agencies use POST Plan IV reimbursement to fund tuition for certified instructor courses — what it covers, what it doesn’t and how to plan.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[rank_math_focus_keyword]]></wp:meta_key>
@@ -1846,7 +1846,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Deployment plans should identify how and where decontamination will occur and how medical aid will be summoned, before any munition is used. California's PC 13652 also emphasizes the availability of medical aid after crowd-control deployments.</p>
+<p>Deployment plans should identify how and where decontamination will occur and how medical aid will be summoned, before any munition is used. PC 13652 also emphasizes the availability of medical aid after crowd-control deployments.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->

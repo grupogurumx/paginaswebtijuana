@@ -58,9 +58,9 @@
 ### 2.3 Courses — `/courses/`
 | Field | Value |
 |---|---|
-| SEO title | POST Certified Instructor Courses California \| Chemical Agent & Less Lethal |
+| SEO title | POST Certified Instructor Courses \| Chemical Agent & Less Lethal |
 | Meta description | Compare Southwestern Solutions' POST-certified Chemical Agent Instructor (40 hr) and Less Lethal Instructor (30 hr) courses. AB 48 compliant, Plan IV reimbursable. |
-| Focus keyword | POST certified instructor courses California |
+| Focus keyword | POST certified instructor courses |
 | H1 | Law Enforcement Instructor Courses |
 | Schema | BreadcrumbList |
 
@@ -79,7 +79,7 @@
 ### 2.5 Less Lethal Instructor Course — `/less-lethal-instructor-course/`
 | Field | Value |
 |---|---|
-| SEO title | Less Lethal Instructor Course California \| 30-Hr POST \| AB 48 Compliant |
+| SEO title | Less Lethal Instructor Course San Diego \| 30-Hr POST \| AB 48 Compliant |
 | Meta description | 30-hour POST-certified Less Lethal Instructor Course in San Diego. Kinetic energy projectiles, targeting, range safety, documentation and AB 48 compliance. Plan IV. |
 | Focus keyword | less lethal instructor course |
 | Secondary | less lethal instructor certification, kinetic energy projectile training, 40mm instructor course |
@@ -89,7 +89,7 @@
 ### 2.6 AB 48 Compliance — `/ab-48-compliance/`
 | Field | Value |
 |---|---|
-| SEO title | AB 48 Compliance Training \| Penal Code 13652 Explained \| California |
+| SEO title | AB 48 Compliance Training \| Penal Code 13652 Explained |
 | Meta description | Understand AB 48 and California Penal Code 13652 rules for kinetic energy projectiles and chemical agents, and how POST-certified instructor training supports compliance. |
 | Focus keyword | AB 48 compliance training |
 | H2s | What Is AB 48? · The Core Requirements · Reporting Obligations · How Southwestern Solutions Helps |
@@ -107,7 +107,7 @@
 ### 2.8 Host a Course — `/host-a-course/`
 | Field | Value |
 |---|---|
-| SEO title | Host a Law Enforcement Training Course \| On-Site Agency Training California |
+| SEO title | Host a Law Enforcement Training Course \| On-Site Agency Training |
 | Meta description | Host a POST-certified Chemical Agent or Less Lethal Instructor course at your agency. Train officers locally, cut travel costs and stay AB 48 compliant. |
 | Focus keyword | host law enforcement training course |
 
@@ -142,10 +142,10 @@
 
 | # | URL | Focus keyword | SEO title | Links to |
 |---|---|---|---|---|
-| 1 | /ab-48-penal-code-13652-explained/ | AB 48 Penal Code 13652 | AB 48 Explained: Penal Code 13652 & Crowd-Control Training in California | AB 48 page, both courses, Contact |
+| 1 | /ab-48-penal-code-13652-explained/ | AB 48 Penal Code 13652 | AB 48 Explained: Penal Code 13652 & Crowd-Control Training | AB 48 page, both courses, Contact |
 | 2 | /chemical-agent-instructor-certification-guide/ | chemical agent instructor certification | Chemical Agent Instructor Certification \| Inside a 40-Hour POST Course | Chemical course, Schedule |
 | 3 | /less-lethal-instructor-training-kinetic-energy-projectiles/ | less lethal instructor training | Less Lethal Instructor Training \| Build a Defensible KEP Program | Less Lethal course, Contact |
-| 4 | /post-plan-iv-reimbursement-instructor-courses/ | POST Plan IV reimbursement | POST Plan IV Reimbursement Explained \| Fund Instructor Training in California | Host, both courses, Contact |
+| 4 | /post-plan-iv-reimbursement-instructor-courses/ | POST Plan IV reimbursement | POST Plan IV Reimbursement Explained \| Fund Instructor Training | Host, both courses, Contact |
 | 5 | /chemical-agent-decontamination-best-practices/ | chemical agent decontamination | Chemical Agent Decontamination & Aftercare \| Best Practices for Agencies | Chemical course |
 | 6 | /train-the-trainer-in-house-instructors/ | train the trainer law enforcement | Train-the-Trainer for Law Enforcement \| Why In-House Instructors Matter | Courses, Contact |
 
@@ -242,3 +242,5 @@
 - Past or undated sessions stay indexed and show "Registration closed" with links to the schedule and contact page. Don't delete them; update the dates instead.
 - Each product page links back to its course pillar page and the AB 48 page through the description and breadcrumb.
 - Two San Jose chemical-agent URLs target the same keyword. Once the next San Jose date is confirmed, keep one live and 301-redirect the other to it, so they don't compete for the same search.
+
+> **Client decision (Nov 2026):** the word "California" is not used anywhere in on-page copy, titles or meta. Keep local relevance through "San Diego", the 92106 address, Google Business Profile and POST catalog citations.

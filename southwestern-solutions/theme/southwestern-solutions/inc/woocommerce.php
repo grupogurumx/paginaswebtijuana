@@ -100,7 +100,7 @@ add_action(
 			array( 'clock', 'Dates', sws_course_meta( $id, 'dates' ) ),
 			array( 'pin', 'Location', trim( sws_course_meta( $id, 'location' ) . ( sws_course_meta( $id, 'address' ) ? ' — ' . sws_course_meta( $id, 'address' ) : '' ) ) ),
 			array( 'book', 'Length', sws_course_meta( $id, 'hours' ) ),
-			array( 'badge', 'Certification', 'California POST certified · Plan IV reimbursable' ),
+			array( 'badge', 'Certification', 'POST certified · Plan IV reimbursable' ),
 			array( 'scale', 'Compliance', 'Meets AB 48 (Penal Code 13652) requirements' ),
 		);
 		echo '<ul class="course-facts">';

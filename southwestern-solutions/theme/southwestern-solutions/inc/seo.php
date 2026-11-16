@@ -159,7 +159,7 @@ function sws_schema() {
 			'url'         => home_url( '/' ),
 			'logo'        => sws_img( 'logo.png' ),
 			'image'       => sws_img( 'training-launcher.jpg' ),
-			'description' => 'POST-certified law enforcement instructor training in San Diego, California, taught by former and current tactical operators with over 50 years of experience: Chemical Agent Instructor and Less Lethal Instructor courses that meet AB 48 (Penal Code 13652) requirements.',
+			'description' => 'POST-certified law enforcement instructor training in San Diego, taught by former and current tactical operators with over 50 years of experience: Chemical Agent Instructor and Less Lethal Instructor courses that meet AB 48 (Penal Code 13652) requirements.',
 			'email'       => sws_opt( 'email' ),
 			'telephone'   => sws_opt( 'phone' ),
 			'address'     => array(
@@ -169,7 +169,6 @@ function sws_schema() {
 				'addressRegion'   => sws_opt( 'region' ),
 				'addressCountry'  => sws_opt( 'country' ),
 			),
-			'areaServed'  => array( '@type' => 'State', 'name' => 'California' ),
 			'openingHours'=> 'Mo-Fr 08:00-17:00',
 			'knowsAbout'  => array( 'Chemical agent instructor training', 'Less lethal instructor training', 'AB 48 compliance', 'Penal Code 13652', 'Crowd management', 'Kinetic energy projectiles', 'Decontamination' ),
 		);
