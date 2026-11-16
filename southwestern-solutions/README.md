@@ -22,7 +22,6 @@ Rediseño profesional de **southwesternsolutions.org** (capacitación de instruc
 
 - **Slider panorámico 3D**: tres escenas con transición en profundidad (perspectiva, `rotateY` y `translateZ`). La imagen es más ancha que la pantalla y se desplaza con el cursor (efecto panorámico), con capas de profundidad (parallax), efecto Ken Burns, humo animado, títulos que se revelan línea por línea, barra de progreso, flechas, teclado y swipe en el celular.
 - Tarjetas con **inclinación 3D** y reflejo que sigue al cursor, aparición de secciones al hacer scroll, contadores animados, marquesina de credenciales, parallax en los encabezados internos, menú móvil a pantalla completa y botón flotante de llamada.
-- **Selector EN / ES** en el encabezado: cambia los textos del hero y de los botones al español.
 - Paleta táctica: negro carbón, ámbar dorado y acero. Tipografías Barlow Condensed e Inter.
 - Accesible: un solo H1 por página, enlace para saltar al contenido, ARIA en el slider y respeto a `prefers-reduced-motion`.
 - Sin jQuery ni plugins de slider (unos 6 KB de JS).

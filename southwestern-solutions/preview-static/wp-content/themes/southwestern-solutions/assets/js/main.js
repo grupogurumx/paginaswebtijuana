@@ -175,24 +175,4 @@
     window.addEventListener('mousemove', function (e) { glow.style.left = e.clientX + 'px'; glow.style.top = e.clientY + 'px'; }, { passive: true });
   }
 
-  /* ---------- EN / ES language toggle for theme-rendered copy ---------- */
-  var langBtn = document.querySelector('.lang-toggle');
-  function setLang(l) {
-    document.querySelectorAll('[data-es]').forEach(function (el) {
-      if (!el.hasAttribute('data-en')) el.setAttribute('data-en', el.innerHTML);
-      el.innerHTML = l === 'es' ? el.getAttribute('data-es') : el.getAttribute('data-en');
-    });
-    if (langBtn) langBtn.innerHTML = l === 'es' ? '<b>ES</b> / EN' : '<b>EN</b> / ES';
-    try { localStorage.setItem('sws-lang', l); } catch (e) {}
-  }
-  if (langBtn) {
-    var saved = 'en';
-    try { saved = localStorage.getItem('sws-lang') || 'en'; } catch (e) {}
-    if (saved === 'es') setLang('es');
-    var curLang = saved;
-    langBtn.addEventListener('click', function () {
-      curLang = curLang === 'es' ? 'en' : 'es';
-      setLang(curLang);
-    });
-  }
 })();

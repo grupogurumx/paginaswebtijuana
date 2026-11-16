@@ -102,8 +102,6 @@ p { margin: 0 0 1.2em; }
 .main-nav .sub-menu a { padding: 12px 14px; letter-spacing: .06em; text-transform: none; font-size: .92rem; }
 .header-cta { display: flex; align-items: center; gap: 14px; }
 .header-cta .btn { padding: 13px 22px; }
-.lang-toggle { white-space: nowrap; background: none; border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 8px 12px; font: 700 .72rem/1 var(--font-body); letter-spacing: .14em; cursor: pointer; }
-.lang-toggle b { color: var(--amber); }
 .nav-toggle { display: none; width: 46px; height: 46px; border: 1px solid var(--line); border-radius: 12px; background: transparent; cursor: pointer; position: relative; }
 .nav-toggle span, .nav-toggle span::before, .nav-toggle span::after { position: absolute; left: 12px; right: 12px; height: 2px; background: var(--white); content: ""; transition: .35s var(--ease); }
 .nav-toggle span { top: 22px; }
@@ -416,7 +414,6 @@ p { margin: 0 0 1.2em; }
 .pano { z-index: 0; isolation: isolate; }
 @media (max-width: 1080px) {
   .header-cta { gap: 8px; }
-  .lang-toggle { padding: 8px 10px; font-size: .68rem; }
   .brand-text { font-size: 1.05rem; }
   .brand-text small { letter-spacing: .18em; }
 }

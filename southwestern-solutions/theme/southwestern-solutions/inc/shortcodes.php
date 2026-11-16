@@ -58,21 +58,20 @@ function sws_sc_slider( $atts ) {
 					<div class="pano__shade" aria-hidden="true"></div>
 					<div class="pano__content">
 						<div class="wrap"><div class="inner">
-							<span class="eyebrow" data-es="<?php echo esc_attr( $s['eyebrow'][1] ); ?>"><?php echo esc_html( $s['eyebrow'][0] ); ?></span>
+							<span class="eyebrow"><?php echo esc_html( $s['eyebrow'][0] ); ?></span>
 							<?php
 							$tag   = 0 === $i ? 'h1' : 'h2';
 							$lines = explode( '<br>', $s['title'][0] );
-							$es    = explode( '<br>', $s['title'][1] );
 							echo '<' . $tag . ' class="pano__title">';
 							foreach ( $lines as $k => $line ) {
-								echo '<span class="line"><span data-es="' . esc_attr( isset( $es[ $k ] ) ? $es[ $k ] : '' ) . '">' . wp_kses( $line, array( 'em' => array() ) ) . '</span></span>';
+								echo '<span class="line"><span>' . wp_kses( $line, array( 'em' => array() ) ) . '</span></span>';
 							}
 							echo '</' . $tag . '>';
 							?>
-							<p class="pano__text" data-es="<?php echo esc_attr( $s['text'][1] ); ?>"><?php echo esc_html( $s['text'][0] ); ?></p>
+							<p class="pano__text"><?php echo esc_html( $s['text'][0] ); ?></p>
 							<div class="btn-row">
-								<a class="btn" href="<?php echo esc_url( home_url( $s['cta'][2] ) ); ?>"><span data-es="<?php echo esc_attr( $s['cta'][1] ); ?>"><?php echo esc_html( $s['cta'][0] ); ?></span> <span class="arrow">→</span></a>
-								<a class="btn btn--ghost" href="<?php echo esc_url( home_url( $s['cta2'][2] ) ); ?>"><span data-es="<?php echo esc_attr( $s['cta2'][1] ); ?>"><?php echo esc_html( $s['cta2'][0] ); ?></span></a>
+								<a class="btn" href="<?php echo esc_url( home_url( $s['cta'][2] ) ); ?>"><span><?php echo esc_html( $s['cta'][0] ); ?></span> <span class="arrow">→</span></a>
+								<a class="btn btn--ghost" href="<?php echo esc_url( home_url( $s['cta2'][2] ) ); ?>"><span><?php echo esc_html( $s['cta2'][0] ); ?></span></a>
 							</div>
 						</div></div>
 					</div>

@@ -41,8 +41,7 @@
 		</nav>
 
 		<div class="header-cta">
-			<button class="lang-toggle" type="button" aria-label="Switch language English / Spanish"><b>EN</b> / ES</button>
-			<a class="btn" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><span data-es="Reservar Lugar">Reserve a Seat</span></a>
+			<a class="btn" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Reserve a Seat</a>
 			<button class="nav-toggle" type="button" aria-label="<?php esc_attr_e( 'Open menu', 'sws' ); ?>" aria-expanded="false"><span></span></button>
 		</div>
 	</div>
