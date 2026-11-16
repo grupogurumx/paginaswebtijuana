@@ -26,7 +26,17 @@ Rediseño profesional de **southwesternsolutions.org** (capacitación de instruc
 - Accesible: un solo H1 por página, enlace para saltar al contenido, ARIA en el slider y respeto a `prefers-reduced-motion`.
 - Sin jQuery ni plugins de slider (unos 6 KB de JS).
 
-## 🚀 Instalación (10 minutos)
+## ⚡ Instalación en 1 clic (recomendada): `release/southwestern-site-installer.zip`
+
+1. **Respalda el sitio** (UpdraftPlus o el respaldo de tu hosting).
+2. Verifica que **WooCommerce** esté activo (para la tienda de cursos).
+3. **Plugins → Añadir nuevo → Subir plugin** → `southwestern-site-installer.zip` → **Instalar** → **Activar**.
+4. **Herramientas → Southwestern Installer**: revisa la lista de lo que se moverá a la papelera, marca "I have a recent backup" y pulsa **Install the new Southwestern Solutions site**.
+5. Revisa el sitio. Si todo está bien, desactiva y borra el plugin instalador.
+
+El instalador hace todo: instala y activa el tema, mueve a la **Papelera** (no borra) las páginas y productos antiguos con las mismas URL para que las nuevas conserven exactamente `/about-us/`, `/contact/`, `/product/...`, importa las 10 páginas, el menú y los 2 cursos, y configura la portada, los enlaces permanentes y la tienda. Probado en un sitio simulado con el contenido antiguo: 0 URLs duplicadas (`-2`) y redirecciones 301 funcionando.
+
+## 🚀 Instalación manual (alternativa)
 
 1. **Respalda** el sitio actual (UpdraftPlus o tu hosting).
 2. **Apariencia → Temas → Añadir nuevo → Subir tema** → sube `release/southwestern-solutions-theme.zip` → **Activar**.
