@@ -10,7 +10,7 @@ Rediseño profesional de **southwesternsolutions.org** (capacitación de instruc
 |---|---|
 | **Tema WordPress** listo para subir (ZIP) | `release/southwestern-solutions-theme.zip` |
 | Código fuente del tema | `theme/southwestern-solutions/` |
-| **XML de importación** (11 páginas, menú y SEO) | `import/southwestern-solutions.WordPress.xml` |
+| **XML de importación** (10 páginas, menú y SEO) | `import/southwestern-solutions.WordPress.xml` |
 | **SEO completo página por página (inglés)** | `docs/SEO-STRATEGY.md` |
 | **Textos de alto impacto ES / EN (3 versiones por bloque)** + copys de anuncios | `docs/COPY-ES-EN.md` |
 | 8 imágenes generadas con IA (Magnific / Freepik), optimizadas WebP + JPG | `theme/southwestern-solutions/assets/img/` |
@@ -125,3 +125,6 @@ Si no ves los Campos personalizados, actívalos en *Opciones de pantalla* del ed
 - **Blog completo**: página Insights, sección "Latest From the Blog", los 6 artículos, categorías y etiquetas. Las URLs antiguas de los artículos redirigen con 301 a la página más cercana (en WordPress con `inc/redirects.php` y en Vercel con `vercel.json`).
 - Sección **"Over 50 Years on the Line"** (lista de especialidades con el recorte SWAT) en Home y About.
 - Frase "Training that respects your officers’ time, your agency’s budget and the law."
+- Página **Privacy Policy** y su enlace en el footer (redirige 301 al inicio).
+- Cita "Under PC 13652, only officers who have received POST-standard training…" en la página AB 48.
+- Lista de especialidades (Critical response tactics… High Risk Warrant Planning) también del texto de About.

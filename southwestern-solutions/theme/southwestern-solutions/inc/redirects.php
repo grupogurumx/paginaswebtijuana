@@ -34,6 +34,7 @@ function sws_legacy_redirects() {
 			'post-plan-iv-reimbursement-instructor-courses'    => '/faq/',
 			'chemical-agent-decontamination-best-practices'    => '/chemical-agent-instructor-course/',
 			'train-the-trainer-in-house-instructors'           => '/courses/',
+			'privacy-policy'                                   => '/',
 		)
 	);
 }

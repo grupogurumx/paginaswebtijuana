@@ -35,7 +35,7 @@
 						'container'      => false,
 						'depth'          => 1,
 						'fallback_cb'    => function () {
-							echo '<ul><li><a href="' . esc_url( home_url( '/about-us/' ) ) . '">About Us</a></li><li><a href="' . esc_url( home_url( '/host-a-course/' ) ) . '">Host a Course</a></li><li><a href="' . esc_url( home_url( '/faq/' ) ) . '">FAQ</a></li><li><a href="' . esc_url( home_url( '/privacy-policy/' ) ) . '">Privacy Policy</a></li></ul>';
+							echo '<ul><li><a href="' . esc_url( home_url( '/about-us/' ) ) . '">About Us</a></li><li><a href="' . esc_url( home_url( '/host-a-course/' ) ) . '">Host a Course</a></li><li><a href="' . esc_url( home_url( '/faq/' ) ) . '">FAQ</a></li></ul>';
 						},
 					)
 				);

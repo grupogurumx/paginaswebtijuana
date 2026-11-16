@@ -157,7 +157,7 @@ about_content = "\n\n".join([
 <span class="eyebrow">Our Mission</span>
 <h2>Prepare the Instructors Who Prepare Everyone Else</h2>
 <p>Southwestern Solutions is a San Diego–based provider of POST-certified law enforcement instructor training. We focus on the disciplines where training quality has the greatest impact on public safety, officer safety and agency liability: chemical agents and less-lethal munitions.</p>
-<p>Our instructors are former and current Law Enforcement Tactical Operators with over 50 years of experience. We bring that experience to every class: critical response tactics, Mobile Field Force, basic to advanced Chemical Agent deployments, Long Rifle utilization in urban and rural environments, Close Quarter Techniques and High Risk Warrant Planning.</p>
+<p>Our instructors are former and current Law Enforcement Tactical Operators with over 50 years of experience. We bring that experience to every class we teach.</p>
 <div class="btn-row"><a class="btn" href="/courses/">Explore Courses <span class="arrow">→</span></a></div>
 [/sws_split][/sws_section]"""),
     HTML('[sws_section class="section--steel" eyebrow="What We Stand For" title="Our Standards" center="1"][sws_features items="shield|Integrity First|We teach the law as it is written and the tactics as they are practiced — no shortcuts, no exaggeration.;;scale|Accountability|Every technique is paired with the policy, documentation and use-of-force review that make it defensible.;;users|Instructor Development|We don’t just certify skills. We build teachers who can transfer them to an entire agency.;;target|Realism|Scenario-driven practical work that mirrors the conditions officers will actually face.;;book|Current Curriculum|Lesson plans updated for AB 48, Penal Code 13652 and evolving POST guidance.;;badge|Respect for Your Budget|POST Plan IV reimbursable courses designed to deliver maximum value per training hour."][/sws_section]'),
@@ -261,8 +261,6 @@ ab48 = prose("""
 ## What Is AB 48?
 Assembly Bill 48 (2021) added **Section 13652 to the Penal Code**, effective January 1, 2022. It restricts how law enforcement agencies may use kinetic energy projectiles and chemical agents to disperse an assembly, protest or demonstration — and it ties lawful use directly to training.
 
-> Under PC 13652, only officers who have received POST-standard training in crowd-control use may deploy these tools in those situations.
-
 [sws_notice title="AB 48 — Certifications Prior to January 2022"]Assembly Bill 48 states that any kinetic energy projectiles and chemical agents shall only be deployed by a peace officer that has received training on their proper use by the Commission on Peace Officer Standards and Training (POST), starting January 2022. <strong>All previous certifications prior to January 2022 have been de-certified.</strong> Southwestern Solutions Chemical Agent and Less Lethal Instructor Courses meet AB 48 requirements and are POST certified.[/sws_notice]
 
 ## The Core Requirements
@@ -354,27 +352,7 @@ page(slug="contact", title="Contact Southwestern Solutions", menu_order=9, layou
      seo_desc="Contact Southwestern Solutions in San Diego to reserve seats in POST-certified Chemical Agent or Less Lethal Instructor courses. Call +1 (928) 614-0964.",
      focus_kw="contact law enforcement training San Diego", hero="san-diego.webp")
 
-# 12. PRIVACY -------------------------------------------------------------------------
-privacy = prose(f"""
-## Information We Collect
-When you submit our contact or registration request form we collect the details you provide: name, agency, email, phone, course of interest and message. Our website may also collect standard technical data such as IP address and browser type through server logs and analytics.
-
-## How We Use It
-We use your information only to respond to your inquiry, manage course registration, send course-related communications and improve our website. We do not sell your personal information.
-
-## Cookies & Analytics
-We may use cookies and analytics tools to understand how visitors use the site. You can disable cookies in your browser settings.
-
-## Your Rights
-You may request access to or deletion of your personal information at any time. Contact us at {EMAIL}.
-
-## Contact
-Southwestern Solutions · San Diego · {EMAIL} · {PHONE}
-""")
-page(slug="privacy-policy", title="Privacy Policy", menu_order=11, content=privacy, robots="noindex, follow",
-     seo_title="Privacy Policy | Southwestern Solutions",
-     seo_desc="How Southwestern Solutions collects, uses and protects the information you share through our website and course registration forms.",
-     focus_kw="privacy policy", hero="hero-2.webp", status_menu=False)
+# Privacy Policy page removed at client request (Nov 2026).
 
 # ---------------------------------------------------------------------------
 # BLOG POSTS
