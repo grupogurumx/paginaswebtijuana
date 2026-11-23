@@ -49,3 +49,13 @@ Para producción, comprime la carpeta del tema y súbela en Apariencia → Temas
 - **Personalizador → Webmaster Tijuana**: teléfono, WhatsApp, correo, dirección, horario, redes sociales, textos e imágenes de cada slide y textos de la sección de cotización.
 - Al activarse crea las páginas (Inicio, Nosotros, Contacto, Cotizar ahora, Blog, Aviso de privacidad), los 6 servicios, 3 testimonios y los menús, y deja la portada configurada. Nunca sobrescribe contenido existente.
 - Datos estructurados `ProfessionalService` y `Service`, meta descripción y Open Graph si no hay plugin de SEO.
+
+### Vista previa en la nube
+
+`vista-previa/` es una copia estática del WordPress local para mostrar el sitio sin hosting PHP
+(el formulario abre WhatsApp en lugar de guardar la cotización). Para regenerarla con el sitio
+corriendo en `scripts/wp-local.sh`:
+
+```bash
+scripts/exportar-vista-previa.sh
+```
